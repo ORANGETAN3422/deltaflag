@@ -18,6 +18,7 @@
     <div class="nav-logo">DeltaFlag</div>
 
    <input
+    id="search"
     type="search"
     placeholder="Search..."
     bind:value={search}
