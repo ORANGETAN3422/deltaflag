@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import GmlFilename from '../[chapter]/[slug]/GmlFilename.svelte';
+	import GmlFilename from '../flags/[slug]/GmlFilename.svelte';
 </script>
 
 <p class="text-muted">/about</p>
@@ -23,6 +23,15 @@
 	referenced to as an index which makes it basically impossible to figure out what they do without
 	already knowing what they do.
 </p>
+
+<div class="callout warning">
+	<span>⚠</span>
+	<span
+		>A lot of entries, <strong>particularly assignments</strong> are <strong>missing</strong> here.
+		This is because they are not referenced through an index, but rather an expression which makes
+		it a bit harder to track. Therefore, <strong>some information may be missing.</strong></span
+	>
+</div>
 
 <hr />
 

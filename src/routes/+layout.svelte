@@ -3,30 +3,28 @@
 	// @ts-ignore
 	import { base } from '$app/paths';
 	import type { LayoutProps } from './$types';
-	import { fly } from 'svelte/transition';
+	// import { fly } from 'svelte/transition';
 	import './layout.css';
 
 	let { data, children }: LayoutProps = $props();
-
 	let search = $state('');
-	let currentChapter = $state(1);
 
-	let animTime = 200;
+	// let currentChapter = $state(1);
+	// let animTime = 200;
+	// let filtered = $derived(
+	// 	(data.chapters.find((c) => c.chapter === currentChapter)?.pages ?? []).filter((p) =>
+	// 		p.label.toLowerCase().includes(search.toLowerCase())
+	// 	)
+	// );
 
 	const staticLinks = [
 		{ label: 'Home', href: '/' },
 		{ label: 'About', href: '/about' }
 	];
 
-	let filtered = $derived(
-		(data.chapters.find((c) => c.chapter === currentChapter)?.pages ?? []).filter((p) =>
-			p.label.toLowerCase().includes(search.toLowerCase())
-		)
+	let filteredFlags = $derived(
+		(data.flagPages ?? []).filter((f) => f.key.toLowerCase().includes(search.toLowerCase()))
 	);
-
-	$effect(() => {
-		currentChapter;
-	});
 </script>
 
 <div class="doc-layout">
@@ -43,42 +41,27 @@
 			</a>
 		{/each}
 
-		<div class="nav-group-label">Pages</div>
-
-		<select
-			bind:value={currentChapter}
-			class="mb-2 w-full px-3 py-2 font-[--font-display] text-xl tracking-wider uppercase"
-		>
-			{#each ['Chapter 1', 'Chapter 2', 'Chapter 3', 'Chapter 4'] as chapter, i}
-				<option value={i + 1}>{chapter}</option>
-			{/each}
-		</select>
+		<div class="nav-group-label">Flags</div>
 
 		<input
 			id="search"
 			type="search"
-			placeholder="Search..."
+			placeholder="Search flags..."
 			bind:value={search}
 			class="mb-2 w-full rounded border border-gray-300 px-3 py-2 text-sm"
 		/>
 
-		{#key currentChapter}
-			<div
-				in:fly={{ duration: animTime, x: -50, delay: animTime }}
-				out:fly={{ duration: animTime, x: -50 }}
-				class="nav-links"
-			>
-				{#each filtered as p}
-					<a
-						href="{base}{p.href}"
-						class="nav-link"
-						class:active={page.url.pathname === `${base}${p.href}`}
-					>
-						{p.label}
-					</a>
-				{/each}
-			</div>
-		{/key}
+		<div class="nav-links">
+			{#each filteredFlags as f}
+				<a
+					href="{base}{f.href}"
+					class="nav-link"
+					class:active={decodeURIComponent(page.url.pathname) === `${base}${f.href}`}
+				>
+					{f.key}
+				</a>
+			{/each}
+		</div>
 	</nav>
 
 	<main class="doc-content">

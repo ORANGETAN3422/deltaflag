@@ -16,16 +16,16 @@
 	--color-border-dim: rgba(180, 160, 240, 0.15);
 	--color-border-faint: rgba(200, 180, 255, 0.06);
 
-	/* primary — arcane cyan */
+	/* primary */
 	--color-theme-1: #5cd8e8;
 	--color-theme-1-dim: #2a7888;
 	--color-theme-1-glow: rgba(92, 216, 232, 0.14);
 
-	/* secondary — wild magenta */
+	/* secondary */
 	--color-theme-2: #e85ca8;
 	--color-theme-2-dim: #882a58;
 
-	/* tertiary — spell green */
+	/* tertiary */
 	--color-theme-3: #88e8a0;
 
 	/* text */
