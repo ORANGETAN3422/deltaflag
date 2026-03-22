@@ -2,6 +2,11 @@ import mergedFlags from '$lib/flags/merged.json';
 import { error } from '@sveltejs/kit';
 import { codeToHtml } from 'shiki';
 
+import docs from '$lib/documentation/1-100.json';
+
+type Docs = Record<string, { body: string; other: string; values: Record<string, string> }>;
+const allDocs = docs as unknown as Docs;
+
 type MergedFlags = Record<
 	string,
 	{
@@ -18,6 +23,16 @@ async function highlight(code: string) {
 		.replace(/<pre[^>]*><code[^>]*>/, '')
 		.replace(/<\/code><\/pre>/, '')
 		.replace(/background(-color)?:[^;"]*/g, '');
+}
+
+async function highlightInline(html: string) {
+	const matches = [...html.matchAll(/<pre><code>([\s\S]*?)<\/code><\/pre>/g)];
+	let result = html;
+	for (const match of matches) {
+		const highlighted = await highlight(match[1]);
+		result = result.replace(match[0], `<pre><code>${highlighted}</code></pre>`);
+	}
+	return result;
 }
 
 export const prerender = true;
@@ -46,6 +61,13 @@ export async function load({ params }) {
 	return {
 		key,
 		firstSeenChapter: flag.first_seen_chapter,
-		entries: allEntries
+		entries: allEntries,
+		doc: allDocs[key]
+			? {
+					body: allDocs[key].body,
+					other: await highlightInline(allDocs[key].other),
+					values: allDocs[key].values
+				}
+			: null
 	};
 }

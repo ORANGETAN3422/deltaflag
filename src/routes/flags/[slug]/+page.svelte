@@ -10,12 +10,37 @@
 <h1>{data.key}</h1>
 
 <hr />
+
+<h2>Info</h2>
+
+<p>{@html data.doc?.body || 'No documentation available.'}</p>
+
+<p>{@html data.doc?.other || ''}</p>
+
 <div class="callout note">
 	<span>✦</span>
 	<span>This flag is first seen in <strong>Chapter {data.firstSeenChapter}</strong></span>
 </div>
 
-<h3>Occurrences in Code</h3>
+<hr />
+
+{#if data.doc?.values && Object.keys(data.doc.values).length > 0}
+	<h2>Values</h2>
+	<table>
+		<thead><tr><th>Value</th><th>Meaning</th></tr></thead>
+		<tbody>
+			{#each Object.entries(data.doc.values) as [value, meaning]}
+				<tr>
+					<td><code>{value}</code></td>
+					<td>{meaning}</td>
+				</tr>
+			{/each}
+		</tbody>
+	</table>
+	<hr />
+{/if}
+
+<h2>References</h2>
 
 <table>
 	<thead>
