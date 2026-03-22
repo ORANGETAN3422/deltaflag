@@ -25,14 +25,14 @@
   />
 
     {#each filtered as p}
-      <a
-        href="/{p.slug}"
-        class="nav-link"
-        class:active={page.url.pathname === `${resolve(`/${p.slug}`)}`}
-      >
-        {p.label}
-      </a>
-    {/each}
+    <a
+      href={resolve(`/${p.slug}`)}
+      class="nav-link"
+      class:active={page.url.pathname === resolve(`/${p.slug}`)}
+    >
+      {p.label}
+    </a>
+  {/each}
   </nav>
 
   <main class="doc-content">
