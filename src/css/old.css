@@ -1,0 +1,222 @@
+@import 'tailwindcss';
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+	/* fonts */
+	--font-display: 'Josefin Sans', 'Segoe UI', sans-serif;
+	--font-body: 'Lato', system-ui, sans-serif;
+	--font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+	/* bg — deep indigo-navy, warm undertone */
+	--color-bg-0: #0b0b1c;
+	--color-bg-1: #0f0f24;
+	--color-bg-2: #14142e;
+	--color-bg-3: #1a1836;
+	--color-bg-4: #201e40;
+
+	/* borders */
+	--color-border: rgba(160, 175, 220, 0.35);
+	--color-border-dim: rgba(160, 175, 220, 0.15);
+	--color-border-faint: rgba(255, 255, 255, 0.05);
+
+	/* primary — soft periwinkle-cyan */
+	--color-theme-1: #8ec8f0;
+	--color-theme-1-dim: #2d6a9a;
+	--color-theme-1-glow: rgba(120, 190, 240, 0.12);
+
+	/* secondary — muted warm gold */
+	--color-theme-2: #d9c96a;
+	--color-theme-2-dim: #a09040;
+
+	/* tertiary — sage green */
+	--color-theme-3: #70c99a;
+
+	/* text */
+	--color-text: #c8cce8;
+	--color-text-muted: #5e6080;
+	--color-text-faint: #2e3060;
+
+	/* semantic */
+	--color-success: #70c99a;
+	--color-warning: #d9c96a;
+	--color-danger: #d96060;
+	--color-info: #8ec8f0;
+
+	/* layout */
+	--sidebar-width: 14rem;
+	--column-width: 44rem;
+	--column-margin-top: 2.5rem;
+
+	--radius: 3px;
+
+	font-family: var(--font-body);
+	color: var(--color-text);
+	font-size: 15px;
+	line-height: 1.75;
+	font-weight: 300;
+}
+
+/* sidebar nav */
+
+.nav-logo {
+	font-family: var(--font-display);
+	font-size: 1.2rem;
+	font-weight: 300;
+	letter-spacing: 0.25em;
+	color: var(--color-theme-1);
+	text-shadow: 0 0 16px var(--color-theme-1-glow);
+	padding: 0 0.5rem 0.875rem;
+	border-bottom: 1px solid var(--color-border-dim);
+	margin-bottom: 0.875rem;
+	text-transform: uppercase;
+}
+
+.nav-group-label {
+	font-family: var(--font-display);
+	font-size: 0.7rem;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	color: var(--color-text-muted);
+	padding: 0.75rem 0.5rem 0.2rem;
+	margin-top: 0.375rem;
+}
+
+.nav-link {
+	display: block;
+	padding: 0.275rem 0.75rem;
+	color: var(--color-text-muted);
+	font-size: 0.875rem;
+	font-weight: 300;
+	border-radius: var(--radius);
+	transition:
+		color 0.15s,
+		background-color 0.15s;
+}
+
+.nav-link:hover {
+	color: var(--color-text);
+	background-color: var(--color-bg-2);
+	text-decoration: none;
+}
+
+.nav-link.active {
+	color: var(--color-theme-2);
+	background-color: rgba(217, 201, 106, 0.07);
+}
+
+.nav-link.active::before,
+.nav-link:hover::before {
+	content: '› ';
+	color: var(--color-theme-2);
+}
+
+/* HR */
+
+hr {
+	border: none;
+	border-top: 1px solid var(--color-border-dim);
+	margin: 1.75rem 0;
+	position: relative;
+}
+
+hr::after {
+	content: '· · ·';
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background: var(--color-bg-0);
+	padding: 0 1rem;
+	color: var(--color-text-faint);
+	font-family: var(--font-display);
+	font-size: 0.9rem;
+	letter-spacing: 0.4em;
+}
+
+/* Selection */
+
+::selection {
+	background-color: rgba(45, 106, 154, 0.45);
+	color: #ffffff;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+	width: 6px;
+	height: 6px;
+}
+::-webkit-scrollbar-track {
+	background: var(--color-bg-0);
+}
+::-webkit-scrollbar-thumb {
+	background: var(--color-border-dim);
+	border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: var(--color-theme-1-dim);
+}
+
+/* Responsive */
+
+@media (min-width: 720px) {
+	h1 {
+		font-size: 3.5rem;
+	}
+}
+
+@media (max-width: 860px) {
+	.doc-layout {
+		grid-template-columns: 1fr;
+	}
+	.doc-sidebar {
+		display: none;
+	}
+	.doc-content {
+		padding: 1.75rem 1.125rem;
+	}
+}
+
+/* Utilities */
+
+.visually-hidden {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: auto;
+	margin: 0;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+	white-space: nowrap;
+}
+
+.text-muted {
+	color: var(--color-text-muted);
+}
+.text-faint {
+	color: var(--color-text-faint);
+}
+.text-soul {
+	color: var(--color-theme-1);
+}
+.text-yellow {
+	color: var(--color-theme-2);
+}
+.text-green {
+	color: var(--color-theme-3);
+}
+.mono {
+	font-family: var(--font-mono);
+}
+.pixel {
+	font-family: var(--font-display);
+}
+
+.cursor::after {
+	content: '_';
+	animation: blink 1.2s step-end infinite;
+	color: var(--color-theme-1);
+	opacity: 0.7;
+}

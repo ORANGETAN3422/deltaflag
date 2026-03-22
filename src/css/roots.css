@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+	/* fonts */
+	--font-display: 'Josefin Sans', 'Segoe UI', sans-serif;
+	--font-body: 'Lato', system-ui, sans-serif;
+	--font-mono: 'JetBrains Mono', 'Courier New', monospace;
+
+	/* bg */
+	--color-bg-0: #0b0b1c;
+	--color-bg-1: #0f0f24;
+	--color-bg-2: #14142e;
+	--color-bg-3: #1a1836;
+	--color-bg-4: #201e40;
+
+	/* borders */
+	--color-border: rgba(160, 175, 220, 0.35);
+	--color-border-dim: rgba(160, 175, 220, 0.15);
+	--color-border-faint: rgba(255, 255, 255, 0.05);
+
+	/* primary */
+	--color-theme-1: #8ec8f0;
+	--color-theme-1-dim: #2d6a9a;
+	--color-theme-1-glow: rgba(120, 190, 240, 0.12);
+
+	/* secondary */
+	--color-theme-2: #d9c96a;
+	--color-theme-2-dim: #a09040;
+
+	/* tertiary */
+	--color-theme-3: #70c99a;
+
+	/* text */
+	--color-text: #c8cce8;
+	--color-text-muted: #5e6080;
+	--color-text-faint: #2e3060;
+
+	/* semantic */
+	--color-success: #70c99a;
+	--color-warning: #d9c96a;
+	--color-danger: #d96060;
+	--color-info: #8ec8f0;
+
+	/* layout */
+	--sidebar-width: 14rem;
+	--column-width: 44rem;
+	--column-margin-top: 2.5rem;
+
+	--radius: 3px;
+
+	font-family: var(--font-body);
+	color: var(--color-text);
+	font-size: 15px;
+	line-height: 1.75;
+	font-weight: 300;
+}
