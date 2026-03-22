@@ -1,14 +1,17 @@
 <script lang="ts">
-  let { name }: { name: string } = $props();
+	let { name }: { name: string } = $props();
 
-  const parts = name.replace('.gml', '').split('_');
-  const prefix = parts[0];
-  const type   = parts[1];
-  const event  = parts[parts.length - 2];
-  const index  = parts[parts.length - 1];
-  const obj    = parts.slice(2, -2).join('_');
+	const parts = $derived(name.replace('.gml', '').split('_'));
+	const prefix = $derived(parts[0] + '_');
+	const type = $derived(parts[1] + '_');
+	const event = $derived(parts[parts.length - 2] + '_');
+	const index = $derived(parts[parts.length - 1] + '.gml');
+	const objParts = $derived(parts.slice(2, -2));
+	const obj = $derived(objParts.length > 0 ? objParts.join('_') + '_' : '');
 </script>
 
 <span>
-  <span class="text-muted">{prefix}_</span><span class="text-yellow">{type}_</span><span class="text-soul">{obj}_</span><span class="text-green">{event}_</span><span class="text-muted">{index}.gml</span>
+	<span class="text-muted">{prefix}</span><span class="text-yellow">{type}</span><span
+		class="text-soul">{obj}</span
+	><span class="text-green">{event}</span><span class="text-muted">{index}</span>
 </span>

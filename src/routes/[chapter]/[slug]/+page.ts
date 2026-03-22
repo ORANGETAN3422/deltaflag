@@ -11,32 +11,34 @@ type Flags = { [flagKey: string]: { [filename: string]: string[] } };
 const allFlags = [ch1Flags, ch2Flags, ch3Flags, ch4Flags] as unknown as Flags[];
 
 async function highlight(code: string) {
-  const raw = await codeToHtml(code, { lang: 'js', theme: 'dark-plus' }); // js is cloe enough to gml
-  return raw
-    .replace(/<pre[^>]*><code[^>]*>/, '')
-    .replace(/<\/code><\/pre>/, '')
-    .replace(/background(-color)?:[^;"]*/g, '');
+	const raw = await codeToHtml(code, { lang: 'js', theme: 'dark-plus' }); // js is cloe enough to gml
+	return raw
+		.replace(/<pre[^>]*><code[^>]*>/, '')
+		.replace(/<\/code><\/pre>/, '')
+		.replace(/background(-color)?:[^;"]*/g, '');
 }
 
 export async function load({ params }) {
-  const chapterIndex = parseInt(params.chapter.replace('chapter', '')) - 1;
-  const flags = allFlags[chapterIndex];
+	const chapterIndex = parseInt(params.chapter.replace('chapter', '')) - 1;
+	const flags = allFlags[chapterIndex];
 
-  if (!flags) throw error(404, 'Chapter not found');
+	if (!flags) throw error(404, 'Chapter not found');
 
-  const entries = (flags as Flags)[params.slug];
+	const entries = (flags as Flags)[params.slug];
 
-  if (!entries) throw error(404, 'Flag not found');
+	if (!entries) throw error(404, 'Flag not found');
 
-  const highlightedEntries = await Promise.all(
-    Object.entries(entries).map(async ([filename, [line, code]]) => {
-      return [filename, [line.replace('line ', ''), await highlight(code)]] as const;
-    })
-  );
+	const highlightedEntries = await Promise.all(
+		Object.entries(entries).map(async ([filename, [line, code]]) => ({
+			filename,
+			line: line.replace('line ', ''),
+			code: await highlight(code)
+		}))
+	);
 
-  return {
-    key: params.slug,
-    entries: Object.fromEntries(highlightedEntries),
-    chapter: chapterIndex + 1
-  };
+	return {
+		key: params.slug,
+		entries: highlightedEntries,
+		chapter: chapterIndex + 1
+	};
 }

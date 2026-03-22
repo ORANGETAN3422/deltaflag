@@ -21,6 +21,16 @@ body {
 	);
 }
 
+ul {
+	list-style: disc;
+	padding-left: 1.5rem;
+}
+
+ol {
+	list-style: decimal;
+	padding-left: 1.5rem;
+}
+
 /* typography */
 
 h1,
