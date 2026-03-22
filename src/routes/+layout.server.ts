@@ -1,13 +1,13 @@
+import flagsData from '$lib/flags.json';
+import type { Flags } from '$lib/types';
+
+const flags = flagsData as unknown as Flags;
+
 export async function load() {
-    const pages = await getAllPages();
+  const pages = Object.keys(flags).map(key => ({
+    slug: encodeURIComponent(key),
+    label: key
+  }));
 
-    return { pages };
-}
-
-async function getAllPages() {
-    return [
-        { slug: 'thing-1', label: 'Thing 1' },
-        { slug: 'thing-2', label: 'Thing 2' },
-        { slug: 'thing-3', label: 'Thing 3' },
-    ]
+  return { pages };
 }

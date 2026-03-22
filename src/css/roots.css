@@ -1,51 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
-
 :root {
 	/* fonts */
-	--font-display: 'Josefin Sans', 'Segoe UI', sans-serif;
-	--font-body: 'Lato', system-ui, sans-serif;
-	--font-mono: 'JetBrains Mono', 'Courier New', monospace;
+	--font-display: 'Outfit', 'Segoe UI', sans-serif;
+	--font-body: 'Inter', system-ui, sans-serif;
+	--font-mono: 'Fira Code', 'Courier New', monospace;
 
 	/* bg */
-	--color-bg-0: #0b0b1c;
-	--color-bg-1: #0f0f24;
-	--color-bg-2: #14142e;
-	--color-bg-3: #1a1836;
-	--color-bg-4: #201e40;
+	--color-bg-0: #0c0a22;
+	--color-bg-1: #111030;
+	--color-bg-2: #18153d;
+	--color-bg-3: #1f1b4a;
+	--color-bg-4: #272358;
 
 	/* borders */
-	--color-border: rgba(160, 175, 220, 0.35);
-	--color-border-dim: rgba(160, 175, 220, 0.15);
-	--color-border-faint: rgba(255, 255, 255, 0.05);
+	--color-border: rgba(180, 160, 240, 0.35);
+	--color-border-dim: rgba(180, 160, 240, 0.15);
+	--color-border-faint: rgba(200, 180, 255, 0.06);
 
-	/* primary */
-	--color-theme-1: #8ec8f0;
-	--color-theme-1-dim: #2d6a9a;
-	--color-theme-1-glow: rgba(120, 190, 240, 0.12);
+	/* primary — arcane cyan */
+	--color-theme-1: #5cd8e8;
+	--color-theme-1-dim: #2a7888;
+	--color-theme-1-glow: rgba(92, 216, 232, 0.14);
 
-	/* secondary */
-	--color-theme-2: #d9c96a;
-	--color-theme-2-dim: #a09040;
+	/* secondary — wild magenta */
+	--color-theme-2: #e85ca8;
+	--color-theme-2-dim: #882a58;
 
-	/* tertiary */
-	--color-theme-3: #70c99a;
+	/* tertiary — spell green */
+	--color-theme-3: #88e8a0;
 
 	/* text */
-	--color-text: #c8cce8;
-	--color-text-muted: #5e6080;
-	--color-text-faint: #2e3060;
+	--color-text: #d0ccf0;
+	--color-text-muted: #6a5a8a;
+	--color-text-faint: #302860;
 
 	/* semantic */
-	--color-success: #70c99a;
-	--color-warning: #d9c96a;
-	--color-danger: #d96060;
-	--color-info: #8ec8f0;
+	--color-success: #88e8a0;
+	--color-warning: #e8d070;
+	--color-danger: #e85c70;
+	--color-info: #5cd8e8;
 
 	/* layout */
 	--sidebar-width: 14rem;
 	--column-width: 44rem;
 	--column-margin-top: 2.5rem;
-
 	--radius: 3px;
 
 	font-family: var(--font-body);

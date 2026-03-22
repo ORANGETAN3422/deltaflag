@@ -1,12 +1,24 @@
-<h1>Im WD Gaster</h1>
+<script>
+  export let data;
+</script>
 
-<p>Im out here in the core winging it</p>
+<h1>{data.key}</h1>
 
-<pre><code>and by it
-lets just say
-my ding
-</code></pre>
-
-<blockquote>
-  <p>Gaster is a mysterious character in the Undertale universe, often associated with the "core" and known for his enigmatic presence.</p>
-</blockquote>
+<table>
+  <thead>
+    <tr>
+      <th>File</th>
+      <th>Line</th>
+      <th>Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    {#each Object.entries(data.entries) as [file, [line, code]]}
+      <tr>
+        <td>{file}</td>
+        <td>{line}</td>
+        <td><code class="block whitespace-pre-wrap break-all">{code}</code></td>
+      </tr>
+    {/each}
+  </tbody>
+</table>

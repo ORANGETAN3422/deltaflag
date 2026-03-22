@@ -8,7 +8,7 @@
   let search = '';
 </script>
 
-<h1 class="cursor">Style Guide</h1>
+<h1>Style Guide</h1>
 
 <p>
   A reference page showing every styled element in the design system. Use this
@@ -157,6 +157,4 @@
 
 <h2>Utilities</h2>
 
-<p class="mono">This text uses the .mono utility — JetBrains Mono.</p>
-<p class="pixel">This text uses the .pixel utility — Josefin Sans display.</p>
-<p>This text has a blinking cursor<span class="cursor"></span></p>
+<p class="mono">This text uses the .mono utility — Fira Code.</p>

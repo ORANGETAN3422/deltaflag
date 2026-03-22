@@ -155,7 +155,7 @@ hr::after {
 	background: var(--color-theme-1-dim);
 }
 
-/* responsive */
+/* responsive typography */
 
 @media (min-width: 720px) {
 	h1 {
