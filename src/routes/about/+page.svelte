@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { base } from '$app/paths';
 	import GmlFilename from '../[chapter]/[slug]/GmlFilename.svelte';
 </script>
 
@@ -84,7 +85,7 @@
 <div class="kristainer">
 	{#each Array(10) as _, i}
 		<img
-			src="/kris.png"
+			src="{base}/kris.png"
 			alt="GOD FUCKING DAMMIT KRIS WHERE THE HELL ARE WE"
 			class="kris"
 			style="top: {i * 0.5}px; z-index: {10 - i};"
