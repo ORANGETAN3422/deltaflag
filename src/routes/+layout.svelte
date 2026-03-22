@@ -1,5 +1,6 @@
 <script lang="ts">
   import { page } from '$app/state';
+  import { resolve } from '$app/paths';
   import type { LayoutProps } from './$types';
   import './layout.css';
 
@@ -27,7 +28,7 @@
       <a
         href="/{p.slug}"
         class="nav-link"
-        class:active={page.url.pathname === `/${p.slug}`}
+        class:active={page.url.pathname === `${resolve(`/${p.slug}`)}`}
       >
         {p.label}
       </a>
