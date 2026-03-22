@@ -1,0 +1,4350 @@
+{
+  "global.flag[6]": {
+    "gml_Object_DEVICE_CONTACT_old_Create_0.gml": [
+      "line 7",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 967",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_DEVICE_FAILURE_Create_0.gml": [
+      "line 7",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_DEVICE_FAILURE_Step_0.gml": [
+      "line 144",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_DEVICE_NAMER_Create_0.gml": [
+      "line 7",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_darkdoor_Step_0.gml": [
+      "line 495",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_dw_church_organpuzzle_Step_0.gml": [
+      "line 116",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_obj_krisroom_Step_0.gml": [
+      "line 340",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_legend_Create_0.gml": [
+      "line 19",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_obj_legend_Draw_0.gml": [
+      "line 166",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_legend_neo_Create_0.gml": [
+      "line 19",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_obj_legend_neo_Draw_0.gml": [
+      "line 389",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_writer_Create_0.gml": [
+      "line 19",
+      "if (global.flag[6] == 1)"
+    ]
+  },
+  "global.flag[7]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 51",
+      "global.flag[7] = 0;"
+    ],
+    "gml_GlobalScript_scr_walkntalk.gml": [
+      "line 30",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_church_piano_playable_Step_0.gml": [
+      "line 242",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_church_secretpiano_playable_Step_0.gml": [
+      "line 112",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_cutscene_stairlooper_Step_0.gml": [
+      "line 110",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_darklanding_Step_0.gml": [
+      "line 12",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_bluebook_straight_Step_0.gml": [
+      "line 182",
+      "if (global.interact == 0 && !(button3_p() && obj_mainchara.threebuffer < 0 && global.flag[7] == 0 && obj_mainchara.battlemode == 0 && obj_mainchara.swordmode == 0))"
+    ],
+    "gml_Object_obj_dw_churchb_gersonchase_Create_0.gml": [
+      "line 1",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_churchb_gersonchase_Step_0.gml": [
+      "line 796",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_churchb_gersonstudy_Create_0.gml": [
+      "line 3",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_churchb_libraryconnector_Create_0.gml": [
+      "line 8",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_churchb_library_Create_0.gml": [
+      "line 18",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_churchb_nongerson_Create_0.gml": [
+      "line 1",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_churchb_prophecyencounter_Create_0.gml": [
+      "line 1",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_churchb_ripple1_Step_0.gml": [
+      "line 139",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_churchb_ripplepost_Create_0.gml": [
+      "line 3",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_biblioxencounter_Create_0.gml": [
+      "line 4",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_bookshelfpuzzle_Create_0.gml": [
+      "line 3",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_darkmaze_Create_0.gml": [
+      "line 2",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_darkmaze_Step_0.gml": [
+      "line 1392",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_intro_gerson_Create_0.gml": [
+      "line 14",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_intro_guei_Create_0.gml": [
+      "line 2",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_lantern_hallway_Create_0.gml": [
+      "line 20",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_lantern_hallway_Step_0.gml": [
+      "line 113",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_moneyfountain_Create_0.gml": [
+      "line 2",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_left_b_Create_0.gml": [
+      "line 2",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_left_Create_0.gml": [
+      "line 6",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_right_Create_0.gml": [
+      "line 21",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_remotepianomove_Other_5.gml": [
+      "line 2",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_remotepianomove_Step_0.gml": [
+      "line 996",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_rightconnect_Create_0.gml": [
+      "line 2",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_ripseq2_Step_0.gml": [
+      "line 69",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_savepoint_Create_0.gml": [
+      "line 5",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_secretpiano_Step_0.gml": [
+      "line 91",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_sideclimb_Create_0.gml": [
+      "line 2",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_stairspreview_Create_0.gml": [
+      "line 6",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_tallbookcases_Create_0.gml": [
+      "line 1",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_dw_church_waterfallroom_Step_0.gml": [
+      "line 287",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_lancerchaseevent_Step_0.gml": [
+      "line 3",
+      "global.flag[7] = 1;"
+    ],
+    "gml_Object_obj_mainchara_Step_0.gml": [
+      "line 76",
+      "if (global.flag[7] == 0 && battlemode == 0 && swordmode == 0 && !instance_exists(obj_climb_kris))"
+    ],
+    "gml_Object_obj_movingBookshelf_Step_0.gml": [
+      "line 300",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_shop1_Alarm_3.gml": [
+      "line 1",
+      "if (global.flag[7] == 0)"
+    ],
+    "gml_Object_obj_shop2_Alarm_3.gml": [
+      "line 1",
+      "if (global.flag[7] == 0)"
+    ],
+    "gml_Object_obj_shop_music_Alarm_3.gml": [
+      "line 1",
+      "if (global.flag[7] == 0)"
+    ]
+  },
+  "global.flag[8]": {
+    "gml_GlobalScript_scr_darkbox.gml": [
+      "line 29",
+      "if (global.flag[8] == 0)"
+    ],
+    "gml_GlobalScript_scr_darkbox_ext.gml": [
+      "line 15",
+      "if (global.flag[8] == 1)"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 74",
+      "if (global.flag[8] == 1)"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 267",
+      "global.flag[8] = 0;"
+    ],
+    "gml_Object_obj_forcefield_Draw_0.gml": [
+      "line 76",
+      "if (global.flag[8] == 0)"
+    ],
+    "gml_Object_obj_lancerslideevent_Create_0.gml": [
+      "line 5",
+      "seiz = global.flag[8];"
+    ]
+  },
+  "global.flag[9]": {
+    "gml_GlobalScript_scr_battle.gml": [
+      "line 8",
+      "global.flag[9] = 1;"
+    ],
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 52",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 1",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_ch4_DCA08D_Step_0.gml": [
+      "line 300",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 379",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_dw_churchb_nongerson_Step_0.gml": [
+      "line 348",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_dw_churchc_titanclimb1_post_Step_0.gml": [
+      "line 547",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_dw_churchc_titanclimb2_post_Step_0.gml": [
+      "line 583",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_dw_church_arena_Step_0.gml": [
+      "line 523",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_encounterbasic_Create_0.gml": [
+      "line 3",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_encounterbasic_Step_0.gml": [
+      "line 3",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_encountermike_Create_0.gml": [
+      "line 4",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_encountermike_Step_0.gml": [
+      "line 3",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_endbattle_Alarm_0.gml": [
+      "line 24",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_endbattle_Create_0.gml": [
+      "line 47",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_mike_Alarm_0.gml": [
+      "line 3",
+      "global.flag[9] = 2;"
+    ],
+    "gml_Object_obj_mike_minigame_controller_Create_0.gml": [
+      "line 50",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_mike_minigame_start_Create_0.gml": [
+      "line 4",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_mike_minigame_start_Step_0.gml": [
+      "line 3",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_battle_CleanUp_0.gml": [
+      "line 1",
+      "global.flag[9] = 0;"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_battle_Step_0.gml": [
+      "line 259",
+      "global.flag[9] = 2;"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_minigame_Step_0.gml": [
+      "line 440",
+      "global.flag[9] = 2;"
+    ],
+    "gml_Object_obj_testoverworldenemy_Other_10.gml": [
+      "line 9",
+      "if (global.flag[9] == 1)"
+    ]
+  },
+  "global.flag[10]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 53",
+      "global.flag[10] = 1;"
+    ],
+    "gml_Object_obj_mike_attack_controller_Step_0.gml": [
+      "line 1737",
+      "if (global.flag[10] == 1 && button3_h())"
+    ],
+    "gml_Object_obj_writer_Draw_0.gml": [
+      "line 12",
+      "if (global.flag[10] == 1 || scr_debug())"
+    ]
+  },
+  "global.flag[11]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 69",
+      "if (global.flag[11] == 1)"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 316",
+      "global.flag[11] = 0;"
+    ],
+    "gml_Object_obj_mainchara_Step_0.gml": [
+      "line 120",
+      "if (global.flag[11] == 1)"
+    ]
+  },
+  "global.flag[12]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 79",
+      "if (global.flag[12] == 1)"
+    ],
+    "gml_Object_obj_shake_Alarm_0.gml": [
+      "line 1",
+      "if (global.flag[12] == 0)"
+    ],
+    "gml_Object_obj_shake_Step_0.gml": [
+      "line 7",
+      "if (global.flag[12] == 0)"
+    ]
+  },
+  "global.flag[13]": {
+    "gml_Object_obj_attackpress_Create_0.gml": [
+      "line 159",
+      "if (global.flag[13] == 0)"
+    ],
+    "gml_Object_obj_attackpress_Draw_0.gml": [
+      "line 144",
+      "if (global.flag[13] == 1)"
+    ]
+  },
+  "global.flag[14]": {
+    "gml_GlobalScript_scr_battlecursor_memory_reset.gml": [
+      "line 3",
+      "if (global.flag[14] == 0)"
+    ]
+  },
+  "global.flag[15]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 386",
+      "global.flag[15] = 1;"
+    ],
+    "gml_GlobalScript_scr_load.gml": [
+      "line 328",
+      "audio_group_set_gain(1, global.flag[15], 0);"
+    ],
+    "gml_GlobalScript_scr_load_chapter1.gml": [
+      "line 315",
+      "audio_group_set_gain(1, global.flag[15], 0);"
+    ],
+    "gml_GlobalScript_scr_load_chapter2.gml": [
+      "line 331",
+      "audio_group_set_gain(1, global.flag[15], 0);"
+    ],
+    "gml_GlobalScript_scr_load_chapter3.gml": [
+      "line 329",
+      "audio_group_set_gain(1, global.flag[15], 0);"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 409",
+      "audio_group_set_gain(1, global.flag[15], 0);"
+    ]
+  },
+  "global.flag[16]": {
+    "gml_GlobalScript_mus_loop.gml": [
+      "line 4",
+      "snd_volume(_xsndinstance, 1 * global.flag[16], 0);"
+    ],
+    "gml_GlobalScript_mus_loop_ext.gml": [
+      "line 3",
+      "snd_volume(arg0, arg1 * global.flag[16], 0);"
+    ],
+    "gml_GlobalScript_mus_play.gml": [
+      "line 4",
+      "snd_volume(_xsndinstance, global.flag[16], 0);"
+    ],
+    "gml_GlobalScript_mus_volume.gml": [
+      "line 3",
+      "audio_sound_gain(arg0, arg1 * global.flag[16], (arg2 * 1000) / fps);"
+    ],
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 387",
+      "global.flag[16] = 0.85;"
+    ],
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 54",
+      "global.flag[16] = 0.85;"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 23",
+      "snd_volume(global.batmusic[1], 0 * global.flag[16], 0);"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 66",
+      "musvol = string(round(abs(global.flag[16] * 100))) + \"%\";"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 417",
+      "mus_volume(global.currentsong[1], getmusvol * global.flag[16], 0);"
+    ],
+    "gml_Object_obj_dw_churchc_savepoint_Create_0.gml": [
+      "line 18",
+      "maxvol = global.flag[16];"
+    ]
+  },
+  "global.flag[17]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 439",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ],
+    "gml_GlobalScript_scr_load.gml": [
+      "line 329",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ],
+    "gml_GlobalScript_scr_load_chapter1.gml": [
+      "line 316",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ],
+    "gml_GlobalScript_scr_load_chapter2.gml": [
+      "line 332",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ],
+    "gml_GlobalScript_scr_load_chapter3.gml": [
+      "line 330",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 65",
+      "audvol = string(round(abs(global.flag[17] * 100))) + \"%\";"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 424",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ]
+  },
+  "global.flag[20]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 55",
+      "global.flag[20] = 0;"
+    ],
+    "gml_GlobalScript_scr_spell.gml": [
+      "line 344",
+      "global.flag[20] = 1;"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 894",
+      "global.flag[20] = 1;"
+    ],
+    "gml_Object_DEVICE_CHOICE_Step_0.gml": [
+      "line 299",
+      "global.flag[20] = 1;"
+    ],
+    "gml_Object_DEVICE_CONTACT_old_Create_0.gml": [
+      "line 6",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 902",
+      "if (global.flag[20] == 1)"
+    ],
+    "gml_Object_DEVICE_FAILURE_Create_0.gml": [
+      "line 6",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_DEVICE_GONERMAKER_Step_0.gml": [
+      "line 17",
+      "global.flag[20] = 1;"
+    ],
+    "gml_Object_DEVICE_NAMER_Create_0.gml": [
+      "line 6",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_DEVICE_NAMER_Draw_0.gml": [
+      "line 170",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_dojo_spareenemy_Alarm_2.gml": [
+      "line 7",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_dojo_spareenemy_Alarm_3.gml": [
+      "line 1",
+      "global.flag[20] = 1;"
+    ],
+    "gml_Object_obj_dojo_spareenemy_CleanUp_0.gml": [
+      "line 1",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_dojo_spareenemy_Draw_0.gml": [
+      "line 10",
+      "if (global.flag[20] == 3)"
+    ],
+    "gml_Object_obj_dojo_spareenemy_Step_0.gml": [
+      "line 140",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 21",
+      "if (global.flag[20] == 2)"
+    ],
+    "gml_Object_obj_npc_hammerguy_Other_10.gml": [
+      "line 7",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_npc_king_Create_0.gml": [
+      "line 6",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_npc_king_Step_0.gml": [
+      "line 60",
+      "if (global.flag[20] == 3)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Other_10.gml": [
+      "line 11",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Step_0.gml": [
+      "line 15",
+      "if (global.flag[20] == 2)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster2_Draw_0.gml": [
+      "line 50",
+      "if (global.flag[20] == 1)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster2_Other_10.gml": [
+      "line 11",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_onionbody_Create_0.gml": [
+      "line 4",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_onionbody_Draw_0.gml": [
+      "line 34",
+      "if (global.flag[20] == 5)"
+    ],
+    "gml_Object_obj_room_castle_dojo_Step_0.gml": [
+      "line 19",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_room_castle_tenna_Step_0.gml": [
+      "line 24",
+      "if (global.flag[20] == 1)"
+    ],
+    "gml_Object_obj_room_torhouse_Step_0.gml": [
+      "line 75",
+      "global.flag[20] = 3;"
+    ],
+    "gml_Object_obj_room_town_mid_Step_0.gml": [
+      "line 113",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_writer_Draw_0.gml": [
+      "line 631",
+      "global.flag[20] = 9;"
+    ]
+  },
+  "global.flag[21]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 56",
+      "global.flag[21] = 0;"
+    ],
+    "gml_Object_obj_climb_door_Other_17.gml": [
+      "line 17",
+      "global.flag[21] = -10;"
+    ],
+    "gml_Object_obj_doorparent_Other_17.gml": [
+      "line 20",
+      "global.flag[21] = -10;"
+    ],
+    "gml_Object_obj_homealone_heart_Step_0.gml": [
+      "line 28",
+      "global.flag[21] = -10;"
+    ],
+    "gml_Object_obj_mainchara_Create_0.gml": [
+      "line 133",
+      "global.flag[21] = -10;"
+    ],
+    "gml_Object_obj_mainchara_Step_0.gml": [
+      "line 67",
+      "global.flag[21] = -10;"
+    ]
+  },
+  "global.flag[22]": {
+    "gml_Object_obj_heart_Step_0.gml": [
+      "line 61",
+      "if (button2_h() && global.flag[22] == 0)"
+    ]
+  },
+  "global.flag[23]": {
+    "gml_Object_obj_ch4_DCA08D_Step_0.gml": [
+      "line 1148",
+      "global.flag[23] = 1;"
+    ],
+    "gml_Object_obj_climbingarea_Create_0.gml": [
+      "line 3",
+      "if (global.chapter >= 5 || global.flag[23] > 0)"
+    ],
+    "gml_Object_obj_climbingarea_KeyPress_68.gml": [
+      "line 8",
+      "global.flag[23] = 0;"
+    ],
+    "gml_Object_obj_climbstartertrig_Create_0.gml": [
+      "line 17",
+      "if (global.flag[23] == 0)"
+    ],
+    "gml_Object_obj_climbstartertrig_Other_10.gml": [
+      "line 5",
+      "if (global.flag[23] == 1 || global.plot >= 180)"
+    ],
+    "gml_Object_obj_climbstarter_Create_0.gml": [
+      "line 13",
+      "if (global.flag[23] == 0)"
+    ],
+    "gml_Object_obj_climbstarter_Step_0.gml": [
+      "line 26",
+      "if (!global.flag[23])"
+    ],
+    "gml_Object_obj_dw_churchb_darkclimb_Create_0.gml": [
+      "line 1",
+      "global.flag[23] = 1;"
+    ],
+    "gml_Object_obj_dw_churchb_rotatingtower2_Create_0.gml": [
+      "line 15",
+      "global.flag[23] = 1;"
+    ],
+    "gml_Object_obj_dw_churchc_prophecies_Create_0.gml": [
+      "line 13",
+      "global.flag[23] = 1;"
+    ],
+    "gml_Object_obj_dw_church_nwconnect_Create_0.gml": [
+      "line 15",
+      "if (global.flag[850] >= 5 || global.flag[23] == true)"
+    ],
+    "gml_Object_obj_dw_church_trueclimbadventure_Create_0.gml": [
+      "line 14",
+      "global.flag[23] = 1;"
+    ],
+    "gml_Object_obj_dw_church_waterfallroom_Step_0.gml": [
+      "line 91",
+      "if (global.flag[23] == 0)"
+    ],
+    "gml_Object_obj_rotating_tower_controller_Create_0.gml": [
+      "line 2",
+      "global.flag[23] = 1;"
+    ],
+    "gml_Object_obj_rotating_tower_controller_old_Create_0.gml": [
+      "line 2",
+      "global.flag[23] = 1;"
+    ]
+  },
+  "global.flag[29]": {
+    "gml_Object_obj_darkdoor_Step_0.gml": [
+      "line 226",
+      "global.flag[29] = 1;"
+    ],
+    "gml_Object_obj_face_Draw_0.gml": [
+      "line 56",
+      "if (global.flag[29] != 0 || global.chapter > 1)"
+    ],
+    "gml_Object_obj_unusedclassevent_Step_0.gml": [
+      "line 12",
+      "global.flag[29] = 1;"
+    ]
+  },
+  "global.flag[30]": {
+    "gml_GlobalScript_scr_speaker.gml": [
+      "line 96",
+      "if (global.flag[30] == 1)"
+    ],
+    "gml_Object_obj_dummyenemy_Step_0.gml": [
+      "line 99",
+      "global.flag[30] = 0;"
+    ],
+    "gml_Object_obj_face_Draw_0.gml": [
+      "line 78",
+      "if (global.flag[30] == 2 || global.chapter > 1)"
+    ],
+    "gml_Object_obj_ralseienemy_Step_0.gml": [
+      "line 46",
+      "global.flag[30] = 0;"
+    ],
+    "gml_Object_obj_writer_Draw_0.gml": [
+      "line 396",
+      "if (global.flag[30] == 1)"
+    ]
+  },
+  "global.flag[31]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 57",
+      "global.flag[31] = 1;"
+    ],
+    "gml_Object_obj_church_ripple_area_manager_Create_0.gml": [
+      "line 24",
+      "global.flag[31] = 1;"
+    ],
+    "gml_Object_obj_mainchara_Step_0.gml": [
+      "line 632",
+      "if (global.flag[31] == 0 && climbing == 0)"
+    ],
+    "gml_Object_obj_musicer_field_Create_0.gml": [
+      "line 1",
+      "global.flag[31] = 1;"
+    ]
+  },
+  "global.flag[32]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 58",
+      "global.flag[32] = 0;"
+    ],
+    "gml_GlobalScript_scr_itemcomment.gml": [
+      "line 8",
+      "if (global.flag[32] == 1)"
+    ]
+  },
+  "global.flag[33]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2579",
+      "if (global.flag[33] >= 40)"
+    ],
+    "gml_Object_obj_ch4_PDC14A_choicer_Create_0.gml": [
+      "line 4",
+      "global.flag[33] = 0;"
+    ],
+    "gml_Object_obj_ch4_PDC14A_choicer_Step_0.gml": [
+      "line 1",
+      "global.flag[33] += 1;"
+    ],
+    "gml_Object_obj_choicer_neo_Create_0.gml": [
+      "line 4",
+      "global.flag[33] = 0;"
+    ],
+    "gml_Object_obj_choicer_neo_Step_0.gml": [
+      "line 1",
+      "global.flag[33] += 1;"
+    ],
+    "gml_Object_obj_lw_town_sideb_choicer_Create_0.gml": [
+      "line 4",
+      "global.flag[33] = 0;"
+    ],
+    "gml_Object_obj_lw_town_sideb_choicer_Step_0.gml": [
+      "line 1",
+      "global.flag[33] += 1;"
+    ]
+  },
+  "global.flag[34]": {
+    "gml_GlobalScript_scr_spellconsumeb.gml": [
+      "line 10",
+      "if (global.flag[34] == 0)"
+    ],
+    "gml_Object_obj_battlecontroller_Draw_0.gml": [
+      "line 726",
+      "if (global.flag[34] == 0 && global.myfight == 0)"
+    ],
+    "gml_Object_obj_battlecontroller_Step_0.gml": [
+      "line 433",
+      "if (global.bmenuno == 2 && global.flag[34] == 0)"
+    ],
+    "gml_Object_obj_battletester_Create_0.gml": [
+      "line 28",
+      "global.flag[34] = 0;"
+    ]
+  },
+  "global.flag[35]": {
+    "gml_GlobalScript_scr_gameover.gml": [
+      "line 26",
+      "if (global.flag[35] == 2)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 649",
+      "global.flag[35] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 98",
+      "global.flag[35] = 0;"
+    ]
+  },
+  "global.flag[36]": {
+    "gml_GlobalScript_scr_damage.gml": [
+      "line 198",
+      "global.flag[36] = 1;"
+    ],
+    "gml_GlobalScript_scr_gameover.gml": [
+      "line 22",
+      "global.flag[36] = 1;"
+    ],
+    "gml_GlobalScript_scr_wincombat.gml": [
+      "line 3",
+      "if (global.flag[60] == 0 || global.flag[36] == 1)"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 286",
+      "global.flag[36] = 0;"
+    ],
+    "gml_Object_obj_dbulletcontroller_Step_0.gml": [
+      "line 281",
+      "global.flag[36] = 1;"
+    ],
+    "gml_Object_obj_dojograzeenemy_Step_0.gml": [
+      "line 129",
+      "global.flag[36] = 1;"
+    ],
+    "gml_Object_obj_hammer_of_justice_enemy_Step_0.gml": [
+      "line 1177",
+      "global.flag[36] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 99",
+      "global.flag[36] = 0;"
+    ]
+  },
+  "global.flag[37]": {
+    "gml_Object_obj_battlecontroller_Step_0.gml": [
+      "line 125",
+      "if (global.flag[37] == 1)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 650",
+      "global.flag[37] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 100",
+      "global.flag[37] = 0;"
+    ]
+  },
+  "global.flag[38]": {
+    "gml_Object_obj_battlecontroller_Step_0.gml": [
+      "line 144",
+      "if (global.flag[38] == 1)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 651",
+      "global.flag[38] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 101",
+      "global.flag[38] = 0;"
+    ]
+  },
+  "global.flag[39]": {
+    "gml_GlobalScript_scr_gameover.gml": [
+      "line 23",
+      "global.flag[39] = 1;"
+    ],
+    "gml_GlobalScript_scr_mnendturn.gml": [
+      "line 17",
+      "if (global.flag[39] == 1)"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 287",
+      "global.flag[39] = 0;"
+    ],
+    "gml_Object_obj_dbulletcontroller_Step_0.gml": [
+      "line 292",
+      "global.flag[39] = 1;"
+    ],
+    "gml_Object_obj_dojograzeenemy_Step_0.gml": [
+      "line 130",
+      "global.flag[39] = 1;"
+    ],
+    "gml_Object_obj_ghosthouse_jackolantern_merciful_Step_0.gml": [
+      "line 113",
+      "global.flag[39] = 1;"
+    ],
+    "gml_Object_obj_hammer_of_justice_enemy_Step_0.gml": [
+      "line 1178",
+      "global.flag[39] = 1;"
+    ],
+    "gml_Object_obj_jackenstein_enemy_Step_0.gml": [
+      "line 58",
+      "global.flag[39] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 102",
+      "global.flag[39] = 0;"
+    ]
+  },
+  "global.flag[40]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 20",
+      "global.flag[40] += 1;"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2938",
+      "global.flag[40] = 0;"
+    ]
+  },
+  "global.flag[41]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 27",
+      "global.flag[41] += 1;"
+    ]
+  },
+  "global.flag[42]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 30",
+      "global.flag[42] += 1;"
+    ]
+  },
+  "global.flag[43]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 33",
+      "global.flag[43] += 1;"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2932",
+      "global.flag[43] = 0;"
+    ]
+  },
+  "global.flag[44]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 23",
+      "global.flag[44]++;"
+    ]
+  },
+  "global.flag[45]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 37",
+      "global.flag[45] += 1;"
+    ]
+  },
+  "global.flag[49]": {
+    "gml_Object_obj_endbattle_Create_0.gml": [
+      "line 8",
+      "global.flag[49] = global.tension;"
+    ]
+  },
+  "global.flag[50]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 86",
+      "debug_message(\"encounter flag: global.flag[\" + string(global.flag[54]) + \"]=\" + string(global.flag[50]));"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 123",
+      "global.flag[50] = 0;"
+    ],
+    "gml_Object_obj_checkers_enemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ]
+  },
+  "global.flag[51]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 124",
+      "global.flag[51] = 0;"
+    ],
+    "gml_Object_obj_elnina_rematch_enemy_Step_0.gml": [
+      "line 190",
+      "global.flag[51] = 1;"
+    ],
+    "gml_Object_obj_lanino_rematch_enemy_Step_0.gml": [
+      "line 179",
+      "global.flag[51] = 1;"
+    ]
+  },
+  "global.flag[52]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 125",
+      "global.flag[52] = 0;"
+    ],
+    "gml_Object_obj_elnina_rematch_enemy_Step_0.gml": [
+      "line 191",
+      "global.flag[52] = 1;"
+    ],
+    "gml_Object_obj_lanino_rematch_enemy_Step_0.gml": [
+      "line 180",
+      "global.flag[52] = 1;"
+    ]
+  },
+  "global.flag[53]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 126",
+      "global.flag[53] = 0;"
+    ]
+  },
+  "global.flag[54]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 88",
+      "global.flag[54] = 0;"
+    ],
+    "gml_Object_obj_ch4_DCA08D_Step_0.gml": [
+      "line 268",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_chaseenemy_Step_2.gml": [
+      "line 74",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_bluebook_Step_0.gml": [
+      "line 144",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_bluebook_straight_Step_0.gml": [
+      "line 136",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_churchb_bellchaser_Step_2.gml": [
+      "line 138",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_churchb_gallery_Step_0.gml": [
+      "line 915",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_churchb_nongerson_Step_0.gml": [
+      "line 346",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_churchb_prophecyencounter_Step_0.gml": [
+      "line 325",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_churchc_titanclimb1_post_Step_0.gml": [
+      "line 545",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_churchc_titanclimb2_post_Step_0.gml": [
+      "line 577",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_church_arena_Step_0.gml": [
+      "line 456",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_church_darkmaze_Step_0.gml": [
+      "line 1593",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_church_holywatercooler_Step_0.gml": [
+      "line 263",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_church_organikchaser_Step_0.gml": [
+      "line 172",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_church_tallbookcases_Step_0.gml": [
+      "line 227",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_dw_church_watercooler_Step_0.gml": [
+      "line 213",
+      "global.flag[54] = other.encounterflag;"
+    ],
+    "gml_Object_obj_dw_church_worshiproom_Step_0.gml": [
+      "line 210",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_encounter_guei_alt_Step_0.gml": [
+      "line 165",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_encounter_incenseturtle_Step_0.gml": [
+      "line 109",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_battle_Step_0.gml": [
+      "line 258",
+      "global.flag[54] = encounterflag;"
+    ]
+  },
+  "global.flag[55]": {
+    "gml_Object_obj_frozennpc_Draw_0.gml": [
+      "line 53",
+      "global.flag[55] = 0;"
+    ],
+    "gml_Object_obj_overworldenemy_parent_Other_10.gml": [
+      "line 35",
+      "global.flag[55] = x;"
+    ]
+  },
+  "global.flag[56]": {
+    "gml_Object_obj_frozennpc_Draw_0.gml": [
+      "line 54",
+      "global.flag[56] = 0;"
+    ],
+    "gml_Object_obj_overworldenemy_parent_Other_10.gml": [
+      "line 36",
+      "global.flag[56] = y;"
+    ]
+  },
+  "global.flag[60]": {
+    "gml_GlobalScript_scr_wincombat.gml": [
+      "line 33",
+      "global.flag[60] = 0;"
+    ],
+    "gml_Object_obj_ch2_dojo_allstarsPlaylist_Step_0.gml": [
+      "line 17",
+      "global.flag[60] = 0;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 103",
+      "global.flag[60] = 0;"
+    ]
+  },
+  "global.flag[61]": {
+    "gml_GlobalScript_scr_defeatrun.gml": [
+      "line 23",
+      "if (recruitable == 1 && global.flag[61] == 0 && __frozen == 0)"
+    ],
+    "gml_GlobalScript_scr_recruit.gml": [
+      "line 3",
+      "if (recruitable == 1 && global.flag[61] == 0)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 652",
+      "global.flag[61] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 104",
+      "global.flag[61] = 0;"
+    ]
+  },
+  "global.flag[62]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 66",
+      "global.flag[62] = 0;"
+    ]
+  },
+  "global.flag[63]": {
+    "gml_GlobalScript_scr_defeatrun.gml": [
+      "line 25",
+      "global.flag[63] = 1;"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 127",
+      "global.flag[63] = 0;"
+    ],
+    "gml_Object_obj_battlecontroller_Step_0.gml": [
+      "line 128",
+      "if (global.flag[63] == 1)"
+    ]
+  },
+  "global.flag[64]": {
+    "gml_GlobalScript_scr_custommenu_item_info_refresh.gml": [
+      "line 37",
+      "menuMaximumID[1] = global.flag[64] - 1;"
+    ],
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 91",
+      "global.flag[64] = 48;"
+    ],
+    "gml_GlobalScript_scr_inventoryspace.gml": [
+      "line 20",
+      "for (var i = 0; i < global.flag[64]; i++)"
+    ],
+    "gml_GlobalScript_scr_itemcheck_pocket.gml": [
+      "line 6",
+      "for (var __i = 0; __i < global.flag[64]; __i += 1)"
+    ],
+    "gml_GlobalScript_scr_itemget.gml": [
+      "line 23",
+      "for (var __j = 0; __j < global.flag[64]; __j++)"
+    ],
+    "gml_GlobalScript_scr_shopmenu.gml": [
+      "line 610",
+      "for (i = 0; i < global.flag[64]; i++)"
+    ],
+    "gml_GlobalScript_scr_shop_space_display.gml": [
+      "line 36",
+      "draw_text_ext_transformed(__cx + arg1 + 1, base_y_pos + (line_height * 3) + 12, storage_amount + \"/\" + string(global.flag[64]), 1, 999, 0.5, 0.5, 0);"
+    ],
+    "gml_Object_obj_fusionmenu_Draw_0.gml": [
+      "line 320",
+      "draw_text_transformed(xx + 60, yy + 380, string((floor(menuScrollCurrent[1]) / 12) + 1) + \"/\" + string(floor(global.flag[64] / 12)), 1, 1, 0);"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 478",
+      "menuMaximumID[1] = global.flag[64] - 1;"
+    ],
+    "gml_Object_obj_gerson_fountain_Draw_0.gml": [
+      "line 272",
+      "for (var i = 0; i < global.flag[64]; i++)"
+    ],
+    "gml_Object_obj_shop1_Create_0.gml": [
+      "line 137",
+      "selltotal = max(global.flag[64], 12);"
+    ],
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 522",
+      "for (i = 0; i < global.flag[64]; i++)"
+    ],
+    "gml_Object_obj_shop_music_Create_0.gml": [
+      "line 133",
+      "selltotal = max(global.flag[64], 12);"
+    ],
+    "gml_Object_obj_shop_music_Draw_0.gml": [
+      "line 584",
+      "for (i = 0; i < global.flag[64]; i++)"
+    ]
+  },
+  "global.flag[66]": {
+    "gml_GlobalScript_scr_fountain_levelup.gml": [
+      "line 9",
+      "for (var _i = global.flag[66]; _i < 2; _i++)"
+    ]
+  },
+  "global.flag[100]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 128",
+      "global.flag[100] = 1;"
+    ]
+  },
+  "global.flag[101]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 414",
+      "global.flag[101] += 1;"
+    ]
+  },
+  "global.flag[102]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 461",
+      "global.flag[102] += 1;"
+    ]
+  },
+  "global.flag[103]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 502",
+      "global.flag[103] = 1;"
+    ]
+  },
+  "global.flag[105]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1792",
+      "global.flag[105] = 1;"
+    ]
+  },
+  "global.flag[106]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1754",
+      "global.flag[106] = 1;"
+    ],
+    "gml_Object_obj_room_castle_kris_Create_0.gml": [
+      "line 9",
+      "if (global.flag[106] == 1)"
+    ]
+  },
+  "global.flag[115]": {
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 368",
+      "if (global.flag[115] >= 1)"
+    ]
+  },
+  "global.flag[142]": {
+    "gml_Object_obj_treasure_room_Create_0.gml": [
+      "line 37",
+      "if (global.flag[142] == 1)"
+    ]
+  },
+  "global.flag[201]": {
+    "gml_Object_obj_classscene_Step_0.gml": [
+      "line 539",
+      "if (global.flag[201] == 1 && global.flag[269] == 0)"
+    ]
+  },
+  "global.flag[203]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 188",
+      "global.flag[203] = 1;"
+    ],
+    "gml_Object_obj_ch4_DCA04_Create_0.gml": [
+      "line 106",
+      "debug_print(\"global.flag[203]=1 | Did not Listen to the Prophecy\");"
+    ],
+    "gml_Object_obj_ch4_DCA04_Step_0.gml": [
+      "line 125",
+      "if (global.flag[203] == 1)"
+    ],
+    "gml_Object_obj_dw_church_intro_guei_Create_0.gml": [
+      "line 26",
+      "global.flag[203] = 1;"
+    ]
+  },
+  "global.flag[204]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 244",
+      "global.flag[204] = 2;"
+    ]
+  },
+  "global.flag[205]": {
+    "gml_Object_obj_dummyenemy_Step_0.gml": [
+      "line 762",
+      "global.flag[205] = 1;"
+    ],
+    "gml_Object_obj_ralseienemy_Step_0.gml": [
+      "line 558",
+      "global.flag[205] = 2;"
+    ]
+  },
+  "global.flag[207]": {
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 174",
+      "global.flag[207] = 1;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2842",
+      "if (global.flag[207] >= 2)"
+    ],
+    "gml_Object_obj_room_castle_kris_Create_0.gml": [
+      "line 18",
+      "if (global.flag[207] >= 2)"
+    ]
+  },
+  "global.flag[209]": {
+    "gml_Object_obj_musicer_field_Create_0.gml": [
+      "line 10",
+      "global.flag[209] = 1;"
+    ]
+  },
+  "global.flag[211]": {
+    "gml_Object_obj_npc_puzzlemaster1_Create_0.gml": [
+      "line 20",
+      "if (global.plot >= 42 || global.flag[211] == 3)"
+    ]
+  },
+  "global.flag[214]": {
+    "gml_GlobalScript_scr_get_team_name.gml": [
+      "line 11",
+      "if (global.flag[214] == 3)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 613",
+      "global.flag[214] = 3;"
+    ],
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 54",
+      "if (global.flag[214] == 3)"
+    ]
+  },
+  "global.flag[215]": {
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 976",
+      "if (global.flag[215] == 1)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Create_0.gml": [
+      "line 8",
+      "if (global.flag[215] == 1)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Step_0.gml": [
+      "line 37",
+      "global.flag[215] = 1;"
+    ]
+  },
+  "global.flag[216]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5347",
+      "if (global.flag[216] == 0)"
+    ]
+  },
+  "global.flag[220]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 397",
+      "global.flag[220] = choose(0, 1, 2, 3);"
+    ],
+    "gml_GlobalScript_scr_monstersetup.gml": [
+      "line 1486",
+      "if (global.flag[220] == 3)"
+    ]
+  },
+  "global.flag[221]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 398",
+      "global.flag[221] = choose(0, 1, 2, 3);"
+    ]
+  },
+  "global.flag[222]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 399",
+      "global.flag[222] = choose(0, 1, 2, 3);"
+    ]
+  },
+  "global.flag[223]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 400",
+      "global.flag[223] = floor(random(31));"
+    ]
+  },
+  "global.flag[224]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 401",
+      "global.flag[224] = floor(random(31));"
+    ]
+  },
+  "global.flag[225]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 402",
+      "global.flag[225] = floor(random(31));"
+    ]
+  },
+  "global.flag[232]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1543",
+      "global.flag[232] = 1;"
+    ]
+  },
+  "global.flag[239]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3078",
+      "if (global.flag[239] == 1)"
+    ]
+  },
+  "global.flag[241]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 93",
+      "if (global.flag[241] >= 6)"
+    ],
+    "gml_GlobalScript_scr_jevil_check.gml": [
+      "line 12",
+      "item_tail = global.flag[241] == 7;"
+    ],
+    "gml_GlobalScript_scr_save.gml": [
+      "line 22",
+      "else if (global.flag[241] == 7)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 9949",
+      "if (global.flag[241] >= 6)"
+    ],
+    "gml_Object_obj_halo_enemy_Step_0.gml": [
+      "line 217",
+      "if (global.flag[241] > 5)"
+    ],
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 371",
+      "if (global.flag[241] >= 6)"
+    ]
+  },
+  "global.flag[243]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2960",
+      "global.flag[243] = 2;"
+    ]
+  },
+  "global.flag[246]": {
+    "gml_GlobalScript_scr_monstersetup.gml": [
+      "line 550",
+      "if (global.flag[246] == 1)"
+    ],
+    "gml_Object_obj_checkers_enemy_Step_0.gml": [
+      "line 321",
+      "if (global.flag[246] == 1)"
+    ]
+  },
+  "global.flag[251]": {
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 977",
+      "global.flag[251] = 1;"
+    ]
+  },
+  "global.flag[252]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2865",
+      "if (global.flag[252] == 1)"
+    ]
+  },
+  "global.flag[253]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5128",
+      "if (global.flag[253] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1859",
+      "if (global.flag[253] == 1)"
+    ]
+  },
+  "global.flag[254]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 7",
+      "if (global.flag[254] > 0)"
+    ]
+  },
+  "global.flag[255]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 641",
+      "global.flag[255] = 2;"
+    ],
+    "gml_Object_obj_npc_facing_Create_0.gml": [
+      "line 185",
+      "if (global.flag[255] < 1 || global.chapter == 2)"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 227",
+      "if (global.flag[255] >= 1 && global.flag[256] == 0)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 315",
+      "if (global.flag[255] < 2)"
+    ],
+    "gml_Object_obj_rudy_Create_0.gml": [
+      "line 3",
+      "if (global.flag[255] == 0)"
+    ],
+    "gml_Object_obj_rudy_Step_0.gml": [
+      "line 176",
+      "global.flag[255] = 1;"
+    ]
+  },
+  "global.flag[256]": {
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 235",
+      "global.flag[256] = 1;"
+    ]
+  },
+  "global.flag[257]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 784",
+      "global.flag[257] = 1;"
+    ]
+  },
+  "global.flag[258]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 892",
+      "global.flag[258] = 3;"
+    ],
+    "gml_Object_obj_onion_event_Create_0.gml": [
+      "line 12",
+      "global.flag[258] = global.game_won;"
+    ],
+    "gml_Object_obj_onion_event_Step_0.gml": [
+      "line 170",
+      "else if (global.flag[258] == 3)"
+    ],
+    "gml_Object_obj_room_beach_Create_0.gml": [
+      "line 10",
+      "if (global.flag[258] == 0)"
+    ]
+  },
+  "global.flag[259]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3795",
+      "var myname = (global.flag[259] == 2) ? stringsetloc(\"Mouse!!\", \"scr_text_slash_scr_text_gml_3674_0\") : stringsetloc(\"Kiss!\", \"scr_text_slash_scr_text_gml_3674_1\");"
+    ]
+  },
+  "global.flag[260]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3790",
+      "else if (global.flag[260] == 3)"
+    ]
+  },
+  "global.flag[261]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 648",
+      "else if (global.flag[261] != 1)"
+    ]
+  },
+  "global.flag[262]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3205",
+      "global.flag[262] = 3;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 446",
+      "if (global.flag[262] >= 4)"
+    ]
+  },
+  "global.flag[263]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 967",
+      "global.flag[263] = 2;"
+    ],
+    "gml_Object_obj_overworldc_Step_0.gml": [
+      "line 82",
+      "global.flag[263] = 1;"
+    ]
+  },
+  "global.flag[264]": {
+    "gml_Object_obj_flowershop_event_Create_0.gml": [
+      "line 47",
+      "x = global.flag[264];"
+    ],
+    "gml_Object_obj_flowershop_event_Step_0.gml": [
+      "line 2",
+      "global.flag[264] = obj_mainchara.x;"
+    ]
+  },
+  "global.flag[265]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1004",
+      "global.flag[265] = 1;"
+    ]
+  },
+  "global.flag[267]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1625",
+      "global.flag[267] += 1;"
+    ]
+  },
+  "global.flag[268]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 253",
+      "global.flag[268] = 1;"
+    ]
+  },
+  "global.flag[269]": {
+    "gml_Object_obj_classscene_Step_0.gml": [
+      "line 539",
+      "if (global.flag[201] == 1 && global.flag[269] == 0)"
+    ]
+  },
+  "global.flag[270]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2113",
+      "global.flag[270] = 1;"
+    ]
+  },
+  "global.flag[271]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2168",
+      "global.flag[271] = 2;"
+    ],
+    "gml_Object_obj_town_event_Create_0.gml": [
+      "line 10",
+      "if (global.flag[271] == 0)"
+    ],
+    "gml_Object_obj_town_event_Step_0.gml": [
+      "line 76",
+      "global.flag[271] = 1;"
+    ]
+  },
+  "global.flag[273]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6380",
+      "var paptalk = global.flag[273] == 2;"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 332",
+      "if (global.flag[273] >= 1)"
+    ],
+    "gml_Object_obj_town_event_Step_0.gml": [
+      "line 110",
+      "global.flag[273] = 2;"
+    ]
+  },
+  "global.flag[274]": {
+    "gml_GlobalScript_scr_phonename.gml": [
+      "line 23",
+      "if (global.flag[274] >= 2)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2498",
+      "global.flag[274] = 2;"
+    ]
+  },
+  "global.flag[275]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2518",
+      "global.flag[275] = 3;"
+    ]
+  },
+  "global.flag[276]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2649",
+      "global.flag[276] = 2;"
+    ]
+  },
+  "global.flag[278]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 1269",
+      "var sinkcheck = global.flag[278] == 1 && global.flag[461] == 1;"
+    ]
+  },
+  "global.flag[300]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3459",
+      "global.flag[300] = 1;"
+    ]
+  },
+  "global.flag[301]": {
+    "gml_Object_obj_npc_king_Other_10.gml": [
+      "line 23",
+      "global.flag[301] = 1;"
+    ],
+    "gml_Object_obj_room_dungeon_2f_Step_0.gml": [
+      "line 5",
+      "global.flag[301] = 2;"
+    ]
+  },
+  "global.flag[302]": {
+    "gml_Object_obj_dw_transition_Draw_0.gml": [
+      "line 599",
+      "global.flag[302] = 2;"
+    ],
+    "gml_Object_obj_krisroom_Step_0.gml": [
+      "line 487",
+      "global.flag[302] = 2;"
+    ],
+    "gml_Object_obj_mainchara_Create_0.gml": [
+      "line 280",
+      "if (global.flag[302] == 1)"
+    ],
+    "gml_Object_obj_unusedclassevent_Step_0.gml": [
+      "line 213",
+      "global.flag[302] = 1;"
+    ]
+  },
+  "global.flag[304]": {
+    "gml_Object_obj_room_castle_1f_cake_Step_0.gml": [
+      "line 134",
+      "global.flag[304] = 1;"
+    ]
+  },
+  "global.flag[307]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5525",
+      "if (global.flag[307] == 4)"
+    ],
+    "gml_Object_obj_room_castle_ralsei_Create_0.gml": [
+      "line 6",
+      "if (global.flag[307] == 1)"
+    ],
+    "gml_Object_obj_room_castle_susie_Create_0.gml": [
+      "line 11",
+      "if (global.flag[307] == 2)"
+    ]
+  },
+  "global.flag[308]": {
+    "gml_Object_obj_npc_conbini_Create_0.gml": [
+      "line 12",
+      "if (global.flag[308] == 0)"
+    ],
+    "gml_Object_obj_npc_conbini_Step_0.gml": [
+      "line 168",
+      "global.flag[308] = 1;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1420",
+      "else if (global.flag[308] == 0)"
+    ]
+  },
+  "global.flag[309]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 96",
+      "if (global.flag[309] >= 9)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5864",
+      "global.flag[309] = 8;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 3136",
+      "if (global.flag[309] < 9)"
+    ]
+  },
+  "global.flag[313]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5145",
+      "global.flag[313] = 1;"
+    ]
+  },
+  "global.flag[315]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2298",
+      "var visitedshelter = global.flag[315] == 1;"
+    ]
+  },
+  "global.flag[316]": {
+    "gml_Object_obj_npc_rudy_Create_0.gml": [
+      "line 9",
+      "if (global.flag[316] == 1)"
+    ],
+    "gml_Object_obj_room_town_hospital_Create_0.gml": [
+      "line 7",
+      "if (global.chapter != 2 || global.flag[316] == 1)"
+    ],
+    "gml_Object_obj_room_town_hospital_Step_0.gml": [
+      "line 336",
+      "global.flag[316] = 1;"
+    ]
+  },
+  "global.flag[317]": {
+    "gml_Object_obj_npc_police_Create_0.gml": [
+      "line 110",
+      "napstacon = (global.flag[317] == 2) ? 0 : -1;"
+    ],
+    "gml_Object_obj_npc_police_Step_0.gml": [
+      "line 501",
+      "global.flag[317] = 2;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1373",
+      "if (global.flag[317] != 2)"
+    ]
+  },
+  "global.flag[320]": {
+    "gml_Object_obj_npc_king_Other_10.gml": [
+      "line 28",
+      "else if (global.flag[320] == 0)"
+    ],
+    "gml_Object_obj_room_dungeon_2f_ee_Step_0.gml": [
+      "line 300",
+      "global.flag[320] = 1;"
+    ]
+  },
+  "global.flag[326]": {
+    "gml_Object_obj_face_Draw_0.gml": [
+      "line 470",
+      "if (global.flag[326] == 1)"
+    ]
+  },
+  "global.flag[327]": {
+    "gml_Object_obj_npc_cafe_Other_10.gml": [
+      "line 86",
+      "if (myid == 40 && global.flag[327] == 1 && aite != 23)"
+    ]
+  },
+  "global.flag[337]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4099",
+      "global.flag[337]++;"
+    ]
+  },
+  "global.flag[342]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 150",
+      "global.flag[342] = 1;"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6489",
+      "global.flag[342] = 3;"
+    ]
+  },
+  "global.flag[353]": {
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 623",
+      "var shadow_crystal_sneo = global.flag[353] >= 1;"
+    ]
+  },
+  "global.flag[354]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6244",
+      "global.flag[354]++;"
+    ]
+  },
+  "global.flag[379]": {
+    "gml_GlobalScript_scr_monstersetup.gml": [
+      "line 878",
+      "global.actname[myself][2] = (global.flag[379] == 0) ? stringsetloc(\"Fear\", \"scr_monstersetup_slash_scr_monstersetup_gml_987_0\") : stringsetloc(\"Compliment\", \"scr_monstersetup_slash_scr_monstersetup_gml_987_1\");"
+    ]
+  },
+  "global.flag[387]": {
+    "gml_Object_obj_dw_transition_Draw_0.gml": [
+      "line 359",
+      "if (global.chapter == 2 && global.plot >= 200 && global.flag[387] == 0)"
+    ]
+  },
+  "global.flag[388]": {
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 362",
+      "if (global.flag[388] == 1 || scr_get_total_recruits(2) == 0)"
+    ]
+  },
+  "global.flag[393]": {
+    "gml_Object_obj_room_castle_susie_Create_0.gml": [
+      "line 3",
+      "if (global.flag[393] == 1)"
+    ]
+  },
+  "global.flag[394]": {
+    "gml_Object_obj_room_castle_kris_Create_0.gml": [
+      "line 1",
+      "if (global.flag[394] == 1)"
+    ]
+  },
+  "global.flag[409]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2863",
+      "global.flag[409] = 1;"
+    ]
+  },
+  "global.flag[410]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2901",
+      "global.flag[410] = 1;"
+    ]
+  },
+  "global.flag[411]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 1167",
+      "global.flag[411] = 1;"
+    ]
+  },
+  "global.flag[412]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 1136",
+      "global.flag[412] = 1;"
+    ]
+  },
+  "global.flag[415]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6875",
+      "global.flag[415] = 3;"
+    ]
+  },
+  "global.flag[418]": {
+    "gml_GlobalScript_scr_keyiteminfo.gml": [
+      "line 76",
+      "if (global.flag[418] == 1)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4649",
+      "global.flag[418] = 1;"
+    ]
+  },
+  "global.flag[419]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6101",
+      "global.flag[419] = 2;"
+    ],
+    "gml_Object_obj_tasque_manager_enemy_Other_24.gml": [
+      "line 6",
+      "if (global.flag[419] == 2)"
+    ],
+    "gml_Object_obj_tasque_manager_enemy_Step_0.gml": [
+      "line 6",
+      "if (global.flag[419] == 2)"
+    ]
+  },
+  "global.flag[421]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4539",
+      "global.flag[421] = 1;"
+    ]
+  },
+  "global.flag[422]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4311",
+      "global.flag[422] = 1;"
+    ]
+  },
+  "global.flag[423]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7490",
+      "global.flag[423]++;"
+    ]
+  },
+  "global.flag[424]": {
+    "gml_Object_obj_onion_event_Step_0.gml": [
+      "line 107",
+      "global.flag[424] = 1;"
+    ]
+  },
+  "global.flag[425]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3800",
+      "global.flag[425] = 2;"
+    ]
+  },
+  "global.flag[426]": {
+    "gml_GlobalScript_scr_encountersetup.gml": [
+      "line 562",
+      "global.flag[426] = choose(0, 1, 2, 3);"
+    ]
+  },
+  "global.flag[430]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4247",
+      "global.flag[430] = 1;"
+    ]
+  },
+  "global.flag[431]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5389",
+      "global.flag[431] = 1;"
+    ]
+  },
+  "global.flag[432]": {
+    "gml_Object_obj_krisroom_Step_0.gml": [
+      "line 488",
+      "global.flag[432] = 1;"
+    ]
+  },
+  "global.flag[437]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4982",
+      "global.flag[437] = global.choice + 1;"
+    ]
+  },
+  "global.flag[439]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2671",
+      "global.flag[439] = 1;"
+    ]
+  },
+  "global.flag[443]": {
+    "gml_Object_obj_room_castle_town_Create_0.gml": [
+      "line 21",
+      "if (global.chapter == 2 && global.plot >= 200 && global.flag[443] == 0)"
+    ],
+    "gml_Object_obj_room_castle_town_Step_0.gml": [
+      "line 27",
+      "global.flag[443] = 1;"
+    ],
+    "gml_Object_obj_room_town_south_Create_0.gml": [
+      "line 3",
+      "if (global.chapter == 2 && global.plot >= 200 && global.flag[443] == 0 && global.flag[444] == 0)"
+    ]
+  },
+  "global.flag[444]": {
+    "gml_Object_obj_room_town_south_Create_0.gml": [
+      "line 3",
+      "if (global.chapter == 2 && global.plot >= 200 && global.flag[443] == 0 && global.flag[444] == 0)"
+    ]
+  },
+  "global.flag[451]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6387",
+      "global.flag[451] = 1;"
+    ]
+  },
+  "global.flag[455]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7079",
+      "global.flag[455] = 1;"
+    ]
+  },
+  "global.flag[456]": {
+    "gml_Object_obj_jackenstein_enemy_Step_0.gml": [
+      "line 622",
+      "if (rand < 3 && global.flag[456] == 1)"
+    ]
+  },
+  "global.flag[457]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 422",
+      "global.flag[457] = 1;"
+    ]
+  },
+  "global.flag[459]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7804",
+      "global.flag[459] = 1;"
+    ]
+  },
+  "global.flag[461]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 1269",
+      "var sinkcheck = global.flag[278] == 1 && global.flag[461] == 1;"
+    ]
+  },
+  "global.flag[462]": {
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 103",
+      "if (lost_animals == 0 && global.flag[462] < 3 && global.flag[465] == 1)"
+    ]
+  },
+  "global.flag[463]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7779",
+      "global.flag[463] = 1;"
+    ]
+  },
+  "global.flag[465]": {
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 103",
+      "if (lost_animals == 0 && global.flag[462] < 3 && global.flag[465] == 1)"
+    ]
+  },
+  "global.flag[466]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 25",
+      "global.flag[466] = 1;"
+    ]
+  },
+  "global.flag[468]": {
+    "gml_Object_obj_treasure_room_Create_0.gml": [
+      "line 40",
+      "if (global.flag[571] == 1 || global.flag[468] == 2)"
+    ]
+  },
+  "global.flag[500]": {
+    "gml_GlobalScript_scr_encountersetup.gml": [
+      "line 280",
+      "if (global.flag[500] == 2)"
+    ],
+    "gml_Object_obj_checkers_enemy_Other_21.gml": [
+      "line 2",
+      "global.flag[500] += 1;"
+    ]
+  },
+  "global.flag[501]": {
+    "gml_Object_obj_checkers_enemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ]
+  },
+  "global.flag[503]": {
+    "gml_Object_obj_rudinnranger_Step_0.gml": [
+      "line 230",
+      "global.flag[503] = 1;"
+    ]
+  },
+  "global.flag[509]": {
+    "gml_Object_obj_pippins_enemy_Step_0.gml": [
+      "line 382",
+      "global.flag[509]++;"
+    ]
+  },
+  "global.flag[510]": {
+    "gml_Object_obj_pippins_enemy_Step_0.gml": [
+      "line 332",
+      "global.flag[510]++;"
+    ]
+  },
+  "global.flag[520]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2934",
+      "normal_kills = global.flag[520] - global.flag[523];"
+    ]
+  },
+  "global.flag[522]": {
+    "gml_Object_obj_clubsenemy_Draw_0.gml": [
+      "line 28",
+      "global.flag[522] += 1;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 287",
+      "if (global.flag[522] == 1)"
+    ]
+  },
+  "global.flag[523]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2934",
+      "normal_kills = global.flag[520] - global.flag[523];"
+    ]
+  },
+  "global.flag[571]": {
+    "gml_Object_obj_treasure_room_Create_0.gml": [
+      "line 40",
+      "if (global.flag[571] == 1 || global.flag[468] == 2)"
+    ]
+  },
+  "global.flag[605]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 406",
+      "global.flag[605] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 225",
+      "if (global.flag[605] == -1)"
+    ]
+  },
+  "global.flag[606]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 407",
+      "global.flag[606] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 231",
+      "if (global.flag[606] == -1)"
+    ]
+  },
+  "global.flag[611]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 408",
+      "global.flag[611] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 237",
+      "if (global.flag[611] == -1)"
+    ],
+    "gml_Object_obj_room_castle_lancer_Create_0.gml": [
+      "line 38",
+      "if (global.flag[611] == 1)"
+    ]
+  },
+  "global.flag[613]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 409",
+      "global.flag[613] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 243",
+      "if (global.flag[613] == -1)"
+    ]
+  },
+  "global.flag[614]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 410",
+      "global.flag[614] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 249",
+      "if (global.flag[614] == -1)"
+    ]
+  },
+  "global.flag[615]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 411",
+      "global.flag[615] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 255",
+      "if (global.flag[615] == -1)"
+    ]
+  },
+  "global.flag[622]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 412",
+      "global.flag[622] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 261",
+      "if (global.flag[622] == -1)"
+    ]
+  },
+  "global.flag[623]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 413",
+      "global.flag[623] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 267",
+      "if (global.flag[623] == -1)"
+    ]
+  },
+  "global.flag[630]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 273",
+      "if (global.flag[630] == -1)"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ]
+  },
+  "global.flag[631]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 279",
+      "if (global.flag[631] == -1)"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 86",
+      "if (global.flag[631] == 1)"
+    ],
+    "gml_Object_obj_room_castle_lancer_Create_0.gml": [
+      "line 86",
+      "if (global.flag[631] == 1)"
+    ]
+  },
+  "global.flag[632]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 423",
+      "global.flag[632] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 285",
+      "if (global.flag[632] == -1)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5940",
+      "var cat_cafe = global.flag[642] == 1 && global.flag[632] == 1 && global.flag[654] == 1;"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_cafe_Create_0.gml": [
+      "line 167",
+      "if (global.flag[642] == 1 && global.flag[632] == 1 && global.flag[654] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 55",
+      "if (global.flag[632] == 1)"
+    ],
+    "gml_Object_obj_room_castle_lancer_Create_0.gml": [
+      "line 49",
+      "if (global.flag[632] == 1)"
+    ]
+  },
+  "global.flag[633]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 424",
+      "global.flag[633] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 291",
+      "if (global.flag[633] == -1)"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ]
+  },
+  "global.flag[634]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 297",
+      "if (global.flag[634] == -1)"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 69",
+      "if (global.flag[634] == 1)"
+    ],
+    "gml_Object_obj_room_castle_lancer_Create_0.gml": [
+      "line 69",
+      "if (global.flag[634] == 1)"
+    ]
+  },
+  "global.flag[635]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 303",
+      "if (global.flag[635] == -1)"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ]
+  },
+  "global.flag[636]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 425",
+      "global.flag[636] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 309",
+      "if (global.flag[636] == -1)"
+    ],
+    "gml_Object_obj_castle_tutorial_Create_0.gml": [
+      "line 89",
+      "if (global.flag[636] == 1)"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_cafe_Create_0.gml": [
+      "line 58",
+      "if (global.flag[636] == 1)"
+    ],
+    "gml_Object_obj_room_castle_lancer_Create_0.gml": [
+      "line 118",
+      "if (global.flag[636] == 1)"
+    ]
+  },
+  "global.flag[640]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 321",
+      "if (global.flag[640] == -1)"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ]
+  },
+  "global.flag[642]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 426",
+      "global.flag[642] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 327",
+      "if (global.flag[642] == -1)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5940",
+      "var cat_cafe = global.flag[642] == 1 && global.flag[632] == 1 && global.flag[654] == 1;"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 149",
+      "tasqueRecruited = global.flag[642];"
+    ],
+    "gml_Object_obj_npc_castle_cafe_Create_0.gml": [
+      "line 167",
+      "if (global.flag[642] == 1 && global.flag[632] == 1 && global.flag[654] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 53",
+      "if (global.flag[642] != 1)"
+    ]
+  },
+  "global.flag[644]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 339",
+      "if (global.flag[644] == -1)"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ]
+  },
+  "global.flag[654]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 427",
+      "global.flag[654] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 345",
+      "if (global.flag[654] == -1)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5940",
+      "var cat_cafe = global.flag[642] == 1 && global.flag[632] == 1 && global.flag[654] == 1;"
+    ],
+    "gml_Object_obj_npc_castle_cafe_Create_0.gml": [
+      "line 167",
+      "if (global.flag[642] == 1 && global.flag[632] == 1 && global.flag[654] == 1)"
+    ]
+  },
+  "global.flag[655]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 351",
+      "if (global.flag[655] == -1)"
+    ]
+  },
+  "global.flag[656]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 428",
+      "global.flag[656] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 357",
+      "if (global.flag[656] == -1)"
+    ]
+  },
+  "global.flag[657]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 429",
+      "global.flag[657] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 363",
+      "if (global.flag[657] == -1)"
+    ]
+  },
+  "global.flag[658]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 369",
+      "if (global.flag[658] == -1)"
+    ]
+  },
+  "global.flag[659]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 430",
+      "global.flag[659] = 1;"
+    ],
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 375",
+      "if (global.flag[659] == -1)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 2060",
+      "if (global.flag[659] == 1)"
+    ]
+  },
+  "global.flag[660]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 431",
+      "global.flag[660] = 1;"
+    ]
+  },
+  "global.flag[661]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 432",
+      "global.flag[661] = 1;"
+    ]
+  },
+  "global.flag[662]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 381",
+      "if (global.flag[662] == -1)"
+    ]
+  },
+  "global.flag[663]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 387",
+      "if (global.flag[663] == -1)"
+    ]
+  },
+  "global.flag[664]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 393",
+      "if (global.flag[664] == -1)"
+    ]
+  },
+  "global.flag[665]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 399",
+      "if (global.flag[665] == -1)"
+    ]
+  },
+  "global.flag[666]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 405",
+      "if (global.flag[666] == -1)"
+    ]
+  },
+  "global.flag[667]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 411",
+      "if (global.flag[667] == -1)"
+    ]
+  },
+  "global.flag[668]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 417",
+      "if (global.flag[668] == -1)"
+    ]
+  },
+  "global.flag[669]": {
+    "gml_GlobalScript_scr_recruitchecks.gml": [
+      "line 423",
+      "if (global.flag[669] == -1)"
+    ]
+  },
+  "global.flag[701]": {
+    "gml_Object_obj_dw_churchb_libraryconnector_Step_0.gml": [
+      "line 135",
+      "if (global.flag[701])"
+    ]
+  },
+  "global.flag[704]": {
+    "gml_Object_obj_darkroom1_bookshelfWall_Step_0.gml": [
+      "line 1",
+      "if (global.flag[704] == 1)"
+    ],
+    "gml_Object_obj_darkroom1_wallswitch_Create_0.gml": [
+      "line 2",
+      "image_index = global.flag[704];"
+    ],
+    "gml_Object_obj_darkroom1_wallswitch_Other_10.gml": [
+      "line 5",
+      "global.flag[704] = 1;"
+    ],
+    "gml_Object_obj_darkroom1_wallswitch_Step_0.gml": [
+      "line 1",
+      "image_index = global.flag[704];"
+    ]
+  },
+  "global.flag[705]": {
+    "gml_Object_obj_church_candleLighter_Create_0.gml": [
+      "line 7",
+      "if (global.flag[705] == 1)"
+    ],
+    "gml_Object_obj_church_candle_lightable_Create_0.gml": [
+      "line 33",
+      "if (global.flag[705] == 1)"
+    ],
+    "gml_Object_obj_church_candle_lightable_Draw_0.gml": [
+      "line 57",
+      "global.flag[705] = 1;"
+    ]
+  },
+  "global.flag[710]": {
+    "gml_Object_obj_dw_church_bookshelfpuzzle_Create_0.gml": [
+      "line 107",
+      "if (global.flag[710] < 2)"
+    ],
+    "gml_Object_obj_dw_church_bookshelfpuzzle_Step_0.gml": [
+      "line 298",
+      "if (global.flag[710] >= 2)"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_right_Create_0.gml": [
+      "line 14",
+      "if (global.flag[710] < 2)"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_right_Step_0.gml": [
+      "line 89",
+      "if (global.flag[710] >= 2)"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_right_Step_1.gml": [
+      "line 25",
+      "if (global.flag[710] >= 2)"
+    ]
+  },
+  "global.flag[778]": {
+    "gml_Object_obj_face_Draw_0.gml": [
+      "line 199",
+      "if (global.flag[778] > 0)"
+    ]
+  },
+  "global.flag[794]": {
+    "gml_Object_obj_ch4_LWF04A_Step_0.gml": [
+      "line 41",
+      "global.flag[794] = 1;"
+    ],
+    "gml_Object_obj_lw_rain_effect_Create_0.gml": [
+      "line 38",
+      "global.flag[794] = 2;"
+    ],
+    "gml_Object_obj_lw_rain_effect_Other_11.gml": [
+      "line 13",
+      "global.flag[794] = 3;"
+    ],
+    "gml_Object_obj_lw_rain_effect_Other_12.gml": [
+      "line 3",
+      "global.flag[794] = 3;"
+    ],
+    "gml_Object_obj_lw_rain_indoor_ambience_Create_0.gml": [
+      "line 6",
+      "if (global.flag[794] == 0)"
+    ],
+    "gml_Object_obj_lw_rain_indoor_ambience_Other_11.gml": [
+      "line 13",
+      "global.flag[794] = 3;"
+    ],
+    "gml_Object_obj_lw_rain_indoor_ambience_Other_12.gml": [
+      "line 3",
+      "global.flag[794] = 3;"
+    ],
+    "gml_Object_obj_lw_rain_indoor_ambience_Step_0.gml": [
+      "line 17",
+      "global.flag[794] = 2;"
+    ]
+  },
+  "global.flag[800]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 414",
+      "global.flag[800] = 15;"
+    ],
+    "gml_Object_obj_npc_cafe_Other_10.gml": [
+      "line 5",
+      "seat0 = global.flag[800];"
+    ]
+  },
+  "global.flag[801]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 415",
+      "global.flag[801] = 5;"
+    ],
+    "gml_Object_obj_npc_cafe_Other_10.gml": [
+      "line 6",
+      "seat1 = global.flag[801];"
+    ]
+  },
+  "global.flag[802]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 416",
+      "global.flag[802] = 6;"
+    ],
+    "gml_Object_obj_npc_cafe_Other_10.gml": [
+      "line 7",
+      "seat2 = global.flag[802];"
+    ]
+  },
+  "global.flag[803]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 417",
+      "global.flag[803] = 5;"
+    ],
+    "gml_Object_obj_npc_cafe_Other_10.gml": [
+      "line 8",
+      "seat3 = global.flag[803];"
+    ]
+  },
+  "global.flag[810]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5444",
+      "if (global.flag[810] == 2 && global.flag[811] == 2 && global.flag[812] == 2 && global.flag[813] == 2 && global.flag[814] == 2)"
+    ]
+  },
+  "global.flag[811]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5444",
+      "if (global.flag[810] == 2 && global.flag[811] == 2 && global.flag[812] == 2 && global.flag[813] == 2 && global.flag[814] == 2)"
+    ]
+  },
+  "global.flag[812]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5444",
+      "if (global.flag[810] == 2 && global.flag[811] == 2 && global.flag[812] == 2 && global.flag[813] == 2 && global.flag[814] == 2)"
+    ]
+  },
+  "global.flag[813]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5444",
+      "if (global.flag[810] == 2 && global.flag[811] == 2 && global.flag[812] == 2 && global.flag[813] == 2 && global.flag[814] == 2)"
+    ]
+  },
+  "global.flag[814]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5444",
+      "if (global.flag[810] == 2 && global.flag[811] == 2 && global.flag[812] == 2 && global.flag[813] == 2 && global.flag[814] == 2)"
+    ]
+  },
+  "global.flag[815]": {
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 175",
+      "if (global.flag[815] != 0)"
+    ]
+  },
+  "global.flag[847]": {
+    "gml_Object_obj_dw_church_organ_Create_0.gml": [
+      "line 39",
+      "global.flag[847] = 1;"
+    ],
+    "gml_Object_obj_dw_church_organ_Step_0.gml": [
+      "line 21",
+      "var usedsheetmusic = global.flag[847];"
+    ]
+  },
+  "global.flag[850]": {
+    "gml_GlobalScript_scr_spellinfo.gml": [
+      "line 197",
+      "if (global.plot >= 110 && global.flag[850] < 6)"
+    ],
+    "gml_Object_obj_ch4_DCA08A_Create_0.gml": [
+      "line 5",
+      "if (global.flag[850] == 0.5)"
+    ],
+    "gml_Object_obj_ch4_DCA08A_Step_0.gml": [
+      "line 99",
+      "else if (global.flag[850] == 0.5)"
+    ],
+    "gml_Object_obj_ch4_DCA08C_Create_0.gml": [
+      "line 10",
+      "global.flag[850] = 2;"
+    ],
+    "gml_Object_obj_dw_church_jackenstein_Create_0.gml": [
+      "line 7",
+      "if (global.flag[850] >= 6)"
+    ],
+    "gml_Object_obj_dw_church_nwconnect_Create_0.gml": [
+      "line 15",
+      "if (global.flag[850] >= 5 || global.flag[23] == true)"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_left_Step_0.gml": [
+      "line 56",
+      "global.flag[850] = 1;"
+    ],
+    "gml_Object_obj_dw_church_pianopuzzle_Create_0.gml": [
+      "line 52",
+      "if (global.flag[850] >= 5)"
+    ]
+  },
+  "global.flag[851]": {
+    "gml_Object_obj_dw_church_tallbookcases_Create_0.gml": [
+      "line 11",
+      "debug_print(\"global.flag[851]=\" + string(global.flag[851]));"
+    ],
+    "gml_Object_obj_dw_church_tallbookcases_Step_0.gml": [
+      "line 27",
+      "if (global.flag[851] > 0)"
+    ]
+  },
+  "global.flag[852]": {
+    "gml_GlobalScript_scr_spellinfo.gml": [
+      "line 206",
+      "if (global.flag[1569] == 1 || global.flag[852] == 1)"
+    ]
+  },
+  "global.flag[863]": {
+    "gml_Object_obj_dw_church_remote_piano_Step_0.gml": [
+      "line 534",
+      "global.flag[863] = myshelf[0].x;"
+    ]
+  },
+  "global.flag[864]": {
+    "gml_Object_obj_dw_church_bookshelfpuzzle_Step_0.gml": [
+      "line 422",
+      "global.flag[864] = 1;"
+    ],
+    "gml_Object_obj_dw_church_remote_piano_Step_0.gml": [
+      "line 535",
+      "global.flag[864] = myshelf[0].y;"
+    ]
+  },
+  "global.flag[865]": {
+    "gml_Object_obj_dw_church_pianopiece_right_Step_0.gml": [
+      "line 489",
+      "if (global.flag[865])"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_right_Step_1.gml": [
+      "line 41",
+      "if (global.flag[865])"
+    ],
+    "gml_Object_obj_dw_church_remote_piano_Step_0.gml": [
+      "line 536",
+      "global.flag[865] = myshelf[1].x;"
+    ]
+  },
+  "global.flag[866]": {
+    "gml_Object_obj_dw_church_pianopiece_right_Step_0.gml": [
+      "line 535",
+      "global.flag[866] = 1;"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_right_Step_1.gml": [
+      "line 36",
+      "if (global.flag[866] == 1)"
+    ],
+    "gml_Object_obj_dw_church_remote_piano_Step_0.gml": [
+      "line 537",
+      "global.flag[866] = myshelf[1].y;"
+    ]
+  },
+  "global.flag[867]": {
+    "gml_Object_obj_dw_churchb_extinguisher_Step_0.gml": [
+      "line 294",
+      "global.flag[867] = 1;"
+    ],
+    "gml_Object_obj_dw_church_bookshelfpuzzle1_old_Create_0.gml": [
+      "line 20",
+      "if (global.flag[867] == 1)"
+    ],
+    "gml_Object_obj_dw_church_bookshelfpuzzle1_old_Step_0.gml": [
+      "line 40",
+      "global.flag[867] = 1;"
+    ],
+    "gml_Object_obj_dw_church_stairspreview_Step_0.gml": [
+      "line 23",
+      "global.flag[867] = 1;"
+    ]
+  },
+  "global.flag[868]": {
+    "gml_GlobalScript_scr_monstersetup.gml": [
+      "line 1675",
+      "if (global.plot >= 140 && global.plot < 160 && global.flag[868] == 0)"
+    ],
+    "gml_Object_obj_battlecontroller_Draw_0.gml": [
+      "line 665",
+      "if (i_ex(obj_guei_enemy) && global.plot >= 140 && global.plot <= 160 && global.flag[868] == 0 && gueigersoncon == 1)"
+    ],
+    "gml_Object_obj_guei_enemy_Step_0.gml": [
+      "line 529",
+      "global.flag[868] = 1;"
+    ]
+  },
+  "global.flag[869]": {
+    "gml_Object_obj_dw_church_intropiano_Create_0.gml": [
+      "line 26",
+      "if (global.flag[869] == 1)"
+    ],
+    "gml_Object_obj_dw_church_intropiano_Step_0.gml": [
+      "line 61",
+      "global.flag[869] = 1;"
+    ]
+  },
+  "global.flag[872]": {
+    "gml_Object_obj_dw_church_darkmaze_Step_0.gml": [
+      "line 1177",
+      "candymarker.image_index = global.flag[872];"
+    ]
+  },
+  "global.flag[874]": {
+    "gml_Object_obj_dw_church_intro_gerson_Create_0.gml": [
+      "line 26",
+      "if (global.flag[874] == 1)"
+    ],
+    "gml_Object_obj_dw_church_intro_gerson_Step_0.gml": [
+      "line 27",
+      "global.flag[874] = 1;"
+    ]
+  },
+  "global.flag[876]": {
+    "gml_Object_obj_dw_church_bookshelfpuzzle_Create_0.gml": [
+      "line 93",
+      "global.flag[876] = 0;"
+    ]
+  },
+  "global.flag[877]": {
+    "gml_Object_obj_dw_church_bookshelfpuzzle_Create_0.gml": [
+      "line 94",
+      "global.flag[877] = 0;"
+    ]
+  },
+  "global.flag[878]": {
+    "gml_Object_obj_dw_church_bookshelfpuzzle_Create_0.gml": [
+      "line 95",
+      "global.flag[878] = 0;"
+    ]
+  },
+  "global.flag[879]": {
+    "gml_Object_obj_dw_church_bookshelfpuzzle_Create_0.gml": [
+      "line 96",
+      "global.flag[879] = 0;"
+    ]
+  },
+  "global.flag[880]": {
+    "gml_Object_obj_dw_church_bookshelfpuzzle_Create_0.gml": [
+      "line 97",
+      "global.flag[880] = 0;"
+    ]
+  },
+  "global.flag[881]": {
+    "gml_Object_obj_dw_church_bookshelfpuzzle_Create_0.gml": [
+      "line 98",
+      "global.flag[881] = 0;"
+    ]
+  },
+  "global.flag[886]": {
+    "gml_Object_obj_ch4_DCA08B_Step_0.gml": [
+      "line 132",
+      "global.flag[886] = -1;"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_left_b_Create_0.gml": [
+      "line 21",
+      "global.flag[886] = 0;"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_rightprophecy_Create_0.gml": [
+      "line 22",
+      "if (global.flag[886] == 1 || global.flag[886] == -1)"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_rightprophecy_Step_0.gml": [
+      "line 68",
+      "if (global.flag[886] == 0)"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_right_Step_0.gml": [
+      "line 242",
+      "if (global.flag[886])"
+    ],
+    "gml_Object_obj_dw_church_pianopuzzle_Create_0.gml": [
+      "line 38",
+      "if (global.flag[886] && global.flag[891])"
+    ],
+    "gml_Object_obj_dw_church_pianopuzzle_Step_0.gml": [
+      "line 26",
+      "if (global.flag[886] == 1)"
+    ]
+  },
+  "global.flag[891]": {
+    "gml_Object_obj_ch4_DCA08B_Step_0.gml": [
+      "line 133",
+      "global.flag[891] = -1;"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_left_b_Create_0.gml": [
+      "line 63",
+      "if (global.flag[891] == 1 || global.flag[891] == -1)"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_left_b_Step_0.gml": [
+      "line 14",
+      "global.flag[891] = 1;"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_left_Step_0.gml": [
+      "line 23",
+      "global.flag[891] = 0;"
+    ],
+    "gml_Object_obj_dw_church_pianopiece_rightprophecy_Create_0.gml": [
+      "line 10",
+      "global.flag[891] = 0;"
+    ],
+    "gml_Object_obj_dw_church_pianopuzzle_Create_0.gml": [
+      "line 38",
+      "if (global.flag[886] && global.flag[891])"
+    ],
+    "gml_Object_obj_dw_church_pianopuzzle_Step_0.gml": [
+      "line 11",
+      "if (global.flag[891] == 1)"
+    ],
+    "gml_Object_obj_dw_church_tallbookcases_Create_0.gml": [
+      "line 47",
+      "if (global.flag[891] == 0)"
+    ]
+  },
+  "global.flag[892]": {
+    "gml_Object_obj_dw_church_pianopuzzle_Create_0.gml": [
+      "line 21",
+      "if (global.flag[892] == 1)"
+    ],
+    "gml_Object_obj_dw_church_pianopuzzle_Step_0.gml": [
+      "line 56",
+      "global.flag[892] = 1;"
+    ]
+  },
+  "global.flag[893]": {
+    "gml_Object_obj_dw_church_pianopuzzle_Create_0.gml": [
+      "line 44",
+      "if (hinttoget == 0 && global.flag[893])"
+    ],
+    "gml_Object_obj_dw_church_pianopuzzle_Step_0.gml": [
+      "line 173",
+      "if (global.flag[893] == 1)"
+    ]
+  },
+  "global.flag[894]": {
+    "gml_Object_obj_dw_church_pianopiece_left_Create_0.gml": [
+      "line 62",
+      "if (global.flag[894] > 0)"
+    ]
+  },
+  "global.flag[897]": {
+    "gml_Object_obj_dw_church_pianopuzzle_Create_0.gml": [
+      "line 47",
+      "if (hinttoget == 1 && global.flag[897])"
+    ]
+  },
+  "global.flag[898]": {
+    "gml_Object_obj_dw_churchb_moneyfountain_Create_0.gml": [
+      "line 93",
+      "if (global.flag[898] == 0)"
+    ],
+    "gml_Object_obj_dw_churchb_moneyfountain_Step_0.gml": [
+      "line 93",
+      "msgnextsubloc(\"* Between you and another^1, you reached \\\\cY~1 Gold\\\\cW./\", string(global.flag[898] + other.bonus), \"obj_dw_churchb_moneyfountain_slash_Step_0_gml_145_0\");"
+    ],
+    "gml_Object_obj_dw_church_moneyfountainsprite_Create_0.gml": [
+      "line 8",
+      "if (kind == 1 && global.flag[898] == 0)"
+    ],
+    "gml_Object_obj_dw_church_moneyfountain_Create_0.gml": [
+      "line 17",
+      "if (global.flag[898] == 0)"
+    ],
+    "gml_Object_obj_dw_church_moneyfountain_Draw_0.gml": [
+      "line 22",
+      "moneystring1 = \"D$\" + string(global.flag[898] + obj_numberentry.num);"
+    ],
+    "gml_Object_obj_dw_church_moneyfountain_Step_0.gml": [
+      "line 227",
+      "msgsetsubloc(0, \"* (You threw ~1 ~2 into the fountain. The Fountain now holds $~3.)/%\", string(newmony), monystring, string(global.flag[898]), \"obj_dw_church_moneyfountain_slash_Step_0_gml_232_0\");"
+    ],
+    "gml_Object_obj_dw_church_waterfall_Draw_0.gml": [
+      "line 36",
+      "if (dir == 1 && global.flag[898] == 0)"
+    ],
+    "gml_Object_obj_treasure_room_Create_0.gml": [
+      "line 195",
+      "var val = global.flag[898] + obj_dw_churchb_moneyfountain.bonus;"
+    ]
+  },
+  "global.flag[899]": {
+    "gml_Object_obj_dw_church_secretpiano_Create_0.gml": [
+      "line 21",
+      "make[0] = abs(global.flag[899]);"
+    ]
+  },
+  "global.flag[900]": {
+    "gml_Object_DEVICE_GONERMAKER_Create_0.gml": [
+      "line 7",
+      "PART[0] = global.flag[900];"
+    ]
+  },
+  "global.flag[901]": {
+    "gml_Object_DEVICE_GONERMAKER_Create_0.gml": [
+      "line 8",
+      "PART[1] = global.flag[901];"
+    ]
+  },
+  "global.flag[902]": {
+    "gml_Object_DEVICE_GONERMAKER_Create_0.gml": [
+      "line 9",
+      "PART[2] = global.flag[902];"
+    ]
+  },
+  "global.flag[903]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 305",
+      "global.flag[903] = global.choice;"
+    ]
+  },
+  "global.flag[904]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 359",
+      "global.flag[904] = global.choice;"
+    ]
+  },
+  "global.flag[905]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 412",
+      "global.flag[905] = global.choice;"
+    ]
+  },
+  "global.flag[906]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 519",
+      "global.flag[906] = global.choice;"
+    ]
+  },
+  "global.flag[907]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 570",
+      "global.flag[907] = global.choice;"
+    ]
+  },
+  "global.flag[908]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 621",
+      "global.flag[908] = global.choice;"
+    ]
+  },
+  "global.flag[909]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 466",
+      "global.flag[909] = 1 - global.choice;"
+    ]
+  },
+  "global.flag[910]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3357",
+      "global.flag[910] = 2;"
+    ],
+    "gml_Object_obj_dw_churchb_moneyfountain_Create_0.gml": [
+      "line 7",
+      "if (global.flag[910] >= 2)"
+    ]
+  },
+  "global.flag[912]": {
+    "gml_GlobalScript_scr_save.gml": [
+      "line 15",
+      "ini_write_real(scr_ini_chapter(global.chapter, global.filechoice), \"InitLang\", global.flag[912]);"
+    ],
+    "gml_Object_DEVICE_NAMER_Create_0.gml": [
+      "line 24",
+      "global.flag[912] = 1;"
+    ]
+  },
+  "global.flag[914]": {
+    "gml_Object_DEVICE_MENU_Step_0.gml": [
+      "line 260",
+      "global.flag[914] = global.chapter - 1;"
+    ],
+    "gml_Object_obj_overworldc_Draw_0.gml": [
+      "line 131",
+      "var krispreservationsociety = stringsetsubloc(\"Since#Chapter ~1\", global.flag[914], \"obj_overworldc_slash_Draw_0_gml_95_0\");"
+    ]
+  },
+  "global.flag[915]": {
+    "gml_GlobalScript_scr_keyiteminfo.gml": [
+      "line 92",
+      "if (scr_sideb_get_phase() >= 1 && global.flag[915] >= 1.5)"
+    ],
+    "gml_GlobalScript_scr_sideb_fail.gml": [
+      "line 9",
+      "if (global.flag[915] > 0)"
+    ],
+    "gml_GlobalScript_scr_sideb_get_phase.gml": [
+      "line 16",
+      "if (global.flag[915] >= 20)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7663",
+      "if (global.flag[915] > 0)"
+    ],
+    "gml_Object_obj_ch4_PDC14A_noelle_Step_0.gml": [
+      "line 161",
+      "if (global.flag[915] == 20)"
+    ],
+    "gml_Object_obj_frozennpc_Step_0.gml": [
+      "line 3",
+      "if (fresh == 3 && (global.flag[916] != 0 || global.flag[915] == 0))"
+    ],
+    "gml_Object_obj_lancergotchi_Create_0.gml": [
+      "line 34",
+      "if (global.flag[915] >= 1.5 && scr_sideb_get_phase() >= 1)"
+    ],
+    "gml_Object_obj_room_town_hospital_Step_0.gml": [
+      "line 339",
+      "global.flag[915] = 19;"
+    ]
+  },
+  "global.flag[916]": {
+    "gml_GlobalScript_scr_sideb_fail.gml": [
+      "line 5",
+      "global.flag[916] = 1;"
+    ],
+    "gml_GlobalScript_scr_sideb_get_phase.gml": [
+      "line 5",
+      "if (global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_frozennpc_Step_0.gml": [
+      "line 3",
+      "if (fresh == 3 && (global.flag[916] != 0 || global.flag[915] == 0))"
+    ]
+  },
+  "global.flag[917]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6760",
+      "global.flag[917] = 3;"
+    ],
+    "gml_Object_obj_dw_churchb_moneyfountain_Create_0.gml": [
+      "line 10",
+      "if (global.flag[917] >= 3)"
+    ]
+  },
+  "global.flag[918]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6764",
+      "global.flag[918] = 1;"
+    ]
+  },
+  "global.flag[919]": {
+    "gml_GlobalScript_scr_levelup.gml": [
+      "line 50",
+      "global.flag[919]++;"
+    ]
+  },
+  "global.flag[921]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 543",
+      "if (global.flag[921] == 1 && scr_sideb_get_phase() == 0)"
+    ]
+  },
+  "global.flag[925]": {
+    "gml_GlobalScript_scr_spell.gml": [
+      "line 305",
+      "global.flag[925]++;"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 546",
+      "var coldness_amount = clamp(47 + (global.flag[925] * 7), 47, 100);"
+    ]
+  },
+  "global.flag[926]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 80",
+      "global.flag[926]++;"
+    ]
+  },
+  "global.flag[928]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7415",
+      "if (global.flag[928] < 2)"
+    ]
+  },
+  "global.flag[930]": {
+    "gml_Object_obj_dw_churchb_moneyfountain_Create_0.gml": [
+      "line 13",
+      "if (global.flag[930])"
+    ]
+  },
+  "global.flag[931]": {
+    "gml_Object_obj_dw_churchb_man_Step_0.gml": [
+      "line 233",
+      "global.flag[931] = 1;"
+    ],
+    "gml_Object_obj_dw_churchc_angelprophecy_encounter_Create_0.gml": [
+      "line 22",
+      "global.flag[931] = 0;"
+    ],
+    "gml_Object_obj_dw_churchc_angelprophecy_encounter_Step_0.gml": [
+      "line 78",
+      "var gotegg = global.flag[931];"
+    ]
+  },
+  "global.flag[954]": {
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 622",
+      "var shadow_crystal_jevil = global.flag[954] == 1;"
+    ]
+  },
+  "global.flag[1036]": {
+    "gml_GlobalScript_scr_armorinfo.gml": [
+      "line 584",
+      "else if (global.flag[1036] == 2)"
+    ]
+  },
+  "global.flag[1037]": {
+    "gml_GlobalScript_scr_armorinfo.gml": [
+      "line 633",
+      "amessage3temp = ral_text_lines[global.flag[1037]];"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 1491",
+      "global.flag[1037]++;"
+    ]
+  },
+  "global.flag[1041]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 96",
+      "if ((global.flag[1041] + global.flag[1042] + global.flag[1043] + global.flag[1227]) == 4)"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 96",
+      "if ((global.flag[1041] + global.flag[1042] + global.flag[1043] + global.flag[1227]) == 4)"
+    ]
+  },
+  "global.flag[1042]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 96",
+      "if ((global.flag[1041] + global.flag[1042] + global.flag[1043] + global.flag[1227]) == 4)"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 96",
+      "if ((global.flag[1041] + global.flag[1042] + global.flag[1043] + global.flag[1227]) == 4)"
+    ]
+  },
+  "global.flag[1043]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 96",
+      "if ((global.flag[1041] + global.flag[1042] + global.flag[1043] + global.flag[1227]) == 4)"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 96",
+      "if ((global.flag[1041] + global.flag[1042] + global.flag[1043] + global.flag[1227]) == 4)"
+    ]
+  },
+  "global.flag[1044]": {
+    "gml_Object_obj_gerson_fountain_Draw_0.gml": [
+      "line 373",
+      "draw_text(camerax() + 440, cameray() + 420, string_hash_to_newline(string(global.flag[1044])) + \" PTs\");"
+    ],
+    "gml_Object_obj_gerson_table_Draw_0.gml": [
+      "line 321",
+      "global.flag[1044] -= buyvalue[menuc[1]];"
+    ],
+    "gml_Object_obj_pippins_enemy_Step_0.gml": [
+      "line 371",
+      "global.flag[1044] -= 150;"
+    ]
+  },
+  "global.flag[1045]": {
+    "gml_GlobalScript_scr_spell.gml": [
+      "line 357",
+      "healnum = ceil(scr_heal_amount_modify_by_equipment((global.battlemag[arg1] * 2) + 22 + (2 * global.flag[1045])));"
+    ],
+    "gml_GlobalScript_scr_spellinfo.gml": [
+      "line 253",
+      "if (global.flag[1045] >= 15)"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 465",
+      "healcount = (global.mag[1] * 10) + (2 * global.flag[1045]);"
+    ]
+  },
+  "global.flag[1047]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 99",
+      "if (global.flag[1047] == 1)"
+    ],
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 655",
+      "if (global.flag[1047] == 2)"
+    ]
+  },
+  "global.flag[1049]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 64",
+      "totalbattles = global.flag[1049];"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 64",
+      "totalbattles = global.flag[1049];"
+    ]
+  },
+  "global.flag[1054]": {
+    "gml_GlobalScript_scr_textsound.gml": [
+      "line 135",
+      "var pitchrandom = (0.86 + random(0.35)) * global.flag[1054];"
+    ]
+  },
+  "global.flag[1078]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 56",
+      "mossfound = global.flag[1078];"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 56",
+      "mossfound = global.flag[1078];"
+    ]
+  },
+  "global.flag[1096]": {
+    "gml_GlobalScript_scr_rhythmgame_song_load.gml": [
+      "line 362",
+      "if (!other.spooked && global.plot < 150 && global.flag[1096] == 0)"
+    ],
+    "gml_Object_obj_rhythmgame_Step_0.gml": [
+      "line 471",
+      "var _failures = global.flag[1096];"
+    ]
+  },
+  "global.flag[1099]": {
+    "gml_GlobalScript_scr_keyiteminfo.gml": [
+      "line 177",
+      "tempkeyitemname = stringsetsubloc(\"LancerConX~1\", string(global.flag[1099]), \"scr_keyiteminfo_slash_scr_keyiteminfo_gml_189_0\");"
+    ]
+  },
+  "global.flag[1116]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 124",
+      "global.flag[1116] = 0;"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 124",
+      "global.flag[1116] = 0;"
+    ]
+  },
+  "global.flag[1117]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 52",
+      "global.flag[1117] = 0;"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 52",
+      "global.flag[1117] = 0;"
+    ]
+  },
+  "global.flag[1118]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 53",
+      "global.flag[1118] = 0;"
+    ],
+    "gml_Object_obj_rhythmgame_Step_0.gml": [
+      "line 1291",
+      "global.flag[1118] = points;"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 53",
+      "global.flag[1118] = 0;"
+    ]
+  },
+  "global.flag[1122]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 76",
+      "if (global.flag[1122] > 4)"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 76",
+      "if (global.flag[1122] > 4)"
+    ]
+  },
+  "global.flag[1144]": {
+    "gml_Object_obj_holywatercooler_enemy_Create_0.gml": [
+      "line 32",
+      "if (global.flag[1144] == 1)"
+    ]
+  },
+  "global.flag[1171]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 85",
+      "totalbattles = global.flag[1171];"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 85",
+      "totalbattles = global.flag[1171];"
+    ]
+  },
+  "global.flag[1172]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 105",
+      "totalbattles = global.flag[1172];"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 105",
+      "totalbattles = global.flag[1172];"
+    ]
+  },
+  "global.flag[1173]": {
+    "gml_Object_obj_minigame_evaluation_Draw_0.gml": [
+      "line 1869",
+      "global.flag[1173] = gradenumber;"
+    ],
+    "gml_Object_obj_round_evaluation_Draw_0.gml": [
+      "line 1865",
+      "global.flag[1173] = gradenumber;"
+    ]
+  },
+  "global.flag[1174]": {
+    "gml_Object_obj_minigame_evaluation_Draw_0.gml": [
+      "line 1872",
+      "global.flag[1174] = gradenumber;"
+    ],
+    "gml_Object_obj_round_evaluation_Draw_0.gml": [
+      "line 1868",
+      "global.flag[1174] = gradenumber;"
+    ]
+  },
+  "global.flag[1193]": {
+    "gml_Object_obj_minigame_evaluation_Draw_0.gml": [
+      "line 1125",
+      "global.flag[1193] = physicalchallengepoints;"
+    ],
+    "gml_Object_obj_round_evaluation_Draw_0.gml": [
+      "line 1121",
+      "global.flag[1193] = physicalchallengepoints;"
+    ]
+  },
+  "global.flag[1194]": {
+    "gml_Object_obj_minigame_evaluation_Draw_0.gml": [
+      "line 1126",
+      "global.flag[1194] = currentphychallengerank;"
+    ],
+    "gml_Object_obj_round_evaluation_Draw_0.gml": [
+      "line 1122",
+      "global.flag[1194] = currentphychallengerank;"
+    ]
+  },
+  "global.flag[1195]": {
+    "gml_Object_obj_minigame_evaluation_Draw_0.gml": [
+      "line 1134",
+      "global.flag[1195] = physicalchallengepoints;"
+    ],
+    "gml_Object_obj_round_evaluation_Draw_0.gml": [
+      "line 1130",
+      "global.flag[1195] = physicalchallengepoints;"
+    ]
+  },
+  "global.flag[1196]": {
+    "gml_Object_obj_minigame_evaluation_Draw_0.gml": [
+      "line 1135",
+      "global.flag[1196] = currentphychallengerank;"
+    ],
+    "gml_Object_obj_round_evaluation_Draw_0.gml": [
+      "line 1131",
+      "global.flag[1196] = currentphychallengerank;"
+    ]
+  },
+  "global.flag[1197]": {
+    "gml_Object_obj_minigame_evaluation_Draw_0.gml": [
+      "line 397",
+      "global.flag[1197] = physicalchallengepoints;"
+    ],
+    "gml_Object_obj_round_evaluation_Draw_0.gml": [
+      "line 396",
+      "global.flag[1197] = physicalchallengepoints;"
+    ]
+  },
+  "global.flag[1198]": {
+    "gml_Object_obj_minigame_evaluation_Draw_0.gml": [
+      "line 398",
+      "global.flag[1198] = currentphychallengerank;"
+    ],
+    "gml_Object_obj_round_evaluation_Draw_0.gml": [
+      "line 397",
+      "global.flag[1198] = currentphychallengerank;"
+    ]
+  },
+  "global.flag[1227]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 96",
+      "if ((global.flag[1041] + global.flag[1042] + global.flag[1043] + global.flag[1227]) == 4)"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 96",
+      "if ((global.flag[1041] + global.flag[1042] + global.flag[1043] + global.flag[1227]) == 4)"
+    ]
+  },
+  "global.flag[1234]": {
+    "gml_Object_obj_minigame_evaluation_Draw_0.gml": [
+      "line 399",
+      "global.flag[1234] = global.susie_cleartime_sec;"
+    ],
+    "gml_Object_obj_round_evaluation_Draw_0.gml": [
+      "line 398",
+      "global.flag[1234] = global.susie_cleartime_sec;"
+    ]
+  },
+  "global.flag[1242]": {
+    "gml_Object_obj_minigame_evaluation_Create_0.gml": [
+      "line 47",
+      "global.flag[1242] = maxstack;"
+    ],
+    "gml_Object_obj_round_evaluation_Create_0.gml": [
+      "line 47",
+      "global.flag[1242] = maxstack;"
+    ]
+  },
+  "global.flag[1279]": {
+    "gml_Object_obj_minigame_evaluation_Draw_0.gml": [
+      "line 676",
+      "global.flag[1279] = physicalchallengepoints;"
+    ],
+    "gml_Object_obj_round_evaluation_Draw_0.gml": [
+      "line 673",
+      "global.flag[1279] = physicalchallengepoints;"
+    ]
+  },
+  "global.flag[1280]": {
+    "gml_Object_obj_minigame_evaluation_Draw_0.gml": [
+      "line 677",
+      "global.flag[1280] = currentphychallengerank;"
+    ],
+    "gml_Object_obj_round_evaluation_Draw_0.gml": [
+      "line 674",
+      "global.flag[1280] = currentphychallengerank;"
+    ]
+  },
+  "global.flag[1500]": {
+    "gml_Object_obj_dw_church_moneyfountain_Step_0.gml": [
+      "line 213",
+      "global.flag[1500] = 1;"
+    ]
+  },
+  "global.flag[1501]": {
+    "gml_Object_obj_dw_church_darkmaze_Step_0.gml": [
+      "line 1813",
+      "global.flag[1501] = 1;"
+    ]
+  },
+  "global.flag[1502]": {
+    "gml_Object_obj_dw_church_rippleworship_Create_0.gml": [
+      "line 81",
+      "if (global.flag[1502] >= 2)"
+    ],
+    "gml_Object_obj_dw_church_rippleworship_Step_0.gml": [
+      "line 109",
+      "if (global.flag[1502] >= 2)"
+    ],
+    "gml_Object_obj_dw_church_secretpiano_Create_0.gml": [
+      "line 23",
+      "if (global.flag[1502] >= 2)"
+    ]
+  },
+  "global.flag[1503]": {
+    "gml_Object_obj_dw_church_moneyfountain_Create_0.gml": [
+      "line 30",
+      "if (global.flag[1503])"
+    ]
+  },
+  "global.flag[1519]": {
+    "gml_Object_obj_dw_church_secretpiano_Create_0.gml": [
+      "line 26",
+      "if (global.flag[1519] != 0)"
+    ]
+  },
+  "global.flag[1523]": {
+    "gml_Object_obj_dw_church_moneyfountain_Create_0.gml": [
+      "line 33",
+      "if (global.flag[1523])"
+    ]
+  },
+  "global.flag[1524]": {
+    "gml_Object_obj_dw_church_sideclimb_Create_0.gml": [
+      "line 130",
+      "if (global.flag[1524] != 0)"
+    ],
+    "gml_Object_obj_dw_church_sideclimb_Step_0.gml": [
+      "line 890",
+      "if (global.flag[1524] <= 182 && global.flag[1524] != 0 && global.flag[1525] <= 302 && global.flag[1525] != 0)"
+    ]
+  },
+  "global.flag[1525]": {
+    "gml_Object_obj_dw_church_sideclimb_Create_0.gml": [
+      "line 133",
+      "if (global.flag[1525] != 0)"
+    ],
+    "gml_Object_obj_dw_church_sideclimb_Step_0.gml": [
+      "line 890",
+      "if (global.flag[1524] <= 182 && global.flag[1524] != 0 && global.flag[1525] <= 302 && global.flag[1525] != 0)"
+    ]
+  },
+  "global.flag[1526]": {
+    "gml_Object_obj_dw_church_sideclimb_Create_0.gml": [
+      "line 136",
+      "if (global.flag[1526] == 3)"
+    ],
+    "gml_Object_obj_dw_church_sideclimb_Step_0.gml": [
+      "line 790",
+      "if (global.flag[1526] >= 2)"
+    ]
+  },
+  "global.flag[1529]": {
+    "gml_Object_obj_dw_church_northprophecies_Create_0.gml": [
+      "line 6",
+      "global.flag[1529] = 0;"
+    ],
+    "gml_Object_obj_dw_church_northprophecies_Step_0.gml": [
+      "line 110",
+      "global.flag[1529] = 1;"
+    ]
+  },
+  "global.flag[1530]": {
+    "gml_Object_obj_dw_church_trueclimbadventure_Create_0.gml": [
+      "line 19",
+      "if (global.flag[1530] == 1)"
+    ],
+    "gml_Object_obj_dw_church_trueclimbadventure_Step_0.gml": [
+      "line 68",
+      "global.flag[1530] = 1;"
+    ]
+  },
+  "global.flag[1537]": {
+    "gml_Object_obj_dw_churchb_moneyfountain_Step_0.gml": [
+      "line 84",
+      "var itemreceived = global.flag[1537];"
+    ]
+  },
+  "global.flag[1538]": {
+    "gml_Object_obj_bookshelf_destructable_Draw_0.gml": [
+      "line 16",
+      "if (global.flag[1538] == 1)"
+    ],
+    "gml_Object_obj_dw_church_remotepianomove_Step_0.gml": [
+      "line 435",
+      "global.flag[1538] = 1;"
+    ],
+    "gml_Object_obj_dw_church_remotepianomove_ui_Draw_0.gml": [
+      "line 16",
+      "if (global.flag[1538] == 0 && !final)"
+    ],
+    "gml_Object_obj_tutorial_text_Draw_73.gml": [
+      "line 126",
+      "if (global.flag[1538] == 1)"
+    ]
+  },
+  "global.flag[1543]": {
+    "gml_Object_obj_dw_churchb_library_Step_0.gml": [
+      "line 15",
+      "if (global.flag[1543] == 1)"
+    ]
+  },
+  "global.flag[1544]": {
+    "gml_Object_obj_dw_church_mizzleencounter_Step_0.gml": [
+      "line 39",
+      "global.flag[1544] = 1;"
+    ],
+    "gml_Object_obj_mizzle_enemy_Create_0.gml": [
+      "line 9",
+      "if (global.flag[1544] == 0)"
+    ],
+    "gml_Object_obj_mizzle_enemy_Step_0.gml": [
+      "line 28",
+      "global.flag[1544] = 1;"
+    ]
+  },
+  "global.flag[1547]": {
+    "gml_Object_obj_church_secretpiano_playable_Create_0.gml": [
+      "line 69",
+      "if (global.flag[1547])"
+    ],
+    "gml_Object_obj_dw_church_secretpiano_Create_0.gml": [
+      "line 10",
+      "pianosolved = global.flag[1547];"
+    ]
+  },
+  "global.flag[1560]": {
+    "gml_Object_obj_dw_churchb_gallery_Create_0.gml": [
+      "line 19",
+      "global.flag[1560] = 0;"
+    ],
+    "gml_Object_obj_dw_churchb_gallery_Step_0.gml": [
+      "line 389",
+      "global.flag[1560] = 2;"
+    ]
+  },
+  "global.flag[1561]": {
+    "gml_Object_obj_dw_church_organpuzzle_Create_0.gml": [
+      "line 6",
+      "global.flag[1561] = 0;"
+    ],
+    "gml_Object_obj_dw_church_organpuzzle_Step_0.gml": [
+      "line 102",
+      "global.flag[1561] = 1;"
+    ]
+  },
+  "global.flag[1569]": {
+    "gml_GlobalScript_scr_spell.gml": [
+      "line 352",
+      "if (global.flag[1569] == 1)"
+    ],
+    "gml_GlobalScript_scr_spellinfo.gml": [
+      "line 206",
+      "if (global.flag[1569] == 1 || global.flag[852] == 1)"
+    ],
+    "gml_GlobalScript_scr_spelltext.gml": [
+      "line 72",
+      "if (global.flag[1569] == 1)"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 464",
+      "if (global.flag[1569] == 1)"
+    ],
+    "gml_Object_obj_hammer_of_justice_enemy_Step_0.gml": [
+      "line 1389",
+      "global.flag[1569] = 1;"
+    ],
+    "gml_Object_obj_sound_of_justice_enemy_Create_0.gml": [
+      "line 1",
+      "global.flag[1569] = 1;"
+    ]
+  },
+  "global.flag[1571]": {
+    "gml_Object_obj_dw_church_trueclimbadventure_Create_0.gml": [
+      "line 36",
+      "if (global.flag[1571] == 1)"
+    ],
+    "gml_Object_obj_dw_church_trueclimbadventure_Step_0.gml": [
+      "line 96",
+      "global.flag[1571] = 1;"
+    ]
+  },
+  "global.flag[1572]": {
+    "gml_Object_obj_dw_churchb_bellroom_Create_0.gml": [
+      "line 47",
+      "if (global.flag[1572])"
+    ],
+    "gml_Object_obj_dw_churchb_bellroom_Step_0.gml": [
+      "line 100",
+      "global.flag[1572] = 2;"
+    ]
+  },
+  "global.flag[1573]": {
+    "gml_Object_obj_dw_churchb_windows_Create_0.gml": [
+      "line 18",
+      "global.flag[1573] = 0;"
+    ],
+    "gml_Object_obj_dw_churchb_windows_Step_0.gml": [
+      "line 35",
+      "if (global.flag[1573] == 8)"
+    ]
+  },
+  "global.flag[1580]": {
+    "gml_GlobalScript_scr_levelup.gml": [
+      "line 54",
+      "if ((global.flag[1580] % 4) == 0)"
+    ]
+  },
+  "global.flag[1583]": {
+    "gml_Object_obj_cloud_controller_new_Create_0.gml": [
+      "line 14",
+      "speedmult = lerp(1, 0.7, clamp(global.flag[1583] / 3, 0, 1));"
+    ],
+    "gml_Object_obj_cloud_controller_new_Step_2.gml": [
+      "line 50",
+      "global.flag[1583]++;"
+    ]
+  },
+  "global.flag[1585]": {
+    "gml_Object_obj_dw_church_remotepianomove_Create_0.gml": [
+      "line 31",
+      "y = (global.flag[1585] % 1000) * 40;"
+    ],
+    "gml_Object_obj_dw_church_remotepianomove_Step_0.gml": [
+      "line 789",
+      "global.flag[1585] = floor((x / 40) * 1000) + floor(y / 40);"
+    ]
+  },
+  "global.flag[1592]": {
+    "gml_Object_obj_dw_churchb_windows_Create_0.gml": [
+      "line 83",
+      "if (global.flag[1592] == 1)"
+    ],
+    "gml_Object_obj_dw_churchb_windows_Step_0.gml": [
+      "line 135",
+      "global.flag[1592] = 2;"
+    ]
+  },
+  "global.flag[1593]": {
+    "gml_Object_obj_dw_churchb_gersonstudy_Step_0.gml": [
+      "line 305",
+      "global.flag[1593] = 2;"
+    ]
+  },
+  "global.flag[1594]": {
+    "gml_Object_obj_dw_churchb_gersonstudy_Step_0.gml": [
+      "line 386",
+      "global.flag[1594]++;"
+    ]
+  },
+  "global.flag[1595]": {
+    "gml_Object_obj_dw_churchc_encounter2_Create_0.gml": [
+      "line 40",
+      "if (global.flag[1595] == 2)"
+    ],
+    "gml_Object_obj_dw_churchc_encounter2_Step_0.gml": [
+      "line 58",
+      "global.flag[1595] = 2;"
+    ],
+    "gml_Object_obj_dw_churchc_treasurechest_Create_0.gml": [
+      "line 11",
+      "global.flag[1595] = 0;"
+    ],
+    "gml_Object_obj_dw_churchc_treasurechest_Step_0.gml": [
+      "line 44",
+      "global.flag[1595] = 1;"
+    ]
+  },
+  "global.flag[1596]": {
+    "gml_Object_obj_dw_churchc_angelprophecy_Create_0.gml": [
+      "line 23",
+      "if (global.flag[1596])"
+    ],
+    "gml_Object_obj_dw_churchc_angelprophecy_Step_0.gml": [
+      "line 104",
+      "global.flag[1596] = 1;"
+    ]
+  },
+  "global.flag[1597]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 368",
+      "var puredcount = clamp(0, global.flag[1597], 9999);"
+    ],
+    "gml_Object_obj_titan_spawn_enemy_Step_0.gml": [
+      "line 304",
+      "global.flag[1597] += 2;"
+    ]
+  },
+  "global.flag[1598]": {
+    "gml_GlobalScript_scr_defeatrun.gml": [
+      "line 52",
+      "global.flag[1598]++;"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 369",
+      "var slaincount = clamp(0, global.flag[1598], 9999);"
+    ]
+  },
+  "global.flag[1599]": {
+    "gml_Object_obj_dw_church_cupstack_Draw_0.gml": [
+      "line 3",
+      "if (global.flag[1599] == 0)"
+    ],
+    "gml_Object_obj_dw_church_cupstack_Step_0.gml": [
+      "line 73",
+      "global.flag[1599] = 1;"
+    ]
+  },
+  "global.flag[1604]": {
+    "gml_Object_obj_dw_church_ripplepuzzle_postgers_Create_0.gml": [
+      "line 101",
+      "if (global.flag[1604] == 1)"
+    ],
+    "gml_Object_obj_dw_church_ripplepuzzle_postgers_Step_0.gml": [
+      "line 1025",
+      "global.flag[1604] = 1;"
+    ]
+  },
+  "global.flag[1606]": {
+    "gml_Object_obj_dw_churchc_angelprophecy_encounter_Create_0.gml": [
+      "line 21",
+      "global.flag[1606] = 0;"
+    ],
+    "gml_Object_obj_dw_churchc_angelprophecy_encounter_Other_11.gml": [
+      "line 10",
+      "if (global.flag[1606] == 1)"
+    ],
+    "gml_Object_obj_dw_churchc_angelprophecy_encounter_Step_0.gml": [
+      "line 139",
+      "global.flag[1606] = 2;"
+    ]
+  },
+  "global.flag[1611]": {
+    "gml_Object_obj_dw_churchc_prophecies_Step_0.gml": [
+      "line 90",
+      "global.flag[1611] = 1;"
+    ]
+  },
+  "global.flag[1615]": {
+    "gml_Object_obj_dw_churchc_superprophecies_Create_0.gml": [
+      "line 39",
+      "if (global.flag[1615] == 1)"
+    ],
+    "gml_Object_obj_dw_churchc_superprophecies_Step_0.gml": [
+      "line 14",
+      "global.flag[1615] = 1;"
+    ]
+  },
+  "global.flag[1616]": {
+    "gml_Object_obj_dw_churchc_encounter2_Step_0.gml": [
+      "line 52",
+      "if (global.flag[1595] == 1 && global.flag[1616] == true)"
+    ]
+  },
+  "global.flag[1617]": {
+    "gml_Object_obj_dw_church_intro_gerson_Step_0.gml": [
+      "line 92",
+      "global.flag[1617] = 1;"
+    ]
+  },
+  "global.flag[1622]": {
+    "gml_Object_obj_dw_churchb_man_Step_0.gml": [
+      "line 304",
+      "global.flag[1622] = 1;"
+    ]
+  },
+  "global.flag[1637]": {
+    "gml_Object_obj_dw_church_jackenstein_pumpkinNPC_Create_0.gml": [
+      "line 15",
+      "if (global.flag[1637] == 2)"
+    ],
+    "gml_Object_obj_dw_church_jackenstein_pumpkinNPC_Step_0.gml": [
+      "line 200",
+      "global.flag[1637] = 2;"
+    ]
+  },
+  "global.flag[1639]": {
+    "gml_Object_obj_dw_church_intro_guei_Create_0.gml": [
+      "line 87",
+      "if (global.flag[1639] == 1)"
+    ],
+    "gml_Object_obj_dw_church_intro_guei_Step_0.gml": [
+      "line 204",
+      "global.flag[1639] = 1;"
+    ],
+    "gml_Object_obj_guei_enemy_Step_0.gml": [
+      "line 725",
+      "global.flag[1639] = 1;"
+    ]
+  },
+  "global.flag[1640]": {
+    "gml_Object_obj_darkshape_greenblob_Step_0.gml": [
+      "line 53",
+      "if (global.flag[1640] >= 16)"
+    ],
+    "gml_Object_obj_dw_churchc_titanclimb2_post_Step_0.gml": [
+      "line 539",
+      "global.flag[1640] = global.tempflag[96];"
+    ]
+  },
+  "global.flag[1641]": {
+    "gml_Object_obj_sound_of_justice_enemy_Create_0.gml": [
+      "line 110",
+      "if (global.tempflag[57] < 4 || global.flag[1641] > 4)"
+    ]
+  },
+  "global.flag[1658]": {
+    "gml_GlobalScript_scr_load.gml": [
+      "line 348",
+      "global.flag[1658] = 1;"
+    ],
+    "gml_Object_obj_dw_church_knightclimbpost_Create_0.gml": [
+      "line 71",
+      "if (global.flag[1658] == 1)"
+    ],
+    "gml_Object_obj_room_castle_area_1_Create_0.gml": [
+      "line 10",
+      "if (global.flag[1658] == 1 && global.tempflag[58] == 1)"
+    ]
+  },
+  "global.flag[1659]": {
+    "gml_GlobalScript_scr_load.gml": [
+      "line 350",
+      "if (global.flag[1659] == 0)"
+    ],
+    "gml_Object_obj_dw_church_knightclimbpost_Create_0.gml": [
+      "line 77",
+      "if (global.flag[1659] == 0 && global.plot >= 243)"
+    ],
+    "gml_Object_obj_dw_church_knightclimbpost_Step_0.gml": [
+      "line 580",
+      "global.flag[1659] = 1;"
+    ]
+  },
+  "global.flag[1660]": {
+    "gml_Object_obj_dw_church_knightclimbpost_Create_0.gml": [
+      "line 104",
+      "if (global.flag[1660] == 1)"
+    ],
+    "gml_Object_obj_dw_church_knightclimbpost_Step_0.gml": [
+      "line 701",
+      "global.flag[1660] = 1;"
+    ]
+  },
+  "global.flag[1661]": {
+    "gml_Object_obj_ch4_PDC06_Create_0.gml": [
+      "line 4",
+      "if (global.flag[1661] == 0)"
+    ],
+    "gml_Object_obj_doorAny_Step_0.gml": [
+      "line 75",
+      "if (global.flag[1661] > 0 && global.plot >= 240)"
+    ],
+    "gml_Object_obj_doorX_musfade_Alarm_2.gml": [
+      "line 30",
+      "if (room == room_dw_castle_town && global.flag[1661] > 0 && y >= 1500)"
+    ],
+    "gml_Object_obj_dw_ch3_funny_stanchion_controller_Create_0.gml": [
+      "line 134",
+      "if (global.flag[1661] == 0)"
+    ],
+    "gml_Object_obj_dw_church_knightclimbpost_Step_0.gml": [
+      "line 851",
+      "if (global.flag[1661] == 1)"
+    ],
+    "gml_Object_obj_mainchara_Create_0.gml": [
+      "line 288",
+      "if (global.plot >= 240 && global.flag[1661] > 0)"
+    ],
+    "gml_Object_obj_musicer_darkcastle_Create_0.gml": [
+      "line 33",
+      "else if (global.flag[1661] > 0 && global.plot >= 240)"
+    ],
+    "gml_Object_obj_room_castle_town_Create_0.gml": [
+      "line 26",
+      "if (global.plot >= 240 && global.flag[1661] > 0)"
+    ]
+  },
+  "global.flag[1663]": {
+    "gml_Object_obj_miccheck_Other_10.gml": [
+      "line 29",
+      "global.flag[1663] = 1;"
+    ]
+  },
+  "global.flag[1664]": {
+    "gml_Object_obj_savepoint_Other_10.gml": [
+      "line 15",
+      "global.flag[1664] = 1;"
+    ]
+  },
+  "global.flag[1688]": {
+    "gml_Object_obj_dw_church_arena_Step_0.gml": [
+      "line 965",
+      "global.flag[1688] = 2;"
+    ],
+    "gml_Object_obj_dw_gerson_study_Create_0.gml": [
+      "line 315",
+      "if (global.flag[1688] == 2)"
+    ]
+  },
+  "global.flag[1689]": {
+    "gml_Object_obj_room_castle_tv_zone_1_Create_0.gml": [
+      "line 5",
+      "if (global.flag[1689] == 0 && !solo_mode)"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_1_Step_0.gml": [
+      "line 106",
+      "if (global.flag[1689] == 0 && !solo_mode)"
+    ]
+  },
+  "global.flag[1690]": {
+    "gml_Object_obj_room_castle_tv_zone_1_Create_0.gml": [
+      "line 74",
+      "if (global.flag[1690] == 1)"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_1_Step_0.gml": [
+      "line 63",
+      "global.flag[1690] = 1;"
+    ]
+  },
+  "global.flag[1691]": {
+    "gml_Object_obj_room_castle_tv_zone_1_Step_0.gml": [
+      "line 69",
+      "global.flag[1691] = 2;"
+    ]
+  },
+  "global.flag[1692]": {
+    "gml_Object_obj_mike_statue_cat_overworld_Create_0.gml": [
+      "line 24",
+      "if (!scr_is_valid_mic_platform() && global.flag[1692] == 1)"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_1_Create_0.gml": [
+      "line 8",
+      "if (global.flag[1692] == 1)"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_2_Create_0.gml": [
+      "line 4",
+      "if (global.flag[1692] == 1)"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_3_Create_0.gml": [
+      "line 114",
+      "if (global.flag[1692] == 1)"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_3_Step_0.gml": [
+      "line 343",
+      "global.flag[1692] = 1;"
+    ]
+  },
+  "global.flag[1693]": {
+    "gml_Object_obj_room_castle_tv_zone_3_Create_0.gml": [
+      "line 121",
+      "if (global.flag[1693] == 1)"
+    ]
+  },
+  "global.flag[1694]": {
+    "gml_Object_obj_room_castle_tv_zone_2_Create_0.gml": [
+      "line 72",
+      "var remembered_flag = global.flag[1694];"
+    ]
+  },
+  "global.flag[1695]": {
+    "gml_Object_obj_room_castle_tv_zone_battle_Create_0.gml": [
+      "line 46",
+      "if (global.flag[1695] == 0)"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_battle_Step_0.gml": [
+      "line 239",
+      "global.flag[1695] = 1;"
+    ]
+  },
+  "global.flag[1696]": {
+    "gml_Object_obj_room_castle_tv_Create_0.gml": [
+      "line 122",
+      "if (global.flag[1696] == 1 && global.flag[1702] == 0)"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_battle_Create_0.gml": [
+      "line 57",
+      "else if (global.flag[1696] == 0)"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_battle_Step_0.gml": [
+      "line 844",
+      "global.flag[1696] = 1;"
+    ]
+  },
+  "global.flag[1697]": {
+    "gml_Object_obj_mike_door_Create_0.gml": [
+      "line 12",
+      "if (global.flag[1697] == 1)"
+    ],
+    "gml_Object_obj_mike_door_Draw_0.gml": [
+      "line 87",
+      "global.flag[1697] = 1;"
+    ]
+  },
+  "global.flag[1698]": {
+    "gml_Object_obj_mike_minigame_controller_Step_0.gml": [
+      "line 1139",
+      "global.flag[1698] = other.myscore;"
+    ],
+    "gml_Object_obj_mike_minigame_tv_Create_0.gml": [
+      "line 36",
+      "hiscore[_i++] = global.flag[1698];"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_minigame_Step_0.gml": [
+      "line 592",
+      "hiscore[1] = global.flag[1698];"
+    ]
+  },
+  "global.flag[1699]": {
+    "gml_Object_obj_mike_minigame_controller_Step_0.gml": [
+      "line 1141",
+      "global.flag[1699] = other.myscore;"
+    ],
+    "gml_Object_obj_mike_minigame_tv_Create_0.gml": [
+      "line 37",
+      "hiscore[_i++] = global.flag[1699];"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_minigame_Step_0.gml": [
+      "line 593",
+      "hiscore[2] = global.flag[1699];"
+    ]
+  },
+  "global.flag[1700]": {
+    "gml_Object_obj_mike_minigame_controller_Other_21.gml": [
+      "line 21",
+      "global.flag[1700] = other.myscore;"
+    ],
+    "gml_Object_obj_mike_minigame_tv_Create_0.gml": [
+      "line 38",
+      "hiscore[_i++] = global.flag[1700];"
+    ],
+    "gml_Object_obj_room_castle_tv_zone_minigame_Step_0.gml": [
+      "line 594",
+      "hiscore[3] = global.flag[1700];"
+    ]
+  },
+  "global.flag[1701]": {
+    "gml_Object_obj_mike_controller_Create_0.gml": [
+      "line 2",
+      "global.mic_sensitivity = global.flag[1701];"
+    ]
+  },
+  "global.flag[1702]": {
+    "gml_Object_obj_doorAny_Step_0.gml": [
+      "line 67",
+      "if (global.flag[1702] == 1)"
+    ],
+    "gml_Object_obj_room_castle_tv_Create_0.gml": [
+      "line 125",
+      "if (global.flag[1702] == 1)"
+    ],
+    "gml_Object_obj_room_castle_tv_Step_0.gml": [
+      "line 197",
+      "global.flag[1702] = 1;"
+    ]
+  },
+  "global.flag[1704]": {
+    "gml_Object_obj_ch4_PDC10C_Create_0.gml": [
+      "line 151",
+      "global.flag[1704] = 2;"
+    ],
+    "gml_Object_obj_ch4_PDC14A_noelle_Step_0.gml": [
+      "line 393",
+      "global.flag[1704] = 1;"
+    ]
+  },
+  "global.flag[1787]": {
+    "gml_Object_obj_dw_church_moneyfountain_Create_0.gml": [
+      "line 41",
+      "if (global.flag[1787] == 1)"
+    ],
+    "gml_Object_obj_dw_church_moneyfountain_Step_0.gml": [
+      "line 44",
+      "if (global.flag[1787] == 1)"
+    ]
+  },
+  "global.flag[1791]": {
+    "gml_Object_obj_dw_churchc_encounter1_Step_0.gml": [
+      "line 133",
+      "if (global.flag[1791] != 1)"
+    ]
+  },
+  "global.flag[1798]": {
+    "gml_Object_obj_dw_church_mizzleencounter_Step_0.gml": [
+      "line 5",
+      "if (global.flag[1798] == 1)"
+    ]
+  }
+}

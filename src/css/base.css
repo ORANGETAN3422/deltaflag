@@ -103,11 +103,6 @@ a:hover {
 	text-shadow: 0 0 12px var(--color-theme-1-glow);
 }
 
-a:hover::before {
-	content: '› ';
-	color: var(--color-theme-2);
-}
-
 /* hr */
 
 hr {

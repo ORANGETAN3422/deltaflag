@@ -1,0 +1,5182 @@
+{
+  "global.flag[6]": {
+    "gml_Object_DEVICE_CONTACT_old_Create_0.gml": [
+      "line 7",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 832",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_DEVICE_FAILURE_Create_0.gml": [
+      "line 7",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_DEVICE_FAILURE_Step_0.gml": [
+      "line 144",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_DEVICE_NAMER_Create_0.gml": [
+      "line 7",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_darkdoor_Step_0.gml": [
+      "line 495",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_krisroom_Step_0.gml": [
+      "line 340",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_legend_Create_0.gml": [
+      "line 19",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_obj_legend_Draw_0.gml": [
+      "line 672",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_legend_neo_Create_0.gml": [
+      "line 23",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_obj_legend_neo_Draw_0.gml": [
+      "line 384",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_writer_Create_0.gml": [
+      "line 16",
+      "if (global.flag[6] == 1)"
+    ]
+  },
+  "global.flag[7]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 40",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_ch2_city_noelle_monologue_Create_0.gml": [
+      "line 24",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_ch2_city_noelle_monologue_Step_0.gml": [
+      "line 325",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_controller_city_mice2_Step_0.gml": [
+      "line 815",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_controller_city_mice3_Step_0.gml": [
+      "line 935",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_controller_dining3_Step_0.gml": [
+      "line 529",
+      "global.flag[7] = 1;"
+    ],
+    "gml_Object_obj_controller_dininghall_Step_0.gml": [
+      "line 167",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_controller_dw_city_big_2_Step_0.gml": [
+      "line 853",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_controller_dw_cyber_music_final_Step_0.gml": [
+      "line 165",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_controller_dw_cyber_post_music_boss_slide_Create_0.gml": [
+      "line 19",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_controller_dw_cyber_post_music_boss_slide_Step_0.gml": [
+      "line 94",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_darklanding_Step_0.gml": [
+      "line 12",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_lancerchaseevent_Step_0.gml": [
+      "line 3",
+      "global.flag[7] = 1;"
+    ],
+    "gml_Object_obj_mainchara_Step_0.gml": [
+      "line 39",
+      "if (global.flag[7] == 0 && battlemode == 0 && swordmode == 0)"
+    ],
+    "gml_Object_obj_room_dw_city_postbaseball_Step_0.gml": [
+      "line 1117",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_shop1_Alarm_3.gml": [
+      "line 1",
+      "if (global.flag[7] == 0)"
+    ],
+    "gml_Object_obj_shop2_Alarm_3.gml": [
+      "line 1",
+      "if (global.flag[7] == 0)"
+    ],
+    "gml_Object_obj_shop_ch2_music_Alarm_3.gml": [
+      "line 1",
+      "if (global.flag[7] == 0)"
+    ],
+    "gml_Object_obj_shop_ch2_spamton_Alarm_3.gml": [
+      "line 1",
+      "if (global.flag[7] == 0)"
+    ],
+    "gml_Object_obj_shop_ch2_swatch_Alarm_3.gml": [
+      "line 1",
+      "if (global.flag[7] == 0)"
+    ]
+  },
+  "global.flag[8]": {
+    "gml_GlobalScript_scr_darkbox.gml": [
+      "line 26",
+      "if (global.flag[8] == 0)"
+    ],
+    "gml_Object_obj_3d_bg_effect_Draw_0.gml": [
+      "line 52",
+      "if (global.flag[8] == 1)"
+    ],
+    "gml_Object_obj_beatbullet_2_Step_0.gml": [
+      "line 82",
+      "if (global.flag[8] == 0)"
+    ],
+    "gml_Object_obj_beatbullet_wall_Draw_0.gml": [
+      "line 15",
+      "if (global.flag[8] == 1)"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 74",
+      "if (global.flag[8] == 1)"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 267",
+      "global.flag[8] = 0;"
+    ],
+    "gml_Object_obj_forcefield_Draw_0.gml": [
+      "line 76",
+      "if (global.flag[8] == 0)"
+    ],
+    "gml_Object_obj_lancerslideevent_Create_0.gml": [
+      "line 5",
+      "seiz = global.flag[8];"
+    ],
+    "gml_Object_obj_overworldbullet_fireworks_Step_0.gml": [
+      "line 65",
+      "if (global.flag[8] == 0)"
+    ],
+    "gml_Object_obj_queenart_mona_Draw_0.gml": [
+      "line 9",
+      "if (global.flag[8] == 1)"
+    ],
+    "gml_Object_obj_queenscreen_dance_Draw_0.gml": [
+      "line 14",
+      "if (global.flag[8] == 0)"
+    ],
+    "gml_Object_obj_queenscreen_dance_Step_0.gml": [
+      "line 124",
+      "if (global.flag[8] == 0)"
+    ],
+    "gml_Object_obj_queenscreen_Draw_0.gml": [
+      "line 61",
+      "if (global.flag[8] == 0)"
+    ],
+    "gml_Object_obj_spamton_neo_enemy_Draw_0.gml": [
+      "line 1366",
+      "if (global.flag[8] == 1)"
+    ]
+  },
+  "global.flag[9]": {
+    "gml_GlobalScript_scr_battle.gml": [
+      "line 8",
+      "global.flag[9] = 1;"
+    ],
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 41",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 1",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_berdly_encounter_setup_Other_10.gml": [
+      "line 6",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_berdly_encounter_setup_Other_11.gml": [
+      "line 17",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_berdly_encounter_setup_Step_0.gml": [
+      "line 22",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_ch2_city05_Step_0.gml": [
+      "line 334",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_ch2_city_berdly_Step_0.gml": [
+      "line 337",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_ch2_cyber01_Step_0.gml": [
+      "line 355",
+      "global.flag[9] = 2;"
+    ],
+    "gml_Object_obj_ch2_room_mansion_kitchen_Step_0.gml": [
+      "line 171",
+      "global.flag[9] = 0;"
+    ],
+    "gml_Object_obj_ch2_scene11a_Step_0.gml": [
+      "line 526",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_ch2_scene21_loop_Step_0.gml": [
+      "line 495",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_ch2_scene25_Step_0.gml": [
+      "line 279",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_ch2_scene26_Step_0.gml": [
+      "line 810",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_ch2_scene9_Step_0.gml": [
+      "line 534",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_ch2_sceneex2_Step_0.gml": [
+      "line 566",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 379",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_encounterbasic_Create_0.gml": [
+      "line 3",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_encounterbasic_Step_0.gml": [
+      "line 3",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_endbattle_Alarm_0.gml": [
+      "line 24",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_endbattle_Create_0.gml": [
+      "line 46",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_fountainkris_ch2_sideb_Step_0.gml": [
+      "line 274",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_mazepipis_Step_0.gml": [
+      "line 26",
+      "global.flag[9] = 2;"
+    ],
+    "gml_Object_obj_npc_tasquemanager_Step_0.gml": [
+      "line 22",
+      "global.flag[9] = 2;"
+    ],
+    "gml_Object_obj_queenvaseonwheels_Step_0.gml": [
+      "line 136",
+      "global.flag[9] = 2;"
+    ],
+    "gml_Object_obj_tasque_manager_tempsave_Step_0.gml": [
+      "line 5",
+      "global.flag[9] = 0;"
+    ],
+    "gml_Object_obj_testoverworldenemy_Other_10.gml": [
+      "line 31",
+      "if (global.flag[9] == 1)"
+    ]
+  },
+  "global.flag[10]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 42",
+      "global.flag[10] = 1;"
+    ],
+    "gml_Object_obj_writer_Draw_0.gml": [
+      "line 12",
+      "if (global.flag[10] == 1 || scr_debug())"
+    ]
+  },
+  "global.flag[11]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 69",
+      "if (global.flag[11] == 1)"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 319",
+      "global.flag[11] = 0;"
+    ],
+    "gml_Object_obj_mainchara_Step_0.gml": [
+      "line 83",
+      "if (global.flag[11] == 1)"
+    ]
+  },
+  "global.flag[12]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 79",
+      "if (global.flag[12] == 1)"
+    ],
+    "gml_Object_obj_shake_Alarm_0.gml": [
+      "line 1",
+      "if (global.flag[12] == 0)"
+    ],
+    "gml_Object_obj_shake_Step_0.gml": [
+      "line 7",
+      "if (global.flag[12] == 0)"
+    ]
+  },
+  "global.flag[13]": {
+    "gml_Object_obj_attackpress_Create_0.gml": [
+      "line 159",
+      "if (global.flag[13] == 0)"
+    ],
+    "gml_Object_obj_attackpress_Draw_0.gml": [
+      "line 144",
+      "if (global.flag[13] == 1)"
+    ]
+  },
+  "global.flag[14]": {
+    "gml_GlobalScript_scr_battlecursor_memory_reset.gml": [
+      "line 3",
+      "if (global.flag[14] == 0)"
+    ]
+  },
+  "global.flag[15]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 312",
+      "global.flag[15] = 1;"
+    ],
+    "gml_GlobalScript_scr_load.gml": [
+      "line 328",
+      "audio_group_set_gain(1, global.flag[15], 0);"
+    ],
+    "gml_GlobalScript_scr_load_chapter1.gml": [
+      "line 315",
+      "audio_group_set_gain(1, global.flag[15], 0);"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 412",
+      "audio_group_set_gain(1, global.flag[15], 0);"
+    ]
+  },
+  "global.flag[16]": {
+    "gml_GlobalScript_mus_loop.gml": [
+      "line 4",
+      "snd_volume(_xsndinstance, 1 * global.flag[16], 0);"
+    ],
+    "gml_GlobalScript_mus_loop_ext.gml": [
+      "line 3",
+      "snd_volume(arg0, arg1 * global.flag[16], 0);"
+    ],
+    "gml_GlobalScript_mus_play.gml": [
+      "line 4",
+      "snd_volume(_xsndinstance, global.flag[16], 0);"
+    ],
+    "gml_GlobalScript_mus_volume.gml": [
+      "line 3",
+      "audio_sound_gain(arg0, arg1 * global.flag[16], (arg2 * 1000) / fps);"
+    ],
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 313",
+      "global.flag[16] = 0.85;"
+    ],
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 43",
+      "global.flag[16] = 0.85;"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 66",
+      "musvol = string(round(abs(global.flag[16] * 100))) + \"%\";"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 420",
+      "mus_volume(global.currentsong[1], getmusvol * global.flag[16], 0);"
+    ]
+  },
+  "global.flag[17]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 333",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ],
+    "gml_GlobalScript_scr_load.gml": [
+      "line 329",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ],
+    "gml_GlobalScript_scr_load_chapter1.gml": [
+      "line 316",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 65",
+      "audvol = string(round(abs(global.flag[17] * 100))) + \"%\";"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 427",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ]
+  },
+  "global.flag[20]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 44",
+      "global.flag[20] = 0;"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 894",
+      "global.flag[20] = 1;"
+    ],
+    "gml_Object_DEVICE_CHOICE_Step_0.gml": [
+      "line 299",
+      "global.flag[20] = 1;"
+    ],
+    "gml_Object_DEVICE_CONTACT_old_Create_0.gml": [
+      "line 6",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 902",
+      "if (global.flag[20] == 1)"
+    ],
+    "gml_Object_DEVICE_FAILURE_Create_0.gml": [
+      "line 6",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_DEVICE_GONERMAKER_Step_0.gml": [
+      "line 17",
+      "global.flag[20] = 1;"
+    ],
+    "gml_Object_DEVICE_NAMER_Create_0.gml": [
+      "line 6",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_DEVICE_NAMER_Draw_0.gml": [
+      "line 170",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_ch2_lw_cutscenes_short_Create_0.gml": [
+      "line 42",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_ch2_lw_cutscenes_short_Step_0.gml": [
+      "line 147",
+      "if (global.flag[20] == 1)"
+    ],
+    "gml_Object_obj_ch2_scene_hospital_sideb_Create_0.gml": [
+      "line 7",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_ch2_scene_hospital_sideb_Step_0.gml": [
+      "line 116",
+      "if (global.flag[20] == 0)"
+    ],
+    "gml_Object_obj_dojo_spareenemy_Alarm_2.gml": [
+      "line 7",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_dojo_spareenemy_Alarm_3.gml": [
+      "line 1",
+      "global.flag[20] = 1;"
+    ],
+    "gml_Object_obj_dojo_spareenemy_CleanUp_0.gml": [
+      "line 1",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_dojo_spareenemy_Draw_0.gml": [
+      "line 10",
+      "if (global.flag[20] == 3)"
+    ],
+    "gml_Object_obj_dojo_spareenemy_Step_0.gml": [
+      "line 140",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 17",
+      "if (global.flag[20] == 2)"
+    ],
+    "gml_Object_obj_npc_hammerguy_Other_10.gml": [
+      "line 7",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_npc_king_Create_0.gml": [
+      "line 6",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_npc_king_Step_0.gml": [
+      "line 18",
+      "if (global.flag[20] == 3)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Other_10.gml": [
+      "line 11",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Step_0.gml": [
+      "line 15",
+      "if (global.flag[20] == 2)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster2_Draw_0.gml": [
+      "line 50",
+      "if (global.flag[20] == 1)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster2_Other_10.gml": [
+      "line 11",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_onionbody_Create_0.gml": [
+      "line 4",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_onionbody_Draw_0.gml": [
+      "line 34",
+      "if (global.flag[20] == 5)"
+    ],
+    "gml_Object_obj_spamton_enemy_Create_0.gml": [
+      "line 26",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_spamton_enemy_Draw_0.gml": [
+      "line 71",
+      "if (global.flag[20] == 6)"
+    ],
+    "gml_Object_obj_spamton_enemy_Step_0.gml": [
+      "line 511",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_writer_Draw_0.gml": [
+      "line 751",
+      "global.flag[20] = 9;"
+    ]
+  },
+  "global.flag[21]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 45",
+      "global.flag[21] = 0;"
+    ],
+    "gml_Object_obj_doorparent_Other_17.gml": [
+      "line 20",
+      "global.flag[21] = -10;"
+    ],
+    "gml_Object_obj_mainchara_Create_0.gml": [
+      "line 111",
+      "global.flag[21] = -10;"
+    ],
+    "gml_Object_obj_mainchara_Step_0.gml": [
+      "line 30",
+      "global.flag[21] = -10;"
+    ]
+  },
+  "global.flag[22]": {
+    "gml_Object_obj_heart_Step_0.gml": [
+      "line 40",
+      "if (button2_h() && global.flag[22] == 0)"
+    ]
+  },
+  "global.flag[29]": {
+    "gml_Object_obj_darkdoor_Step_0.gml": [
+      "line 226",
+      "global.flag[29] = 1;"
+    ],
+    "gml_Object_obj_face_Draw_0.gml": [
+      "line 56",
+      "if (global.flag[29] != 0 || global.chapter > 1)"
+    ],
+    "gml_Object_obj_unusedclassevent_Step_0.gml": [
+      "line 12",
+      "global.flag[29] = 1;"
+    ]
+  },
+  "global.flag[30]": {
+    "gml_GlobalScript_scr_speaker.gml": [
+      "line 93",
+      "if (global.flag[30] == 1)"
+    ],
+    "gml_Object_obj_dummyenemy_Step_0.gml": [
+      "line 99",
+      "global.flag[30] = 0;"
+    ],
+    "gml_Object_obj_face_Draw_0.gml": [
+      "line 71",
+      "if (global.flag[30] == 2 || global.chapter > 1)"
+    ],
+    "gml_Object_obj_ralseienemy_Step_0.gml": [
+      "line 46",
+      "global.flag[30] = 0;"
+    ],
+    "gml_Object_obj_writer_Draw_0.gml": [
+      "line 552",
+      "if (global.flag[30] == 1)"
+    ]
+  },
+  "global.flag[31]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 46",
+      "global.flag[31] = 1;"
+    ],
+    "gml_Object_obj_mainchara_Step_0.gml": [
+      "line 547",
+      "if (global.flag[31] == 0)"
+    ],
+    "gml_Object_obj_musicer_field_Create_0.gml": [
+      "line 1",
+      "global.flag[31] = 1;"
+    ]
+  },
+  "global.flag[32]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 47",
+      "global.flag[32] = 0;"
+    ],
+    "gml_GlobalScript_scr_itemcomment.gml": [
+      "line 8",
+      "if (global.flag[32] == 1)"
+    ]
+  },
+  "global.flag[33]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2579",
+      "if (global.flag[33] >= 40)"
+    ],
+    "gml_Object_obj_choicer_neo_Create_0.gml": [
+      "line 4",
+      "global.flag[33] = 0;"
+    ],
+    "gml_Object_obj_choicer_neo_Step_0.gml": [
+      "line 1",
+      "global.flag[33] += 1;"
+    ]
+  },
+  "global.flag[34]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 48",
+      "global.flag[34] = 1;"
+    ],
+    "gml_GlobalScript_scr_spellconsumeb.gml": [
+      "line 10",
+      "if (global.flag[34] == 0)"
+    ],
+    "gml_Object_obj_battlecontroller_Draw_0.gml": [
+      "line 685",
+      "if (global.flag[34] == 0 && global.myfight == 0)"
+    ],
+    "gml_Object_obj_battlecontroller_Step_0.gml": [
+      "line 346",
+      "if (global.bmenuno == 2 && global.flag[34] == 0)"
+    ],
+    "gml_Object_obj_battletester_Create_0.gml": [
+      "line 15",
+      "global.flag[34] = 0;"
+    ],
+    "gml_Object_obj_ch2_cyber01_Step_0.gml": [
+      "line 618",
+      "global.flag[34] = 0;"
+    ],
+    "gml_Object_obj_musical_controller_Other_10.gml": [
+      "line 6",
+      "if (global.flag[34] == 0)"
+    ],
+    "gml_Object_obj_sweet_enemy_Step_0.gml": [
+      "line 445",
+      "global.flag[34] = 0;"
+    ]
+  },
+  "global.flag[35]": {
+    "gml_GlobalScript_scr_gameover.gml": [
+      "line 36",
+      "if (global.flag[35] == 2)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 638",
+      "global.flag[35] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 126",
+      "global.flag[35] = 0;"
+    ]
+  },
+  "global.flag[36]": {
+    "gml_GlobalScript_scr_gameover.gml": [
+      "line 32",
+      "global.flag[36] = 1;"
+    ],
+    "gml_GlobalScript_scr_wincombat.gml": [
+      "line 3",
+      "if (global.flag[60] == 0 || global.flag[36] == 1)"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 265",
+      "global.flag[36] = 0;"
+    ],
+    "gml_Object_obj_dbulletcontroller_Step_0.gml": [
+      "line 1345",
+      "global.flag[36] = 1;"
+    ],
+    "gml_Object_obj_dojograzeenemy_Step_0.gml": [
+      "line 129",
+      "global.flag[36] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 127",
+      "global.flag[36] = 0;"
+    ]
+  },
+  "global.flag[37]": {
+    "gml_Object_obj_battlecontroller_Step_0.gml": [
+      "line 63",
+      "if (global.flag[37] == 1)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 639",
+      "global.flag[37] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 128",
+      "global.flag[37] = 0;"
+    ]
+  },
+  "global.flag[38]": {
+    "gml_Object_obj_battlecontroller_Step_0.gml": [
+      "line 82",
+      "if (global.flag[38] == 1)"
+    ],
+    "gml_Object_obj_berdlyb2_enemy_Step_0.gml": [
+      "line 868",
+      "global.flag[38] = 1;"
+    ],
+    "gml_Object_obj_ch2_city_berdly_Step_0.gml": [
+      "line 408",
+      "global.flag[38] = 0;"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 640",
+      "global.flag[38] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 129",
+      "global.flag[38] = 0;"
+    ]
+  },
+  "global.flag[39]": {
+    "gml_GlobalScript_scr_gameover.gml": [
+      "line 33",
+      "global.flag[39] = 1;"
+    ],
+    "gml_GlobalScript_scr_mnendturn.gml": [
+      "line 17",
+      "if (global.flag[39] == 1)"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 266",
+      "global.flag[39] = 0;"
+    ],
+    "gml_Object_obj_dbulletcontroller_Step_0.gml": [
+      "line 1356",
+      "global.flag[39] = 1;"
+    ],
+    "gml_Object_obj_dojograzeenemy_Step_0.gml": [
+      "line 130",
+      "global.flag[39] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 130",
+      "global.flag[39] = 0;"
+    ]
+  },
+  "global.flag[40]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 19",
+      "global.flag[40] += 1;"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2938",
+      "global.flag[40] = 0;"
+    ],
+    "gml_Object_obj_ch2_scene23a_Create_0.gml": [
+      "line 4",
+      "if (global.flag[40] == 0)"
+    ],
+    "gml_Object_obj_queen_enemy_Other_13.gml": [
+      "line 14",
+      "global.flag[40] += 1;"
+    ],
+    "gml_Object_obj_spamton_neo_enemy_Other_13.gml": [
+      "line 14",
+      "global.flag[40] += 1;"
+    ]
+  },
+  "global.flag[41]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 26",
+      "global.flag[41] += 1;"
+    ],
+    "gml_Object_obj_queen_enemy_Other_13.gml": [
+      "line 21",
+      "global.flag[41] += 1;"
+    ],
+    "gml_Object_obj_spamton_neo_enemy_Other_13.gml": [
+      "line 21",
+      "global.flag[41] += 1;"
+    ]
+  },
+  "global.flag[42]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 29",
+      "global.flag[42] += 1;"
+    ],
+    "gml_Object_obj_queen_enemy_Other_13.gml": [
+      "line 24",
+      "global.flag[42] += 1;"
+    ],
+    "gml_Object_obj_spamton_neo_enemy_Other_13.gml": [
+      "line 24",
+      "global.flag[42] += 1;"
+    ]
+  },
+  "global.flag[43]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 32",
+      "global.flag[43] += 1;"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2932",
+      "global.flag[43] = 0;"
+    ],
+    "gml_Object_obj_queen_enemy_Other_13.gml": [
+      "line 27",
+      "global.flag[43] += 1;"
+    ],
+    "gml_Object_obj_spamton_neo_enemy_Other_13.gml": [
+      "line 27",
+      "global.flag[43] += 1;"
+    ]
+  },
+  "global.flag[44]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 22",
+      "global.flag[44]++;"
+    ],
+    "gml_Object_obj_queen_enemy_Other_13.gml": [
+      "line 17",
+      "global.flag[44]++;"
+    ],
+    "gml_Object_obj_spamton_neo_enemy_Other_13.gml": [
+      "line 17",
+      "global.flag[44]++;"
+    ]
+  },
+  "global.flag[45]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 36",
+      "global.flag[45] += 1;"
+    ],
+    "gml_Object_obj_queen_enemy_Other_13.gml": [
+      "line 31",
+      "global.flag[45] += 1;"
+    ],
+    "gml_Object_obj_spamton_neo_enemy_Other_13.gml": [
+      "line 31",
+      "global.flag[45] += 1;"
+    ]
+  },
+  "global.flag[50]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 89",
+      "global.flag[global.flag[54]] = global.flag[50];"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 106",
+      "global.flag[50] = 0;"
+    ],
+    "gml_Object_obj_ch2_scene21_loop_Step_0.gml": [
+      "line 613",
+      "if (global.flag[50] == 1)"
+    ],
+    "gml_Object_obj_checkers_enemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 76",
+      "if (global.flag[50] == 1)"
+    ],
+    "gml_Object_obj_queen_enemy_Other_13.gml": [
+      "line 76",
+      "global.flag[global.flag[54]] = global.flag[50];"
+    ],
+    "gml_Object_obj_spamton_neo_enemy_Other_13.gml": [
+      "line 76",
+      "global.flag[global.flag[54]] = global.flag[50];"
+    ]
+  },
+  "global.flag[51]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 107",
+      "global.flag[51] = 0;"
+    ]
+  },
+  "global.flag[52]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 108",
+      "global.flag[52] = 0;"
+    ]
+  },
+  "global.flag[53]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 109",
+      "global.flag[53] = 0;"
+    ]
+  },
+  "global.flag[54]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 90",
+      "global.flag[54] = 0;"
+    ],
+    "gml_Object_obj_berdly_encounter_setup_Other_11.gml": [
+      "line 6",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_berdly_encounter_setup_Step_0.gml": [
+      "line 11",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_ch2_city05_Step_0.gml": [
+      "line 332",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_ch2_city_berdly_Step_0.gml": [
+      "line 335",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_ch2_cyber01_Step_0.gml": [
+      "line 347",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_ch2_room_mansion_kitchen_Step_0.gml": [
+      "line 163",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_ch2_scene21_loop_Step_0.gml": [
+      "line 493",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_ch2_scene25_Step_0.gml": [
+      "line 273",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_ch2_scene26_Step_0.gml": [
+      "line 808",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_ch2_scene9_Step_0.gml": [
+      "line 539",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_ch2_sceneex2_Step_0.gml": [
+      "line 537",
+      "global.flag[54] = 571;"
+    ],
+    "gml_Object_obj_chaseenemy_Step_2.gml": [
+      "line 62",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_fountainkris_ch2_sideb_Step_0.gml": [
+      "line 264",
+      "global.flag[54] = 571;"
+    ],
+    "gml_Object_obj_mazecheese_Step_0.gml": [
+      "line 67",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_npc_tasquemanager_Step_0.gml": [
+      "line 21",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_overworld_poppup_Step_0.gml": [
+      "line 134",
+      "global.flag[54] = encounterflag;"
+    ],
+    "gml_Object_obj_queen_enemy_Other_13.gml": [
+      "line 77",
+      "global.flag[54] = 0;"
+    ],
+    "gml_Object_obj_rouxlsbattle_hey_Draw_0.gml": [
+      "line 24",
+      "if (global.flag[54] == 0)"
+    ],
+    "gml_Object_obj_spamton_neo_enemy_Other_13.gml": [
+      "line 77",
+      "global.flag[54] = 0;"
+    ]
+  },
+  "global.flag[55]": {
+    "gml_Object_obj_frozennpc_Draw_0.gml": [
+      "line 50",
+      "global.flag[55] = 0;"
+    ],
+    "gml_Object_obj_overworldenemy_parent_Other_10.gml": [
+      "line 35",
+      "global.flag[55] = x;"
+    ],
+    "gml_Object_obj_overworld_poppup_Step_0.gml": [
+      "line 132",
+      "global.flag[55] = x;"
+    ]
+  },
+  "global.flag[56]": {
+    "gml_Object_obj_frozennpc_Draw_0.gml": [
+      "line 51",
+      "global.flag[56] = 0;"
+    ],
+    "gml_Object_obj_overworldenemy_parent_Other_10.gml": [
+      "line 36",
+      "global.flag[56] = y;"
+    ],
+    "gml_Object_obj_overworld_poppup_Step_0.gml": [
+      "line 133",
+      "global.flag[56] = y;"
+    ]
+  },
+  "global.flag[60]": {
+    "gml_GlobalScript_scr_wincombat.gml": [
+      "line 33",
+      "global.flag[60] = 0;"
+    ],
+    "gml_Object_obj_ch2_dojo_allstarsPlaylist_Step_0.gml": [
+      "line 17",
+      "global.flag[60] = 0;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 131",
+      "global.flag[60] = 0;"
+    ]
+  },
+  "global.flag[61]": {
+    "gml_GlobalScript_scr_defeatrun.gml": [
+      "line 23",
+      "if (recruitable == 1 && global.flag[61] == 0 && __frozen == 0)"
+    ],
+    "gml_GlobalScript_scr_recruit.gml": [
+      "line 3",
+      "if (recruitable == 1 && global.flag[61] == 0)"
+    ],
+    "gml_Object_obj_ch2_scene11a_Step_0.gml": [
+      "line 550",
+      "global.flag[61] = 0;"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 641",
+      "global.flag[61] = 1;"
+    ],
+    "gml_Object_obj_npc_dojo_Step_0.gml": [
+      "line 132",
+      "global.flag[61] = 0;"
+    ]
+  },
+  "global.flag[62]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 66",
+      "global.flag[62] = 0;"
+    ]
+  },
+  "global.flag[63]": {
+    "gml_GlobalScript_scr_defeatrun.gml": [
+      "line 25",
+      "global.flag[63] = 1;"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 110",
+      "global.flag[63] = 0;"
+    ],
+    "gml_Object_obj_battlecontroller_Step_0.gml": [
+      "line 66",
+      "if (global.flag[63] == 1)"
+    ]
+  },
+  "global.flag[64]": {
+    "gml_GlobalScript_scr_custommenu_item_info_refresh.gml": [
+      "line 37",
+      "menuMaximumID[1] = global.flag[64] - 1;"
+    ],
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 49",
+      "global.flag[64] = 24;"
+    ],
+    "gml_GlobalScript_scr_itemcheck_pocket.gml": [
+      "line 6",
+      "for (var __i = 0; __i < global.flag[64]; __i += 1)"
+    ],
+    "gml_GlobalScript_scr_itemget.gml": [
+      "line 23",
+      "for (var __j = 0; __j < global.flag[64]; __j++)"
+    ],
+    "gml_GlobalScript_scr_shopmenu.gml": [
+      "line 601",
+      "for (i = 0; i < global.flag[64]; i++)"
+    ],
+    "gml_Object_obj_fusionmenu_Draw_0.gml": [
+      "line 308",
+      "draw_text_transformed(xx + 60, yy + 380, string((floor(menuScrollCurrent[1]) / 12) + 1) + \"/\" + string(floor(global.flag[64] / 12)), 1, 1, 0);"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 467",
+      "menuMaximumID[1] = global.flag[64] - 1;"
+    ],
+    "gml_Object_obj_shop1_Create_0.gml": [
+      "line 137",
+      "selltotal = max(global.flag[64], 12);"
+    ],
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 522",
+      "for (i = 0; i < global.flag[64]; i++)"
+    ],
+    "gml_Object_obj_shop_ch2_music_Create_0.gml": [
+      "line 133",
+      "selltotal = max(global.flag[64], 12);"
+    ],
+    "gml_Object_obj_shop_ch2_music_Draw_0.gml": [
+      "line 584",
+      "for (i = 0; i < global.flag[64]; i++)"
+    ],
+    "gml_Object_obj_shop_ch2_spamton_Create_0.gml": [
+      "line 184",
+      "selltotal = max(global.flag[64], 12);"
+    ],
+    "gml_Object_obj_shop_ch2_spamton_Draw_0.gml": [
+      "line 647",
+      "for (i = 0; i < global.flag[64]; i++)"
+    ],
+    "gml_Object_obj_shop_ch2_swatch_Create_0.gml": [
+      "line 125",
+      "selltotal = max(global.flag[64], 12);"
+    ],
+    "gml_Object_obj_shop_ch2_swatch_Draw_0.gml": [
+      "line 450",
+      "for (i = 0; i < global.flag[64]; i++)"
+    ]
+  },
+  "global.flag[65]": {
+    "gml_GlobalScript_scr_levelup.gml": [
+      "line 30",
+      "if ((global.flag[65] % 4) == 0)"
+    ]
+  },
+  "global.flag[66]": {
+    "gml_GlobalScript_scr_fountain_levelup.gml": [
+      "line 9",
+      "for (var _i = global.flag[66]; _i < 2; _i++)"
+    ],
+    "gml_GlobalScript_scr_levelup.gml": [
+      "line 21",
+      "global.flag[66]++;"
+    ]
+  },
+  "global.flag[100]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 128",
+      "global.flag[100] = 1;"
+    ]
+  },
+  "global.flag[101]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 414",
+      "global.flag[101] += 1;"
+    ]
+  },
+  "global.flag[102]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 461",
+      "global.flag[102] += 1;"
+    ]
+  },
+  "global.flag[103]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 502",
+      "global.flag[103] = 1;"
+    ]
+  },
+  "global.flag[105]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1792",
+      "global.flag[105] = 1;"
+    ]
+  },
+  "global.flag[106]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1754",
+      "global.flag[106] = 1;"
+    ],
+    "gml_Object_obj_ch2_room_castle_kris_Create_0.gml": [
+      "line 9",
+      "if (global.flag[106] == 1)"
+    ],
+    "gml_Object_obj_npc_dumpster_Step_0.gml": [
+      "line 40",
+      "var ateMoss = global.flag[106] == 1;"
+    ]
+  },
+  "global.flag[115]": {
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 705",
+      "if (global.flag[115] == 1 && global.flag[241] >= 6)"
+    ]
+  },
+  "global.flag[119]": {
+    "gml_Object_obj_npc_room_animated_Other_10.gml": [
+      "line 479",
+      "var nubert_check = global.flag[119] == 1;"
+    ]
+  },
+  "global.flag[123]": {
+    "gml_RoomCC_room_dw_cyber_viromaze2_9_Create.gml": [
+      "line 3",
+      "if (global.flag[123] == 1)"
+    ],
+    "gml_RoomCC_room_dw_cyber_viro_ring_13_Create.gml": [
+      "line 3",
+      "if (global.flag[123] == 1)"
+    ]
+  },
+  "global.flag[125]": {
+    "gml_Object_obj_dw_mansion_bridges_chestSpawner_Create_0.gml": [
+      "line 5",
+      "if (global.flag[125] == true)"
+    ]
+  },
+  "global.flag[138]": {
+    "gml_Object_obj_queenart_red_Other_10.gml": [
+      "line 78",
+      "if (global.flag[138] == 0)"
+    ],
+    "gml_Object_obj_queenart_red_Step_0.gml": [
+      "line 45",
+      "image_index = global.flag[138] == 1;"
+    ]
+  },
+  "global.flag[139]": {
+    "gml_Object_obj_ch2_room_mansion_east_2f_c_a_Create_0.gml": [
+      "line 5",
+      "if (global.flag[139] == 0)"
+    ]
+  },
+  "global.flag[142]": {
+    "gml_Object_obj_treasure_room_Create_0.gml": [
+      "line 132",
+      "if (global.flag[142] == 1)"
+    ]
+  },
+  "global.flag[201]": {
+    "gml_Object_obj_classscene_Step_0.gml": [
+      "line 539",
+      "if (global.flag[201] == 1 && global.flag[269] == 0)"
+    ]
+  },
+  "global.flag[203]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 188",
+      "global.flag[203] = 1;"
+    ]
+  },
+  "global.flag[204]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 244",
+      "global.flag[204] = 2;"
+    ]
+  },
+  "global.flag[205]": {
+    "gml_Object_obj_dummyenemy_Step_0.gml": [
+      "line 762",
+      "global.flag[205] = 1;"
+    ],
+    "gml_Object_obj_ralseienemy_Step_0.gml": [
+      "line 558",
+      "global.flag[205] = 2;"
+    ]
+  },
+  "global.flag[207]": {
+    "gml_Object_obj_ch2_room_castle_kris_Create_0.gml": [
+      "line 18",
+      "if (global.flag[207] >= 2)"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 174",
+      "global.flag[207] = 1;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 1805",
+      "if (global.flag[207] >= 2)"
+    ]
+  },
+  "global.flag[209]": {
+    "gml_Object_obj_musicer_field_Create_0.gml": [
+      "line 10",
+      "global.flag[209] = 1;"
+    ]
+  },
+  "global.flag[211]": {
+    "gml_Object_obj_npc_puzzlemaster1_Create_0.gml": [
+      "line 20",
+      "if (global.plot >= 42 || global.flag[211] == 3)"
+    ]
+  },
+  "global.flag[214]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 613",
+      "global.flag[214] = 3;"
+    ],
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 54",
+      "if (global.flag[214] == 3)"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 417",
+      "if (global.flag[214] == 1)"
+    ]
+  },
+  "global.flag[215]": {
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 976",
+      "if (global.flag[215] == 1)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Create_0.gml": [
+      "line 8",
+      "if (global.flag[215] == 1)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Step_0.gml": [
+      "line 37",
+      "global.flag[215] = 1;"
+    ]
+  },
+  "global.flag[216]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5345",
+      "if (global.flag[216] == 0)"
+    ]
+  },
+  "global.flag[220]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 323",
+      "global.flag[220] = choose(0, 1, 2, 3);"
+    ],
+    "gml_GlobalScript_scr_monstersetup.gml": [
+      "line 1508",
+      "if (global.flag[220] == 3)"
+    ],
+    "gml_Object_obj_ch2_scene21_loop_Create_0.gml": [
+      "line 77",
+      "duckmode = global.flag[220] == 3 && global.flag[221] == 3 && global.flag[222] == 3;"
+    ],
+    "gml_Object_obj_ch2_scene26_transformation_Create_0.gml": [
+      "line 12",
+      "else if (global.flag[220] == 3)"
+    ],
+    "gml_Object_obj_rouxls_enemy_Create_0.gml": [
+      "line 110",
+      "duckmode = global.flag[220] == 3 && global.flag[221] == 3 && global.flag[222] == 3;"
+    ],
+    "gml_Object_obj_rouxls_enemy_old_copy_Draw_0.gml": [
+      "line 58",
+      "global.flag[220] = 3;"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Create_0.gml": [
+      "line 9",
+      "part[1] = global.flag[220];"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Step_0.gml": [
+      "line 7",
+      "part[1] = global.flag[220];"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 9",
+      "part[1] = global.flag[220];"
+    ],
+    "gml_Object_obj_thrashmachine_Step_0.gml": [
+      "line 3",
+      "part[1] = global.flag[220];"
+    ],
+    "gml_Object_obj_thrash_intro_Create_0.gml": [
+      "line 28",
+      "if (global.flag[220] == 3)"
+    ],
+    "gml_Object_obj_thrash_transform_Create_0.gml": [
+      "line 28",
+      "if (global.flag[220] == 3)"
+    ],
+    "gml_Object_o_boxingcontroller_Create_0.gml": [
+      "line 185",
+      "if (global.flag[220] == 3)"
+    ]
+  },
+  "global.flag[221]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 324",
+      "global.flag[221] = choose(0, 1, 2, 3);"
+    ],
+    "gml_Object_obj_ch2_scene21_loop_Create_0.gml": [
+      "line 77",
+      "duckmode = global.flag[220] == 3 && global.flag[221] == 3 && global.flag[222] == 3;"
+    ],
+    "gml_Object_obj_ch2_scene21_loop_Step_0.gml": [
+      "line 304",
+      "if (global.flag[221] == 2)"
+    ],
+    "gml_Object_obj_rouxls_enemy_Create_0.gml": [
+      "line 110",
+      "duckmode = global.flag[220] == 3 && global.flag[221] == 3 && global.flag[222] == 3;"
+    ],
+    "gml_Object_obj_rouxls_enemy_Draw_0.gml": [
+      "line 35",
+      "if (global.flag[221] == 3)"
+    ],
+    "gml_Object_obj_rouxls_enemy_old_copy_Draw_0.gml": [
+      "line 59",
+      "global.flag[221] = 0;"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Create_0.gml": [
+      "line 8",
+      "part[0] = global.flag[221];"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Step_0.gml": [
+      "line 8",
+      "part[0] = global.flag[221];"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 8",
+      "part[0] = global.flag[221];"
+    ],
+    "gml_Object_obj_thrashmachine_Step_0.gml": [
+      "line 4",
+      "part[0] = global.flag[221];"
+    ]
+  },
+  "global.flag[222]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 325",
+      "global.flag[222] = choose(0, 1, 2, 3);"
+    ],
+    "gml_Object_obj_ch2_scene21_loop_Create_0.gml": [
+      "line 77",
+      "duckmode = global.flag[220] == 3 && global.flag[221] == 3 && global.flag[222] == 3;"
+    ],
+    "gml_Object_obj_rouxls_enemy_Create_0.gml": [
+      "line 110",
+      "duckmode = global.flag[220] == 3 && global.flag[221] == 3 && global.flag[222] == 3;"
+    ],
+    "gml_Object_obj_rouxls_enemy_old_copy_Draw_0.gml": [
+      "line 60",
+      "global.flag[222] = 3;"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Create_0.gml": [
+      "line 10",
+      "part[2] = global.flag[222];"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Step_0.gml": [
+      "line 9",
+      "part[2] = global.flag[222];"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 10",
+      "part[2] = global.flag[222];"
+    ],
+    "gml_Object_obj_thrashmachine_Step_0.gml": [
+      "line 5",
+      "part[2] = global.flag[222];"
+    ]
+  },
+  "global.flag[223]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 326",
+      "global.flag[223] = floor(random(31));"
+    ],
+    "gml_Object_obj_rocketpunch_bhero_Create_0.gml": [
+      "line 15",
+      "headcolor = make_color_hsv(global.flag[223] * 8, 255, 255);"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Create_0.gml": [
+      "line 5",
+      "dcolor[0] = global.flag[223];"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Step_0.gml": [
+      "line 1",
+      "dcolor[1] = make_color_hsv(global.flag[223] * 8, 255, 255 * value);"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 5",
+      "dcolor[0] = global.flag[223];"
+    ],
+    "gml_Object_obj_thrashmachine_Draw_0.gml": [
+      "line 1",
+      "dcolor[1] = make_color_hsv(global.flag[223] * 8, 255, 255 * value);"
+    ],
+    "gml_Object_obj_thrash_intro_Create_0.gml": [
+      "line 31",
+      "headcolor = make_color_hsv(global.flag[223] * 8, 255, 255);"
+    ],
+    "gml_Object_o_boxingcontroller_Create_0.gml": [
+      "line 188",
+      "headcolor = make_color_hsv(global.flag[223] * 8, 255, 255);"
+    ]
+  },
+  "global.flag[224]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 327",
+      "global.flag[224] = floor(random(31));"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Create_0.gml": [
+      "line 6",
+      "dcolor[1] = global.flag[224];"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Step_0.gml": [
+      "line 2",
+      "dcolor[0] = make_color_hsv(global.flag[224] * 8, 255, 255 * value);"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 6",
+      "dcolor[1] = global.flag[224];"
+    ],
+    "gml_Object_obj_thrashmachine_Draw_0.gml": [
+      "line 2",
+      "dcolor[0] = make_color_hsv(global.flag[224] * 8, 255, 255 * value);"
+    ]
+  },
+  "global.flag[225]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 328",
+      "global.flag[225] = floor(random(31));"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Create_0.gml": [
+      "line 7",
+      "dcolor[2] = global.flag[225];"
+    ],
+    "gml_Object_obj_thrashmachine_backup_Step_0.gml": [
+      "line 3",
+      "dcolor[2] = make_color_hsv(global.flag[225] * 8, 255, 255 * value);"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 7",
+      "dcolor[2] = global.flag[225];"
+    ],
+    "gml_Object_obj_thrashmachine_Draw_0.gml": [
+      "line 3",
+      "dcolor[2] = make_color_hsv(global.flag[225] * 8, 255, 255 * value);"
+    ]
+  },
+  "global.flag[232]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1543",
+      "global.flag[232] = 1;"
+    ]
+  },
+  "global.flag[239]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3078",
+      "if (global.flag[239] == 1)"
+    ]
+  },
+  "global.flag[241]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 82",
+      "if (global.flag[241] >= 6)"
+    ],
+    "gml_GlobalScript_scr_keyiteminfo.gml": [
+      "line 142",
+      "if (global.flag[241] >= 6)"
+    ],
+    "gml_GlobalScript_scr_save.gml": [
+      "line 22",
+      "else if (global.flag[241] == 7)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7842",
+      "global.flag[241] = 6;"
+    ],
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 876",
+      "var have_jevil = global.flag[460] == 1 || global.flag[241] >= 6;"
+    ]
+  },
+  "global.flag[243]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2960",
+      "global.flag[243] = 2;"
+    ]
+  },
+  "global.flag[246]": {
+    "gml_GlobalScript_scr_monstersetup.gml": [
+      "line 572",
+      "if (global.flag[246] == 1)"
+    ],
+    "gml_Object_obj_checkers_enemy_Step_0.gml": [
+      "line 321",
+      "if (global.flag[246] == 1)"
+    ]
+  },
+  "global.flag[248]": {
+    "gml_Object_obj_ch2_scene6_Step_0.gml": [
+      "line 550",
+      "if (global.flag[248] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1576",
+      "if (global.plot < 200 && global.flag[248] == 1)"
+    ]
+  },
+  "global.flag[251]": {
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 977",
+      "global.flag[251] = 1;"
+    ]
+  },
+  "global.flag[252]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 384",
+      "if (global.flag[252] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1583",
+      "if (global.flag[252] == 1)"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2747",
+      "if (global.flag[252] == 1 && inspected_all)"
+    ]
+  },
+  "global.flag[253]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5107",
+      "if (global.flag[253] == 1)"
+    ]
+  },
+  "global.flag[254]": {
+    "gml_Object_obj_berdlycoaster_event_Create_0.gml": [
+      "line 139",
+      "coasterCarVisible[i] = global.flag[254] == 1;"
+    ],
+    "gml_Object_obj_ch2_city07_Create_0.gml": [
+      "line 11",
+      "havewalker = global.flag[254] == 1;"
+    ],
+    "gml_Object_obj_ch2_scene26_powers_combined_Create_0.gml": [
+      "line 90",
+      "if (global.flag[254] == 1)"
+    ],
+    "gml_Object_obj_ch2_scene26_powers_combined_old_Create_0.gml": [
+      "line 69",
+      "if (global.flag[254] == 1)"
+    ],
+    "gml_Object_obj_ch2_scene6_Step_0.gml": [
+      "line 175",
+      "if (global.flag[254] == 1)"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 24",
+      "if (global.flag[254] == 1)"
+    ]
+  },
+  "global.flag[255]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 641",
+      "global.flag[255] = 2;"
+    ],
+    "gml_Object_obj_npc_facing_Create_0.gml": [
+      "line 154",
+      "if (global.flag[255] < 1 || global.chapter == 2)"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 227",
+      "if (global.flag[255] >= 1 && global.flag[256] == 0)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 270",
+      "if (global.flag[255] < 2)"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 834",
+      "if (global.flag[255] < 2)"
+    ],
+    "gml_Object_obj_rudy_Create_0.gml": [
+      "line 3",
+      "if (global.flag[255] == 0)"
+    ],
+    "gml_Object_obj_rudy_Step_0.gml": [
+      "line 176",
+      "global.flag[255] = 1;"
+    ]
+  },
+  "global.flag[256]": {
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 235",
+      "global.flag[256] = 1;"
+    ]
+  },
+  "global.flag[257]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 784",
+      "global.flag[257] = 1;"
+    ]
+  },
+  "global.flag[258]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 892",
+      "global.flag[258] = 3;"
+    ],
+    "gml_Object_obj_ch2_room_beach_Create_0.gml": [
+      "line 10",
+      "else if (global.flag[258] == 0)"
+    ],
+    "gml_Object_obj_onion_event_Create_0.gml": [
+      "line 12",
+      "global.flag[258] = global.game_won;"
+    ],
+    "gml_Object_obj_onion_event_Step_0.gml": [
+      "line 170",
+      "else if (global.flag[258] == 3)"
+    ]
+  },
+  "global.flag[259]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3795",
+      "var myname = (global.flag[259] == 2) ? stringsetloc(\"Mouse!!\", \"scr_text_slash_scr_text_gml_3674_0\") : stringsetloc(\"Kiss!\", \"scr_text_slash_scr_text_gml_3674_1\");"
+    ]
+  },
+  "global.flag[260]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3790",
+      "else if (global.flag[260] == 3)"
+    ]
+  },
+  "global.flag[261]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 517",
+      "if (global.flag[261] != 1)"
+    ]
+  },
+  "global.flag[262]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3205",
+      "global.flag[262] = 3;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 260",
+      "if (global.flag[262] >= 4)"
+    ]
+  },
+  "global.flag[263]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 11",
+      "if (global.flag[263] == 2)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 967",
+      "global.flag[263] = 2;"
+    ],
+    "gml_Object_obj_overworldc_Step_0.gml": [
+      "line 74",
+      "global.flag[263] = 1;"
+    ]
+  },
+  "global.flag[264]": {
+    "gml_Object_obj_flowershop_event_Create_0.gml": [
+      "line 47",
+      "x = global.flag[264];"
+    ],
+    "gml_Object_obj_flowershop_event_Step_0.gml": [
+      "line 2",
+      "global.flag[264] = obj_mainchara.x;"
+    ]
+  },
+  "global.flag[265]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1004",
+      "global.flag[265] = 1;"
+    ]
+  },
+  "global.flag[267]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1625",
+      "global.flag[267] += 1;"
+    ]
+  },
+  "global.flag[268]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 196",
+      "global.flag[268] = 1;"
+    ]
+  },
+  "global.flag[269]": {
+    "gml_Object_obj_classscene_Step_0.gml": [
+      "line 539",
+      "if (global.flag[201] == 1 && global.flag[269] == 0)"
+    ]
+  },
+  "global.flag[270]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2113",
+      "global.flag[270] = 1;"
+    ]
+  },
+  "global.flag[271]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2168",
+      "global.flag[271] = 2;"
+    ],
+    "gml_Object_obj_town_event_Create_0.gml": [
+      "line 9",
+      "if (global.flag[271] == 0)"
+    ],
+    "gml_Object_obj_town_event_Step_0.gml": [
+      "line 62",
+      "global.flag[271] = 1;"
+    ]
+  },
+  "global.flag[272]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 246",
+      "global.flag[272] += 1;"
+    ]
+  },
+  "global.flag[273]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6346",
+      "var paptalk = global.flag[273] == 2;"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 317",
+      "if (global.flag[273] >= 1)"
+    ],
+    "gml_Object_obj_town_event_Step_0.gml": [
+      "line 96",
+      "global.flag[273] = 2;"
+    ]
+  },
+  "global.flag[274]": {
+    "gml_GlobalScript_scr_phonename.gml": [
+      "line 23",
+      "if (global.flag[274] >= 2)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2498",
+      "global.flag[274] = 2;"
+    ]
+  },
+  "global.flag[275]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2518",
+      "global.flag[275] = 3;"
+    ]
+  },
+  "global.flag[276]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2649",
+      "global.flag[276] = 2;"
+    ],
+    "gml_Object_obj_ch2_lw_cutscenes_short_Create_0.gml": [
+      "line 34",
+      "noelle_chalk = global.flag[276] >= 2;"
+    ]
+  },
+  "global.flag[278]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 855",
+      "var sinkcheck = global.flag[278] == 1;"
+    ]
+  },
+  "global.flag[281]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 23",
+      "global.flag[281] = 0;"
+    ],
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 168",
+      "global.flag[281] = 1;"
+    ]
+  },
+  "global.flag[300]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3459",
+      "global.flag[300] = 1;"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 345",
+      "if (global.flag[300] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 219",
+      "if (global.flag[300] == 1)"
+    ]
+  },
+  "global.flag[301]": {
+    "gml_Object_obj_ch2_room_dungeon_2f_Create_0.gml": [
+      "line 22",
+      "if (global.chapter != 2 || global.flag[301] == 2 || global.plot >= 200)"
+    ],
+    "gml_Object_obj_ch2_room_dungeon_2f_Step_0.gml": [
+      "line 3",
+      "global.flag[301] = 2;"
+    ],
+    "gml_Object_obj_npc_king_Other_10.gml": [
+      "line 20",
+      "global.flag[301] = 1;"
+    ]
+  },
+  "global.flag[302]": {
+    "gml_Object_obj_dw_transition_Draw_0.gml": [
+      "line 560",
+      "global.flag[302] = 2;"
+    ],
+    "gml_Object_obj_krisroom_Step_0.gml": [
+      "line 487",
+      "global.flag[302] = 2;"
+    ],
+    "gml_Object_obj_mainchara_Create_0.gml": [
+      "line 256",
+      "if (global.flag[302] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 6",
+      "if (global.flag[302] >= 1)"
+    ],
+    "gml_Object_obj_npc_room_Create_0.gml": [
+      "line 539",
+      "if (global.chapter == 2 && global.flag[302] >= 1)"
+    ],
+    "gml_Object_obj_unusedclassevent_Step_0.gml": [
+      "line 213",
+      "global.flag[302] = 1;"
+    ]
+  },
+  "global.flag[303]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 269",
+      "if (global.flag[303] == 0)"
+    ],
+    "gml_Object_obj_ch2_lw_cutscenes_short_Step_0.gml": [
+      "line 172",
+      "global.flag[303] = 1;"
+    ]
+  },
+  "global.flag[304]": {
+    "gml_Object_obj_ch2_room_castle_1f_cake_Step_0.gml": [
+      "line 134",
+      "global.flag[304] = 1;"
+    ],
+    "gml_Object_obj_npc_room_animated_Other_10.gml": [
+      "line 97",
+      "if (global.flag[304] == 0)"
+    ]
+  },
+  "global.flag[305]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 304",
+      "global.flag[305] = 1;"
+    ]
+  },
+  "global.flag[306]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 258",
+      "global.flag[306] = 1;"
+    ]
+  },
+  "global.flag[307]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5507",
+      "if (global.flag[307] == 4)"
+    ],
+    "gml_Object_obj_ch2_city07_Step_0.gml": [
+      "line 681",
+      "global.flag[307] = 4;"
+    ],
+    "gml_Object_obj_ch2_city08_Step_0.gml": [
+      "line 173",
+      "if (global.flag[307] != 4)"
+    ],
+    "gml_Object_obj_ch2_room_castle_susie_Create_0.gml": [
+      "line 13",
+      "if (global.flag[307] == 2)"
+    ],
+    "gml_Object_obj_ch2_scene20_Create_0.gml": [
+      "line 5",
+      "gavepresent = global.flag[307] == 1 || global.flag[307] == 2;"
+    ],
+    "gml_Object_obj_ch2_scene21_loop_Step_0.gml": [
+      "line 156",
+      "if (global.choice == 0 && global.flag[307] == 4)"
+    ]
+  },
+  "global.flag[308]": {
+    "gml_Object_obj_npc_conbini_Create_0.gml": [
+      "line 10",
+      "if (global.flag[308] == 0)"
+    ],
+    "gml_Object_obj_npc_conbini_Step_0.gml": [
+      "line 168",
+      "global.flag[308] = 1;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1069",
+      "else if (global.flag[308] == 0)"
+    ],
+    "gml_Object_obj_npc_rudy_Step_0.gml": [
+      "line 18",
+      "var pickletalk = global.flag[308] == 1;"
+    ]
+  },
+  "global.flag[309]": {
+    "gml_GlobalScript_scr_keyiteminfo.gml": [
+      "line 145",
+      "if (global.flag[309] >= 9)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5846",
+      "global.flag[309] = 8;"
+    ],
+    "gml_Object_obj_ch2_city05_Step_0.gml": [
+      "line 360",
+      "con = (global.flag[309] == 1) ? 9 : 19;"
+    ],
+    "gml_Object_obj_ch2_room_city_spamton_house_Create_0.gml": [
+      "line 1",
+      "if (global.flag[309] == 9)"
+    ],
+    "gml_Object_obj_ch2_room_spamton_shop_exterior_Create_0.gml": [
+      "line 10",
+      "else if (global.flag[309] == 0 || global.flag[309] > 2)"
+    ],
+    "gml_Object_obj_ch2_sceneex1_Create_0.gml": [
+      "line 6",
+      "if (global.chapter != 2 || global.flag[309] == 9)"
+    ],
+    "gml_Object_obj_ch2_sceneex1_Step_0.gml": [
+      "line 90",
+      "global.flag[309] = 5;"
+    ],
+    "gml_Object_obj_ch2_sceneex2a_Create_0.gml": [
+      "line 5",
+      "if (global.chapter != 2 || global.flag[309] < 8 || global.flag[309] >= 9)"
+    ],
+    "gml_Object_obj_ch2_sceneex2a_Step_0.gml": [
+      "line 125",
+      "global.flag[309] = 9;"
+    ],
+    "gml_Object_obj_ch2_sceneex2_Create_0.gml": [
+      "line 31",
+      "if (global.chapter != 2 || global.flag[309] < 8)"
+    ],
+    "gml_Object_obj_ch2_sceneex2_mus_Create_0.gml": [
+      "line 4",
+      "if (global.chapter != 2 || global.flag[309] >= 8 || scr_keyitemcheck(11) == 0)"
+    ],
+    "gml_Object_obj_ch2_sceneex3_Create_0.gml": [
+      "line 4",
+      "if (global.chapter != 2 || global.flag[309] < 8 || global.flag[324] > 0)"
+    ],
+    "gml_Object_obj_doorW_Alarm_2.gml": [
+      "line 581",
+      "if (global.flag[309] < 8)"
+    ],
+    "gml_Object_obj_fountainkris_ch2_sideb_Step_0.gml": [
+      "line 281",
+      "global.flag[309] = 9;"
+    ],
+    "gml_Object_obj_mansion_keygen_lock_Create_0.gml": [
+      "line 7",
+      "if (global.flag[309] >= 4)"
+    ],
+    "gml_Object_obj_mansion_keygen_lock_Other_10.gml": [
+      "line 16",
+      "global.flag[309] = 4;"
+    ],
+    "gml_Object_obj_npc_addison_tea_Create_0.gml": [
+      "line 3",
+      "if (global.flag[309] == 9)"
+    ],
+    "gml_Object_obj_npc_castle_cliff_Create_0.gml": [
+      "line 29",
+      "if (show_shine && global.plot >= 200 && global.flag[309] < 9)"
+    ],
+    "gml_Object_obj_npc_room_animated_Create_0.gml": [
+      "line 72",
+      "if (scr_keyitemcheck(10) == 1 || global.flag[309] >= 7)"
+    ],
+    "gml_Object_obj_npc_room_animated_Other_10.gml": [
+      "line 523",
+      "if (global.flag[309] >= 9)"
+    ],
+    "gml_Object_obj_npc_room_Create_0.gml": [
+      "line 524",
+      "if (global.flag[309] == 9)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 2525",
+      "if (global.flag[309] == 9)"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2357",
+      "if (global.flag[309] < 9)"
+    ],
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 807",
+      "if (global.flag[309] < 9)"
+    ],
+    "gml_Object_obj_shop_ch2_spamton_Create_0.gml": [
+      "line 170",
+      "if (global.flag[309] >= 7)"
+    ],
+    "gml_Object_obj_shop_ch2_spamton_Draw_0.gml": [
+      "line 967",
+      "global.flag[309] = 7;"
+    ],
+    "gml_Object_obj_shop_ch2_swatch_Draw_0.gml": [
+      "line 608",
+      "else if (global.flag[309] == 9)"
+    ],
+    "gml_Object_obj_spamton_enemy_Step_0.gml": [
+      "line 482",
+      "global.flag[309] = 1;"
+    ]
+  },
+  "global.flag[310]": {
+    "gml_Object_obj_controller_city_cheesemaze_Create_0.gml": [
+      "line 29",
+      "if (global.flag[310] == 1)"
+    ],
+    "gml_Object_obj_controller_city_cheesemaze_Step_0.gml": [
+      "line 47",
+      "global.flag[310] = 1;"
+    ],
+    "gml_Object_obj_mazecheese_Create_0.gml": [
+      "line 16",
+      "if (type == 1 && global.flag[310] == 1)"
+    ],
+    "gml_Object_obj_mazecheese_Step_0.gml": [
+      "line 129",
+      "global.flag[310] = 1;"
+    ],
+    "gml_Object_obj_npc_city_cheese_Create_0.gml": [
+      "line 3",
+      "if (global.flag[310])"
+    ]
+  },
+  "global.flag[311]": {
+    "gml_Object_obj_mazecheese_Other_10.gml": [
+      "line 35",
+      "if (global.flag[311] == 0)"
+    ],
+    "gml_Object_obj_mazecheese_Step_0.gml": [
+      "line 138",
+      "global.flag[311] = 1;"
+    ]
+  },
+  "global.flag[312]": {
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 913",
+      "global.flag[312] = 1;"
+    ]
+  },
+  "global.flag[313]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5124",
+      "global.flag[313] = 1;"
+    ]
+  },
+  "global.flag[314]": {
+    "gml_Object_obj_npc_castle_cliff_Create_0.gml": [
+      "line 47",
+      "if (global.chapter != 2 || global.flag[314] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Create_0.gml": [
+      "line 543",
+      "if (global.flag[314] == 0 && global.plot < 200)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1791",
+      "global.flag[314] = 1;"
+    ]
+  },
+  "global.flag[315]": {
+    "gml_Object_obj_ch2_room_town_shelter_Create_0.gml": [
+      "line 4",
+      "if (global.chapter != 2 || global.flag[315] == 1)"
+    ],
+    "gml_Object_obj_ch2_room_town_shelter_Step_0.gml": [
+      "line 265",
+      "global.flag[315] = 1;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 1460",
+      "var visitedshelter = global.flag[315] == 1;"
+    ]
+  },
+  "global.flag[316]": {
+    "gml_Object_obj_ch2_room_town_hospital_Create_0.gml": [
+      "line 7",
+      "if (global.chapter != 2 || global.flag[316] == 1)"
+    ],
+    "gml_Object_obj_ch2_room_town_hospital_Step_0.gml": [
+      "line 336",
+      "global.flag[316] = 1;"
+    ],
+    "gml_Object_obj_npc_rudy_Create_0.gml": [
+      "line 6",
+      "if (global.flag[316] == 1)"
+    ]
+  },
+  "global.flag[317]": {
+    "gml_Object_obj_npc_police_Create_0.gml": [
+      "line 110",
+      "napstacon = (global.flag[317] == 2) ? 0 : -1;"
+    ],
+    "gml_Object_obj_npc_police_Step_0.gml": [
+      "line 501",
+      "global.flag[317] = 2;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1022",
+      "if (global.flag[317] != 2)"
+    ]
+  },
+  "global.flag[319]": {
+    "gml_Object_obj_ch2_scene23a_Create_0.gml": [
+      "line 20",
+      "if (global.chapter != 2 || global.flag[319] > 0 || global.plot >= 160)"
+    ],
+    "gml_Object_obj_ch2_scene23a_Step_0.gml": [
+      "line 75",
+      "global.flag[319] = 2;"
+    ],
+    "gml_Object_obj_ch2_scene23b_Create_0.gml": [
+      "line 29",
+      "if (global.chapter != 2 || global.flag[319] > 0)"
+    ],
+    "gml_Object_obj_ch2_scene23b_Step_0.gml": [
+      "line 415",
+      "global.flag[319] = 1;"
+    ],
+    "gml_Object_obj_ch2_scene23c_Create_0.gml": [
+      "line 4",
+      "if (global.chapter != 2 || global.flag[319] > 1)"
+    ],
+    "gml_Object_obj_ch2_scene23c_Step_0.gml": [
+      "line 172",
+      "global.flag[319] = 2;"
+    ],
+    "gml_Object_obj_ch2_scene23d_Create_0.gml": [
+      "line 4",
+      "if (global.chapter != 2 || global.flag[319] > 2)"
+    ],
+    "gml_Object_obj_ch2_scene23d_Step_0.gml": [
+      "line 328",
+      "global.flag[319] = 3;"
+    ],
+    "gml_Object_obj_ch2_scene24e_Create_0.gml": [
+      "line 4",
+      "if (global.chapter != 2 || global.flag[319] < 2 || global.plot >= 160)"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2443",
+      "if (scr_havechar(2) && global.flag[319] > 0 && scr_sideb_get_phase() == 0)"
+    ]
+  },
+  "global.flag[320]": {
+    "gml_Object_obj_ch2_room_dungeon_2f_ee_Step_0.gml": [
+      "line 300",
+      "global.flag[320] = 1;"
+    ],
+    "gml_Object_obj_npc_king_Other_10.gml": [
+      "line 25",
+      "else if (global.flag[320] == 0)"
+    ]
+  },
+  "global.flag[324]": {
+    "gml_Object_obj_ch2_sceneex3_Create_0.gml": [
+      "line 6",
+      "if (global.flag[324] == 0)"
+    ],
+    "gml_Object_obj_ch2_sceneex3_Step_0.gml": [
+      "line 344",
+      "if (global.flag[324] == 2 && global.flag[325] == 1)"
+    ]
+  },
+  "global.flag[325]": {
+    "gml_Object_obj_ch2_scene21_loop_Create_0.gml": [
+      "line 116",
+      "if (scr_havechar(2) && global.flag[325] != 4)"
+    ],
+    "gml_Object_obj_ch2_scene21_loop_Step_0.gml": [
+      "line 903",
+      "global.flag[325] = 3;"
+    ],
+    "gml_Object_obj_ch2_sceneex3_Step_0.gml": [
+      "line 344",
+      "if (global.flag[324] == 2 && global.flag[325] == 1)"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 491",
+      "if (global.flag[325] == 4)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 2681",
+      "if (global.flag[325] == 3)"
+    ]
+  },
+  "global.flag[326]": {
+    "gml_Object_obj_ch2_scene21_loop_Step_0.gml": [
+      "line 984",
+      "global.flag[326] = 0;"
+    ],
+    "gml_Object_obj_face_Draw_0.gml": [
+      "line 341",
+      "if (global.flag[326] == 1)"
+    ]
+  },
+  "global.flag[327]": {
+    "gml_Object_obj_npc_cafe_Other_10.gml": [
+      "line 86",
+      "if (myid == 40 && global.flag[327] == 1 && aite != 23)"
+    ]
+  },
+  "global.flag[329]": {
+    "gml_Object_obj_shop_ch2_spamton_Draw_0.gml": [
+      "line 848",
+      "global.flag[329] = 1;"
+    ]
+  },
+  "global.flag[330]": {
+    "gml_Object_obj_dw_cyber_tasque_battle_controller_Draw_0.gml": [
+      "line 5",
+      "if (wait > 1800 && global.flag[330] == 0)"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2249",
+      "global.flag[330] = 1;"
+    ]
+  },
+  "global.flag[331]": {
+    "gml_Object_obj_ch2_scene23a_Step_0.gml": [
+      "line 76",
+      "global.flag[331] = 1;"
+    ],
+    "gml_Object_obj_ch2_scene24e_Step_0.gml": [
+      "line 74",
+      "if (global.flag[331] == 0)"
+    ]
+  },
+  "global.flag[332]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2279",
+      "global.flag[332] = 1;"
+    ],
+    "gml_RoomCC_room_dw_cyber_battle_maze_2_old_9_Create.gml": [
+      "line 1",
+      "if (global.flag[332] == 1)"
+    ]
+  },
+  "global.flag[333]": {
+    "gml_Object_obj_ch2_keyboardpuzzle_controller_Create_0.gml": [
+      "line 131",
+      "if (room == room_dw_cyber_keyboard_puzzle_2 && global.flag[333] == 1)"
+    ],
+    "gml_Object_obj_ch2_keyboardpuzzle_controller_Draw_0.gml": [
+      "line 50",
+      "global.flag[333] = 1;"
+    ],
+    "gml_Object_obj_ch2_keyboardpuzzle_tile_Create_0.gml": [
+      "line 16",
+      "if (room == room_dw_cyber_keyboard_puzzle_2 && global.flag[333] == 1)"
+    ],
+    "gml_Object_obj_ch2_keyboard_cutscene_controller_Draw_0.gml": [
+      "line 35",
+      "global.flag[333] = 1;"
+    ],
+    "gml_Object_obj_controller_keyboard_puzzle_2_Create_0.gml": [
+      "line 17",
+      "if (global.flag[333] == 1 || realral == 0 || realsus == 0)"
+    ],
+    "gml_Object_obj_controller_keyboard_puzzle_2_Step_0.gml": [
+      "line 58",
+      "if (global.flag[333] == 1)"
+    ],
+    "gml_Object_obj_ow_virovirokunswitch_Step_0.gml": [
+      "line 1",
+      "image_index = global.flag[333];"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2264",
+      "global.flag[333] = 1;"
+    ],
+    "gml_RoomCC_room_dw_cyber_maze_virokun_0_Create.gml": [
+      "line 3",
+      "if (global.flag[333])"
+    ],
+    "gml_RoomCC_room_dw_cyber_maze_virokun_1_Create.gml": [
+      "line 1",
+      "if (global.flag[333] == 0)"
+    ]
+  },
+  "global.flag[335]": {
+    "gml_Object_obj_mansion_shovelpile_Create_0.gml": [
+      "line 6",
+      "if (global.flag[335] == 1)"
+    ],
+    "gml_Object_obj_mansion_shovelpile_Other_10.gml": [
+      "line 1",
+      "if (global.flag[335] == 0)"
+    ],
+    "gml_Object_obj_mansion_shovelpile_Step_0.gml": [
+      "line 13",
+      "global.flag[335] = 1;"
+    ],
+    "gml_Object_obj_readable_room1_Create_0.gml": [
+      "line 51",
+      "if (x < 220 && x > 230 && global.flag[335] == 1)"
+    ]
+  },
+  "global.flag[336]": {
+    "gml_Object_obj_ch2_room_town_south_alphys_Create_0.gml": [
+      "line 20",
+      "if (global.flag[336] == 1)"
+    ],
+    "gml_Object_obj_ch2_room_town_south_alphys_Step_0.gml": [
+      "line 62",
+      "global.flag[336] = 0;"
+    ]
+  },
+  "global.flag[337]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4099",
+      "global.flag[337]++;"
+    ],
+    "gml_Object_obj_ch2_town_graveyard_Step_0.gml": [
+      "line 25",
+      "global.flag[337] = 3;"
+    ]
+  },
+  "global.flag[339]": {
+    "gml_Object_obj_ch2_room_mansion_east_1f_e_Create_0.gml": [
+      "line 8",
+      "else if (global.flag[339] == 1)"
+    ],
+    "gml_Object_obj_ch2_room_mansion_east_1f_e_Step_0.gml": [
+      "line 102",
+      "global.flag[339] = 1;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 2101",
+      "if (global.flag[339] == 1)"
+    ],
+    "gml_Object_obj_readable_room1_Create_0.gml": [
+      "line 60",
+      "if (global.flag[339] == 1 && y < 170)"
+    ]
+  },
+  "global.flag[340]": {
+    "gml_Object_obj_ch2_room_mansion_east_1f_secret_Create_0.gml": [
+      "line 9",
+      "else if (global.flag[340] == 1)"
+    ],
+    "gml_Object_obj_ch2_room_mansion_east_1f_secret_Step_0.gml": [
+      "line 3",
+      "global.flag[340] = 1;"
+    ],
+    "gml_Object_obj_ch2_room_mansion_entrance_Create_0.gml": [
+      "line 32",
+      "else if (global.flag[340] == 1)"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 1967",
+      "if (global.flag[340] == 1 && read == 0)"
+    ]
+  },
+  "global.flag[341]": {
+    "gml_Object_obj_ch2_room_town_mid_diner_Step_0.gml": [
+      "line 14",
+      "global.flag[341] = 1;"
+    ]
+  },
+  "global.flag[342]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 136",
+      "global.flag[342] = 1;"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6448",
+      "global.flag[342] = 3;"
+    ]
+  },
+  "global.flag[343]": {
+    "gml_Object_obj_ch2_scene21_puzzle_entrance_Create_0.gml": [
+      "line 57",
+      "if (global.flag[343] == 1)"
+    ],
+    "gml_Object_obj_controller_mansion_hands_Create_0.gml": [
+      "line 28",
+      "if (global.flag[343] == 1)"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 909",
+      "global.flag[343] = 1;"
+    ],
+    "gml_Object_obj_queencar_Create_0.gml": [
+      "line 9",
+      "if (global.plot == 140 && global.flag[343] == 0)"
+    ],
+    "gml_Object_obj_queencar_Step_0.gml": [
+      "line 41",
+      "if (room == room_dw_mansion_acid_tunnel_puzzle_entrance && global.flag[343] == 1)"
+    ],
+    "gml_RoomCC_room_dw_mansion_bridges_24_Create.gml": [
+      "line 5",
+      "if (global.flag[343] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_hands_1_Create.gml": [
+      "line 4",
+      "if (global.flag[343] == 1)"
+    ],
+    "gml_RoomCC_room_dw_mansion_hands_4_Create.gml": [
+      "line 4",
+      "if (global.flag[343] == 1)"
+    ]
+  },
+  "global.flag[344]": {
+    "gml_Object_obj_ch2_room_mansion_east_2f_a_Create_0.gml": [
+      "line 20",
+      "if (global.flag[344] == 1)"
+    ],
+    "gml_Object_obj_ch2_room_mansion_east_2f_a_Step_0.gml": [
+      "line 90",
+      "global.flag[344] = 1;"
+    ]
+  },
+  "global.flag[345]": {
+    "gml_Object_obj_ch2_room_mansion_3f_Create_0.gml": [
+      "line 74",
+      "if (global.flag[345] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 2184",
+      "global.flag[345] = 1;"
+    ]
+  },
+  "global.flag[346]": {
+    "gml_Object_obj_ch2_room_mansion_2f_shortcut_Create_0.gml": [
+      "line 14",
+      "if (global.flag[346] == 0)"
+    ],
+    "gml_Object_obj_ch2_room_mansion_2f_shortcut_Step_0.gml": [
+      "line 87",
+      "global.flag[346] = 1;"
+    ],
+    "gml_Object_obj_ch2_room_mansion_entrance_Create_0.gml": [
+      "line 43",
+      "if (global.flag[346] == 0)"
+    ]
+  },
+  "global.flag[347]": {
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 796",
+      "if (global.flag[347] >= 8)"
+    ]
+  },
+  "global.flag[349]": {
+    "gml_Object_obj_ch2_city_berdly_Create_0.gml": [
+      "line 19",
+      "if (global.flag[349] == 1)"
+    ],
+    "gml_Object_obj_ch2_city_berdly_Step_0.gml": [
+      "line 456",
+      "if (global.flag[349] == 1)"
+    ]
+  },
+  "global.flag[350]": {
+    "gml_Object_obj_controller_dw_cyber_maze_queenscreen_Step_0.gml": [
+      "line 137",
+      "if (global.flag[350] == 1)"
+    ]
+  },
+  "global.flag[351]": {
+    "gml_Object_obj_controller_dw_cyber_maze_queenscreen_Step_0.gml": [
+      "line 171",
+      "if (!i_ex(hintscreen) && global.flag[351] == true)"
+    ]
+  },
+  "global.flag[352]": {
+    "gml_Object_obj_controller_dw_cyber_viromaze2_Create_0.gml": [
+      "line 4",
+      "if (global.flag[352] == 1)"
+    ],
+    "gml_Object_obj_controller_dw_cyber_viromaze2_Step_0.gml": [
+      "line 26",
+      "global.flag[352] = 1;"
+    ],
+    "gml_Object_obj_viroring_controller_Create_0.gml": [
+      "line 33",
+      "if (global.flag[352] == 1)"
+    ],
+    "gml_Object_obj_viroring_controller_Step_0.gml": [
+      "line 24",
+      "if (global.flag[352] != 0)"
+    ],
+    "gml_Object_obj_virospear_Collision_obj_queenscreen.gml": [
+      "line 51",
+      "global.flag[352] = 1;"
+    ],
+    "gml_RoomCC_room_dw_cyber_viromaze2_4_Create.gml": [
+      "line 3",
+      "if (global.flag[352] == 1)"
+    ],
+    "gml_RoomCC_room_dw_cyber_viro_ring_0_Create.gml": [
+      "line 3",
+      "if (global.flag[352] == 1)"
+    ],
+    "gml_RoomCC_room_dw_cyber_viro_ring_2_Create.gml": [
+      "line 3",
+      "if (global.flag[352] == 1)"
+    ]
+  },
+  "global.flag[353]": {
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 895",
+      "global.flag[353] = 1;"
+    ]
+  },
+  "global.flag[354]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6210",
+      "global.flag[354]++;"
+    ],
+    "gml_Object_obj_controller_dw_mansion_east_1f_d_Step_0.gml": [
+      "line 54",
+      "if (global.flag[354] == 1)"
+    ],
+    "gml_Object_obj_npc_room_animated_Other_10.gml": [
+      "line 335",
+      "if (global.flag[354] >= 6)"
+    ],
+    "gml_Object_obj_ow_virokun_mansion_east_1f_d_Step_0.gml": [
+      "line 88",
+      "global.flag[354] = 1;"
+    ],
+    "gml_RoomCC_room_dw_mansion_east_1f_d_0_Create.gml": [
+      "line 3",
+      "if (global.flag[354] == 1)"
+    ]
+  },
+  "global.flag[356]": {
+    "gml_Object_obj_ch2_scene20_Create_0.gml": [
+      "line 14",
+      "if (global.flag[356] == 0)"
+    ],
+    "gml_Object_obj_pushable_lancer_Step_0.gml": [
+      "line 201",
+      "global.flag[356] = 1;"
+    ],
+    "gml_Room_room_dw_mansion_dining_a_Create.gml": [
+      "line 1",
+      "if (global.flag[356] == 1)"
+    ]
+  },
+  "global.flag[357]": {
+    "gml_Object_obj_berdlycoaster_event_Create_0.gml": [
+      "line 133",
+      "if (coasterRecruitID[i] == 500 && global.flag[357] == 1)"
+    ],
+    "gml_Object_obj_ch2_city01_Create_0.gml": [
+      "line 34",
+      "if (global.flag[357] == 1)"
+    ],
+    "gml_Object_obj_ch2_room_mansion_east_1f_e_Create_0.gml": [
+      "line 28",
+      "if (global.flag[357] == 1)"
+    ],
+    "gml_Object_obj_ch2_room_mansion_east_2f_a_Create_0.gml": [
+      "line 97",
+      "if (global.flag[357] == 1)"
+    ],
+    "gml_Object_obj_ch2_scene19a_Create_0.gml": [
+      "line 8",
+      "if (global.flag[357] == 1)"
+    ],
+    "gml_Object_obj_ch2_scene26_powers_combined_Create_0.gml": [
+      "line 59",
+      "if (global.flag[357] == 1)"
+    ],
+    "gml_Object_obj_ch2_scene26_powers_combined_old_Create_0.gml": [
+      "line 44",
+      "if (global.flag[357] == 1)"
+    ],
+    "gml_Object_obj_cyber_shadowMaker_fireworks_Create_0.gml": [
+      "line 16",
+      "is_active = global.flag[357] == 1;"
+    ],
+    "gml_Object_obj_fireworks_manager_Create_0.gml": [
+      "line 14",
+      "is_active = global.flag[357] == 1;"
+    ],
+    "gml_Object_obj_firework_cityscape_Create_0.gml": [
+      "line 14",
+      "is_active = global.flag[357] == 1;"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 27",
+      "if (global.flag[357] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Create_0.gml": [
+      "line 548",
+      "else if (global.flag[357] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 2118",
+      "if (global.flag[357] == 1)"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 877",
+      "global.flag[357] = 1;"
+    ]
+  },
+  "global.flag[358]": {
+    "gml_Object_obj_ch2_sceneex1_Create_0.gml": [
+      "line 24",
+      "else if (global.flag[358] > 1)"
+    ],
+    "gml_Object_obj_ch2_sceneex1_Step_0.gml": [
+      "line 60",
+      "global.flag[358]++;"
+    ]
+  },
+  "global.flag[359]": {
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 874",
+      "global.flag[359] = 2;"
+    ]
+  },
+  "global.flag[360]": {
+    "gml_Object_obj_controller_city_cheesemaze_Create_0.gml": [
+      "line 38",
+      "if (global.flag[360] == 1)"
+    ],
+    "gml_Object_obj_controller_city_cheesemaze_Step_0.gml": [
+      "line 12",
+      "global.flag[360] = 1;"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Create_0.gml": [
+      "line 568",
+      "global.flag[360] = 1;"
+    ]
+  },
+  "global.flag[361]": {
+    "gml_Object_obj_mazecheese_Step_0.gml": [
+      "line 95",
+      "global.flag[361] = 1;"
+    ]
+  },
+  "global.flag[362]": {
+    "gml_Object_obj_ch2_room_mansion_kitchen_Create_0.gml": [
+      "line 64",
+      "if (global.flag[362] == 0)"
+    ],
+    "gml_Object_obj_ch2_room_mansion_kitchen_Step_0.gml": [
+      "line 170",
+      "global.flag[362] = 1;"
+    ],
+    "gml_Object_obj_lockedDoor_mansion_east_2f_transformed_new_Create_0.gml": [
+      "line 11",
+      "if (global.flag[362] == 1 && global.flag[382] == 0)"
+    ],
+    "gml_Object_obj_npc_room_animated_Other_10.gml": [
+      "line 424",
+      "if (global.flag[362] == 0)"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Create_0.gml": [
+      "line 385",
+      "global.flag[362] = 1 && global.flag[382] == 0;"
+    ]
+  },
+  "global.flag[366]": {
+    "gml_Object_obj_queenscreen_Step_0.gml": [
+      "line 209",
+      "global.flag[366] = 1;"
+    ]
+  },
+  "global.flag[367]": {
+    "gml_Object_obj_dw_cyber_maze_tasque_controller_Create_0.gml": [
+      "line 11",
+      "if (global.flag[367] == 1)"
+    ],
+    "gml_Object_obj_dw_cyber_maze_tasque_controller_Draw_0.gml": [
+      "line 1",
+      "if (global.flag[367] == 1 && screenChangeTrigger == 0)"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 841",
+      "var total_checkmarks = global.flag[367] + global.flag[407] + global.flag[420];"
+    ],
+    "gml_Object_obj_queenscreen_Create_0.gml": [
+      "line 59",
+      "if (global.flag[367] == 1)"
+    ],
+    "gml_Object_obj_queenscreen_Step_0.gml": [
+      "line 110",
+      "global.flag[367] = 1;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2294",
+      "if (global.flag[367] == 1)"
+    ]
+  },
+  "global.flag[368]": {
+    "gml_Object_obj_controller_city_mice2_Create_0.gml": [
+      "line 23",
+      "if (global.flag[368] == 1 || global.plot >= 77)"
+    ],
+    "gml_Object_obj_controller_city_mice2_Step_0.gml": [
+      "line 832",
+      "global.flag[368] = 1;"
+    ],
+    "gml_Object_obj_forcefield_Create_0.gml": [
+      "line 54",
+      "if (global.flag[368] == 1)"
+    ],
+    "gml_Object_obj_holemouse_Collision_obj_holemouse_goal.gml": [
+      "line 33",
+      "global.flag[368] = 0.5;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2651",
+      "if (global.flag[368] == 0)"
+    ],
+    "gml_Object_obj_rotationController_track_Other_10.gml": [
+      "line 3",
+      "if (rotate == false && timer > 1 && global.flag[368] < 1)"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_10_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_11_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_12_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_13_Create.gml": [
+      "line 1",
+      "if (global.flag[368] == 1)"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_4_Create.gml": [
+      "line 1",
+      "if (global.flag[368] == 1)"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_6_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_7_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_8_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_9_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ]
+  },
+  "global.flag[369]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2019",
+      "global.flag[369] = 1;"
+    ]
+  },
+  "global.flag[370]": {
+    "gml_Object_obj_controller_mansion_traffic_Create_0.gml": [
+      "line 11",
+      "if (global.flag[370] == 1)"
+    ],
+    "gml_Object_obj_controller_mansion_traffic_old_Create_0.gml": [
+      "line 6",
+      "if (global.flag[370] == 1)"
+    ],
+    "gml_Object_obj_controller_mansion_traffic_old_Step_0.gml": [
+      "line 37",
+      "global.flag[370] = 1;"
+    ],
+    "gml_Object_obj_controller_mansion_traffic_Step_0.gml": [
+      "line 47",
+      "global.flag[370] = 1;"
+    ],
+    "gml_RoomCC_room_dw_mansion_traffic_16_Create.gml": [
+      "line 3",
+      "if (global.flag[370] == 1)"
+    ],
+    "gml_RoomCC_room_dw_mansion_traffic_17_Create.gml": [
+      "line 3",
+      "if (global.flag[370] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_traffic_18_Create.gml": [
+      "line 1",
+      "if (global.flag[370] == 1)"
+    ],
+    "gml_RoomCC_room_dw_mansion_traffic_19_Create.gml": [
+      "line 3",
+      "if (global.flag[370] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_traffic_20_Create.gml": [
+      "line 3",
+      "if (global.flag[370] == 0)"
+    ]
+  },
+  "global.flag[371]": {
+    "gml_Object_obj_npc_tasquemanager_Create_0.gml": [
+      "line 9",
+      "if (global.flag[371] != 0)"
+    ],
+    "gml_Object_obj_tasquepainting_Create_0.gml": [
+      "line 17",
+      "if (global.flag[371] == 1)"
+    ],
+    "gml_Object_obj_tasque_manager_tempsave_Step_0.gml": [
+      "line 6",
+      "global.flag[371] = 1;"
+    ]
+  },
+  "global.flag[373]": {
+    "gml_Object_obj_controller_dw_mansion_b_west_2f_Create_0.gml": [
+      "line 3",
+      "if (global.flag[373] == 1)"
+    ],
+    "gml_Object_obj_controller_dw_mansion_b_west_2f_Draw_0.gml": [
+      "line 1",
+      "if (global.flag[373] == 0)"
+    ],
+    "gml_Object_obj_controller_dw_mansion_b_west_2f_Step_0.gml": [
+      "line 22",
+      "if (i_ex(forcefield) && global.flag[373] == 1)"
+    ],
+    "gml_Object_obj_mansion_basement_door_Create_0.gml": [
+      "line 5",
+      "closed_door = global.flag[373];"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2314",
+      "else if (global.flag[373] == 1)"
+    ],
+    "gml_Object_obj_teacup_Other_10.gml": [
+      "line 3",
+      "if (global.flag[373] != 1)"
+    ],
+    "gml_Object_obj_teacup_Step_0.gml": [
+      "line 16",
+      "if (uniqueRideExperience == 1 && global.flag[373] == 1)"
+    ],
+    "gml_RoomCC_room_dw_mansion_b_central_0_Create.gml": [
+      "line 1",
+      "if (global.flag[373] == 1)"
+    ]
+  },
+  "global.flag[374]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 2073",
+      "var miceGold = (global.flag[374] * 20) + global.flag[375];"
+    ]
+  },
+  "global.flag[375]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 2073",
+      "var miceGold = (global.flag[374] * 20) + global.flag[375];"
+    ]
+  },
+  "global.flag[376]": {
+    "gml_Object_obj_bridgeSwapper_decoy_Create_0.gml": [
+      "line 5",
+      "if (global.flag[376] == 2)"
+    ],
+    "gml_Object_obj_controller_dw_mansion_bridges_funny_Create_0.gml": [
+      "line 25",
+      "if (global.flag[376] == 1)"
+    ],
+    "gml_Object_obj_controller_dw_mansion_bridges_funny_Step_0.gml": [
+      "line 66",
+      "global.flag[376] = 2;"
+    ]
+  },
+  "global.flag[377]": {
+    "gml_Object_obj_lotterymouseController_Create_0.gml": [
+      "line 3",
+      "if (global.flag[378] == 1 && global.flag[377] == 1)"
+    ],
+    "gml_Object_obj_lotterymouseController_Step_0.gml": [
+      "line 3",
+      "if (global.flag[378] == 1 && global.flag[377] == 1)"
+    ],
+    "gml_Object_obj_lottery_bridgeBuilder1_Step_0.gml": [
+      "line 12",
+      "global.flag[377] = 1;"
+    ],
+    "gml_RoomCC_room_dw_mansion_mouseLottery_13_Create.gml": [
+      "line 3",
+      "if (global.flag[377] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_mouseLottery_15_Create.gml": [
+      "line 3",
+      "if (global.flag[377] == 1)"
+    ],
+    "gml_RoomCC_room_dw_mansion_mouseLottery_19_Create.gml": [
+      "line 3",
+      "if (global.flag[377] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_mouseLottery_20_Create.gml": [
+      "line 3",
+      "if (global.flag[377] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_mouseLottery_21_Create.gml": [
+      "line 3",
+      "if (global.flag[377] == 0)"
+    ]
+  },
+  "global.flag[378]": {
+    "gml_Object_obj_lotterymouseController_Create_0.gml": [
+      "line 3",
+      "if (global.flag[378] == 1 && global.flag[377] == 1)"
+    ],
+    "gml_Object_obj_lotterymouseController_Step_0.gml": [
+      "line 3",
+      "if (global.flag[378] == 1 && global.flag[377] == 1)"
+    ],
+    "gml_Object_obj_lottery_bridgeBuilder1_Step_0.gml": [
+      "line 6",
+      "global.flag[378] = 1;"
+    ],
+    "gml_RoomCC_room_dw_mansion_mouseLottery_12_Create.gml": [
+      "line 3",
+      "if (global.flag[378] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_mouseLottery_14_Create.gml": [
+      "line 3",
+      "if (global.flag[378] == 1)"
+    ],
+    "gml_RoomCC_room_dw_mansion_mouseLottery_23_Create.gml": [
+      "line 3",
+      "if (global.flag[378] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_mouseLottery_24_Create.gml": [
+      "line 3",
+      "if (global.flag[378] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_mouseLottery_25_Create.gml": [
+      "line 3",
+      "if (global.flag[378] == 0)"
+    ]
+  },
+  "global.flag[379]": {
+    "gml_GlobalScript_scr_monstersetup.gml": [
+      "line 900",
+      "global.actname[myself][2] = (global.flag[379] == 0) ? stringsetloc(\"Fear\", \"scr_monstersetup_slash_scr_monstersetup_gml_987_0\") : stringsetloc(\"Compliment\", \"scr_monstersetup_slash_scr_monstersetup_gml_987_1\");"
+    ],
+    "gml_Object_obj_controller_city_mice3_Create_0.gml": [
+      "line 46",
+      "if (global.flag[379] == 1)"
+    ],
+    "gml_Object_obj_controller_city_mice3_Step_0.gml": [
+      "line 938",
+      "global.flag[379] = 1;"
+    ],
+    "gml_Object_obj_dw_city_mice3Fence_Create_0.gml": [
+      "line 2",
+      "image_index = global.flag[379];"
+    ],
+    "gml_Object_obj_masterPlatformController_Create_0.gml": [
+      "line 6",
+      "if (global.flag[379] == 0 || global.plot < 78)"
+    ],
+    "gml_Object_obj_maus_enemy_Step_0.gml": [
+      "line 402",
+      "if (global.flag[379] == 0)"
+    ],
+    "gml_Object_obj_mouseTowerTrigger_Other_10.gml": [
+      "line 1",
+      "if (rotate == false && timer > 1 && global.facing == 2 && global.flag[379] == 0)"
+    ],
+    "gml_Object_obj_mouseTowerTrigger_Step_0.gml": [
+      "line 1",
+      "if (global.flag[379] == 0)"
+    ],
+    "gml_RoomCC_room_dw_city_mice3_0_Create.gml": [
+      "line 1",
+      "if (global.flag[379] == 1)"
+    ],
+    "gml_RoomCC_room_dw_city_mice3_1_Create.gml": [
+      "line 1",
+      "if (global.flag[379] == 1)"
+    ],
+    "gml_RoomCC_room_dw_city_mice3_2_Create.gml": [
+      "line 4",
+      "if (global.flag[379] == 0)"
+    ],
+    "gml_RoomCC_room_dw_city_mice3_3_Create.gml": [
+      "line 4",
+      "if (global.flag[379] == 0)"
+    ],
+    "gml_RoomCC_room_dw_city_mice3_4_Create.gml": [
+      "line 4",
+      "if (global.flag[379] == 0)"
+    ]
+  },
+  "global.flag[380]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 324",
+      "global.flag[380] = 1;"
+    ]
+  },
+  "global.flag[381]": {
+    "gml_Object_obj_controller_dining3_Create_0.gml": [
+      "line 67",
+      "if (global.flag[381] == 1)"
+    ],
+    "gml_Object_obj_controller_dining3_Step_0.gml": [
+      "line 671",
+      "global.flag[381] = 1;"
+    ]
+  },
+  "global.flag[382]": {
+    "gml_Object_obj_controller_dininghall_Create_0.gml": [
+      "line 17",
+      "if (global.flag[382] == 1)"
+    ],
+    "gml_Object_obj_controller_dininghall_Step_0.gml": [
+      "line 178",
+      "global.flag[382] = 0;"
+    ],
+    "gml_Object_obj_lockedDoor_mansion_east_2f_transformed_new_Create_0.gml": [
+      "line 11",
+      "if (global.flag[362] == 1 && global.flag[382] == 0)"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 1103",
+      "if (global.flag[382] == 0)"
+    ],
+    "gml_Object_obj_scarableSwatch_Create_0.gml": [
+      "line 1",
+      "if (global.flag[382] == 1 && 209)"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Create_0.gml": [
+      "line 385",
+      "global.flag[362] = 1 && global.flag[382] == 0;"
+    ],
+    "gml_RoomCC_room_dw_mansion_dininghall_3_Create.gml": [
+      "line 1",
+      "if (global.flag[382] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_dininghall_4_Create.gml": [
+      "line 1",
+      "if (global.flag[382] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_dininghall_5_Create.gml": [
+      "line 1",
+      "if (global.flag[382] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_east_2f_ufo_old_11_Create.gml": [
+      "line 1",
+      "if (global.flag[382] == 0)"
+    ]
+  },
+  "global.flag[383]": {
+    "gml_Object_obj_alleySwitch_Create_0.gml": [
+      "line 8",
+      "keeptoggled = global.flag[383];"
+    ],
+    "gml_Object_obj_alleySwitch_Step_0.gml": [
+      "line 11",
+      "global.flag[383] = 1;"
+    ],
+    "gml_Object_obj_controller_dw_city_big_2_Create_0.gml": [
+      "line 18",
+      "if (global.flag[383] == 1)"
+    ]
+  },
+  "global.flag[384]": {
+    "gml_Object_obj_controller_city_cheesemaze_Create_0.gml": [
+      "line 19",
+      "if (global.flag[384] == 1)"
+    ],
+    "gml_Object_obj_mazecheese_Create_0.gml": [
+      "line 22",
+      "if (global.flag[384] == 1 && type == 2)"
+    ],
+    "gml_Object_obj_mazecheese_Other_10.gml": [
+      "line 19",
+      "global.flag[384] = 1;"
+    ]
+  },
+  "global.flag[385]": {
+    "gml_Object_obj_balancepot_Step_2.gml": [
+      "line 100",
+      "global.flag[385] = 1;"
+    ],
+    "gml_Object_obj_controller_dw_mansion_potBalance_Create_0.gml": [
+      "line 22",
+      "if (global.flag[385] != 0)"
+    ],
+    "gml_Object_obj_racingline_Create_0.gml": [
+      "line 5",
+      "if (global.flag[385] != 0)"
+    ],
+    "gml_Object_obj_racingline_Step_0.gml": [
+      "line 6",
+      "global.flag[385] = 2;"
+    ]
+  },
+  "global.flag[386]": {
+    "gml_Object_obj_ch2_room_spamton_shop_exterior_Create_0.gml": [
+      "line 6",
+      "global.flag[386] = 2;"
+    ],
+    "gml_Object_obj_ch2_room_spamton_shop_exterior_Step_0.gml": [
+      "line 43",
+      "global.flag[386] = 2;"
+    ],
+    "gml_Object_obj_readable_room1_Create_0.gml": [
+      "line 22",
+      "if (global.flag[386] >= 1)"
+    ],
+    "gml_Object_obj_shop_ch2_spamton_Create_0.gml": [
+      "line 168",
+      "global.flag[386] = 1;"
+    ]
+  },
+  "global.flag[387]": {
+    "gml_Object_obj_ch2_room_castle_2f_Create_0.gml": [
+      "line 9",
+      "else if (global.plot >= 200 && global.flag[387] == 1)"
+    ],
+    "gml_Object_obj_ch2_room_castle_area_1_Create_0.gml": [
+      "line 3",
+      "if (global.plot >= 200 && global.flag[387] == 0)"
+    ],
+    "gml_Object_obj_ch2_room_castle_area_1_Step_0.gml": [
+      "line 192",
+      "global.flag[387] = 1;"
+    ],
+    "gml_Object_obj_dw_transition_Draw_0.gml": [
+      "line 341",
+      "if (global.plot >= 200 && global.flag[387] == 0)"
+    ]
+  },
+  "global.flag[388]": {
+    "gml_Object_obj_ch2_room_castle_2f_Create_0.gml": [
+      "line 11",
+      "if (global.flag[388] == 1 || scr_get_total_recruits(2) == 0)"
+    ],
+    "gml_Object_obj_ch2_scene27_Step_0.gml": [
+      "line 957",
+      "global.flag[388] = 1;"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 1002",
+      "if (global.flag[388] == 1 || scr_get_total_recruits(2) == 0)"
+    ]
+  },
+  "global.flag[389]": {
+    "gml_Object_obj_chaseenemy_Create_0.gml": [
+      "line 339",
+      "if (global.flag[389] == 1)"
+    ],
+    "gml_Object_obj_controller_dw_mansion_bridges_Create_0.gml": [
+      "line 5",
+      "if (global.flag[389] == 1)"
+    ],
+    "gml_Object_obj_controller_dw_mansion_bridges_Step_0.gml": [
+      "line 8",
+      "global.flag[389] = 1;"
+    ]
+  },
+  "global.flag[390]": {
+    "gml_Object_obj_ch2_keyboardpuzzle_controller_Create_0.gml": [
+      "line 128",
+      "if (room == room_dw_cyber_keyboard_puzzle_1 && global.flag[390] == 1)"
+    ],
+    "gml_Object_obj_ch2_keyboardpuzzle_controller_Draw_0.gml": [
+      "line 46",
+      "global.flag[390] = 1;"
+    ],
+    "gml_Object_obj_ch2_keyboardpuzzle_tile_Create_0.gml": [
+      "line 13",
+      "if (room == room_dw_cyber_keyboard_puzzle_1 && global.flag[390] == 1)"
+    ],
+    "gml_Object_obj_ch2_keyboard_cutscene_controller_Draw_0.gml": [
+      "line 31",
+      "global.flag[390] = 1;"
+    ],
+    "gml_Object_obj_controller_keyboard_puzzle_1_Create_0.gml": [
+      "line 17",
+      "if (global.flag[390] == 1 || realral == 0 || realsus == 0)"
+    ],
+    "gml_Object_obj_controller_keyboard_puzzle_1_Step_0.gml": [
+      "line 53",
+      "if (global.flag[390] == 1 && obj_mainchara.x <= 160)"
+    ],
+    "gml_RoomCC_room_dw_cyber_keyboard_puzzle_1_6_Create.gml": [
+      "line 1",
+      "if (global.flag[390] == 1)"
+    ]
+  },
+  "global.flag[391]": {
+    "gml_Object_obj_chaseenemy_Create_0.gml": [
+      "line 125",
+      "if (global.flag[391] == 0)"
+    ],
+    "gml_Object_obj_controller_dw_cyber_maze_virokun_Create_0.gml": [
+      "line 1",
+      "if (global.flag[391] == 0)"
+    ],
+    "gml_Object_obj_controller_dw_cyber_maze_virokun_Step_0.gml": [
+      "line 6",
+      "global.flag[391] = 1;"
+    ]
+  },
+  "global.flag[392]": {
+    "gml_Object_obj_ch2_room_mansion_3f_Create_0.gml": [
+      "line 25",
+      "bookcase_x = (global.flag[392] == 0 && global.plot < 150) ? 590 : 520;"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Create_0.gml": [
+      "line 484",
+      "global.flag[392] = 1;"
+    ]
+  },
+  "global.flag[393]": {
+    "gml_Object_obj_ch2_room_castle_susie_Create_0.gml": [
+      "line 5",
+      "if (global.flag[393] == 1)"
+    ],
+    "gml_Object_obj_ch2_scene23b_Create_0.gml": [
+      "line 13",
+      "if (global.flag[393] == 0)"
+    ],
+    "gml_Object_obj_ch2_scene23b_Step_0.gml": [
+      "line 482",
+      "global.flag[393] = 1;"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 1064",
+      "global.flag[393] = 1;"
+    ]
+  },
+  "global.flag[394]": {
+    "gml_Object_obj_ch2_room_castle_kris_Create_0.gml": [
+      "line 1",
+      "if (global.flag[394] == 1)"
+    ],
+    "gml_Object_obj_ch2_scene23b_Create_0.gml": [
+      "line 21",
+      "if (global.flag[394] == 0)"
+    ],
+    "gml_Object_obj_ch2_scene23b_Step_0.gml": [
+      "line 492",
+      "global.flag[394] = 1;"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 1082",
+      "global.flag[394] = 1;"
+    ]
+  },
+  "global.flag[395]": {
+    "gml_Object_obj_controller_dw_mansion_east_2f_transformed_new_Step_0.gml": [
+      "line 1",
+      "if (sidea == 0 && global.flag[395] == 1)"
+    ],
+    "gml_Object_obj_queenart_red_Other_10.gml": [
+      "line 12",
+      "global.flag[395] = 1;"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Create_0.gml": [
+      "line 400",
+      "global.flag[395] = 1;"
+    ],
+    "gml_RoomCC_room_dw_mansion_east_2f_transformed_new_8_Create.gml": [
+      "line 2",
+      "dontshine = global.flag[395];"
+    ]
+  },
+  "global.flag[396]": {
+    "gml_Object_obj_controller_dw_mansion_east_2f_transformed_new_Step_0.gml": [
+      "line 14",
+      "if (sideb == 0 && global.flag[396] == 1)"
+    ],
+    "gml_Object_obj_queenart_red_Other_10.gml": [
+      "line 27",
+      "global.flag[396] = 1;"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Create_0.gml": [
+      "line 401",
+      "global.flag[396] = 1;"
+    ],
+    "gml_RoomCC_room_dw_mansion_east_2f_transformed_new_9_Create.gml": [
+      "line 2",
+      "dontshine = global.flag[396];"
+    ]
+  },
+  "global.flag[397]": {
+    "gml_Object_obj_controller_dw_mansion_fire_paintings_Create_0.gml": [
+      "line 4",
+      "if (global.flag[397] == 0)"
+    ],
+    "gml_Object_obj_controller_dw_mansion_fire_paintings_Step_0.gml": [
+      "line 164",
+      "global.flag[397] = 1;"
+    ]
+  },
+  "global.flag[398]": {
+    "gml_Object_obj_queenart_mona_Create_0.gml": [
+      "line 38",
+      "if (global.flag[398] == 1)"
+    ],
+    "gml_Object_obj_queenart_red_Create_0.gml": [
+      "line 43",
+      "dontshine = global.flag[398];"
+    ],
+    "gml_Object_obj_queenart_red_Other_10.gml": [
+      "line 72",
+      "global.flag[398] = 1;"
+    ],
+    "gml_RoomCC_room_dw_mansion_fire_paintings_2_Create.gml": [
+      "line 3",
+      "if (global.flag[398] == 1)"
+    ]
+  },
+  "global.flag[399]": {
+    "gml_Object_obj_queenart_mona_Create_0.gml": [
+      "line 59",
+      "if (global.flag[399] == 1)"
+    ],
+    "gml_Object_obj_queenart_red_Create_0.gml": [
+      "line 55",
+      "if (global.flag[399] == 1)"
+    ],
+    "gml_Object_obj_queenart_red_Other_10.gml": [
+      "line 109",
+      "global.flag[399] = 1;"
+    ],
+    "gml_RoomCC_room_dw_mansion_fire_paintings_1_Create.gml": [
+      "line 3",
+      "if (global.flag[399] == 1)"
+    ]
+  },
+  "global.flag[400]": {
+    "gml_Object_obj_controller_dw_mansion_single_pot_Create_0.gml": [
+      "line 19",
+      "if (global.flag[400] == 2)"
+    ],
+    "gml_Object_obj_controller_dw_mansion_single_pot_Step_0.gml": [
+      "line 36",
+      "global.flag[400] = 2;"
+    ]
+  },
+  "global.flag[407]": {
+    "gml_Object_obj_checkmarktreasurebox_Create_0.gml": [
+      "line 4",
+      "opened = global.flag[407];"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 841",
+      "var total_checkmarks = global.flag[367] + global.flag[407] + global.flag[420];"
+    ],
+    "gml_Object_obj_queenscreen_Create_0.gml": [
+      "line 71",
+      "if (global.flag[407] == 1)"
+    ],
+    "gml_Object_obj_queenscreen_Step_0.gml": [
+      "line 104",
+      "global.flag[407] = 1;"
+    ]
+  },
+  "global.flag[408]": {
+    "gml_Object_obj_controller_dw_cyber_post_music_boss_slide_Step_0.gml": [
+      "line 5",
+      "global.flag[408] = 1;"
+    ]
+  },
+  "global.flag[409]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2745",
+      "var inspected_all = global.flag[409] == 1 && global.flag[410] == 1 && global.flag[411] == 1 && global.flag[412] == 1 && global.flag[413] == 1;"
+    ]
+  },
+  "global.flag[410]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2745",
+      "var inspected_all = global.flag[409] == 1 && global.flag[410] == 1 && global.flag[411] == 1 && global.flag[412] == 1 && global.flag[413] == 1;"
+    ]
+  },
+  "global.flag[411]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2745",
+      "var inspected_all = global.flag[409] == 1 && global.flag[410] == 1 && global.flag[411] == 1 && global.flag[412] == 1 && global.flag[413] == 1;"
+    ]
+  },
+  "global.flag[412]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2745",
+      "var inspected_all = global.flag[409] == 1 && global.flag[410] == 1 && global.flag[411] == 1 && global.flag[412] == 1 && global.flag[413] == 1;"
+    ]
+  },
+  "global.flag[413]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2745",
+      "var inspected_all = global.flag[409] == 1 && global.flag[410] == 1 && global.flag[411] == 1 && global.flag[412] == 1 && global.flag[413] == 1;"
+    ]
+  },
+  "global.flag[414]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2750",
+      "global.flag[414] = 1;"
+    ]
+  },
+  "global.flag[415]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6828",
+      "global.flag[415] = 3;"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 450",
+      "if (global.flag[415] == 0)"
+    ]
+  },
+  "global.flag[416]": {
+    "gml_Object_obj_npc_musical_door_Create_0.gml": [
+      "line 20",
+      "global.flag[416] = 1;"
+    ]
+  },
+  "global.flag[417]": {
+    "gml_Object_obj_ch2_city05_Create_0.gml": [
+      "line 19",
+      "global.flag[417] = 1;"
+    ]
+  },
+  "global.flag[418]": {
+    "gml_GlobalScript_scr_keyiteminfo.gml": [
+      "line 76",
+      "if (global.flag[418] == 1)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4610",
+      "global.flag[418] = 1;"
+    ],
+    "gml_Object_obj_ch2_room_mansion_entrance_Create_0.gml": [
+      "line 59",
+      "global.flag[418] = 1;"
+    ]
+  },
+  "global.flag[419]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6067",
+      "global.flag[419] = 2;"
+    ],
+    "gml_Object_obj_tasque_manager_enemy_Other_24.gml": [
+      "line 6",
+      "if (global.flag[419] == 2)"
+    ],
+    "gml_Object_obj_tasque_manager_enemy_Step_0.gml": [
+      "line 6",
+      "if (global.flag[419] == 2)"
+    ]
+  },
+  "global.flag[420]": {
+    "gml_Object_obj_ch2_keyboardpuzzle_controller_Create_0.gml": [
+      "line 134",
+      "if (room == room_dw_cyber_keyboard_puzzle_3 && global.flag[420] == 1)"
+    ],
+    "gml_Object_obj_ch2_keyboardpuzzle_tile_Create_0.gml": [
+      "line 19",
+      "if (room == room_dw_cyber_keyboard_puzzle_3 && global.flag[420] == 1)"
+    ],
+    "gml_Object_obj_controller_keyboard_puzzle_3_Create_0.gml": [
+      "line 17",
+      "if (global.flag[420] == 1 || realral == 0 || realsus == 0)"
+    ],
+    "gml_Object_obj_controller_keyboard_puzzle_3_Step_0.gml": [
+      "line 67",
+      "if (global.flag[420] == 1 && triggered == true)"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 841",
+      "var total_checkmarks = global.flag[367] + global.flag[407] + global.flag[420];"
+    ],
+    "gml_Object_obj_queenscreen_Create_0.gml": [
+      "line 65",
+      "if (global.flag[420] == 1)"
+    ],
+    "gml_Object_obj_queenscreen_Step_0.gml": [
+      "line 116",
+      "global.flag[420] = 1;"
+    ]
+  },
+  "global.flag[421]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4500",
+      "global.flag[421] = 1;"
+    ],
+    "gml_Object_obj_weirdEvent_addison_city_big_2_Step_0.gml": [
+      "line 5",
+      "if (global.flag[421] == 1)"
+    ]
+  },
+  "global.flag[422]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4272",
+      "global.flag[422] = 1;"
+    ]
+  },
+  "global.flag[423]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7470",
+      "global.flag[423]++;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 2277",
+      "if (global.flag[423] >= 4 && scr_sideb_get_phase() > 0)"
+    ]
+  },
+  "global.flag[424]": {
+    "gml_Object_obj_onion_event_Step_0.gml": [
+      "line 107",
+      "global.flag[424] = 1;"
+    ]
+  },
+  "global.flag[425]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3800",
+      "global.flag[425] = 2;"
+    ]
+  },
+  "global.flag[426]": {
+    "gml_GlobalScript_scr_encountersetup.gml": [
+      "line 1085",
+      "global.flag[426] = choose(0, 1, 2, 3);"
+    ],
+    "gml_Object_obj_swatchling_enemy_Create_0.gml": [
+      "line 28",
+      "switch (global.flag[426])"
+    ]
+  },
+  "global.flag[427]": {
+    "gml_Object_obj_viroring_controller_Create_0.gml": [
+      "line 8",
+      "if (global.flag[427] == 1)"
+    ],
+    "gml_Object_obj_virospear_Collision_obj_queenscreen.gml": [
+      "line 56",
+      "global.flag[427] = 1;"
+    ],
+    "gml_RoomCC_room_dw_cyber_viro_ring_5_Create.gml": [
+      "line 3",
+      "if (global.flag[427] != 0)"
+    ]
+  },
+  "global.flag[428]": {
+    "gml_Object_obj_sweet_dw_cyber_music_bullet_Create_0.gml": [
+      "line 11",
+      "if (global.flag[428] > 0)"
+    ],
+    "gml_Object_obj_sweet_dw_cyber_music_bullet_Draw_0.gml": [
+      "line 9",
+      "global.flag[428] = 1;"
+    ]
+  },
+  "global.flag[429]": {
+    "gml_Object_obj_queenstatue_acid_Create_0.gml": [
+      "line 5",
+      "progress = global.flag[429];"
+    ],
+    "gml_Object_obj_queenstatue_acid_Draw_0.gml": [
+      "line 25",
+      "global.flag[429] = progress;"
+    ]
+  },
+  "global.flag[430]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4233",
+      "global.flag[430] = 1;"
+    ]
+  },
+  "global.flag[431]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5389",
+      "global.flag[431] = 1;"
+    ]
+  },
+  "global.flag[432]": {
+    "gml_Object_obj_ch2_room_castle_2f_Step_0.gml": [
+      "line 67",
+      "global.flag[432] = 1;"
+    ],
+    "gml_Object_obj_krisroom_Step_0.gml": [
+      "line 488",
+      "global.flag[432] = 1;"
+    ]
+  },
+  "global.flag[433]": {
+    "gml_Object_obj_ch2_room_castle_area_1_Step_0.gml": [
+      "line 208",
+      "global.flag[433] = 1;"
+    ]
+  },
+  "global.flag[434]": {
+    "gml_Object_obj_shop_ch2_spamton_Draw_0.gml": [
+      "line 780",
+      "global.flag[434] = 1;"
+    ]
+  },
+  "global.flag[435]": {
+    "gml_Object_obj_ch2_scene21_loop_Step_0.gml": [
+      "line 627",
+      "if (global.flag[435] == 2)"
+    ],
+    "gml_Object_obj_rouxls_enemy_Step_0.gml": [
+      "line 410",
+      "global.flag[435] = 3;"
+    ],
+    "gml_Object_obj_rouxls_simtown_Other_10.gml": [
+      "line 29",
+      "global.flag[435] = 1;"
+    ]
+  },
+  "global.flag[436]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 353",
+      "global.flag[436] = 1;"
+    ]
+  },
+  "global.flag[437]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 4943",
+      "global.flag[437] = global.choice + 1;"
+    ]
+  },
+  "global.flag[438]": {
+    "gml_Object_obj_ch2_tutorialViroMaker_Create_0.gml": [
+      "line 14",
+      "if ((room == room_dw_city_big_1 && global.flag[438] == 2) || (room == room_dw_city_roadblock && global.flag[438] == 1) || (global.flag[531] != 0 && global.flag[531] != 6) || havenoelle == 0)"
+    ],
+    "gml_Object_obj_ch2_tutorialViroMaker_Step_0.gml": [
+      "line 9",
+      "global.flag[438] = 2;"
+    ]
+  },
+  "global.flag[439]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 1636",
+      "global.flag[439] = 1;"
+    ]
+  },
+  "global.flag[440]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2455",
+      "global.flag[440] = 1;"
+    ]
+  },
+  "global.flag[441]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1377",
+      "global.flag[441] = 1;"
+    ]
+  },
+  "global.flag[442]": {
+    "gml_Object_obj_teacup_Step_0.gml": [
+      "line 725",
+      "if (state == 5 && idletimer > 30 && global.flag[442] == 0)"
+    ]
+  },
+  "global.flag[443]": {
+    "gml_Object_obj_ch2_room_castle_transformed_Create_0.gml": [
+      "line 12",
+      "if (global.plot >= 200 && global.flag[443] == 0)"
+    ],
+    "gml_Object_obj_ch2_room_castle_transformed_Step_0.gml": [
+      "line 25",
+      "global.flag[443] = 1;"
+    ],
+    "gml_Object_obj_ch2_room_town_south_Create_0.gml": [
+      "line 3",
+      "if (global.plot >= 200 && global.flag[443] == 0 && global.flag[444] == 0)"
+    ]
+  },
+  "global.flag[444]": {
+    "gml_Object_obj_ch2_room_town_south_Create_0.gml": [
+      "line 3",
+      "if (global.plot >= 200 && global.flag[443] == 0 && global.flag[444] == 0)"
+    ],
+    "gml_Object_obj_ch2_room_town_south_Step_0.gml": [
+      "line 24",
+      "global.flag[444] = 1;"
+    ]
+  },
+  "global.flag[445]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2068",
+      "global.flag[445] = 1;"
+    ]
+  },
+  "global.flag[446]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2101",
+      "global.flag[446] = 1;"
+    ]
+  },
+  "global.flag[447]": {
+    "gml_Object_obj_cybercity_balloon_cheese_Create_0.gml": [
+      "line 11",
+      "if (global.flag[447] == 1)"
+    ],
+    "gml_Object_obj_cybercity_balloon_cheese_Step_0.gml": [
+      "line 26",
+      "global.flag[447] = 1;"
+    ],
+    "gml_Object_obj_room_dw_city_postbaseball_Step_0.gml": [
+      "line 299",
+      "if (con == 0 && obj_mainchara.x >= 640 && global.flag[447] == 0)"
+    ]
+  },
+  "global.flag[448]": {
+    "gml_Object_obj_room_dw_city_postbaseball_Create_0.gml": [
+      "line 42",
+      "if (global.flag[448] == 1)"
+    ],
+    "gml_Object_obj_room_dw_city_postbaseball_Step_0.gml": [
+      "line 252",
+      "global.flag[448] = 1;"
+    ]
+  },
+  "global.flag[449]": {
+    "gml_Object_obj_room_dw_city_postbaseball_Create_0.gml": [
+      "line 52",
+      "if (global.flag[449] == 1)"
+    ],
+    "gml_Object_obj_room_dw_city_postbaseball_Step_0.gml": [
+      "line 277",
+      "global.flag[449] = 1;"
+    ]
+  },
+  "global.flag[450]": {
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 1324",
+      "global.flag[450] = 1;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2886",
+      "if (global.flag[450] == 2)"
+    ]
+  },
+  "global.flag[451]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6353",
+      "global.flag[451] = 1;"
+    ]
+  },
+  "global.flag[452]": {
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 34",
+      "global.flag[452] = 1;"
+    ]
+  },
+  "global.flag[453]": {
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 1270",
+      "global.flag[453] = 1;"
+    ]
+  },
+  "global.flag[454]": {
+    "gml_Object_obj_ch2_sceneex2a_Step_0.gml": [
+      "line 73",
+      "global.flag[454] = 1;"
+    ]
+  },
+  "global.flag[455]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7032",
+      "global.flag[455] = 1;"
+    ]
+  },
+  "global.flag[456]": {
+    "gml_Object_obj_fountainkris_ch2_sideb_Step_0.gml": [
+      "line 282",
+      "global.flag[456] = 1;"
+    ]
+  },
+  "global.flag[457]": {
+    "gml_Object_obj_ch2_scene25_Create_0.gml": [
+      "line 42",
+      "berdlynpc.sprite_index = (global.flag[457] == 1) ? spr_berdly_hurt_kneel : spr_berdly_hurt_kneel_burnt;"
+    ],
+    "gml_Object_obj_ch2_scene25_Step_0.gml": [
+      "line 302",
+      "berdlynpc.sprite_index = (global.flag[457] == 1) ? spr_berdly_hurt_kneel : spr_berdly_hurt_kneel_burnt;"
+    ],
+    "gml_Object_obj_ch2_scene26_Step_0.gml": [
+      "line 529",
+      "if (global.flag[457] == 0)"
+    ],
+    "gml_Object_obj_ch2_scene27_Step_0.gml": [
+      "line 918",
+      "if (global.flag[457] == 1)"
+    ],
+    "gml_Object_obj_ch2_scene28b_Step_0.gml": [
+      "line 465",
+      "if (global.flag[457] == 0)"
+    ]
+  },
+  "global.flag[458]": {
+    "gml_Object_obj_npc_acid_house_Collision_obj_queencar.gml": [
+      "line 7",
+      "debug_message(\"global.flag[458]:\" + string(global.flag[458]) + \"/7\");"
+    ],
+    "gml_Object_obj_rouxls_enemy_Create_0.gml": [
+      "line 2",
+      "var tensionbonus = (global.flag[458] / 7) * global.maxtension * 0.3;"
+    ]
+  },
+  "global.flag[459]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7806",
+      "global.flag[459] = 1;"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 416",
+      "if (scr_keyitemcheck(11) && global.flag[459] == 0)"
+    ]
+  },
+  "global.flag[460]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7850",
+      "global.flag[460] = 1;"
+    ],
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 876",
+      "var have_jevil = global.flag[460] == 1 || global.flag[241] >= 6;"
+    ]
+  },
+  "global.flag[461]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 853",
+      "global.flag[461] = 1;"
+    ]
+  },
+  "global.flag[462]": {
+    "gml_Object_obj_caradventure_car_enemy_Collision_obj_caradventure_car.gml": [
+      "line 13",
+      "global.flag[462]++;"
+    ],
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 68",
+      "if (lost_animals == 0 && global.flag[462] < 3 && global.flag[465] == 1)"
+    ]
+  },
+  "global.flag[463]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7781",
+      "global.flag[463] = 1;"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 1376",
+      "if (global.flag[463] == 0)"
+    ]
+  },
+  "global.flag[464]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5862",
+      "global.flag[464] = 1;"
+    ]
+  },
+  "global.flag[465]": {
+    "gml_Object_obj_ch2_city_car_a_Step_0.gml": [
+      "line 362",
+      "global.flag[465] = 1;"
+    ],
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 68",
+      "if (lost_animals == 0 && global.flag[462] < 3 && global.flag[465] == 1)"
+    ]
+  },
+  "global.flag[466]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 25",
+      "global.flag[466] = 1;"
+    ]
+  },
+  "global.flag[467]": {
+    "gml_Object_obj_treasure_room_Other_10.gml": [
+      "line 46",
+      "global.flag[467] = 1;"
+    ]
+  },
+  "global.flag[468]": {
+    "gml_Object_obj_ch2_sceneex2a_Step_0.gml": [
+      "line 77",
+      "global.flag[468] = 1;"
+    ],
+    "gml_Object_obj_fountainkris_ch2_sideb_Step_0.gml": [
+      "line 297",
+      "global.flag[468] = 2;"
+    ],
+    "gml_Object_obj_treasure_room_Create_0.gml": [
+      "line 135",
+      "if (global.flag[571] == 1 || global.flag[468] == 2)"
+    ]
+  },
+  "global.flag[469]": {
+    "gml_Object_obj_savepoint_Other_10.gml": [
+      "line 56",
+      "global.flag[469] = 1;"
+    ]
+  },
+  "global.flag[500]": {
+    "gml_GlobalScript_scr_encountersetup.gml": [
+      "line 273",
+      "if (global.flag[500] == 2)"
+    ],
+    "gml_Object_obj_checkers_enemy_Other_21.gml": [
+      "line 2",
+      "global.flag[500] += 1;"
+    ]
+  },
+  "global.flag[501]": {
+    "gml_Object_obj_checkers_enemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ]
+  },
+  "global.flag[503]": {
+    "gml_Object_obj_rudinnranger_Step_0.gml": [
+      "line 230",
+      "global.flag[503] = 1;"
+    ]
+  },
+  "global.flag[520]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2934",
+      "normal_kills = global.flag[520] - global.flag[523];"
+    ]
+  },
+  "global.flag[522]": {
+    "gml_Object_obj_clubsenemy_Draw_0.gml": [
+      "line 28",
+      "global.flag[522] += 1;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 242",
+      "if (global.flag[522] == 1)"
+    ]
+  },
+  "global.flag[523]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2934",
+      "normal_kills = global.flag[520] - global.flag[523];"
+    ]
+  },
+  "global.flag[526]": {
+    "gml_Object_obj_queenscreen_Create_0.gml": [
+      "line 45",
+      "if (global.flag[526] != 0)"
+    ],
+    "gml_Object_o_boxingcontroller_Collision_o_boxing_hitbox.gml": [
+      "line 79",
+      "if (global.flag[526] >= 7)"
+    ],
+    "gml_Object_o_boxingcontroller_Other_13.gml": [
+      "line 15",
+      "global.flag[526]++;"
+    ]
+  },
+  "global.flag[527]": {
+    "gml_Object_o_boxinghud_Draw_0.gml": [
+      "line 179",
+      "global.flag[527] = 1;"
+    ],
+    "gml_Object_o_boxingqueen_Other_12.gml": [
+      "line 116",
+      "global.flag[527] = 1;"
+    ]
+  },
+  "global.flag[528]": {
+    "gml_Object_obj_controller_dw_cyber_maze_queenscreen_Step_0.gml": [
+      "line 151",
+      "if (global.entrance == 2 || global.flag[528] == 1)"
+    ]
+  },
+  "global.flag[529]": {
+    "gml_Object_obj_queen_enemy_Step_0.gml": [
+      "line 1681",
+      "defeat_cutscene_version = (global.flag[529] == 2 || global.flag[529] == 3) && (global.flag[550] == 2 || global.flag[550] == 3) && (global.flag[548] == 2 || global.flag[548] == 3);"
+    ]
+  },
+  "global.flag[531]": {
+    "gml_Object_obj_ch2_tutorialViroMaker_Create_0.gml": [
+      "line 14",
+      "if ((room == room_dw_city_big_1 && global.flag[438] == 2) || (room == room_dw_city_roadblock && global.flag[438] == 1) || (global.flag[531] != 0 && global.flag[531] != 6) || havenoelle == 0)"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 6",
+      "if (global.flag[915] == 0 && global.flag[531] == 6)"
+    ]
+  },
+  "global.flag[532]": {
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 60",
+      "if (global.flag[564] == 6 && global.flag[565] == 6 && global.flag[532] == 6 && global.flag[533] == 6)"
+    ]
+  },
+  "global.flag[533]": {
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 60",
+      "if (global.flag[564] == 6 && global.flag[565] == 6 && global.flag[532] == 6 && global.flag[533] == 6)"
+    ]
+  },
+  "global.flag[539]": {
+    "gml_Object_obj_dw_cyber_maze_tasque_controller_Create_0.gml": [
+      "line 34",
+      "if (global.flag[539] == 2 || global.flag[539] == 3)"
+    ],
+    "gml_Object_obj_queenscreen_Create_0.gml": [
+      "line 51",
+      "if (global.flag[539] != 0)"
+    ]
+  },
+  "global.flag[540]": {
+    "gml_Object_obj_controller_dw_mansion_single_pot_Create_0.gml": [
+      "line 31",
+      "if (global.flag[540] == 6)"
+    ]
+  },
+  "global.flag[541]": {
+    "gml_GlobalScript_scr_encountersetup.gml": [
+      "line 541",
+      "if (global.flag[541] == 0)"
+    ],
+    "gml_Object_obj_controller_dw_mansion_potBalance_Create_0.gml": [
+      "line 10",
+      "if (global.flag[541] != 0)"
+    ]
+  },
+  "global.flag[542]": {
+    "gml_Object_obj_controller_tasquePaintingsRevisit_Create_0.gml": [
+      "line 4",
+      "if (global.flag[542] != 0)"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Create_0.gml": [
+      "line 474",
+      "if (global.flag[542] == 0)"
+    ]
+  },
+  "global.flag[544]": {
+    "gml_Object_obj_queenvaseonwheels_Create_0.gml": [
+      "line 50",
+      "if (global.flag[544] != 0 && type == 0)"
+    ]
+  },
+  "global.flag[548]": {
+    "gml_Object_obj_queen_enemy_Step_0.gml": [
+      "line 1681",
+      "defeat_cutscene_version = (global.flag[529] == 2 || global.flag[529] == 3) && (global.flag[550] == 2 || global.flag[550] == 3) && (global.flag[548] == 2 || global.flag[548] == 3);"
+    ]
+  },
+  "global.flag[550]": {
+    "gml_Object_obj_queen_enemy_Step_0.gml": [
+      "line 1681",
+      "defeat_cutscene_version = (global.flag[529] == 2 || global.flag[529] == 3) && (global.flag[550] == 2 || global.flag[550] == 3) && (global.flag[548] == 2 || global.flag[548] == 3);"
+    ]
+  },
+  "global.flag[559]": {
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 42",
+      "if (global.flag[559] == 6 && global.flag[560] == 6 && global.flag[561] == 6)"
+    ]
+  },
+  "global.flag[560]": {
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 42",
+      "if (global.flag[559] == 6 && global.flag[560] == 6 && global.flag[561] == 6)"
+    ]
+  },
+  "global.flag[561]": {
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 42",
+      "if (global.flag[559] == 6 && global.flag[560] == 6 && global.flag[561] == 6)"
+    ]
+  },
+  "global.flag[562]": {
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 51",
+      "if (global.flag[562] == 6 && global.flag[563] == 6)"
+    ]
+  },
+  "global.flag[563]": {
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 51",
+      "if (global.flag[562] == 6 && global.flag[563] == 6)"
+    ]
+  },
+  "global.flag[564]": {
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 60",
+      "if (global.flag[564] == 6 && global.flag[565] == 6 && global.flag[532] == 6 && global.flag[533] == 6)"
+    ]
+  },
+  "global.flag[565]": {
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 60",
+      "if (global.flag[564] == 6 && global.flag[565] == 6 && global.flag[532] == 6 && global.flag[533] == 6)"
+    ]
+  },
+  "global.flag[571]": {
+    "gml_GlobalScript_scr_save.gml": [
+      "line 30",
+      "else if (global.flag[571] == 2)"
+    ],
+    "gml_Object_obj_ch2_sceneex2a_Step_0.gml": [
+      "line 59",
+      "if (global.flag[571] == 1)"
+    ],
+    "gml_Object_obj_treasure_room_Create_0.gml": [
+      "line 135",
+      "if (global.flag[571] == 1 || global.flag[468] == 2)"
+    ]
+  },
+  "global.flag[605]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 50",
+      "global.flag[605] = 1;"
+    ]
+  },
+  "global.flag[606]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 51",
+      "global.flag[606] = 1;"
+    ]
+  },
+  "global.flag[611]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 52",
+      "global.flag[611] = 1;"
+    ]
+  },
+  "global.flag[613]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 53",
+      "global.flag[613] = 1;"
+    ]
+  },
+  "global.flag[614]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 54",
+      "global.flag[614] = 1;"
+    ]
+  },
+  "global.flag[615]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 55",
+      "global.flag[615] = 1;"
+    ]
+  },
+  "global.flag[622]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 56",
+      "global.flag[622] = 1;"
+    ]
+  },
+  "global.flag[623]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 57",
+      "global.flag[623] = 1;"
+    ]
+  },
+  "global.flag[630]": {
+    "gml_Object_obj_ch2_scene23a_Create_0.gml": [
+      "line 6",
+      "var total_recruits = global.flag[630] + global.flag[631] + global.flag[632] + global.flag[633] + global.flag[634] + global.flag[635] + global.flag[636];"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 30",
+      "if (global.flag[630] == 1)"
+    ]
+  },
+  "global.flag[631]": {
+    "gml_Object_obj_ch2_scene23a_Create_0.gml": [
+      "line 6",
+      "var total_recruits = global.flag[630] + global.flag[631] + global.flag[632] + global.flag[633] + global.flag[634] + global.flag[635] + global.flag[636];"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 33",
+      "if (global.flag[631] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 50",
+      "if (global.flag[631] == 1)"
+    ]
+  },
+  "global.flag[632]": {
+    "gml_Object_obj_ch2_scene23a_Create_0.gml": [
+      "line 6",
+      "var total_recruits = global.flag[630] + global.flag[631] + global.flag[632] + global.flag[633] + global.flag[634] + global.flag[635] + global.flag[636];"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 36",
+      "if (global.flag[632] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_cafe_Create_0.gml": [
+      "line 72",
+      "if (global.flag[632] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 19",
+      "if (global.flag[632] == 1)"
+    ]
+  },
+  "global.flag[633]": {
+    "gml_Object_obj_ch2_scene23a_Create_0.gml": [
+      "line 6",
+      "var total_recruits = global.flag[630] + global.flag[631] + global.flag[632] + global.flag[633] + global.flag[634] + global.flag[635] + global.flag[636];"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 39",
+      "if (global.flag[633] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Create_0.gml": [
+      "line 449",
+      "else if (global.flag[633] == 1)"
+    ]
+  },
+  "global.flag[634]": {
+    "gml_Object_obj_ch2_scene23a_Create_0.gml": [
+      "line 6",
+      "var total_recruits = global.flag[630] + global.flag[631] + global.flag[632] + global.flag[633] + global.flag[634] + global.flag[635] + global.flag[636];"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 42",
+      "if (global.flag[634] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 33",
+      "if (global.flag[634] == 1)"
+    ]
+  },
+  "global.flag[635]": {
+    "gml_Object_obj_ch2_scene23a_Create_0.gml": [
+      "line 6",
+      "var total_recruits = global.flag[630] + global.flag[631] + global.flag[632] + global.flag[633] + global.flag[634] + global.flag[635] + global.flag[636];"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 45",
+      "if (global.flag[635] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Create_0.gml": [
+      "line 411",
+      "if (global.flag[635] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1546",
+      "if (global.flag[635] == 1)"
+    ]
+  },
+  "global.flag[636]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5864",
+      "if (global.flag[636] == 1)"
+    ],
+    "gml_Object_obj_ch2_scene23a_Create_0.gml": [
+      "line 6",
+      "var total_recruits = global.flag[630] + global.flag[631] + global.flag[632] + global.flag[633] + global.flag[634] + global.flag[635] + global.flag[636];"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 48",
+      "if (global.flag[636] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_cafe_Create_0.gml": [
+      "line 56",
+      "if (global.flag[636] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Create_0.gml": [
+      "line 361",
+      "if (global.flag[636] == 1)"
+    ]
+  },
+  "global.flag[640]": {
+    "gml_Object_obj_ch2_room_castle_dojo_Create_0.gml": [
+      "line 38",
+      "if (global.flag[640] != 1 || global.plot < 200)"
+    ],
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 51",
+      "if (global.flag[640] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1876",
+      "if (global.flag[640] != 1 || global.plot < 200)"
+    ]
+  },
+  "global.flag[642]": {
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 149",
+      "tasqueRecruited = global.flag[642];"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 54",
+      "if (global.flag[642] == 1)"
+    ],
+    "gml_Object_obj_mauswheel_enemy_Step_0.gml": [
+      "line 270",
+      "if (global.flag[642] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_cafe_Create_0.gml": [
+      "line 65",
+      "if (global.flag[642] == 1 && global.flag[632] == 1)"
+    ],
+    "gml_Object_obj_npc_castle_door_Create_0.gml": [
+      "line 17",
+      "if (global.flag[642] != 1)"
+    ]
+  },
+  "global.flag[644]": {
+    "gml_Object_obj_fusionmenu_Create_0.gml": [
+      "line 18",
+      "if (global.flag[630] == 1 && global.flag[631] == 1 && global.flag[632] == 1 && global.flag[633] == 1 && global.flag[634] == 1 && global.flag[635] == 1 && global.flag[636] == 1 && global.flag[640] == 1 && global.flag[642] == 1 && global.flag[644] == 1)"
+    ],
+    "gml_Object_obj_gigaqueen_enemy_Create_0.gml": [
+      "line 57",
+      "if (global.flag[644] == 1)"
+    ]
+  },
+  "global.flag[800]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 58",
+      "global.flag[800] = 15;"
+    ],
+    "gml_Object_obj_npc_cafe_Other_10.gml": [
+      "line 5",
+      "seat0 = global.flag[800];"
+    ]
+  },
+  "global.flag[801]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 59",
+      "global.flag[801] = 5;"
+    ],
+    "gml_Object_obj_npc_cafe_Other_10.gml": [
+      "line 6",
+      "seat1 = global.flag[801];"
+    ]
+  },
+  "global.flag[802]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 60",
+      "global.flag[802] = 6;"
+    ],
+    "gml_Object_obj_npc_cafe_Other_10.gml": [
+      "line 7",
+      "seat2 = global.flag[802];"
+    ]
+  },
+  "global.flag[803]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 61",
+      "global.flag[803] = 5;"
+    ],
+    "gml_Object_obj_npc_cafe_Other_10.gml": [
+      "line 8",
+      "seat3 = global.flag[803];"
+    ]
+  },
+  "global.flag[810]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5426",
+      "if (global.flag[810] == 2 && global.flag[811] == 2 && global.flag[812] == 2 && global.flag[813] == 2 && global.flag[814] == 2)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 178",
+      "if (global.flag[810] != 0)"
+    ]
+  },
+  "global.flag[811]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5426",
+      "if (global.flag[810] == 2 && global.flag[811] == 2 && global.flag[812] == 2 && global.flag[813] == 2 && global.flag[814] == 2)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 181",
+      "if (global.flag[811] != 0)"
+    ]
+  },
+  "global.flag[812]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5426",
+      "if (global.flag[810] == 2 && global.flag[811] == 2 && global.flag[812] == 2 && global.flag[813] == 2 && global.flag[814] == 2)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 184",
+      "if (global.flag[812] != 0)"
+    ]
+  },
+  "global.flag[813]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5426",
+      "if (global.flag[810] == 2 && global.flag[811] == 2 && global.flag[812] == 2 && global.flag[813] == 2 && global.flag[814] == 2)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 187",
+      "if (global.flag[813] != 0)"
+    ]
+  },
+  "global.flag[814]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 5426",
+      "if (global.flag[810] == 2 && global.flag[811] == 2 && global.flag[812] == 2 && global.flag[813] == 2 && global.flag[814] == 2)"
+    ],
+    "gml_Object_obj_fusionmenu_Step_0.gml": [
+      "line 175",
+      "if (global.flag[814] != 0)"
+    ]
+  },
+  "global.flag[900]": {
+    "gml_Object_DEVICE_GONERMAKER_Create_0.gml": [
+      "line 7",
+      "PART[0] = global.flag[900];"
+    ]
+  },
+  "global.flag[901]": {
+    "gml_Object_DEVICE_GONERMAKER_Create_0.gml": [
+      "line 8",
+      "PART[1] = global.flag[901];"
+    ]
+  },
+  "global.flag[902]": {
+    "gml_Object_DEVICE_GONERMAKER_Create_0.gml": [
+      "line 9",
+      "PART[2] = global.flag[902];"
+    ]
+  },
+  "global.flag[903]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 305",
+      "global.flag[903] = global.choice;"
+    ]
+  },
+  "global.flag[904]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 359",
+      "global.flag[904] = global.choice;"
+    ]
+  },
+  "global.flag[905]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 412",
+      "global.flag[905] = global.choice;"
+    ]
+  },
+  "global.flag[906]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 519",
+      "global.flag[906] = global.choice;"
+    ]
+  },
+  "global.flag[907]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 570",
+      "global.flag[907] = global.choice;"
+    ]
+  },
+  "global.flag[908]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 621",
+      "global.flag[908] = global.choice;"
+    ]
+  },
+  "global.flag[909]": {
+    "gml_Object_DEVICE_CONTACT_old_Step_0.gml": [
+      "line 466",
+      "global.flag[909] = 1 - global.choice;"
+    ]
+  },
+  "global.flag[910]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3357",
+      "global.flag[910] = 2;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 692",
+      "if (global.flag[910] == 2 && global.flag[913] == 0)"
+    ]
+  },
+  "global.flag[911]": {
+    "gml_GlobalScript_scr_gamestart_chapter_override.gml": [
+      "line 22",
+      "global.flag[911] = ch1_egg_check;"
+    ],
+    "gml_Object_obj_tem_school_Other_10.gml": [
+      "line 59",
+      "var egg_amount = global.flag[911] + global.flag[918];"
+    ]
+  },
+  "global.flag[912]": {
+    "gml_GlobalScript_scr_save.gml": [
+      "line 15",
+      "ini_write_real(scr_ini_chapter(global.chapter, global.filechoice), \"InitLang\", global.flag[912]);"
+    ],
+    "gml_Object_DEVICE_NAMER_Create_0.gml": [
+      "line 24",
+      "global.flag[912] = 1;"
+    ],
+    "gml_Object_obj_rouxlsbattle_hey_Create_0.gml": [
+      "line 5",
+      "lang = global.flag[912];"
+    ]
+  },
+  "global.flag[913]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 697",
+      "global.flag[913] = 1;"
+    ]
+  },
+  "global.flag[914]": {
+    "gml_Object_DEVICE_MENU_Step_0.gml": [
+      "line 211",
+      "global.flag[914] = global.chapter - 1;"
+    ],
+    "gml_Object_obj_overworldc_Draw_0.gml": [
+      "line 119",
+      "var krispreservationsociety = stringsetsubloc(\"Since#Chapter ~1\", global.flag[914], \"obj_overworldc_slash_Draw_0_gml_95_0\");"
+    ]
+  },
+  "global.flag[915]": {
+    "gml_GlobalScript_scr_keyiteminfo.gml": [
+      "line 92",
+      "if (scr_sideb_get_phase() >= 1 && global.flag[915] >= 1.5)"
+    ],
+    "gml_GlobalScript_scr_sideb_fail.gml": [
+      "line 9",
+      "if (global.flag[915] > 0)"
+    ],
+    "gml_GlobalScript_scr_sideb_get_phase.gml": [
+      "line 16",
+      "if (global.flag[915] >= 20)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7660",
+      "if (global.flag[915] > 0)"
+    ],
+    "gml_Object_obj_alleySwitch_Step_0.gml": [
+      "line 17",
+      "if (place_meeting(x, y, obj_mainchara) || (place_meeting(x, y, obj_marker) && x > 480) || (place_meeting(x, y, obj_marker) && (global.flag[915] == 3 && global.flag[916] == 0)) || (place_meeting(x, y, obj_caterpillarchara) && caterpillarable == true))"
+    ],
+    "gml_Object_obj_berdlyb2_enemy_Draw_0.gml": [
+      "line 19",
+      "if (global.flag[915] == 5 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_berdlyb2_enemy_Step_0.gml": [
+      "line 887",
+      "global.flag[915] = 6;"
+    ],
+    "gml_Object_obj_ch2_city08_Create_0.gml": [
+      "line 5",
+      "if (global.flag[915] == 6 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_ch2_city08_Step_0.gml": [
+      "line 504",
+      "global.flag[915] = 7;"
+    ],
+    "gml_Object_obj_ch2_city_berdly_Create_0.gml": [
+      "line 36",
+      "if (global.flag[915] > 5 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_ch2_city_berdly_Step_0.gml": [
+      "line 598",
+      "if (global.flag[915] > 0)"
+    ],
+    "gml_Object_obj_ch2_room_mansion_entrance_Create_0.gml": [
+      "line 5",
+      "if (global.flag[915] == 7 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_ch2_room_mansion_entrance_Step_0.gml": [
+      "line 120",
+      "global.flag[915] = 8;"
+    ],
+    "gml_Object_obj_ch2_room_town_hospital_Step_0.gml": [
+      "line 339",
+      "global.flag[915] = 19;"
+    ],
+    "gml_Object_obj_ch2_scene_hospital_sideb_Create_0.gml": [
+      "line 3",
+      "if (global.flag[915] == 19)"
+    ],
+    "gml_Object_obj_ch2_scene_hospital_sideb_Step_0.gml": [
+      "line 161",
+      "global.flag[915] = 20;"
+    ],
+    "gml_Object_obj_ch2_scene_sideb_noelleroom_Create_0.gml": [
+      "line 15",
+      "else if (global.flag[915] < 9)"
+    ],
+    "gml_Object_obj_ch2_scene_sideb_noelleroom_Step_0.gml": [
+      "line 195",
+      "global.flag[915] = 9;"
+    ],
+    "gml_Object_obj_controller_city_mice2_Create_0.gml": [
+      "line 25",
+      "if (global.flag[915] != 0)"
+    ],
+    "gml_Object_obj_controller_city_mice2_Step_0.gml": [
+      "line 486",
+      "global.flag[915] = 5;"
+    ],
+    "gml_Object_obj_controller_dining3_Create_0.gml": [
+      "line 36",
+      "if (!(global.flag[915] >= 8 && global.flag[916] == 0))"
+    ],
+    "gml_Object_obj_controller_dw_city_big_2_Step_0.gml": [
+      "line 873",
+      "global.flag[915] = 4;"
+    ],
+    "gml_Object_obj_controller_noelleTraffic_Create_0.gml": [
+      "line 13",
+      "if (global.flag[915] >= 1.75 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_frozennpc_Step_0.gml": [
+      "line 3",
+      "if (fresh == 3 && (global.flag[916] != 0 || global.flag[915] == 0))"
+    ],
+    "gml_Object_obj_lancergotchi_Create_0.gml": [
+      "line 34",
+      "if (global.flag[915] >= 1.5 && scr_sideb_get_phase() >= 1)"
+    ],
+    "gml_Object_obj_musicer_city_Create_0.gml": [
+      "line 28",
+      "if (global.flag[915] == 3 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_npc_sign_Create_0.gml": [
+      "line 158",
+      "if (global.flag[915] > 5 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2081",
+      "if (global.flag[915] >= 1.5 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_weirdEvent_addison_city_big_2_Step_0.gml": [
+      "line 140",
+      "if (global.flag[915] > 0)"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Create_0.gml": [
+      "line 566",
+      "if (global.flag[916] == 1 && global.flag[915] >= 5 && global.plot >= 72 && room == room_dw_city_cheesemaze)"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 126",
+      "lastphase = global.flag[915];"
+    ],
+    "gml_RoomCC_room_dw_city_big_2_0_Create.gml": [
+      "line 3",
+      "if (global.flag[915] > 2)"
+    ],
+    "gml_RoomCC_room_dw_city_big_2_4_Create.gml": [
+      "line 1",
+      "if (global.flag[915] == 3 && global.flag[916] == 0)"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_10_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_11_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_12_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_18_Create.gml": [
+      "line 3",
+      "if ((global.flag[915] != 0 && global.flag[916] == 0) || global.plot < 120)"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_6_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_7_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_8_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_9_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mirrorfriend_1_Create.gml": [
+      "line 1",
+      "if (global.flag[915] == 3 && global.flag[916] == 0)"
+    ],
+    "gml_RoomCC_room_dw_city_traffic_2_28_Create.gml": [
+      "line 1",
+      "if (global.flag[915] == 3 && global.flag[916] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_entrance_1_Create.gml": [
+      "line 1",
+      "if (global.flag[916] != 0 || global.flag[915] < 6)"
+    ],
+    "gml_RoomCC_room_dw_mansion_entrance_2_Create.gml": [
+      "line 1",
+      "if (global.flag[916] != 0 || global.flag[915] < 6)"
+    ]
+  },
+  "global.flag[916]": {
+    "gml_GlobalScript_scr_sideb_fail.gml": [
+      "line 5",
+      "global.flag[916] = 1;"
+    ],
+    "gml_GlobalScript_scr_sideb_get_phase.gml": [
+      "line 5",
+      "if (global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_alleySwitch_Step_0.gml": [
+      "line 17",
+      "if (place_meeting(x, y, obj_mainchara) || (place_meeting(x, y, obj_marker) && x > 480) || (place_meeting(x, y, obj_marker) && (global.flag[915] == 3 && global.flag[916] == 0)) || (place_meeting(x, y, obj_caterpillarchara) && caterpillarable == true))"
+    ],
+    "gml_Object_obj_berdlyb2_enemy_Draw_0.gml": [
+      "line 19",
+      "if (global.flag[915] == 5 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_ch2_city08_Create_0.gml": [
+      "line 5",
+      "if (global.flag[915] == 6 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_ch2_city_berdly_Create_0.gml": [
+      "line 36",
+      "if (global.flag[915] > 5 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_ch2_city_berdly_Step_0.gml": [
+      "line 521",
+      "if (scr_sideb_get_phase() == 0 || global.flag[916] == 1)"
+    ],
+    "gml_Object_obj_ch2_room_mansion_entrance_Create_0.gml": [
+      "line 5",
+      "if (global.flag[915] == 7 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_controller_dining3_Create_0.gml": [
+      "line 36",
+      "if (!(global.flag[915] >= 8 && global.flag[916] == 0))"
+    ],
+    "gml_Object_obj_controller_dw_city_big_2_Step_0.gml": [
+      "line 48",
+      "if (global.flag[915] == 3 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_controller_noelleTraffic_Create_0.gml": [
+      "line 13",
+      "if (global.flag[915] >= 1.75 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_frozennpc_Step_0.gml": [
+      "line 3",
+      "if (fresh == 3 && (global.flag[916] != 0 || global.flag[915] == 0))"
+    ],
+    "gml_Object_obj_musicer_city_Create_0.gml": [
+      "line 28",
+      "if (global.flag[915] == 3 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_npc_sign_Create_0.gml": [
+      "line 158",
+      "if (global.flag[915] > 5 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_overworld_poppup_Create_0.gml": [
+      "line 74",
+      "if (global.flag[916] != 0)"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2081",
+      "if (global.flag[915] >= 1.5 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_weirdEvent_addison_city_big_2_Step_0.gml": [
+      "line 3",
+      "if (global.flag[915] == 2 && global.flag[916] == 0)"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Create_0.gml": [
+      "line 566",
+      "if (global.flag[916] == 1 && global.flag[915] >= 5 && global.plot >= 72 && room == room_dw_city_cheesemaze)"
+    ],
+    "gml_Object_obj_weirdroute_manipulator_Step_0.gml": [
+      "line 127",
+      "failstate = global.flag[916];"
+    ],
+    "gml_RoomCC_room_dw_city_big_2_4_Create.gml": [
+      "line 1",
+      "if (global.flag[915] == 3 && global.flag[916] == 0)"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_10_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_11_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_12_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_18_Create.gml": [
+      "line 3",
+      "if ((global.flag[915] != 0 && global.flag[916] == 0) || global.plot < 120)"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_6_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_7_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_8_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mice2_9_Create.gml": [
+      "line 4",
+      "if (global.flag[368] == 0 || (global.flag[915] != 0 && global.flag[916] == 0))"
+    ],
+    "gml_RoomCC_room_dw_city_mirrorfriend_1_Create.gml": [
+      "line 1",
+      "if (global.flag[915] == 3 && global.flag[916] == 0)"
+    ],
+    "gml_RoomCC_room_dw_city_traffic_2_28_Create.gml": [
+      "line 1",
+      "if (global.flag[915] == 3 && global.flag[916] == 0)"
+    ],
+    "gml_RoomCC_room_dw_mansion_entrance_1_Create.gml": [
+      "line 1",
+      "if (global.flag[916] != 0 || global.flag[915] < 6)"
+    ],
+    "gml_RoomCC_room_dw_mansion_entrance_2_Create.gml": [
+      "line 1",
+      "if (global.flag[916] != 0 || global.flag[915] < 6)"
+    ]
+  },
+  "global.flag[917]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6719",
+      "global.flag[917] = 3;"
+    ],
+    "gml_Object_obj_ch2_room_city_man_Create_0.gml": [
+      "line 1",
+      "global.flag[917] = 2;"
+    ],
+    "gml_Object_obj_dogcar_controller_Step_0.gml": [
+      "line 83",
+      "global.flag[917] = 1;"
+    ],
+    "gml_Object_obj_doorw_musfade_Alarm_2.gml": [
+      "line 30",
+      "var man_room = scr_sideb_get_phase() == 0 && global.flag[917] < 2 && global.flag[918] == 0 && ceil(random(50)) == 50;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2563",
+      "if (global.flag[917] < 3)"
+    ]
+  },
+  "global.flag[918]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 6723",
+      "global.flag[918] = 1;"
+    ],
+    "gml_Object_obj_ch2_scene32_Step_0.gml": [
+      "line 805",
+      "if (global.flag[918] == 0)"
+    ],
+    "gml_Object_obj_doorw_musfade_Alarm_2.gml": [
+      "line 30",
+      "var man_room = scr_sideb_get_phase() == 0 && global.flag[917] < 2 && global.flag[918] == 0 && ceil(random(50)) == 50;"
+    ],
+    "gml_Object_obj_tem_school_Other_10.gml": [
+      "line 59",
+      "var egg_amount = global.flag[911] + global.flag[918];"
+    ]
+  },
+  "global.flag[919]": {
+    "gml_GlobalScript_scr_levelup.gml": [
+      "line 26",
+      "global.flag[919]++;"
+    ]
+  },
+  "global.flag[920]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 387",
+      "if (global.flag[920] == 1)"
+    ],
+    "gml_Object_obj_npc_dumpster_Create_0.gml": [
+      "line 6",
+      "if (scr_sideb_get_phase() == 0 && global.flag[920] == 0)"
+    ],
+    "gml_Object_obj_npc_dumpster_Step_0.gml": [
+      "line 26",
+      "global.flag[920] = 1;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 2522",
+      "if (read == 0 && global.flag[920] == 0)"
+    ]
+  },
+  "global.flag[921]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 531",
+      "if (global.flag[921] == 1 && scr_sideb_get_phase() == 0)"
+    ],
+    "gml_Object_obj_npc_dumpster_Step_0.gml": [
+      "line 60",
+      "global.flag[921] = 1;"
+    ]
+  },
+  "global.flag[922]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 439",
+      "if (global.flag[922] == 1)"
+    ],
+    "gml_Object_obj_npc_dumpster_Step_0.gml": [
+      "line 86",
+      "global.flag[922] = 1;"
+    ]
+  },
+  "global.flag[923]": {
+    "gml_Object_obj_ch2_city_berdly_Step_0.gml": [
+      "line 161",
+      "global.flag[923] = 0;"
+    ]
+  },
+  "global.flag[924]": {
+    "gml_GlobalScript_scr_spellinfo.gml": [
+      "line 136",
+      "if (global.flag[924] < 4)"
+    ],
+    "gml_Object_obj_berdlyb2_enemy_Step_0.gml": [
+      "line 765",
+      "global.flag[924]++;"
+    ]
+  },
+  "global.flag[925]": {
+    "gml_GlobalScript_scr_spell.gml": [
+      "line 246",
+      "global.flag[925]++;"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 534",
+      "var coldness_amount = clamp(47 + (global.flag[925] * 7), 47, 100);"
+    ]
+  },
+  "global.flag[926]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 85",
+      "global.flag[926]++;"
+    ],
+    "gml_Object_obj_queen_enemy_Other_13.gml": [
+      "line 72",
+      "global.flag[926]++;"
+    ],
+    "gml_Object_obj_spamton_neo_enemy_Other_13.gml": [
+      "line 72",
+      "global.flag[926]++;"
+    ]
+  },
+  "global.flag[928]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 7395",
+      "if (global.flag[928] < 2)"
+    ],
+    "gml_Object_obj_ch2_scene_hospital_sideb_Create_0.gml": [
+      "line 5",
+      "global.flag[928] = 0;"
+    ],
+    "gml_Object_obj_ch2_scene_hospital_sideb_Step_0.gml": [
+      "line 93",
+      "global.flag[928] = 1;"
+    ]
+  },
+  "global.flag[950]": {
+    "gml_GlobalScript_scr_itemuse.gml": [
+      "line 688",
+      "global.flag[950] = 1;"
+    ]
+  },
+  "global.flag[951]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 175",
+      "global.flag[951] = 1;"
+    ]
+  },
+  "global.flag[952]": {
+    "gml_GlobalScript_scr_itemuse.gml": [
+      "line 679",
+      "global.flag[952] = 1;"
+    ]
+  },
+  "global.flag[953]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 159",
+      "global.flag[953] = 1;"
+    ]
+  },
+  "global.flag[954]": {
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 894",
+      "global.flag[954] = 1;"
+    ]
+  },
+  "global.flag[961]": {
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 817",
+      "global.flag[961] = 1;"
+    ]
+  }
+}

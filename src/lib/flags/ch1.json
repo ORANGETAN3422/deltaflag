@@ -1,0 +1,1774 @@
+{
+  "global.flag[6]": {
+    "gml_Object_DEVICE_CONTACT_Create_0.gml": [
+      "line 7",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_DEVICE_CONTACT_Step_0.gml": [
+      "line 892",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_DEVICE_FAILURE_Create_0.gml": [
+      "line 7",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_DEVICE_FAILURE_Step_0.gml": [
+      "line 74",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_obj_darkdoor_Step_0.gml": [
+      "line 495",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_legend_Create_0.gml": [
+      "line 20",
+      "global.flag[6] = 1;"
+    ],
+    "gml_Object_obj_legend_Draw_0.gml": [
+      "line 679",
+      "global.flag[6] = 0;"
+    ],
+    "gml_Object_obj_writer_Create_0.gml": [
+      "line 15",
+      "if (global.flag[6] == 1)"
+    ]
+  },
+  "global.flag[7]": {
+    "gml_Object_obj_darklanding_Step_0.gml": [
+      "line 12",
+      "global.flag[7] = 0;"
+    ],
+    "gml_Object_obj_lancerchaseevent_Step_0.gml": [
+      "line 3",
+      "global.flag[7] = 1;"
+    ],
+    "gml_Object_obj_mainchara_Step_0.gml": [
+      "line 23",
+      "if (global.flag[7] == 0 && battlemode == 0)"
+    ],
+    "gml_Object_obj_shop1_Alarm_3.gml": [
+      "line 1",
+      "if (global.flag[7] == 0)"
+    ],
+    "gml_Object_obj_shop2_Alarm_3.gml": [
+      "line 1",
+      "if (global.flag[7] == 0)"
+    ]
+  },
+  "global.flag[8]": {
+    "gml_GlobalScript_scr_darkbox.gml": [
+      "line 26",
+      "if (global.flag[8] == 0)"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 82",
+      "if (global.flag[8] == 1)"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 263",
+      "global.flag[8] = 0;"
+    ],
+    "gml_Object_obj_jokerbattleevent_Step_0.gml": [
+      "line 335",
+      "if (global.flag[8] == 1)"
+    ],
+    "gml_Object_obj_lancerslideevent_Create_0.gml": [
+      "line 5",
+      "seiz = global.flag[8];"
+    ],
+    "gml_Object_obj_wobblything_slide_Step_0.gml": [
+      "line 9",
+      "if (global.flag[8] == 1)"
+    ]
+  },
+  "global.flag[9]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 1",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 379",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_darkcastle_event_Step_0.gml": [
+      "line 574",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_encounterbasic_Create_0.gml": [
+      "line 3",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_encounterbasic_Step_0.gml": [
+      "line 3",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_endbattle_Alarm_0.gml": [
+      "line 24",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_endbattle_Create_0.gml": [
+      "line 46",
+      "if (global.flag[9] == 1)"
+    ],
+    "gml_Object_obj_hathyfightevent_Step_0.gml": [
+      "line 37",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_jokerbattleevent_Step_0.gml": [
+      "line 299",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_kingcutscene_Step_0.gml": [
+      "line 946",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_lancerbattle2_event_Step_0.gml": [
+      "line 759",
+      "global.flag[9] = 0;"
+    ],
+    "gml_Object_obj_rurus_checker_event_Step_0.gml": [
+      "line 222",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_scarelancerevent_Step_0.gml": [
+      "line 440",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_susieandlancer_event_Step_0.gml": [
+      "line 480",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_testoverworldenemy_Other_10.gml": [
+      "line 4",
+      "global.flag[9] = 1;"
+    ],
+    "gml_Object_obj_tutorialbattleevent_Step_0.gml": [
+      "line 20",
+      "global.flag[9] = 1;"
+    ]
+  },
+  "global.flag[10]": {
+    "gml_Object_obj_krisroom_Step_0.gml": [
+      "line 175",
+      "global.flag[10] = 1;"
+    ],
+    "gml_Object_obj_npc_room_animated_Create_0.gml": [
+      "line 16",
+      "if (global.time > 14400 || global.flag[10] == 1)"
+    ],
+    "gml_Object_obj_npc_room_animated_Other_10.gml": [
+      "line 26",
+      "global.flag[10] = 1;"
+    ],
+    "gml_Object_obj_writer_Draw_0.gml": [
+      "line 11",
+      "if (global.flag[10] == 1 || scr_debug())"
+    ]
+  },
+  "global.flag[11]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 77",
+      "if (global.flag[11] == 1)"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 309",
+      "global.flag[11] = 0;"
+    ],
+    "gml_Object_obj_mainchara_Step_0.gml": [
+      "line 41",
+      "if (global.flag[11] == 1)"
+    ]
+  },
+  "global.flag[12]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 87",
+      "if (global.flag[12] == 1)"
+    ],
+    "gml_Object_obj_shake_Alarm_0.gml": [
+      "line 1",
+      "if (global.flag[12] == 0)"
+    ],
+    "gml_Object_obj_shake_Step_0.gml": [
+      "line 6",
+      "if (global.flag[12] == 0)"
+    ]
+  },
+  "global.flag[13]": {
+    "gml_Object_obj_attackpress_Create_0.gml": [
+      "line 159",
+      "if (global.flag[13] == 0)"
+    ],
+    "gml_Object_obj_attackpress_Draw_0.gml": [
+      "line 132",
+      "if (global.flag[13] == 1)"
+    ]
+  },
+  "global.flag[14]": {
+    "gml_GlobalScript_scr_battlecursor_memory_reset.gml": [
+      "line 3",
+      "if (global.flag[14] == 0)"
+    ]
+  },
+  "global.flag[15]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 281",
+      "global.flag[15] = 1;"
+    ],
+    "gml_GlobalScript_scr_load.gml": [
+      "line 315",
+      "audio_group_set_gain(1, global.flag[15], 0);"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 399",
+      "audio_group_set_gain(1, global.flag[15], 0);"
+    ]
+  },
+  "global.flag[16]": {
+    "gml_GlobalScript_mus_loop.gml": [
+      "line 4",
+      "snd_volume(_xsndinstance, 1 * global.flag[16], 0);"
+    ],
+    "gml_GlobalScript_mus_loop_ext.gml": [
+      "line 3",
+      "snd_volume(arg0, arg1 * global.flag[16], 0);"
+    ],
+    "gml_GlobalScript_mus_play.gml": [
+      "line 4",
+      "snd_volume(_xsndinstance, global.flag[16], 0);"
+    ],
+    "gml_GlobalScript_mus_volume.gml": [
+      "line 3",
+      "audio_sound_gain(arg0, arg1 * global.flag[16], (arg2 * 1000) / fps);"
+    ],
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 282",
+      "global.flag[16] = 0.85;"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 74",
+      "musvol = string(abs(global.flag[16] * 100)) + \"%\";"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 407",
+      "mus_volume(global.currentsong[1], getmusvol * global.flag[16], 0);"
+    ]
+  },
+  "global.flag[17]": {
+    "gml_GlobalScript_scr_gamestart.gml": [
+      "line 284",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ],
+    "gml_GlobalScript_scr_load.gml": [
+      "line 316",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 73",
+      "audvol = string(round(global.flag[17] * 100)) + \"%\";"
+    ],
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 414",
+      "audio_set_master_gain(0, global.flag[17]);"
+    ]
+  },
+  "global.flag[20]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 886",
+      "global.flag[20] = 1;"
+    ],
+    "gml_Object_DEVICE_CHOICE_Step_0.gml": [
+      "line 235",
+      "global.flag[20] = 1;"
+    ],
+    "gml_Object_DEVICE_CONTACT_Create_0.gml": [
+      "line 6",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_DEVICE_CONTACT_Step_0.gml": [
+      "line 962",
+      "if (global.flag[20] == 1)"
+    ],
+    "gml_Object_DEVICE_FAILURE_Create_0.gml": [
+      "line 6",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_DEVICE_GONERMAKER_Step_0.gml": [
+      "line 17",
+      "global.flag[20] = 1;"
+    ],
+    "gml_Object_obj_jigsawryenemy_Create_0.gml": [
+      "line 38",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_jigsawryenemy_Draw_0.gml": [
+      "line 60",
+      "if (global.flag[20] == 1)"
+    ],
+    "gml_Object_obj_jigsawryenemy_Step_0.gml": [
+      "line 79",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_npc_hammerguy_Other_10.gml": [
+      "line 7",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Other_10.gml": [
+      "line 11",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Step_0.gml": [
+      "line 15",
+      "if (global.flag[20] == 2)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster2_Draw_0.gml": [
+      "line 50",
+      "if (global.flag[20] == 1)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster2_Other_10.gml": [
+      "line 11",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_onionbody_Create_0.gml": [
+      "line 4",
+      "global.flag[20] = 0;"
+    ],
+    "gml_Object_obj_onionbody_Draw_0.gml": [
+      "line 34",
+      "if (global.flag[20] == 5)"
+    ],
+    "gml_Object_obj_writer_Draw_0.gml": [
+      "line 701",
+      "global.flag[20] = 9;"
+    ]
+  },
+  "global.flag[29]": {
+    "gml_Object_obj_darkdoor_Step_0.gml": [
+      "line 226",
+      "global.flag[29] = 1;"
+    ],
+    "gml_Object_obj_face_Draw_0.gml": [
+      "line 10",
+      "if (global.flag[29] == 0)"
+    ],
+    "gml_Object_obj_kingcutscene_Step_0.gml": [
+      "line 1880",
+      "global.flag[29] = 1;"
+    ],
+    "gml_Object_obj_unusedclassevent_Step_0.gml": [
+      "line 12",
+      "global.flag[29] = 1;"
+    ]
+  },
+  "global.flag[30]": {
+    "gml_Object_obj_darkcastle_event_Step_0.gml": [
+      "line 729",
+      "global.flag[30] = 0;"
+    ],
+    "gml_Object_obj_dummyenemy_Step_0.gml": [
+      "line 99",
+      "global.flag[30] = 0;"
+    ],
+    "gml_Object_obj_face_Draw_0.gml": [
+      "line 70",
+      "if (global.flag[30] == 2)"
+    ],
+    "gml_Object_obj_kingcutscene_Step_0.gml": [
+      "line 3078",
+      "global.flag[30] = 2;"
+    ],
+    "gml_Object_obj_ralseienemy_Step_0.gml": [
+      "line 46",
+      "global.flag[30] = 0;"
+    ],
+    "gml_Object_obj_writer_Draw_0.gml": [
+      "line 547",
+      "if (global.flag[30] == 1)"
+    ]
+  },
+  "global.flag[31]": {
+    "gml_Object_obj_elevatorcontroller_Create_0.gml": [
+      "line 1",
+      "global.flag[31] = 1;"
+    ],
+    "gml_Object_obj_event_room_Create_0.gml": [
+      "line 103",
+      "global.flag[31] = 0;"
+    ],
+    "gml_Object_obj_mainchara_Step_0.gml": [
+      "line 458",
+      "if (global.flag[31] == 0)"
+    ],
+    "gml_Object_obj_musicer_bird_Create_0.gml": [
+      "line 2",
+      "global.flag[31] = 0;"
+    ],
+    "gml_Object_obj_musicer_field_Create_0.gml": [
+      "line 1",
+      "global.flag[31] = 1;"
+    ]
+  },
+  "global.flag[32]": {
+    "gml_GlobalScript_scr_itemcomment.gml": [
+      "line 8",
+      "if (global.flag[32] == 1)"
+    ],
+    "gml_Object_obj_musicer_man_Other_5.gml": [
+      "line 1",
+      "global.flag[32] = 0;"
+    ],
+    "gml_Object_obj_musicer_man_Step_0.gml": [
+      "line 8",
+      "global.flag[32] = 1;"
+    ],
+    "gml_Object_obj_shortcut_door_Create_0.gml": [
+      "line 4",
+      "global.flag[32] = 0;"
+    ]
+  },
+  "global.flag[33]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2574",
+      "if (global.flag[33] >= 40)"
+    ],
+    "gml_Object_obj_choicer_neo_Create_0.gml": [
+      "line 4",
+      "global.flag[33] = 0;"
+    ],
+    "gml_Object_obj_choicer_neo_Step_0.gml": [
+      "line 1",
+      "global.flag[33] += 1;"
+    ]
+  },
+  "global.flag[40]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 18",
+      "global.flag[40] += 1;"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2933",
+      "global.flag[40] = 0;"
+    ],
+    "gml_Object_obj_kingcutscene_Create_0.gml": [
+      "line 14",
+      "if (global.flag[40] > 0 || global.flag[43] >= 2)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 755",
+      "global.flag[40] = 0;"
+    ]
+  },
+  "global.flag[41]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 21",
+      "global.flag[41] += 1;"
+    ]
+  },
+  "global.flag[42]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 24",
+      "global.flag[42] += 1;"
+    ]
+  },
+  "global.flag[43]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 27",
+      "global.flag[43] += 1;"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2927",
+      "global.flag[43] = 0;"
+    ],
+    "gml_Object_obj_kingcutscene_Create_0.gml": [
+      "line 14",
+      "if (global.flag[40] > 0 || global.flag[43] >= 2)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 749",
+      "global.flag[43] = 0;"
+    ]
+  },
+  "global.flag[50]": {
+    "gml_GlobalScript_scr_monsterdefeat.gml": [
+      "line 58",
+      "global.flag[50] = 1;"
+    ],
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 57",
+      "global.flag[50] = 0;"
+    ],
+    "gml_Object_obj_checkers_enemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ],
+    "gml_Object_obj_diamondenemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ],
+    "gml_Object_obj_jigsawryenemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ],
+    "gml_Object_obj_susieenemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ]
+  },
+  "global.flag[51]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 58",
+      "global.flag[51] = 0;"
+    ]
+  },
+  "global.flag[52]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 59",
+      "global.flag[52] = 0;"
+    ]
+  },
+  "global.flag[53]": {
+    "gml_Object_obj_battlecontroller_Create_0.gml": [
+      "line 60",
+      "global.flag[53] = 0;"
+    ]
+  },
+  "global.flag[100]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 120",
+      "global.flag[100] = 1;"
+    ],
+    "gml_Object_obj_readable_room1_Create_0.gml": [
+      "line 8",
+      "if (global.flag[100] == 0)"
+    ]
+  },
+  "global.flag[101]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 406",
+      "global.flag[101] += 1;"
+    ]
+  },
+  "global.flag[102]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 453",
+      "global.flag[102] += 1;"
+    ]
+  },
+  "global.flag[103]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 494",
+      "global.flag[103] = 1;"
+    ]
+  },
+  "global.flag[105]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1787",
+      "global.flag[105] = 1;"
+    ],
+    "gml_Object_obj_npc_sign_Create_0.gml": [
+      "line 17",
+      "if (global.flag[105] == 1)"
+    ]
+  },
+  "global.flag[106]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1746",
+      "global.flag[106] = 1;"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 288",
+      "if (global.flag[106] == 1)"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 607",
+      "if (global.flag[106] == 1)"
+    ]
+  },
+  "global.flag[108]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 395",
+      "if (global.flag[108] == 1 && scr_weaponcheck_inventory(9) == 0 && global.charweapon[3] != 9)"
+    ]
+  },
+  "global.flag[112]": {
+    "gml_Object_obj_treasure_room_Create_0.gml": [
+      "line 73",
+      "if (global.flag[112] == 1)"
+    ]
+  },
+  "global.flag[115]": {
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 670",
+      "if (global.flag[115] == 1 && global.flag[241] >= 6)"
+    ]
+  },
+  "global.flag[200]": {
+    "gml_Object_obj_schoollobbycutscene_Step_0.gml": [
+      "line 807",
+      "global.flag[200] = 1;"
+    ]
+  },
+  "global.flag[201]": {
+    "gml_Object_obj_darkeyepuzzle_Create_0.gml": [
+      "line 5",
+      "if (global.flag[201] == 0)"
+    ],
+    "gml_Object_obj_darkeyepuzzle_Step_0.gml": [
+      "line 43",
+      "global.flag[201] = 1;"
+    ]
+  },
+  "global.flag[202]": {
+    "gml_Object_obj_dustpile_susie_Step_0.gml": [
+      "line 213",
+      "global.flag[202] = 1;"
+    ]
+  },
+  "global.flag[203]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 180",
+      "global.flag[203] = 1;"
+    ],
+    "gml_Object_obj_darkcastle_event_Step_0.gml": [
+      "line 381",
+      "if (global.flag[203] == 1)"
+    ]
+  },
+  "global.flag[204]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 236",
+      "global.flag[204] = 2;"
+    ]
+  },
+  "global.flag[205]": {
+    "gml_Object_obj_dummyenemy_Step_0.gml": [
+      "line 767",
+      "global.flag[205] = 1;"
+    ],
+    "gml_Object_obj_getsusieevent_Step_0.gml": [
+      "line 195",
+      "if (global.flag[205] == 0)"
+    ],
+    "gml_Object_obj_ralseienemy_Step_0.gml": [
+      "line 558",
+      "global.flag[205] = 2;"
+    ],
+    "gml_Object_obj_tutorialbattleevent_Step_0.gml": [
+      "line 74",
+      "if (global.flag[205] >= 4)"
+    ]
+  },
+  "global.flag[206]": {
+    "gml_Object_obj_ralsei_runevent_Create_0.gml": [
+      "line 7",
+      "if (global.flag[206] == 1)"
+    ],
+    "gml_Object_obj_ralsei_runevent_Step_2.gml": [
+      "line 29",
+      "global.flag[206] = 1;"
+    ]
+  },
+  "global.flag[207]": {
+    "gml_Object_obj_darkcontroller_Step_0.gml": [
+      "line 170",
+      "global.flag[207] = 1;"
+    ]
+  },
+  "global.flag[208]": {
+    "gml_Object_obj_diamondenemy_Step_0.gml": [
+      "line 180",
+      "global.flag[208] = 1;"
+    ]
+  },
+  "global.flag[209]": {
+    "gml_Object_obj_musicer_field_Create_0.gml": [
+      "line 10",
+      "global.flag[209] = 1;"
+    ]
+  },
+  "global.flag[210]": {
+    "gml_Object_obj_event_room_Step_0.gml": [
+      "line 25",
+      "global.flag[210] = 2;"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 226",
+      "global.flag[210] = 1;"
+    ]
+  },
+  "global.flag[211]": {
+    "gml_Object_obj_npc_puzzlemaster1_Create_0.gml": [
+      "line 20",
+      "if (global.plot >= 42 || global.flag[211] == 3)"
+    ],
+    "gml_Object_obj_smallcheckers_enemy_Step_0.gml": [
+      "line 200",
+      "global.flag[211] = 2;"
+    ]
+  },
+  "global.flag[212]": {
+    "gml_Object_obj_boxpuzzle_event_Create_0.gml": [
+      "line 9",
+      "if (global.flag[212] == 2)"
+    ],
+    "gml_Object_obj_boxpuzzle_event_Step_0.gml": [
+      "line 165",
+      "global.flag[212] = 1;"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 261",
+      "if (global.flag[212] == 1)"
+    ],
+    "gml_Object_obj_pushableblock_Create_0.gml": [
+      "line 10",
+      "if (global.flag[212] == 2)"
+    ],
+    "gml_Object_obj_pushableblock_Other_10.gml": [
+      "line 70",
+      "if (global.flag[212] == 2 && global.plot < 50)"
+    ]
+  },
+  "global.flag[214]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 605",
+      "global.flag[214] = 3;"
+    ],
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 54",
+      "if (global.flag[214] == 3)"
+    ],
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 388",
+      "if (global.flag[214] == 1)"
+    ],
+    "gml_Object_obj_savepoint_Other_10.gml": [
+      "line 98",
+      "if (global.flag[214] == 3)"
+    ],
+    "gml_Object_obj_susieandlancer_event_Step_0.gml": [
+      "line 739",
+      "if (global.flag[214] == 3)"
+    ],
+    "gml_Object_obj_susiebadguy_event_Step_0.gml": [
+      "line 184",
+      "if (global.flag[214] == 2)"
+    ],
+    "gml_Object_obj_thrashafter_event_Step_0.gml": [
+      "line 36",
+      "if (global.flag[214] == 3)"
+    ]
+  },
+  "global.flag[215]": {
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 976",
+      "if (global.flag[215] == 1)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Create_0.gml": [
+      "line 8",
+      "if (global.flag[215] == 1)"
+    ],
+    "gml_Object_obj_npc_puzzlemaster1_Step_0.gml": [
+      "line 37",
+      "global.flag[215] = 1;"
+    ]
+  },
+  "global.flag[216]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1492",
+      "global.flag[216] = 1;"
+    ],
+    "gml_Object_obj_npc_room_Create_0.gml": [
+      "line 430",
+      "if (global.flag[216] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 970",
+      "if (global.flag[216] == 1)"
+    ]
+  },
+  "global.flag[217]": {
+    "gml_Object_obj_cc_event_Create_0.gml": [
+      "line 23",
+      "if (global.flag[217] == 1)"
+    ],
+    "gml_Object_obj_rurus_event_Create_0.gml": [
+      "line 32",
+      "if (global.flag[217] == 1)"
+    ],
+    "gml_Object_obj_rurus_event_Step_0.gml": [
+      "line 250",
+      "global.flag[217] = 1;"
+    ]
+  },
+  "global.flag[218]": {
+    "gml_Object_obj_cc_event_Create_0.gml": [
+      "line 49",
+      "if (global.flag[218] == 1)"
+    ],
+    "gml_Object_obj_rurus_event_Create_0.gml": [
+      "line 51",
+      "if (global.flag[218] == 1)"
+    ],
+    "gml_Object_obj_rurus_event_Step_0.gml": [
+      "line 452",
+      "global.flag[218] = 1;"
+    ]
+  },
+  "global.flag[220]": {
+    "gml_Object_obj_thrashcontroller_Create_0.gml": [
+      "line 1",
+      "global.flag[220] = -1;"
+    ],
+    "gml_Object_obj_thrashcontroller_Draw_0.gml": [
+      "line 163",
+      "if (global.flag[220] == 3 && global.flag[221] == 3 && global.flag[222] == 3)"
+    ],
+    "gml_Object_obj_thrashcontroller_Step_0.gml": [
+      "line 86",
+      "if (global.flag[220] >= 0 && global.flag[221] >= 0 && global.flag[222] >= 0)"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 9",
+      "part[1] = global.flag[220];"
+    ],
+    "gml_Object_obj_thrashmachine_Step_0.gml": [
+      "line 4",
+      "part[1] = global.flag[220];"
+    ]
+  },
+  "global.flag[221]": {
+    "gml_Object_obj_thrashcontroller_Create_0.gml": [
+      "line 2",
+      "global.flag[221] = -1;"
+    ],
+    "gml_Object_obj_thrashcontroller_Draw_0.gml": [
+      "line 163",
+      "if (global.flag[220] == 3 && global.flag[221] == 3 && global.flag[222] == 3)"
+    ],
+    "gml_Object_obj_thrashcontroller_Step_0.gml": [
+      "line 86",
+      "if (global.flag[220] >= 0 && global.flag[221] >= 0 && global.flag[222] >= 0)"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 8",
+      "part[0] = global.flag[221];"
+    ],
+    "gml_Object_obj_thrashmachine_Step_0.gml": [
+      "line 5",
+      "part[0] = global.flag[221];"
+    ]
+  },
+  "global.flag[222]": {
+    "gml_Object_obj_thrashcontroller_Create_0.gml": [
+      "line 3",
+      "global.flag[222] = -1;"
+    ],
+    "gml_Object_obj_thrashcontroller_Draw_0.gml": [
+      "line 163",
+      "if (global.flag[220] == 3 && global.flag[221] == 3 && global.flag[222] == 3)"
+    ],
+    "gml_Object_obj_thrashcontroller_Step_0.gml": [
+      "line 86",
+      "if (global.flag[220] >= 0 && global.flag[221] >= 0 && global.flag[222] >= 0)"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 10",
+      "part[2] = global.flag[222];"
+    ],
+    "gml_Object_obj_thrashmachine_Step_0.gml": [
+      "line 6",
+      "part[2] = global.flag[222];"
+    ]
+  },
+  "global.flag[223]": {
+    "gml_Object_obj_thrashcontroller_Create_0.gml": [
+      "line 4",
+      "global.flag[223] = 0;"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 5",
+      "dcolor[0] = global.flag[223];"
+    ],
+    "gml_Object_obj_thrashmachine_Step_0.gml": [
+      "line 1",
+      "dcolor[1] = make_color_hsv(global.flag[223] * 8, 255, 255 * value);"
+    ]
+  },
+  "global.flag[224]": {
+    "gml_Object_obj_thrashcontroller_Create_0.gml": [
+      "line 5",
+      "global.flag[224] = 0;"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 6",
+      "dcolor[1] = global.flag[224];"
+    ],
+    "gml_Object_obj_thrashmachine_Step_0.gml": [
+      "line 2",
+      "dcolor[0] = make_color_hsv(global.flag[224] * 8, 255, 255 * value);"
+    ]
+  },
+  "global.flag[225]": {
+    "gml_Object_obj_thrashcontroller_Create_0.gml": [
+      "line 6",
+      "global.flag[225] = 0;"
+    ],
+    "gml_Object_obj_thrashmachine_Create_0.gml": [
+      "line 7",
+      "dcolor[2] = global.flag[225];"
+    ],
+    "gml_Object_obj_thrashmachine_Step_0.gml": [
+      "line 3",
+      "dcolor[2] = make_color_hsv(global.flag[225] * 8, 255, 255 * value);"
+    ]
+  },
+  "global.flag[226]": {
+    "gml_Object_obj_thrashmaker_event_Create_0.gml": [
+      "line 17",
+      "if (global.flag[226] == 1)"
+    ],
+    "gml_Object_obj_thrashmaker_event_Step_0.gml": [
+      "line 541",
+      "global.flag[226] = 1;"
+    ]
+  },
+  "global.flag[229]": {
+    "gml_Object_obj_susieandlancer_event_Step_0.gml": [
+      "line 871",
+      "global.flag[229] = 1;"
+    ],
+    "gml_Object_obj_thrashafter_event_Create_0.gml": [
+      "line 5",
+      "if (global.flag[229] >= 1 && global.plot < 150)"
+    ],
+    "gml_Object_obj_thrashafter_event_Step_0.gml": [
+      "line 187",
+      "global.flag[229] = 1;"
+    ],
+    "gml_Object_obj_thrashafter_follow_Create_0.gml": [
+      "line 20",
+      "if (global.flag[229] >= 6)"
+    ],
+    "gml_Object_obj_thrashafter_follow_Step_0.gml": [
+      "line 303",
+      "global.flag[229] = 12;"
+    ]
+  },
+  "global.flag[231]": {
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 280",
+      "if (global.flag[231] >= 3)"
+    ],
+    "gml_Object_obj_npc_sign_Other_10.gml": [
+      "line 88",
+      "global.flag[231] += 1;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 561",
+      "global.flag[231] += 1;"
+    ]
+  },
+  "global.flag[232]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1535",
+      "global.flag[232] = 1;"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 328",
+      "if (global.flag[232] == 0)"
+    ]
+  },
+  "global.flag[233]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 392",
+      "global.flag[233] = 1;"
+    ]
+  },
+  "global.flag[234]": {
+    "gml_Object_obj_cloverpuzzle_event_Create_0.gml": [
+      "line 33",
+      "if (global.flag[234] == 0)"
+    ],
+    "gml_Object_obj_cloverpuzzle_event_Step_0.gml": [
+      "line 8",
+      "global.flag[234] = 1;"
+    ]
+  },
+  "global.flag[235]": {
+    "gml_Object_obj_cloverpuzzle_event_Create_0.gml": [
+      "line 49",
+      "if (global.flag[235] == 0)"
+    ]
+  },
+  "global.flag[236]": {
+    "gml_Object_obj_cloverpuzzle_event_Step_0.gml": [
+      "line 85",
+      "if (global.flag[236] == 1)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 419",
+      "global.flag[236] = 1;"
+    ]
+  },
+  "global.flag[237]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 505",
+      "global.flag[237] = 1;"
+    ],
+    "gml_Object_obj_tempblock_room_Create_0.gml": [
+      "line 16",
+      "if (global.flag[237] > 0)"
+    ]
+  },
+  "global.flag[238]": {
+    "gml_Object_obj_lancerbakesale_event_Create_0.gml": [
+      "line 4",
+      "if (global.plot >= 80 || global.flag[238] == 1)"
+    ],
+    "gml_Object_obj_lancerbakesale_event_Step_0.gml": [
+      "line 238",
+      "global.flag[238] = 1;"
+    ]
+  },
+  "global.flag[239]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3073",
+      "if (global.flag[239] == 1)"
+    ],
+    "gml_Object_obj_doorw_musfade_Alarm_2.gml": [
+      "line 21",
+      "if (global.flag[239] == 2)"
+    ],
+    "gml_Object_obj_doorX_musfade_Alarm_2.gml": [
+      "line 78",
+      "global.flag[239] = 3;"
+    ],
+    "gml_Object_obj_elevatorcontroller_Create_0.gml": [
+      "line 10",
+      "cno = global.flag[239];"
+    ],
+    "gml_Object_obj_elevatorcontroller_Step_0.gml": [
+      "line 977",
+      "global.flag[239] = cno;"
+    ]
+  },
+  "global.flag[240]": {
+    "gml_Object_obj_cc_event_Create_0.gml": [
+      "line 76",
+      "global.flag[240] = 1;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 701",
+      "if (global.flag[240] == 1)"
+    ]
+  },
+  "global.flag[241]": {
+    "gml_GlobalScript_scr_save.gml": [
+      "line 20",
+      "else if (global.flag[241] == 7)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2866",
+      "global.flag[241] = 5;"
+    ],
+    "gml_Object_obj_event_room_Create_0.gml": [
+      "line 138",
+      "if (global.flag[241] >= 6)"
+    ],
+    "gml_Object_obj_jokerbattleevent_Create_0.gml": [
+      "line 6",
+      "if (global.flag[241] >= 6)"
+    ],
+    "gml_Object_obj_jokerbattleevent_Step_0.gml": [
+      "line 438",
+      "if (global.flag[241] == 6)"
+    ],
+    "gml_Object_obj_joker_Draw_0.gml": [
+      "line 28",
+      "global.flag[241] = 6;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 685",
+      "if (global.flag[241] >= 5)"
+    ],
+    "gml_Object_obj_shop1_Draw_0.gml": [
+      "line 670",
+      "if (global.flag[115] == 1 && global.flag[241] >= 6)"
+    ]
+  },
+  "global.flag[242]": {
+    "gml_Object_obj_jokerbattleevent_Step_0.gml": [
+      "line 463",
+      "global.flag[242] = 2;"
+    ],
+    "gml_Object_obj_treasure_room_Create_0.gml": [
+      "line 89",
+      "if (global.flag[242] == 2)"
+    ]
+  },
+  "global.flag[243]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2955",
+      "global.flag[243] = 2;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 710",
+      "if (global.flag[243] == 0)"
+    ]
+  },
+  "global.flag[244]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 763",
+      "global.flag[244] = 1;"
+    ]
+  },
+  "global.flag[245]": {
+    "gml_Object_obj_cc_event_Create_0.gml": [
+      "line 63",
+      "if (global.flag[245] == 1)"
+    ],
+    "gml_Object_obj_cc_event_Step_0.gml": [
+      "line 17",
+      "global.flag[245] = 1;"
+    ]
+  },
+  "global.flag[246]": {
+    "gml_GlobalScript_scr_monstersetup.gml": [
+      "line 559",
+      "if (global.flag[246] == 1)"
+    ],
+    "gml_Object_obj_checkers_enemy_Step_0.gml": [
+      "line 325",
+      "if (global.flag[246] == 1)"
+    ]
+  },
+  "global.flag[247]": {
+    "gml_Object_obj_kingcutscene_Step_0.gml": [
+      "line 1066",
+      "if (global.flag[247] == 1)"
+    ],
+    "gml_Object_obj_king_boss_Other_20.gml": [
+      "line 12",
+      "if (global.flag[247] == 0)"
+    ],
+    "gml_Object_obj_king_boss_Step_0.gml": [
+      "line 213",
+      "global.flag[247] = 1;"
+    ]
+  },
+  "global.flag[248]": {
+    "gml_Object_obj_event_room_Step_0.gml": [
+      "line 255",
+      "if (global.flag[248] == 0)"
+    ],
+    "gml_Object_obj_kingcutscene_Step_0.gml": [
+      "line 3195",
+      "global.flag[248] = 1;"
+    ]
+  },
+  "global.flag[249]": {
+    "gml_Object_obj_lancerboss3_Step_0.gml": [
+      "line 456",
+      "if (global.flag[249] == 1)"
+    ],
+    "gml_Object_obj_susieandlancer_event_Step_0.gml": [
+      "line 587",
+      "if (global.flag[249] == 1)"
+    ]
+  },
+  "global.flag[250]": {
+    "gml_Object_obj_susieandlancer_event_Step_0.gml": [
+      "line 453",
+      "global.flag[250] += 1;"
+    ]
+  },
+  "global.flag[251]": {
+    "gml_Object_obj_checker_animtest_Step_0.gml": [
+      "line 977",
+      "global.flag[251] = 1;"
+    ],
+    "gml_Object_obj_npc_room_Create_0.gml": [
+      "line 198",
+      "if (global.flag[251] == 0)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 337",
+      "if (global.flag[251] == 1)"
+    ]
+  },
+  "global.flag[252]": {
+    "gml_Object_obj_darkcontroller_Draw_0.gml": [
+      "line 374",
+      "if (global.flag[252] == 1)"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 787",
+      "global.flag[252] = 1;"
+    ]
+  },
+  "global.flag[253]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3298",
+      "global.flag[253] = 1;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 859",
+      "if (global.flag[253] == 1 && global.flag[295] == 0)"
+    ]
+  },
+  "global.flag[254]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 486",
+      "global.flag[254] = 1;"
+    ],
+    "gml_Object_obj_npc_sign_Create_0.gml": [
+      "line 25",
+      "if (global.flag[254] == 0)"
+    ]
+  },
+  "global.flag[255]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 633",
+      "global.flag[255] = 2;"
+    ],
+    "gml_Object_obj_npc_facing_Create_0.gml": [
+      "line 331",
+      "if (global.flag[255] < 1)"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 668",
+      "if (global.flag[255] >= 1 && global.flag[256] == 0)"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 998",
+      "if (global.flag[255] < 2)"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 919",
+      "if (global.flag[255] < 2)"
+    ],
+    "gml_Object_obj_rudy_Create_0.gml": [
+      "line 3",
+      "if (global.flag[255] == 0)"
+    ],
+    "gml_Object_obj_rudy_Step_0.gml": [
+      "line 176",
+      "global.flag[255] = 1;"
+    ]
+  },
+  "global.flag[256]": {
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 676",
+      "global.flag[256] = 1;"
+    ]
+  },
+  "global.flag[257]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 776",
+      "global.flag[257] = 1;"
+    ]
+  },
+  "global.flag[258]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 884",
+      "global.flag[258] = 3;"
+    ],
+    "gml_Object_obj_onion_event_Step_0.gml": [
+      "line 10",
+      "global.flag[258] = 1;"
+    ]
+  },
+  "global.flag[259]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 894",
+      "if (global.flag[259] == 2)"
+    ]
+  },
+  "global.flag[260]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 885",
+      "global.flag[260] = 4;"
+    ]
+  },
+  "global.flag[261]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 1120",
+      "global.flag[261] = 2;"
+    ]
+  },
+  "global.flag[262]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3200",
+      "global.flag[262] = 3;"
+    ],
+    "gml_Object_obj_event_room_Create_0.gml": [
+      "line 67",
+      "global.flag[262] = 4;"
+    ],
+    "gml_Object_obj_flowershop_event_Create_0.gml": [
+      "line 35",
+      "if (global.flag[262] == 0)"
+    ],
+    "gml_Object_obj_flowershop_event_Step_0.gml": [
+      "line 297",
+      "global.flag[262] = 2;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 129",
+      "if (global.flag[262] >= 4)"
+    ]
+  },
+  "global.flag[263]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 959",
+      "global.flag[263] = 2;"
+    ],
+    "gml_Object_obj_overworldc_Step_0.gml": [
+      "line 68",
+      "global.flag[263] = 1;"
+    ]
+  },
+  "global.flag[264]": {
+    "gml_Object_obj_flowershop_event_Create_0.gml": [
+      "line 63",
+      "x = global.flag[264];"
+    ],
+    "gml_Object_obj_flowershop_event_Step_0.gml": [
+      "line 338",
+      "global.flag[264] = obj_mainchara.x;"
+    ]
+  },
+  "global.flag[265]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 996",
+      "global.flag[265] = 1;"
+    ]
+  },
+  "global.flag[267]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 1617",
+      "global.flag[267] += 1;"
+    ]
+  },
+  "global.flag[268]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 94",
+      "global.flag[268] = 1;"
+    ]
+  },
+  "global.flag[269]": {
+    "gml_Object_obj_alphysalley_event_Create_0.gml": [
+      "line 3",
+      "if (global.flag[269] == 0)"
+    ],
+    "gml_Object_obj_alphysalley_event_Step_0.gml": [
+      "line 43",
+      "global.flag[269] = 1;"
+    ]
+  },
+  "global.flag[270]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2108",
+      "global.flag[270] = 1;"
+    ]
+  },
+  "global.flag[271]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2163",
+      "global.flag[271] = 2;"
+    ],
+    "gml_Object_obj_town_event_Create_0.gml": [
+      "line 7",
+      "if (global.flag[271] == 0)"
+    ],
+    "gml_Object_obj_town_event_Step_0.gml": [
+      "line 62",
+      "global.flag[271] = 1;"
+    ]
+  },
+  "global.flag[272]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 142",
+      "global.flag[272] += 1;"
+    ],
+    "gml_Object_obj_schoollobbycutscene_Step_0.gml": [
+      "line 919",
+      "global.flag[272] = 1;"
+    ]
+  },
+  "global.flag[273]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2379",
+      "global.flag[273] = 1;"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 755",
+      "if (global.flag[273] >= 1)"
+    ],
+    "gml_Object_obj_town_event_Step_0.gml": [
+      "line 96",
+      "global.flag[273] = 2;"
+    ]
+  },
+  "global.flag[274]": {
+    "gml_GlobalScript_scr_phonename.gml": [
+      "line 19",
+      "if (global.flag[274] >= 2)"
+    ],
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2493",
+      "global.flag[274] = 2;"
+    ]
+  },
+  "global.flag[275]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2513",
+      "global.flag[275] = 3;"
+    ]
+  },
+  "global.flag[276]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2644",
+      "global.flag[276] = 2;"
+    ]
+  },
+  "global.flag[277]": {
+    "gml_Object_obj_event_room_Step_0.gml": [
+      "line 111",
+      "global.flag[277] += 1;"
+    ]
+  },
+  "global.flag[278]": {
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 917",
+      "global.flag[278] = 1;"
+    ]
+  },
+  "global.flag[279]": {
+    "gml_GlobalScript_scr_load.gml": [
+      "line 330",
+      "global.flag[279] = 1;"
+    ]
+  },
+  "global.flag[280]": {
+    "gml_GlobalScript_scr_itemuse.gml": [
+      "line 281",
+      "global.flag[280] = 2;"
+    ]
+  },
+  "global.flag[281]": {
+    "gml_GlobalScript_scr_litemuseb.gml": [
+      "line 73",
+      "global.flag[281] = 2;"
+    ]
+  },
+  "global.flag[290]": {
+    "gml_Object_obj_event_room_Create_0.gml": [
+      "line 294",
+      "if (global.flag[290] == 1)"
+    ],
+    "gml_Object_obj_event_room_Step_0.gml": [
+      "line 446",
+      "global.flag[290] = 1;"
+    ]
+  },
+  "global.flag[291]": {
+    "gml_Object_obj_doorX_Alarm_2.gml": [
+      "line 107",
+      "global.flag[291] = 5;"
+    ],
+    "gml_Object_obj_event_room_Create_0.gml": [
+      "line 320",
+      "global.flag[291] = 5;"
+    ],
+    "gml_Object_obj_forestmaze_controller_Create_0.gml": [
+      "line 3",
+      "roomno = global.flag[291];"
+    ],
+    "gml_Object_obj_forestmaze_controller_Other_10.gml": [
+      "line 72",
+      "global.flag[291] = 5;"
+    ]
+  },
+  "global.flag[292]": {
+    "gml_Object_obj_doorX_Alarm_2.gml": [
+      "line 97",
+      "global.flag[292] = 0;"
+    ],
+    "gml_Object_obj_forestmaze_controller_Other_10.gml": [
+      "line 67",
+      "global.flag[292] = 0;"
+    ]
+  },
+  "global.flag[293]": {
+    "gml_Object_obj_forestmaze_controller_Other_10.gml": [
+      "line 59",
+      "if (global.flag[293] >= 1)"
+    ],
+    "gml_Object_obj_npc_facing_Create_0.gml": [
+      "line 112",
+      "global.flag[293] += 1;"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 516",
+      "if (global.flag[293] >= 2)"
+    ]
+  },
+  "global.flag[294]": {
+    "gml_Object_obj_npc_facing_Create_0.gml": [
+      "line 126",
+      "global.flag[294] += 1;"
+    ],
+    "gml_Object_obj_npc_facing_Other_10.gml": [
+      "line 543",
+      "if (global.flag[294] >= 2)"
+    ]
+  },
+  "global.flag[295]": {
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 872",
+      "global.flag[295] = 1;"
+    ]
+  },
+  "global.flag[296]": {
+    "gml_Object_obj_npc_room_Create_0.gml": [
+      "line 275",
+      "global.flag[296] = 1;"
+    ]
+  },
+  "global.flag[500]": {
+    "gml_GlobalScript_scr_encountersetup.gml": [
+      "line 267",
+      "if (global.flag[500] == 2)"
+    ],
+    "gml_Object_obj_checkers_enemy_Other_21.gml": [
+      "line 2",
+      "global.flag[500] += 1;"
+    ],
+    "gml_Object_obj_diamondenemy_Other_21.gml": [
+      "line 2",
+      "global.flag[500] += 1;"
+    ],
+    "gml_Object_obj_jigsawryenemy_Other_21.gml": [
+      "line 2",
+      "global.flag[500] += 1;"
+    ],
+    "gml_Object_obj_susieenemy_Other_21.gml": [
+      "line 2",
+      "global.flag[500] += 1;"
+    ]
+  },
+  "global.flag[501]": {
+    "gml_Object_obj_chaseenemy_Create_0.gml": [
+      "line 41",
+      "if (global.flag[501] > 0)"
+    ],
+    "gml_Object_obj_checkers_enemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ],
+    "gml_Object_obj_diamondenemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ],
+    "gml_Object_obj_jigsawryenemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 63",
+      "if (global.flag[501] == 3)"
+    ],
+    "gml_Object_obj_susieenemy_Other_21.gml": [
+      "line 7",
+      "global.flag[501] = global.flag[50];"
+    ]
+  },
+  "global.flag[502]": {
+    "gml_Object_obj_ponman_appear_Step_0.gml": [
+      "line 98",
+      "global.flag[502] += 1;"
+    ]
+  },
+  "global.flag[503]": {
+    "gml_Object_obj_rudinnranger_Step_0.gml": [
+      "line 230",
+      "global.flag[503] = 1;"
+    ]
+  },
+  "global.flag[504]": {
+    "gml_Object_obj_headhathy_Step_0.gml": [
+      "line 262",
+      "if (global.flag[504] == 2)"
+    ]
+  },
+  "global.flag[505]": {
+    "gml_Object_obj_chaseenemy_Create_0.gml": [
+      "line 112",
+      "if (global.flag[505] == 1)"
+    ]
+  },
+  "global.flag[506]": {
+    "gml_Object_obj_chaseenemy_Create_0.gml": [
+      "line 156",
+      "if (global.flag[506] >= 1)"
+    ]
+  },
+  "global.flag[507]": {
+    "gml_Object_obj_chaseenemy_Create_0.gml": [
+      "line 170",
+      "if (global.flag[507] == 1)"
+    ]
+  },
+  "global.flag[508]": {
+    "gml_Object_obj_chaseenemy_Create_0.gml": [
+      "line 192",
+      "if (global.flag[508] == 1)"
+    ]
+  },
+  "global.flag[520]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2929",
+      "normal_kills = global.flag[520] - global.flag[523];"
+    ],
+    "gml_Object_obj_diamondenemy_Draw_0.gml": [
+      "line 24",
+      "global.flag[520] += 1;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 654",
+      "else if (global.flag[520] == 0)"
+    ]
+  },
+  "global.flag[521]": {
+    "gml_Object_obj_heartenemy_Draw_0.gml": [
+      "line 24",
+      "global.flag[521] += 1;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 751",
+      "normal_kills = global.flag[521] - global.flag[524];"
+    ]
+  },
+  "global.flag[522]": {
+    "gml_Object_obj_clubsenemy_Draw_0.gml": [
+      "line 21",
+      "global.flag[522] += 1;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 789",
+      "if (global.flag[522] == 1)"
+    ]
+  },
+  "global.flag[523]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 2929",
+      "normal_kills = global.flag[520] - global.flag[523];"
+    ],
+    "gml_Object_obj_diamondenemy_Draw_0.gml": [
+      "line 22",
+      "global.flag[523] += 1;"
+    ]
+  },
+  "global.flag[524]": {
+    "gml_Object_obj_heartenemy_Draw_0.gml": [
+      "line 22",
+      "global.flag[524] += 1;"
+    ],
+    "gml_Object_obj_npc_room_Other_10.gml": [
+      "line 751",
+      "normal_kills = global.flag[521] - global.flag[524];"
+    ]
+  },
+  "global.flag[900]": {
+    "gml_Object_DEVICE_GONERMAKER_Create_0.gml": [
+      "line 7",
+      "PART[0] = global.flag[900];"
+    ]
+  },
+  "global.flag[901]": {
+    "gml_Object_DEVICE_GONERMAKER_Create_0.gml": [
+      "line 8",
+      "PART[1] = global.flag[901];"
+    ]
+  },
+  "global.flag[902]": {
+    "gml_Object_DEVICE_GONERMAKER_Create_0.gml": [
+      "line 9",
+      "PART[2] = global.flag[902];"
+    ]
+  },
+  "global.flag[903]": {
+    "gml_Object_DEVICE_CONTACT_Step_0.gml": [
+      "line 313",
+      "global.flag[903] = global.choice;"
+    ]
+  },
+  "global.flag[904]": {
+    "gml_Object_DEVICE_CONTACT_Step_0.gml": [
+      "line 367",
+      "global.flag[904] = global.choice;"
+    ]
+  },
+  "global.flag[905]": {
+    "gml_Object_DEVICE_CONTACT_Step_0.gml": [
+      "line 424",
+      "global.flag[905] = global.choice;"
+    ]
+  },
+  "global.flag[906]": {
+    "gml_Object_DEVICE_CONTACT_Step_0.gml": [
+      "line 536",
+      "global.flag[906] = global.choice;"
+    ]
+  },
+  "global.flag[907]": {
+    "gml_Object_DEVICE_CONTACT_Step_0.gml": [
+      "line 587",
+      "global.flag[907] = global.choice;"
+    ]
+  },
+  "global.flag[908]": {
+    "gml_Object_DEVICE_CONTACT_Step_0.gml": [
+      "line 638",
+      "global.flag[908] = global.choice;"
+    ]
+  },
+  "global.flag[909]": {
+    "gml_Object_DEVICE_CONTACT_Step_0.gml": [
+      "line 483",
+      "global.flag[909] = 1 - global.choice;"
+    ]
+  },
+  "global.flag[910]": {
+    "gml_GlobalScript_scr_text.gml": [
+      "line 3352",
+      "global.flag[910] = 2;"
+    ],
+    "gml_Object_obj_doorX_musfade_Alarm_2.gml": [
+      "line 20",
+      "if (ch == 50 && global.flag[910] == 0)"
+    ],
+    "gml_Object_obj_musicer_man_Create_0.gml": [
+      "line 4",
+      "global.flag[910] = 1;"
+    ],
+    "gml_Object_obj_readable_room1_Other_10.gml": [
+      "line 652",
+      "else if (global.flag[910] >= 2)"
+    ]
+  },
+  "global.flag[912]": {
+    "gml_GlobalScript_scr_save.gml": [
+      "line 15",
+      "ini_write_real(\"G\" + string(global.filechoice), \"InitLang\", global.flag[912]);"
+    ],
+    "gml_Object_DEVICE_CONTACT_Create_0.gml": [
+      "line 28",
+      "global.flag[912] = 1;"
+    ],
+    "gml_Object_obj_savemenu_Draw_0.gml": [
+      "line 87",
+      "if (global.flag[912] == 0)"
+    ]
+  }
+}

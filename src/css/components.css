@@ -146,6 +146,11 @@ textarea::placeholder {
 	color: var(--color-text-faint);
 }
 
+select option {
+	background: var(--color-bg-2);
+	color: var(--color-text);
+}
+
 /* buttons */
 
 button {
