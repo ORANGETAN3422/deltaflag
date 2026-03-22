@@ -1,4 +1,4 @@
-import flagsData from '$lib/flags.json';
+import flagsData from '$lib/flags/ch3.json';
 import type { Flags } from '$lib/types';
 
 const flags = flagsData as unknown as Flags;
