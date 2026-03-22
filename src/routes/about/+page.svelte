@@ -1,6 +1,8 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import GmlFilename from '../flags/[slug]/GmlFilename.svelte';
+
+	let { data } = $props();
 </script>
 
 <p class="text-muted">/about</p>
@@ -14,14 +16,13 @@
 <p>
 	Deltarune stores its save data in a cryptic format, which makes it incredibly difficult to figure
 	out what does what. This project is an attempt to reverse engineer the save data format, and
-	provide documentation for when each flag is modified, and what it does.
+	provide documentation for when each flag is accessed or modified, and what it does.
 </p>
 
 <p>
-	Flags are stored in the array <code>global.flags</code>, which are referenced throughout the
-	entirety of the game among all chapters. The flags can have any value assigned to them, but are
-	referenced to as an index which makes it basically impossible to figure out what they do without
-	already knowing what they do.
+	Save file flags are stored in the array <code>{@html data.global_flags}</code>, which is referenced throughout the
+	entirety of the game within the code of all chapters. The individual flags can have any value assigned to them, but are
+	referenced via a unique index, which makes it extremely challenging to figure out what they do without digging through the code.
 </p>
 
 <div class="callout warning">
@@ -35,22 +36,22 @@
 
 <hr />
 
-<h2>How to Use This Documentation</h2>
+<h2>Using This Documentation</h2>
 
 <p>
-	Each page documents a single flag, and lists every single time that flag is modified in the code.
-	You can sort flags by what chapter they are in, and search for them as well.
+	Each page documents a single flag and lists every place where it is accessed or modified.
+	You can search for specific flags and filter by chapters using the options on the left.
 </p>
 
-<p>Each flag contains a table, which lists:</p>
+<p>Each flag page has a table listing all code references. Each row contains:</p>
 <ul class="-mt-4">
-	<li><strong>File</strong>: The file in which the flag is modified.</li>
+	<li><strong>File</strong>: A file in which the flag is accessed or modified.</li>
 	<li><strong>Line</strong>: The line number at which the flag is modified.</li>
-	<li><strong>Code</strong>: The code that modifies the flag.</li>
+	<li><strong>Code</strong>: The code that references the flag</li>
 </ul>
 
 <h3>Example</h3>
-<p class="text-faint">(this is not a real example these flags dont happen)</p>
+<p class="text-faint">(This is not a real example and these flags don't exist)</p>
 <table>
 	<thead>
 		<tr>
@@ -60,11 +61,11 @@
 		</tr>
 	</thead>
 	<tbody>
-		{#each [{ filename: 'gml_Object_obj_orange_shop_Create_0.gml', line: '20', code: 'global.flag[666] = 1;' }, { filename: 'gml_Object_obj_gaster_battle_Step_0.gml', line: '47', code: 'if (global.flag[666] == 0)' }, { filename: 'gml_Object_obj_berdly_date_Create_0.gml', line: '7', code: 'global.flag[666] = 0;' }] as { filename, line, code }}
+		{#each data.example_usages as { filename, line, code }}
 			<tr>
 				<td><GmlFilename name={filename} /></td>
 				<td>{line}</td>
-				<td><code class="block break-all whitespace-pre-wrap">{code}</code></td>
+				<td><code class="block break-all whitespace-pre-wrap">{@html code}</code></td>
 			</tr>
 		{/each}
 	</tbody>
@@ -73,15 +74,14 @@
 <div class="callout info">
 	<span>ℹ</span>
 	<span
-		>You can click on <strong>filename</strong> to copy the filename to your clipboard. This will
-		also remove <strong>.gml</strong> from the end of the filename when you copy it, so that it is
-		more convenient to paste into <strong>UndertaleModTool</strong>.
+		>You can click on <strong>filename</strong> to copy it to your clipboard. This will also remove the
+		<strong>.gml</strong> extension from the end, to allow easy pasting into <strong>UndertaleModTool</strong>.
 	</span>
 </div>
 
 <p>
-	Hopefully, at some point in time, there will also be some text on each flag which covers it's
-	purpose and usage but that would take a while so idk rn and some other issues.
+	Hopefully, at some point in time, there will also be some text on each flag covering it's
+	purpose and usage, but that would take a lot of time and there are other issues.
 </p>
 
 <hr />
