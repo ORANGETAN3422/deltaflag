@@ -1,6 +1,6 @@
 <script lang="ts">
-  import GmlFilename from './GmlFilename.svelte';
-  let { data } = $props();
+	import GmlFilename from './GmlFilename.svelte';
+	let { data } = $props();
 </script>
 
 <p class="text-muted">/chapter{data.chapter}/{data.key}</p>
@@ -10,21 +10,22 @@
 
 <hr />
 
+<h3>Occurences in Code</h3>
 <table>
-  <thead>
-    <tr>
-      <th>File</th>
-      <th>Line</th>
-      <th>Code</th>
-    </tr>
-  </thead>
-  <tbody>
-    {#each Object.entries(data.entries) as [file, [line, code]]}
-      <tr>
-        <td><GmlFilename name={file} /></td>
-        <td>{line}</td>
-        <td><code class="block whitespace-pre-wrap break-all">{@html code}</code></td>
-      </tr>
-    {/each}
-  </tbody>
+	<thead>
+		<tr>
+			<th>File</th>
+			<th>Line</th>
+			<th>Code</th>
+		</tr>
+	</thead>
+	<tbody>
+		{#each Object.entries(data.entries) as [file, [line, code]]}
+			<tr>
+				<td><GmlFilename name={file} /></td>
+				<td>{line}</td>
+				<td><code class="block break-all whitespace-pre-wrap">{@html code}</code></td>
+			</tr>
+		{/each}
+	</tbody>
 </table>

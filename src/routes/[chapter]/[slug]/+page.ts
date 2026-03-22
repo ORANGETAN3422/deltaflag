@@ -30,7 +30,7 @@ export async function load({ params }) {
 
   const highlightedEntries = await Promise.all(
     Object.entries(entries).map(async ([filename, [line, code]]) => {
-      return [filename, [line, await highlight(code)]] as const;
+      return [filename, [line.replace('line ', ''), await highlight(code)]] as const;
     })
   );
 
