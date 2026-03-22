@@ -3,19 +3,13 @@
 	// @ts-ignore
 	import { base } from '$app/paths';
 	import type { LayoutProps } from './$types';
-	// import { fly } from 'svelte/transition';
 	import './layout.css';
 
 	let { data, children }: LayoutProps = $props();
-	let search = $state('');
 
-	// let currentChapter = $state(1);
-	// let animTime = 200;
-	// let filtered = $derived(
-	// 	(data.chapters.find((c) => c.chapter === currentChapter)?.pages ?? []).filter((p) =>
-	// 		p.label.toLowerCase().includes(search.toLowerCase())
-	// 	)
-	// );
+	let search = $state('');
+	let chapterFilter = $state<number | null>(null);
+	let filterMode = $state<'firstseen' | 'exclusive'>('firstseen');
 
 	const staticLinks = [
 		{ label: 'Home', href: '/' },
@@ -23,7 +17,15 @@
 	];
 
 	let filteredFlags = $derived(
-		(data.flagPages ?? []).filter((f) => f.key.toLowerCase().includes(search.toLowerCase()))
+		(data.flagPages ?? []).filter((f) => {
+			const matchesSearch = f.key.toLowerCase().includes(search.toLowerCase());
+			if (!matchesSearch) return false;
+			if (chapterFilter === null) return true;
+			if (filterMode === 'firstseen') return f.firstSeenChapter === chapterFilter;
+			if (filterMode === 'exclusive')
+				return f.chapters.length === 1 && f.chapters[0] === chapterFilter;
+			return true;
+		})
 	);
 </script>
 
@@ -48,8 +50,56 @@
 			type="search"
 			placeholder="Search flags..."
 			bind:value={search}
-			class="mb-2 w-full rounded border border-gray-300 px-3 py-2 text-sm"
+			class="mb-3 w-full"
 		/>
+
+		<div class="nav-group-label">Filter by chapter</div>
+
+		<div class="mb-1 flex gap-1">
+			<button
+				class="flex-1 text-xs"
+				class:primary={chapterFilter === null}
+				onclick={() => (chapterFilter = null)}
+			>
+				All
+			</button>
+			{#each [1, 2, 3, 4] as ch}
+				<button
+					class="flex-1 text-xs"
+					class:primary={chapterFilter === ch}
+					onclick={() => (chapterFilter = ch)}
+				>
+					{ch}
+				</button>
+			{/each}
+		</div>
+
+		{#if chapterFilter !== null}
+			<div class="mb-3 flex flex-col gap-1">
+				<button
+					class="w-full text-left text-xs"
+					class:primary={filterMode === 'firstseen'}
+					onclick={() => (filterMode = 'firstseen')}
+					title="Flags that first appear in this chapter"
+				>
+					First seen in ch. {chapterFilter}
+				</button>
+				<button
+					class="w-full text-left text-xs"
+					class:primary={filterMode === 'exclusive'}
+					onclick={() => (filterMode = 'exclusive')}
+					title="Flags that only appear in this chapter"
+				>
+					Only in ch. {chapterFilter}
+				</button>
+			</div>
+		{:else}
+			<div class="mb-3"></div>
+		{/if}
+
+		<br />
+
+		<div class="mb-1 text-xs opacity-40">{filteredFlags.length} flags</div>
 
 		<div class="nav-links">
 			{#each filteredFlags as f}

@@ -6,11 +6,14 @@
 </script>
 
 <p class="text-muted">/flags/{data.key}</p>
-<p class="text-muted">First seen: Chapter {data.firstSeenChapter}</p>
 
 <h1>{data.key}</h1>
 
 <hr />
+<div class="callout note">
+	<span>✦</span>
+	<span>This flag is first seen in <strong>Chapter {data.firstSeenChapter}</strong></span>
+</div>
 
 <h3>Occurrences in Code</h3>
 
