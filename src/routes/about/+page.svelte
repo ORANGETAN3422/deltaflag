@@ -1,8 +1,25 @@
 <script lang="ts">
 	import { base } from '$app/paths';
-	import GmlFilename from '../flags/[slug]/GmlFilename.svelte';
+	import CodeBlock from '$lib/components/CodeBlock.svelte';
+	import GmlFilename from '$lib/components/GmlFilename.svelte';
 
-	let { data } = $props();
+	const example_references = [
+		{ 
+			filename: 'gml_Object_obj_orange_shop_Create_0.gml', 
+			line: '20', 
+			code: 'global.flag[666] = 1;'
+		}, 
+		{ 
+			filename: 'gml_Object_obj_gaster_battle_Step_0.gml', 
+			line: '47', 
+			code: 'if (global.flag[666] == 0)'
+		}, 
+		{ 
+			filename: 'gml_Object_obj_berdly_date_Create_0.gml', 
+			line: '7', 
+			code: 'global.flag[666] = 0;'
+		}
+	]
 </script>
 
 <p class="text-muted">/about</p>
@@ -20,7 +37,7 @@
 </p>
 
 <p>
-	Save file flags are stored in the array <code>{@html data.global_flags}</code>, which is referenced throughout the
+	Save file flags are stored in the array <CodeBlock code="global.flags"/>, which is referenced throughout the
 	entirety of the game within the code of all chapters. The individual flags can have any value assigned to them, but are
 	referenced via a unique index, which makes it extremely challenging to figure out what they do without digging through the code.
 </p>
@@ -61,11 +78,11 @@
 		</tr>
 	</thead>
 	<tbody>
-		{#each data.example_usages as { filename, line, code }}
+		{#each example_references as { filename, line, code }}
 			<tr>
-				<td><GmlFilename name={filename} /></td>
+				<td><GmlFilename {filename} /></td>
 				<td>{line}</td>
-				<td><code class="block break-all whitespace-pre-wrap">{@html code}</code></td>
+				<td><CodeBlock {code} block={true}/></td>
 			</tr>
 		{/each}
 	</tbody>

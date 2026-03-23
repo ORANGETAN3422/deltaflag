@@ -1,5 +1,6 @@
 <script lang="ts">
-	import GmlFilename from './GmlFilename.svelte';
+	import CodeBlock from '$lib/components/CodeBlock.svelte';
+import GmlFilename from '$lib/components/GmlFilename.svelte';
 	let { data } = $props();
 
 	let copied = $state('');
@@ -73,10 +74,10 @@
 							class:flash={copied === filename}
 							style="cursor: pointer;"
 						>
-							<GmlFilename name={filename} />
+							<GmlFilename {filename} />
 						</td>
 						<td>{line}</td>
-						<td><code class="block break-all whitespace-pre-wrap">{@html code}</code></td>
+						<td><CodeBlock {code} block={true} /></td>
 					</tr>
 				{/each}
 			{/if}

@@ -1,6 +1,5 @@
 import mergedFlags from '$lib/flags/merged.json';
 import { error } from '@sveltejs/kit';
-import { codeToHtml } from 'shiki';
 
 import docs from '$lib/documentation/1-100.json';
 
@@ -16,24 +15,6 @@ type MergedFlags = Record<
 >;
 
 const merged = mergedFlags as unknown as MergedFlags;
-
-async function highlight(code: string) {
-	const raw = await codeToHtml(code, { lang: 'js', theme: 'dark-plus' });
-	return raw
-		.replace(/<pre[^>]*><code[^>]*>/, '')
-		.replace(/<\/code><\/pre>/, '')
-		.replace(/background(-color)?:[^;"]*/g, '');
-}
-
-async function highlightInline(html: string) {
-	const matches = [...html.matchAll(/<pre><code>([\s\S]*?)<\/code><\/pre>/g)];
-	let result = html;
-	for (const match of matches) {
-		const highlighted = await highlight(match[1]);
-		result = result.replace(match[0], `<pre><code>${highlighted}</code></pre>`);
-	}
-	return result;
-}
 
 export const prerender = true;
 
@@ -53,7 +34,7 @@ export async function load({ params }) {
 				chapter: parseInt(ch.replace('ch', '')),
 				filename,
 				line: line.replace('line ', ''),
-				code: await highlight(code)
+				code: code
 			}))
 		)
 	);
@@ -62,12 +43,10 @@ export async function load({ params }) {
 		key,
 		firstSeenChapter: flag.first_seen_chapter,
 		entries: allEntries,
-		doc: allDocs[key]
-			? {
-					body: allDocs[key].body,
-					other: await highlightInline(allDocs[key].other),
-					values: allDocs[key].values
-				}
-			: null
+		doc: allDocs[key] ? {
+			body: allDocs[key].body,
+			other: allDocs[key].other,
+			values: allDocs[key].values
+		}: null
 	};
 }

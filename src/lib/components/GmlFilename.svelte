@@ -1,7 +1,7 @@
 <script lang="ts">
-	let { name }: { name: string } = $props();
+	let { filename }: { filename: string } = $props();
 
-	const parts = $derived(name.replace('.gml', '').split('_'));
+	const parts = $derived(filename.replace('.gml', '').split('_'));
 	const prefix = $derived(parts[0] + '_');
 	const type = $derived(parts[1] + '_');
 	const event = $derived(parts[parts.length - 2] + '_');
