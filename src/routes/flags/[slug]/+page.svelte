@@ -4,58 +4,31 @@
 	import type { Component } from 'svelte';
 
 	let { data } = $props();
-
 	let copied = $state('');
 	
-	const docModules = import.meta.glob<{ default: Component }>('/src/lib/documentation/*.md');
-
-	// Derive the component directly — works at module evaluation time in Svelte
+	const allDocs = import.meta.glob<{ default: Component }>('/src/lib/documentation/*.md');
   	const docPath = $derived(`/src/lib/documentation/${data.key}.md`);
-  	const docLoader = $derived(docModules[docPath]);
+  	const docLoader = $derived(allDocs[docPath]);
 </script>
 
 <p class="text-muted">/flags/{data.key}</p>
-
 <h1>{data.key}</h1>
 
 <hr />
-
 <h2>Info</h2>
 
 {#if docLoader}
-  {#await docLoader() then docs}
-    <docs.default />
-  {/await}
+  	{#await docLoader() then doc}
+    	<doc.default />
+  	{/await}
+{:else}
+  	<p class="text-muted">There is currently no additional documentation for this page.</p>
 {/if}
-
-<!-- <p>{@html data.doc?.body || 'No documentation has been added yet.'}</p>
-
-<p>{@html data.doc?.other || ''}</p> -->
-
-<div class="callout note">
-	<span>✦</span>
-	<span>This flag is first seen in <strong>Chapter {data.firstSeenChapter}</strong></span>
-</div>
 
 <hr />
 
-{#if data.doc?.values && Object.keys(data.doc.values).length > 0}
-	<h2>Values</h2>
-	<table>
-		<thead><tr><th>Value</th><th>Meaning</th></tr></thead>
-		<tbody>
-			{#each Object.entries(data.doc.values) as [value, meaning]}
-				<tr>
-					<td><code>{value}</code></td>
-					<td>{meaning}</td>
-				</tr>
-			{/each}
-		</tbody>
-	</table>
-	<hr />
-{/if}
-
 <h2>References</h2>
+<span class="text-muted">This flag is first seen in <strong>Chapter {data.firstSeenChapter}.</strong></span>
 
 <table>
 	<thead>
