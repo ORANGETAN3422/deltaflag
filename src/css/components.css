@@ -55,7 +55,8 @@ blockquote p {
 /* tables */
 
 table {
-	width: 100%;
+	width: auto;
+	table-layout: auto;
 	border-collapse: collapse;
 	font-size: 0.875rem;
 	margin: 1.25rem 0;

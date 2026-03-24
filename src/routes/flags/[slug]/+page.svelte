@@ -14,7 +14,7 @@ import GmlFilename from '$lib/components/GmlFilename.svelte';
 
 <h2>Info</h2>
 
-<p>{@html data.doc?.body || 'No documentation available.'}</p>
+<p>{@html data.doc?.body || 'No documentation has been added yet.'}</p>
 
 <p>{@html data.doc?.other || ''}</p>
 
