@@ -1,9 +1,17 @@
 <script lang="ts">
 	import CodeBlock from '$lib/components/CodeBlock.svelte';
-import GmlFilename from '$lib/components/GmlFilename.svelte';
+	import GmlFilename from '$lib/components/GmlFilename.svelte';
+	import type { Component } from 'svelte';
+
 	let { data } = $props();
 
 	let copied = $state('');
+	
+	const docModules = import.meta.glob<{ default: Component }>('/src/lib/documentation/*.md');
+
+	// Derive the component directly — works at module evaluation time in Svelte
+  	const docPath = $derived(`/src/lib/documentation/${data.key}.md`);
+  	const docLoader = $derived(docModules[docPath]);
 </script>
 
 <p class="text-muted">/flags/{data.key}</p>
@@ -14,9 +22,15 @@ import GmlFilename from '$lib/components/GmlFilename.svelte';
 
 <h2>Info</h2>
 
-<p>{@html data.doc?.body || 'No documentation has been added yet.'}</p>
+{#if docLoader}
+  {#await docLoader() then docs}
+    <docs.default />
+  {/await}
+{/if}
 
-<p>{@html data.doc?.other || ''}</p>
+<!-- <p>{@html data.doc?.body || 'No documentation has been added yet.'}</p>
+
+<p>{@html data.doc?.other || ''}</p> -->
 
 <div class="callout note">
 	<span>✦</span>
@@ -77,7 +91,7 @@ import GmlFilename from '$lib/components/GmlFilename.svelte';
 							<GmlFilename {filename} />
 						</td>
 						<td>{line}</td>
-						<td><CodeBlock {code} block={true} /></td>
+						<td><CodeBlock {code} type='stretch' /></td>
 					</tr>
 				{/each}
 			{/if}

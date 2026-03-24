@@ -82,7 +82,7 @@
 			<tr>
 				<td><GmlFilename {filename} /></td>
 				<td>{line}</td>
-				<td><CodeBlock {code} block={true}/></td>
+				<td><CodeBlock {code} type='stretch'/></td>
 			</tr>
 		{/each}
 	</tbody>
