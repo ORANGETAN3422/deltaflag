@@ -24,7 +24,7 @@
 </script>
 
 {#if type === 'block'}
-    <pre><code>{#await highlight(splitCodeLine(code), lang, theme)}{code}{:then highlighted_html} {@html highlighted_html}{/await}</code></pre>
+    <pre><code>{#await highlight(splitCodeLine(code), lang, theme)}{code}{:then highlighted_html}{@html highlighted_html}{/await}</code></pre>
 {:else if type === 'stretch'}
     <code class="block whitespace-pre-wrap min-w-72 max-w-72 overflow-hidden">
         {#await highlight(splitCodeLine(code), lang, theme)}
