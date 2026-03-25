@@ -8,7 +8,7 @@
 	const values = {"0": "unskippable", "1": "skippable"};
 </script>
 
-Makes text unskippable in the <span class=\"text-green\">writer object</span>.
+Makes text unskippable in the <span class="text-green">writer object</span>.
 
 Usage in <GmlFilename {filename} />:  
 <CodeBlock {code} type='block' />
