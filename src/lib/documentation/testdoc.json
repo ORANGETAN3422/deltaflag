@@ -5,7 +5,7 @@
             "paragraphs": [
                 {
                     "type": "plaintext",
-                    "contents": [
+                    "elements": [
                         {
                             "type": "text",
                             "value": "This is a test string to be displayed on a documentation page. Code embedded in the same line looks like this: "
@@ -23,7 +23,7 @@
             "paragraphs": [
                 {
                     "type": "plaintext",
-                    "contents": [
+                    "elements": [
                         {
                             "type": "text",
                             "value": "This section contains multiple pagagraphs, this one has the type <strong>plaintext</strong> and the following has <strong>codebox</strong>"
@@ -32,9 +32,10 @@
                 },
                 {
                     "type": "codebox",
-                    "contents": [
+                    "elements": [
                         {
                             "type": "code",
+                            "lang": "",
                             "value": "* ... hey bud.\n* ... are you busy tomorrow...?\n* i need some help with something.\n* it'd be great if you could come over.\n* i live just next door, ya know."
                         }
                     ]

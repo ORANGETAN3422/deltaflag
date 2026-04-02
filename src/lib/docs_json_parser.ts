@@ -18,15 +18,24 @@ export type ParagraphType = "plaintext" | "codebox";
 
 export interface Paragraph {
     type: ParagraphType,
-    contents: Element[]
+    elements: Element[]
 };
 
 export type ElementType = "code" | "text";
+export type Element = TextElement | CodeElement
 
-export interface Element {
-    type: ElementType,
+// Specific element types are so that json parser can pick up the aditional properties
+interface TextElement {
+    type: "text",
     value: string
-};
+}
+
+interface CodeElement {
+    type: "code",
+    value: string
+    lang?: string
+    theme?: string
+}
 
 /**
 * Parses a JSON string into a JsonDoc object.
