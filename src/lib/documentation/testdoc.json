@@ -15,6 +15,28 @@
                             "value": "if (global.flag[33] >= 40)"
                         }
                     ]
+                },
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        {
+                            "type": "text",
+                            "value": "Test GML filename (using "
+                        },
+                        {
+                            "type": "code",
+                            "lang": "nginx",
+                            "value": "filename"
+                        },
+                        {
+                            "type": "text",
+                            "value": " type): "
+                        },
+                        {
+                            "type": "filename",
+                            "value": "gml_Object_obj_orange_shop_Create_0.gml"
+                        } 
+                    ]
                 }
             ]
         },
@@ -26,8 +48,25 @@
                     "elements": [
                         {
                             "type": "text",
-                            "style": "italic",
-                            "value": "This section contains multiple pagagraphs, this one has the type <strong>plaintext</strong> and the following has <em>codebox</em>"
+                            "value": "This section contains multiple pagagraphs, this one has the type "
+                        },
+                        {
+                            "type": "code",
+                            "lang": "nginx",
+                            "value": "plaintext"
+                        },
+                        {
+                            "type": "text",
+                            "value": " and the following has the type "
+                        },
+                        {
+                            "type": "code",
+                            "lang": "nginx",
+                            "value": "codebox"
+                        },
+                        {
+                            "type": "text",
+                            "value": "."
                         }
                     ]
                 },

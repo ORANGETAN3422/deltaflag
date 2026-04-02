@@ -15,10 +15,10 @@
 {/each}
 
 {#snippet paragraphBlock(paragraph: Paragraph)}
-    {@const Parag = getParagraphComponent(paragraph.type)}
+    {@const Parag = getParagraphComponent(paragraph)}
     <Parag>
         {#each paragraph.elements as element}
-            {@const Elem = getElementComponent(element.type)}
+            {@const Elem = getElementComponent(element)}
             <Elem {...element} />
         {/each} 
     </Parag>

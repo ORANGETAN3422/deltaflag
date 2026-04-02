@@ -1,8 +1,9 @@
-import type { Component, ComponentProps } from "svelte";
+import type { Component } from "svelte";
 import ParagraphPlaintext from "./components/docs/Paragraph_Plaintext.svelte";
 import ParagraphCodeblock from "./components/docs/Paragraph_Codeblock.svelte";
 import ElementText from "./components/docs/Element_Text.svelte";
 import ElementCode from "./components/docs/Element_Code.svelte";
+import ElementGmlFilename from "./components/docs/Element_GmlFilename.svelte";
 
 // I added types for literally everything for easier parsing
 export interface JsonDoc {
@@ -21,8 +22,7 @@ export interface Paragraph {
     elements: Element[]
 };
 
-export type ElementType = "code" | "text";
-export type Element = TextElement | CodeElement
+export type Element = TextElement | CodeElement | GmlFilenameElement;
 
 // Specific element types are so that json parser can pick up the aditional properties
 export type TextElementStyle = null | "italic" | "muted" | "faint" | "soul" | "yellow" | "green";
@@ -31,14 +31,20 @@ export interface TextElement {
     value: string,
     style?: TextElementStyle,
     bold?: boolean
-}
+};
 
 export interface CodeElement {
     type: "code",
     value: string,
     lang?: string,
     theme?: string
-}
+};
+
+export interface GmlFilenameElement {
+    type: "filename",
+    value: string
+};
+
 
 /**
 * Parses a JSON string into a JsonDoc object.
@@ -57,16 +63,19 @@ export function exportJson(doc: JsonDoc): string {
     return json;
 }
 
-export function getParagraphComponent(type: ParagraphType): Component {
-    switch (type) {
+// Used for rendering paragraph containers
+export function getParagraphComponent(paragraph: Paragraph): Component {
+    switch (paragraph.type) {
         case "plaintext": return ParagraphPlaintext
         case "codebox":   return ParagraphCodeblock
     }
 }
 
-export function getElementComponent(type: ElementType): Component<{ value: string }> {
-    switch (type) {
+// Used for rendering individual components
+export function getElementComponent(element: Element): Component<{ value: string }> {
+    switch (element.type) {
         case "text": return ElementText
         case "code": return ElementCode
+        case "filename": return ElementGmlFilename
     }
 }
