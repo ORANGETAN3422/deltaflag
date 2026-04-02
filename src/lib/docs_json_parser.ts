@@ -1,9 +1,9 @@
 import type { Component } from "svelte";
-import ParagraphPlaintext from "./components/docs/Paragraph_Plaintext.svelte";
-import ParagraphCodeblock from "./components/docs/Paragraph_Codeblock.svelte";
-import ElementText from "./components/docs/Element_Text.svelte";
-import ElementCode from "./components/docs/Element_Code.svelte";
-import ElementGmlFilename from "./components/docs/Element_GmlFilename.svelte";
+import ParagraphPlaintext from "../components/docs/Paragraph_Plaintext.svelte";
+import ParagraphCodeblock from "../components/docs/Paragraph_Codeblock.svelte";
+import ElementText from "../components/docs/Element_Text.svelte";
+import ElementCode from "../components/docs/Element_Code.svelte";
+import ElementGmlFilename from "../components/docs/Element_GmlFilename.svelte";
 
 // I added types for literally everything for easier parsing
 export interface JsonDoc {

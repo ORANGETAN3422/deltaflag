@@ -2,7 +2,7 @@
     import { parseJson, getParagraphComponent, getElementComponent } from "$lib/docs_json_parser";
     import type { JsonDoc, Paragraph } from "$lib/docs_json_parser";
 
-    import test from '$lib/documentation/testdoc.json';
+    import test from '../../assets/docs/testdoc.json';
     const doc = test as JsonDoc;
 </script>
 

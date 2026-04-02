@@ -1,9 +1,9 @@
-import ch1Flags from '$lib/flags/ch1.json';
-import ch2Flags from '$lib/flags/ch2.json';
-import ch3Flags from '$lib/flags/ch3.json';
-import ch4Flags from '$lib/flags/ch4.json';
+import ch1Flags from '../assets/flags/ch1.json';
+import ch2Flags from '../assets/flags/ch2.json';
+import ch3Flags from '../assets/flags/ch3.json';
+import ch4Flags from '../assets/flags/ch4.json';
 
-import mergedFlags from '$lib/flags/merged.json';
+import mergedFlags from '../assets/flags/merged.json';
 
 import type { Flags } from '$lib/types';
 

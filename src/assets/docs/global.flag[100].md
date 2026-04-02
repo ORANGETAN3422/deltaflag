@@ -1,7 +1,7 @@
 <script>
-	import CodeBlock from '$lib/components/CodeBlock.svelte';
-	import GmlFilename from '$lib/components/GmlFilename.svelte';
-	import ValuesTable from '$lib/components/ValuesTable.svelte';
+	import CodeBlock from '../../components/CodeBlock.svelte';
+	import GmlFilename from '../../components/GmlFilename.svelte';
+	import ValuesTable from '../../components/ValuesTable.svelte';
 
 	const filename = "gml_GlobalScript_scr_text";
 	const code = "global.flag[100] = 1;";

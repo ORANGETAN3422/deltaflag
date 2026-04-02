@@ -1,5 +1,5 @@
 <script lang="ts">
-	import FlagSelector from '$lib/components/pagemaker/FlagSelector.svelte';
+	import FlagSelector from './FlagSelector.svelte';
 
 	let { flagInfo = $bindable(null) } = $props();
 

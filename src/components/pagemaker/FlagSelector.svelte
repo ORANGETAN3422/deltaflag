@@ -1,5 +1,5 @@
 <script lang="ts">
-	import mergedFlags from '$lib/flags/merged.json';
+	import mergedFlags from '../../assets/flags/merged.json';
 	import type { MergedFlags, FlagData } from '$lib/types';
 	import { onMount } from 'svelte';
 

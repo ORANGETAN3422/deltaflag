@@ -1,8 +1,8 @@
 <script lang="ts">
-	import PagemakerTaskbar from '$lib/components/pagemaker/PagemakerTaskbar.svelte';
+	import PagemakerTaskbar from '../../components/pagemaker/PagemakerTaskbar.svelte';
 
-	import CodeBlock from '$lib/components/CodeBlock.svelte';
-	import GmlFilename from '$lib/components/GmlFilename.svelte';
+	import CodeBlock from '../../components/CodeBlock.svelte';
+	import GmlFilename from '../../components/GmlFilename.svelte';
 
 	let { flagInfo = $bindable(null) } = $props();
 	let copied = $state('');

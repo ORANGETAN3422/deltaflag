@@ -1,13 +1,13 @@
 <script lang="ts">
-	import CodeBlock from '$lib/components/CodeBlock.svelte';
-	import GmlFilename from '$lib/components/GmlFilename.svelte';
+	import CodeBlock from '../../../components/CodeBlock.svelte';
+	import GmlFilename from '../../../components/GmlFilename.svelte';
 	import type { Component } from 'svelte';
 
 	let { data } = $props();
 	let copied = $state('');
 	
-	const allDocs = import.meta.glob<{ default: Component }>('/src/lib/documentation/*.md');
-  	const docPath = $derived(`/src/lib/documentation/${data.key}.md`);
+	const allDocs = import.meta.glob<{ default: Component }>('/src/assets/docs/*.md');
+  	const docPath = $derived(`/src/assets/docs/${data.key}.md`);
   	const docLoader = $derived(allDocs[docPath]);
 </script>
 
