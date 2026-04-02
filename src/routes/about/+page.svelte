@@ -23,8 +23,6 @@
 	]
 </script>
 
-<JsonDoc/>
-
 <p class="text-muted">/about</p>
 
 <h1>About</h1>
