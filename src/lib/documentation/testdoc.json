@@ -1,0 +1,45 @@
+{
+    "sections": [
+        {
+            "title": "Test Section",
+            "paragraphs": [
+                {
+                    "type": "plaintext",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "value": "This is a test string to be displayed on a documentation page. Code embedded in the same line looks like this: "
+                        },
+                        {
+                            "type": "code",
+                            "value": "if (global.flag[33] >= 40)"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Another one",
+            "paragraphs": [
+                {
+                    "type": "plaintext",
+                    "contents": [
+                        {
+                            "type": "text",
+                            "value": "This section contains multiple pagagraphs, this one has the type <strong>plaintext</strong> and the following has <strong>codebox</strong>"
+                        }
+                    ]
+                },
+                {
+                    "type": "codebox",
+                    "contents": [
+                        {
+                            "type": "code",
+                            "value": "* ... hey bud.\n* ... are you busy tomorrow...?\n* i need some help with something.\n* it'd be great if you could come over.\n* i live just next door, ya know."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
