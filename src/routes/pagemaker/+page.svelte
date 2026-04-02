@@ -1,70 +1,16 @@
 <script lang="ts">
-	import FlagSelector from '$lib/components/pagemaker/FlagSelector.svelte';
+	import PagemakerTaskbar from '$lib/components/pagemaker/PagemakerTaskbar.svelte';
+
 	import CodeBlock from '$lib/components/CodeBlock.svelte';
 	import GmlFilename from '$lib/components/GmlFilename.svelte';
 
-	import { onMount } from 'svelte';
-
-	// draggable menu stuff
-	let pos = $state({ x: 100, y: 100 });
-	let dragging = $state(false);
-	let offset = $state({ x: 0, y: 0 });
-
 	let { flagInfo = $bindable(null) } = $props();
 	let copied = $state('');
-
-	// draggable menu functions
-	function handleMouseDown(event: MouseEvent) {
-		dragging = true;
-		offset = {
-			x: event.clientX - pos.x,
-			y: event.clientY - pos.y
-		};
-		event.preventDefault();
-	}
-
-	function handleMouseMove(event: MouseEvent) {
-		if (!dragging) return;
-		pos = {
-			x: event.clientX - offset.x,
-			y: event.clientY - offset.y
-		};
-	}
-
-	function handleMouseUp() {
-		dragging = false;
-	}
-
-	onMount(() => {
-		window.addEventListener('mousemove', handleMouseMove);
-		window.addEventListener('mouseup', handleMouseUp);
-
-		return () => {
-			window.removeEventListener('mousemove', handleMouseMove);
-			window.removeEventListener('mouseup', handleMouseUp);
-		};
-	});
 </script>
 
-<!-- Draggable Selector -->
-<div
-	class="absolute z-100 flex w-72 flex-col gap-2 rounded-lg border border-(--color-border) bg-(--color-bg-3) p-2 shadow-lg"
-	style="top: {pos.y}px; left: {pos.x}px;"
->
-	<div
-		class="cursor-move text-lg font-semibold text-white"
-		onmousedown={handleMouseDown}
-		role="button"
-		tabindex="0"
-	>
-		<h3>Select Flag</h3>
-	</div>
-
-	<FlagSelector bind:flagInfo />
-</div>
+<PagemakerTaskbar bind:flagInfo />
 
 <!-- Default Stuff Display -->
-
 {#if flagInfo}
 	<p class="text-muted">/flags/{flagInfo.key}</p>
 	<h1>{flagInfo.key}</h1>
