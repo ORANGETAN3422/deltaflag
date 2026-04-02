@@ -6,7 +6,7 @@
                 {
                     "type": "plaintext",
                     "elements": [
-                        "Makes text unskippable in the writer object."
+                        "Stores if Kris sprints during the Dust Pile cutscene with Susie before the Lancer chase in Chapter 1. This variable is only set and never read from."
                     ]
                 },
                 {
@@ -15,7 +15,7 @@
                         "Usage in ",
                         {
                             "type": "filename",
-                            "value": "gml_Object_obj_writer_Create_0.gml"
+                            "value": "gml_Object_obj_dustpile_susie_Step_0.gml"
                         },
                         ":"
                     ]
@@ -25,7 +25,7 @@
                     "elements": [
                         {
                             "type": "code",
-                            "value": "if (global.flag[6] == 1)\n\tskippable = 0;"
+                            "value": "global.flag[202] = 1;"
                         }
                     ]
                 }

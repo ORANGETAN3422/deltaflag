@@ -1,0 +1,86 @@
+{
+    "sections": [
+        {
+            "title": "Overview",
+            "paragraphs": [
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        "This flag is used to track the amount of time spent on a choicer."
+                    ]
+                },
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        "In ",
+                        {
+                            "type": "filename",
+                            "value": "gml_Object_obj_choicer_neo_Create_0.gml"
+                        },
+                        ", the flag's value is set to 0. In ",
+                        {
+                            "type": "filename",
+                            "value": "gml_Object_obj_choicer_neo_Step_0.gml"
+                        },
+                        ", the flag's value is incremented by 1 every frame."
+                    ]
+                },
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        "When the choicer ends, the value will persist until the next choicer's creation resets it to 0."
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Uses",
+            "paragraphs": [
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        "This flag is only really used in one scenario, which is in Chapter 1. Despite this, the different choicer types implemented into the Chapter 4 choicers also increment and reset the flag. This means that the flag might be reused for some other time-based choicers in future chapters, or that the code in the Chapter 4 choicers was just copy pasted."
+                    ]
+                },
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        "The only interaction currently in the game where the time spent on the choicer is relevant is with Sans in his shop, when asking Kris to come over the next day."
+                    ]
+                },
+                {
+                    "type": "codebox",
+                    "elements": [
+                        {
+                            "type": "code",
+                            "lang": "",
+                            "value": "* ... hey bud.\n* ... are you busy tomorrow...?\n* i need some help with something.\n* it'd be great if you could come over.\n* i live just next door, ya know."
+                        }
+                    ]
+                },
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        "When answering too fast, Sans will comment on how you answered too quickly. This is like 3 extra lines if you say yes, and 1 extra line if you say no. The condition for answering quickly is ",
+                        {
+                            "type": "code",
+                            "value": "if (global.flag[33] < 40)"
+                        },
+                        "."
+                    ]
+                },
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        "When answering after any other duration, you'll still only get 3 extra lines of dialogue if you say yes and one line for saying no, so this whole choicer time thing is kind of pointless but it's these small interactions which make the game good. The condition for this is ",
+                        {
+                            "type": "code",
+                            "value": "if (global.flag[33] >= 40)"
+                        },
+                        "."
+                    ]
+                }
+            ]
+        }
+    ]
+}

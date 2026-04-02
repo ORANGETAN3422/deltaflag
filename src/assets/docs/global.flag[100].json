@@ -6,7 +6,7 @@
                 {
                     "type": "plaintext",
                     "elements": [
-                        "Makes text unskippable in the writer object."
+                        "Stores whether the glowshard has been collected from the room in chapter 1. Sets the glowing shard icon in the room to be visible if collected or not as well."
                     ]
                 },
                 {
@@ -15,7 +15,7 @@
                         "Usage in ",
                         {
                             "type": "filename",
-                            "value": "gml_Object_obj_writer_Create_0.gml"
+                            "value": "gml_GlobalScript_scr_text.gml"
                         },
                         ":"
                     ]
@@ -25,7 +25,7 @@
                     "elements": [
                         {
                             "type": "code",
-                            "value": "if (global.flag[6] == 1)\n\tskippable = 0;"
+                            "value": "global.flag[100] = 1;"
                         }
                     ]
                 }

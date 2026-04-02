@@ -6,7 +6,7 @@
                 {
                     "type": "plaintext",
                     "elements": [
-                        "Makes text unskippable in the writer object."
+                        "Stores whether the Dark Eye Puzzle in chapter 1 has been completed."
                     ]
                 },
                 {
@@ -15,7 +15,7 @@
                         "Usage in ",
                         {
                             "type": "filename",
-                            "value": "gml_Object_obj_writer_Create_0.gml"
+                            "value": "gml_Object_obj_darkeyepuzzle_Step_0.gml"
                         },
                         ":"
                     ]
@@ -25,7 +25,7 @@
                     "elements": [
                         {
                             "type": "code",
-                            "value": "if (global.flag[6] == 1)\n\tskippable = 0;"
+                            "value": "global.flag[201] = 1;"
                         }
                     ]
                 }
