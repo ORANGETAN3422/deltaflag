@@ -1,31 +1,17 @@
 <script lang="ts">
 	import CodeBlock from 	'$components/CodeBlock.svelte';
+	import JsonDoc from '$components/docs/JsonDoc.svelte';
 	import GmlFilename from '$components/GmlFilename.svelte';
-	import type { Component } from 'svelte';
 
 	let { data } = $props();
 	let copied = $state('');
-	
-	const allDocs = import.meta.glob<{ default: Component }>('/src/assets/docs/*.md');
-  	const docPath = $derived(`/src/assets/docs/${data.key}.md`);
-  	const docLoader = $derived(allDocs[docPath]);
 </script>
 
 <p class="text-muted">/flags/{data.key}</p>
 <h1>{data.key}</h1>
 
 <hr />
-<h2>Info</h2>
-
-{#if docLoader}
-  	{#await docLoader() then doc}
-    	<doc.default />
-  	{/await}
-{:else}
-  	<p class="text-muted">There is currently no additional documentation for this page.</p>
-{/if}
-
-<hr />
+<JsonDoc docName={data.key} />
 
 <h2>References</h2>
 <span class="text-muted">This flag is first seen in <strong>Chapter {data.firstSeenChapter}.</strong></span>

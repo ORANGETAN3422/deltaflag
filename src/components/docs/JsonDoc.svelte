@@ -1,18 +1,25 @@
 <script lang="ts">
-    import { parseJson, getParagraphComponent, getElementComponent } from "$lib/docs_json_parser";
-    import type { JsonDoc, Paragraph } from "$lib/docs_json_parser";
+    import { loadDoc, getParagraphComponent, getElementComponent } from "$lib/docs_loader";
+    import type { Paragraph } from "$lib/docs_loader";
 
-    import test from '../../assets/docs/testdoc.json';
-    const doc = test as JsonDoc;
+    let { docName }: { docName: string } = $props();
 </script>
 
-{#each doc.sections as section}
-    <h2>{section.title}</h2>
-    {#each section.paragraphs as paragraph}
-        {@render paragraphBlock(paragraph)}
-    {/each}
-    <hr/>
-{/each}
+{#await loadDoc(docName)}
+    <p>Loading...</p>
+{:then doc} 
+    {#if doc}
+        {#each doc.sections as section}
+            <h2>{section.title}</h2>
+            {#each section.paragraphs as paragraph}
+                {@render paragraphBlock(paragraph)}
+            {/each}
+            <hr/>
+        {/each}
+    {:else}
+        <p class="text-muted">There is no documentation available for this page.</p>
+    {/if}
+{/await}
 
 {#snippet paragraphBlock(paragraph: Paragraph)}
     {@const Parag = getParagraphComponent(paragraph)}

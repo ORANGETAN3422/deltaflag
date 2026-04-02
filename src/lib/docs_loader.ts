@@ -45,24 +45,6 @@ export interface GmlFilenameElement {
     value: string
 };
 
-
-/**
-* Parses a JSON string into a JsonDoc object.
-* Note: casts type any to JsonDoc, so there is a chance it silently fails.
-*/
-export function parseJson(json: string): JsonDoc {
-    const doc: JsonDoc = JSON.parse(json);
-    return doc;
-}
-
-/**
-* Stringifies a JsonDoc to a JSON string.
-*/
-export function exportJson(doc: JsonDoc): string {
-    const json: string = JSON.stringify(doc, null, 4); // indent with 4 spaces for debugging
-    return json;
-}
-
 // Used for rendering paragraph containers
 export function getParagraphComponent(paragraph: Paragraph): Component {
     switch (paragraph.type) {
@@ -78,4 +60,15 @@ export function getElementComponent(element: Element): Component<{ value: string
         case "code": return ElementCode
         case "filename": return ElementGmlFilename
     }
+}
+
+// Loads all json doc files and provides a function that loads one given the name
+export const allDocs = import.meta.glob<{ default: JsonDoc }>('/src/assets/docs/*.json', { eager: false });
+
+export async function loadDoc(name: string): Promise<JsonDoc | null> {
+    const loader = allDocs[`/src/assets/docs/${name}.json`];
+    if (!loader) return null;
+
+    const module = await loader();
+    return module.default;
 }

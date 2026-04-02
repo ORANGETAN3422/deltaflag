@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { TextElement, TextElementStyle } from "$lib/docs_json_parser";
+	import type { TextElement, TextElementStyle } from "$lib/docs_loader";
 
     let { value, style = null, bold = false}: Omit<TextElement, "type"> = $props();
 

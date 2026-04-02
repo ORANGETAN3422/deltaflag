@@ -1,0 +1,86 @@
+{
+    "sections": [
+        {
+            "title": "Test Section",
+            "paragraphs": [
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        {
+                            "type": "text",
+                            "value": "This is a test string to be displayed on a documentation page. Code embedded in the same line looks like this: "
+                        },
+                        {
+                            "type": "code",
+                            "value": "if (global.flag[33] >= 40)"
+                        }
+                    ]
+                },
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        {
+                            "type": "text",
+                            "value": "Test GML filename (using "
+                        },
+                        {
+                            "type": "code",
+                            "lang": "nginx",
+                            "value": "filename"
+                        },
+                        {
+                            "type": "text",
+                            "value": " type): "
+                        },
+                        {
+                            "type": "filename",
+                            "value": "gml_Object_obj_orange_shop_Create_0.gml"
+                        } 
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "Another one",
+            "paragraphs": [
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        {
+                            "type": "text",
+                            "value": "This section contains multiple pagagraphs, this one has the type "
+                        },
+                        {
+                            "type": "code",
+                            "lang": "nginx",
+                            "value": "plaintext"
+                        },
+                        {
+                            "type": "text",
+                            "value": " and the following has the type "
+                        },
+                        {
+                            "type": "code",
+                            "lang": "nginx",
+                            "value": "codebox"
+                        },
+                        {
+                            "type": "text",
+                            "value": "."
+                        }
+                    ]
+                },
+                {
+                    "type": "codebox",
+                    "elements": [
+                        {
+                            "type": "code",
+                            "lang": "",
+                            "value": "* ... hey bud.\n* ... are you busy tomorrow...?\n* i need some help with something.\n* it'd be great if you could come over.\n* i live just next door, ya know."
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
