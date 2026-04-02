@@ -1,5 +1,6 @@
 <script lang="ts">
 	import FlagSelector from '$lib/components/pagemaker/FlagSelector.svelte';
+	import InsertElementInterface from './InsertElementInterface.svelte';
 
 	let { flagInfo = $bindable(null) } = $props();
 
@@ -40,4 +41,7 @@
 
 <div style="display: {toggles.flagSelector ? 'block' : 'none'};">
 	<FlagSelector bind:flagInfo />
+</div>
+<div style="display: {toggles.elementInterface ? 'block' : 'none'};">
+	<InsertElementInterface />
 </div>

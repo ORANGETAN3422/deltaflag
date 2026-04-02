@@ -57,7 +57,7 @@
 
 		<div class="mb-1 flex gap-1">
 			<button
-				class="flex-1 text-xs"
+				class="btn flex-1 text-xs"
 				class:primary={chapterFilter === null}
 				onclick={() => (chapterFilter = null)}
 			>
@@ -65,7 +65,7 @@
 			</button>
 			{#each [1, 2, 3, 4] as ch}
 				<button
-					class="flex-1 text-xs"
+					class="btn flex-1 text-xs"
 					class:primary={chapterFilter === ch}
 					onclick={() => (chapterFilter = ch)}
 				>
@@ -77,7 +77,7 @@
 		{#if chapterFilter !== null}
 			<div class="mb-3 flex flex-col gap-1">
 				<button
-					class="w-full text-left text-xs"
+					class="btn w-full text-left text-xs"
 					class:primary={filterMode === 'firstseen'}
 					onclick={() => (filterMode = 'firstseen')}
 					title="Flags that first appear in this chapter"
@@ -85,7 +85,7 @@
 					First seen in ch. {chapterFilter}
 				</button>
 				<button
-					class="w-full text-left text-xs"
+					class="btn w-full text-left text-xs"
 					class:primary={filterMode === 'exclusive'}
 					onclick={() => (filterMode = 'exclusive')}
 					title="Flags that only appear in this chapter"

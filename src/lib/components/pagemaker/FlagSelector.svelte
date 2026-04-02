@@ -2,10 +2,11 @@
 	import mergedFlags from '$lib/flags/merged.json';
 	import type { MergedFlags, FlagData } from '$lib/types';
 	import { onMount } from 'svelte';
+	import { load } from '../../../routes/+layout';
 
 	const merged = mergedFlags as unknown as MergedFlags;
 
-	let flagNumber = $state<number | null>(null);
+	let flagNumber = $state<number | null>(10);
 	let { flagInfo = $bindable<any>(null) }: { flagInfo: any } = $props();
 
 	let pos = $state({ x: 0, y: 20 });
@@ -60,9 +61,10 @@
 	}
 
 	onMount(() => {
-		pos = { x: window.innerWidth - 370, y: 20 };
+		pos = { x: window.innerWidth - 370, y: 10 };
 		window.addEventListener('mousemove', handleMouseMove);
 		window.addEventListener('mouseup', handleMouseUp);
+		getFlagDetails(flagNumber!);
 
 		return () => {
 			window.removeEventListener('mousemove', handleMouseMove);
@@ -85,7 +87,7 @@
 	</div>
 
 	<div class="-mt-3 flex flex-1 flex-col gap-2 pr-2 pb-2 pl-2">
-		<h3 class="select-none">Select Flag</h3>
+		<h3 class="text-(--color-theme-2)! select-none">Select Flag</h3>
 		<input
 			type="number"
 			bind:value={flagNumber}
@@ -93,6 +95,8 @@
 			class="rounded-lg border border-(--color-border) pl-2"
 		/>
 
-		<button onclick={() => flagNumber !== null && getFlagDetails(flagNumber!)}> Load Flag </button>
+		<button class="btn" onclick={() => flagNumber !== null && getFlagDetails(flagNumber!)}>
+			Load Flag
+		</button>
 	</div>
 </div>

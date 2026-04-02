@@ -154,7 +154,7 @@ select option {
 
 /* buttons */
 
-button {
+.btn {
 	cursor: pointer;
 	background-color: transparent;
 	color: var(--color-theme-2);
@@ -174,7 +174,7 @@ button {
 		background-color 0.2s;
 }
 
-button::after {
+.btn::after {
 	content: '';
 	position: absolute;
 	inset: 0;
@@ -183,33 +183,33 @@ button::after {
 	transition: opacity 0.2s;
 }
 
-button:hover {
+.btn:hover {
 	color: #fff;
 	border-left-color: var(--color-theme-2);
 }
 
-button:hover::after {
+.btn:hover::after {
 	opacity: 1;
 }
 
-button:active {
+.btn:active {
 	color: var(--color-theme-2);
 }
 
-button:focus:not(:focus-visible) {
+.btn:focus:not(:focus-visible) {
 	outline: none;
 }
 
-button.primary {
+.btn.primary {
 	color: var(--color-theme-1);
 	border-left-color: var(--color-theme-1-dim);
 }
 
-button.primary::after {
+.btn.primary::after {
 	background: linear-gradient(90deg, rgba(142, 200, 240, 0.08) 0%, transparent 100%);
 }
 
-button.primary:hover {
+.btn.primary:hover {
 	color: #fff;
 	border-left-color: var(--color-theme-1);
 }

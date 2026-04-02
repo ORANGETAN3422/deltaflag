@@ -16,13 +16,13 @@
 .text-faint {
 	color: var(--color-text-faint);
 }
-.text-soul {
+.text-kris {
 	color: var(--color-theme-1);
 }
-.text-yellow {
+.text-susie {
 	color: var(--color-theme-2);
 }
-.text-green {
+.text-ralsei {
 	color: var(--color-theme-3);
 }
 .mono {

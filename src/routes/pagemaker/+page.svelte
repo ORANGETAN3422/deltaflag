@@ -1,6 +1,9 @@
 <script lang="ts">
 	import PagemakerTaskbar from '$lib/components/pagemaker/PagemakerTaskbar.svelte';
 
+	import HeadingNode from '$lib/components/pagemaker/nodes/HeadingNode.svelte';
+	import ParagraphNode from '$lib/components/pagemaker/nodes/ParagraphNode.svelte';
+
 	import CodeBlock from '$lib/components/CodeBlock.svelte';
 	import GmlFilename from '$lib/components/GmlFilename.svelte';
 
@@ -10,7 +13,6 @@
 
 <PagemakerTaskbar bind:flagInfo />
 
-<!-- Default Stuff Display -->
 {#if flagInfo}
 	<p class="text-muted">/flags/{flagInfo.key}</p>
 	<h1>{flagInfo.key}</h1>
@@ -18,7 +20,10 @@
 	<hr />
 	<h2>Info</h2>
 
-	<p class="text-muted">There is currently no additional documentation for this page.</p>
+	<HeadingNode text="Test Header" headerStyle={2} />
+	<ParagraphNode
+		text="LDM ball cube ball big cube ball next Rest In Peace niflheim vismuth slow wave fast robot keep going!"
+	/>
 
 	<hr />
 
