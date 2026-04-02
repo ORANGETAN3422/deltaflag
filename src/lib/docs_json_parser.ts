@@ -25,15 +25,18 @@ export type ElementType = "code" | "text";
 export type Element = TextElement | CodeElement
 
 // Specific element types are so that json parser can pick up the aditional properties
-interface TextElement {
+export type TextElementStyle = null | "italic" | "muted" | "faint" | "soul" | "yellow" | "green";
+export interface TextElement {
     type: "text",
-    value: string
+    value: string,
+    style?: TextElementStyle,
+    bold?: boolean
 }
 
-interface CodeElement {
+export interface CodeElement {
     type: "code",
-    value: string
-    lang?: string
+    value: string,
+    lang?: string,
     theme?: string
 }
 

@@ -26,7 +26,8 @@
                     "elements": [
                         {
                             "type": "text",
-                            "value": "This section contains multiple pagagraphs, this one has the type <strong>plaintext</strong> and the following has <strong>codebox</strong>"
+                            "style": "italic",
+                            "value": "This section contains multiple pagagraphs, this one has the type <strong>plaintext</strong> and the following has <em>codebox</em>"
                         }
                     ]
                 },
