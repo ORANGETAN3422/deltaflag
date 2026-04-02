@@ -1,13 +1,8 @@
 import mergedFlags from '$lib/flags/merged.json';
 import { error } from '@sveltejs/kit';
+import type { MergedFlags, FlagData } from '$lib/types';
 
 export const prerender = true;
-
-type MergedFlags = Record<string, FlagData>;
-type FlagData = {
-	first_seen_chapter: number; // first seen chapter
-	occurrences: Record<string, Record<string, [string, string]>>; // todo: cleanup lol
-}
 
 const merged = mergedFlags as unknown as MergedFlags;
 export function entries() {
