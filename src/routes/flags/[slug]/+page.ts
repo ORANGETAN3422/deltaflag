@@ -1,4 +1,4 @@
-import mergedFlags from '../../../assets/flags/merged.json'
+import mergedFlags from '$assets/flags/merged.json'
 import { error } from '@sveltejs/kit';
 import type { MergedFlags, FlagData } from '$lib/types';
 

@@ -1,8 +1,7 @@
 <script lang="ts">
-	import { base } from '$app/paths';
-	import CodeBlock from '../../components/CodeBlock.svelte';
-	import JsonDoc from '../../components/docs/JsonDoc.svelte';
-	import GmlFilename from '../../components/GmlFilename.svelte';
+	import { base } from 	'$app/paths';
+	import CodeBlock from 	'$components/CodeBlock.svelte';
+	import GmlFilename from '$components/GmlFilename.svelte';
 
 	const example_references = [
 		{ 

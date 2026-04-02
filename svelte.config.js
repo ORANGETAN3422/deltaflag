@@ -11,12 +11,16 @@ const config = {
       precompress: false,
       strict: true
     }),
-      prerender: {
+    prerender: {
       handleMissingId: 'warn'
     },
     paths: {
       base: process.env.NODE_ENV === 'production' ? '/deltaflag' : ''
-    }
+    },
+    alias: {
+			'$components/*': './src/components/*',
+      '$assets/*': './src/assets/*'
+		}
   },
   extensions: ['.svelte', '.md'],
   preprocess: mdsvex({

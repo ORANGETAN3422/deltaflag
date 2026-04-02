@@ -1,6 +1,6 @@
 <script lang="ts">
-	import CodeBlock from '../../../components/CodeBlock.svelte';
-	import GmlFilename from '../../../components/GmlFilename.svelte';
+	import CodeBlock from 	'$components/CodeBlock.svelte';
+	import GmlFilename from '$components/GmlFilename.svelte';
 	import type { Component } from 'svelte';
 
 	let { data } = $props();

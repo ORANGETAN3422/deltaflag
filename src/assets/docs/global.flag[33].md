@@ -1,7 +1,7 @@
 <script>
-	import CodeBlock from '../../components/CodeBlock.svelte';
-	import GmlFilename from '../../components/GmlFilename.svelte';
-	import ValuesTable from '../../components/ValuesTable.svelte';
+	import CodeBlock from 	'$components/CodeBlock.svelte';
+	import GmlFilename from '$components/GmlFilename.svelte';
+	import ValuesTable from '$components/ValuesTable.svelte';
 
 	const choicerCreateName = "gml_Object_obj_choicer_neo_Create_0";
     const choicerStepName = "gml_Object_obj_choicer_neo_Step_0";

@@ -1,7 +1,7 @@
 <script>
-	import CodeBlock from '../../components/CodeBlock.svelte';
-	import GmlFilename from '../../components/GmlFilename.svelte';
-	import ValuesTable from '../../components/ValuesTable.svelte';
+	import CodeBlock from 	'$components/CodeBlock.svelte';
+	import GmlFilename from '$components/GmlFilename.svelte';
+	import ValuesTable from '$components/ValuesTable.svelte';
 
 	const filename = "gml_Object_obj_dustpile_susie_Step_0";
 	const code = "global.flag[202] = 1;";

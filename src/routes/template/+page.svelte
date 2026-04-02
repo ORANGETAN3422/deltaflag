@@ -1,9 +1,10 @@
 <script lang="ts">
   import { codeToHtml } from 'shiki';
 
-  const html = codeToHtml(`function greet(name) {
+  let html = "";
+  codeToHtml(`function greet(name) {
   return \`hello, \${name}\`;
-}`, { lang: 'javascript', theme: 'github-dark' });
+}`, { lang: 'ts', theme: 'github-dark' }).then(val => html = val);
 
   let search = '';
 </script>
