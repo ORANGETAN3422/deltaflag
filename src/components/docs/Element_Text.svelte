@@ -1,7 +1,12 @@
 <script lang="ts">
-	import type { TextElement, TextElementStyle } from "$lib/docs_loader";
-
-    let { value, style = null, bold = false}: Omit<TextElement, "type"> = $props();
+    export type TextElementStyle = null | "italic" | "muted" | "faint" | "soul" | "yellow" | "green";
+    export interface TextElementProps {
+        value: string,
+        style?: TextElementStyle,
+        bold?: boolean
+    }
+    
+    let { value, style = null, bold = false}: TextElementProps = $props();
 
     const getClassName = (key: TextElementStyle): string => {
         switch (key) {

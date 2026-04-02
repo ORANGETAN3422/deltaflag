@@ -1,8 +1,13 @@
 <script lang="ts">
-	import type { CodeElement } from "$lib/docs_loader";
     import CodeBlock from "../CodeBlock.svelte";
 
-    let { value, lang = "js", theme = "dark-plus" }: Omit<CodeElement, "type"> = $props();
+    export interface CodeElementProps {
+        value: string,
+        lang?: string,
+        theme?: string
+    }
+
+    let { value, lang = "js", theme = "dark-plus" }: CodeElementProps = $props();
 </script>
 
 <CodeBlock code={value} {lang} {theme} />

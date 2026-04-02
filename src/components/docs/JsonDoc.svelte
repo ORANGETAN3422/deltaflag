@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { loadDoc, getParagraphComponent, getElementComponent } from "$lib/docs_loader";
+    import { loadDoc, getParagraphComponent, getElementComponent, getElementProps } from "$lib/docs_loader";
     import type { Paragraph } from "$lib/docs_loader";
 
     let { docName }: { docName: string } = $props();
@@ -26,7 +26,8 @@
     <Parag>
         {#each paragraph.elements as element}
             {@const Elem = getElementComponent(element)}
-            <Elem {...element} />
+            {@const props = getElementProps(element)}
+            <Elem {...props} />
         {/each} 
     </Parag>
 {/snippet}

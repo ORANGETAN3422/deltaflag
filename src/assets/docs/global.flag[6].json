@@ -1,18 +1,14 @@
 {
     "sections": [
         {
-            "title": "Test Section",
+            "title": "Overview",
             "paragraphs": [
                 {
                     "type": "plaintext",
                     "elements": [
                         {
                             "type": "text",
-                            "value": "This is a test string to be displayed on a documentation page. Code embedded in the same line looks like this: "
-                        },
-                        {
-                            "type": "code",
-                            "value": "if (global.flag[33] >= 40)"
+                            "value": "Makes text unskippable in the writer object."
                         }
                     ]
                 },
@@ -21,52 +17,15 @@
                     "elements": [
                         {
                             "type": "text",
-                            "value": "Test GML filename (using "
-                        },
-                        {
-                            "type": "code",
-                            "lang": "nginx",
-                            "value": "filename"
-                        },
-                        {
-                            "type": "text",
-                            "value": " type): "
+                            "value": "Usage in "
                         },
                         {
                             "type": "filename",
-                            "value": "gml_Object_obj_orange_shop_Create_0.gml"
-                        } 
-                    ]
-                }
-            ]
-        },
-        {
-            "title": "Another one",
-            "paragraphs": [
-                {
-                    "type": "plaintext",
-                    "elements": [
-                        {
-                            "type": "text",
-                            "value": "This section contains multiple pagagraphs, this one has the type "
-                        },
-                        {
-                            "type": "code",
-                            "lang": "nginx",
-                            "value": "plaintext"
+                            "value": "gml_Object_obj_writer_Create_0.gml"
                         },
                         {
                             "type": "text",
-                            "value": " and the following has the type "
-                        },
-                        {
-                            "type": "code",
-                            "lang": "nginx",
-                            "value": "codebox"
-                        },
-                        {
-                            "type": "text",
-                            "value": "."
+                            "value": ":"
                         }
                     ]
                 },
@@ -75,8 +34,7 @@
                     "elements": [
                         {
                             "type": "code",
-                            "lang": "",
-                            "value": "* ... hey bud.\n* ... are you busy tomorrow...?\n* i need some help with something.\n* it'd be great if you could come over.\n* i live just next door, ya know."
+                            "value": "if (global.flag[6] == 1)\n\tskippable = 0;"
                         }
                     ]
                 }

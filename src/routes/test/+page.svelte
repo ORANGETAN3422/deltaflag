@@ -3,4 +3,4 @@
 </script>
 
 <h1>Test Page</h1>
-<JsonDoc />
+<JsonDoc docName="testdoc" />
