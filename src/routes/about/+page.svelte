@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { base } from '$app/paths';
 	import CodeBlock from '$lib/components/CodeBlock.svelte';
+	import JsonDoc from '$lib/components/docs/JsonDoc.svelte';
 	import GmlFilename from '$lib/components/GmlFilename.svelte';
 
 	const example_references = [
@@ -21,6 +22,8 @@
 		}
 	]
 </script>
+
+<JsonDoc/>
 
 <p class="text-muted">/about</p>
 
