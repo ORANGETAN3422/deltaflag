@@ -2,6 +2,7 @@
 	import CodeBlock from 	'$components/CodeBlock.svelte';
 	import JsonDoc from '$components/docs/JsonDoc.svelte';
 	import GmlFilename from '$components/GmlFilename.svelte';
+	import { loadDoc } from '$lib/docs_loader';
 
 	let { data } = $props();
 	let copied = $state('');
@@ -11,7 +12,12 @@
 <h1>{data.key}</h1>
 
 <hr />
-<JsonDoc docName={data.key} />
+
+{#await loadDoc(data.key)}
+	<p>Loading...</p>
+{:then doc} 
+	<JsonDoc {doc} />
+{/await}
 
 <h2>References</h2>
 <span class="text-muted">This flag is first seen in <strong>Chapter {data.firstSeenChapter}.</strong></span>

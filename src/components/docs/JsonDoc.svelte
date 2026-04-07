@@ -1,25 +1,21 @@
 <script lang="ts">
-    import { loadDoc, getParagraphComponent, getElementComponent, getElementProps } from "$lib/docs_loader";
-    import type { Paragraph } from "$lib/docs_loader";
+    import type { JsonDoc, Paragraph } from "$lib/docs_loader";
+    import { getParagraphComponent, getElementComponent, getElementProps } from "$lib/docs_loader";
 
-    let { docName }: { docName: string } = $props();
+    let { doc, fallback = `<p class="text-muted">There is no documentation available for this page.</p>` }: { doc: JsonDoc | null, fallback?: string } = $props();
 </script>
 
-{#await loadDoc(docName)}
-    <p>Loading...</p>
-{:then doc} 
-    {#if doc}
-        {#each doc.sections as section}
-            <h2>{section.title}</h2>
-            {#each section.paragraphs as paragraph}
-                {@render paragraphBlock(paragraph)}
-            {/each}
-            <hr/>
+{#if doc}
+    {#each doc.sections as section}
+        <h2>{section.title}</h2>
+        {#each section.paragraphs as paragraph}
+            {@render paragraphBlock(paragraph)}
         {/each}
-    {:else}
-        <p class="text-muted">There is no documentation available for this page.</p>
-    {/if}
-{/await}
+        <hr/>
+    {/each}
+{:else}
+    {@html fallback}
+{/if}
 
 {#snippet paragraphBlock(paragraph: Paragraph)}
     {@const Parag = getParagraphComponent(paragraph)}
