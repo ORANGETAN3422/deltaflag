@@ -72,7 +72,7 @@
                 {
                     "type": "plaintext",
                     "elements": [
-                        "When answering after any other duration, you'll still only get 3 extra lines of dialogue if you say yes and one line for saying no, so this whole choicer time thing is kind of pointless but it's these small interactions which make the game good. The condition for this is ",
+                        "When answering after any other duration, you'll still only get 3 extra lines of dialogue if you say yes and one line for saying no, so this whole choicer time thing is kind of pointless but it's these small interactions which make the game good. The condition for this is<br/>",
                         {
                             "type": "code",
                             "value": "if (global.flag[33] >= 40)"

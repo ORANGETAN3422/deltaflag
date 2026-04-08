@@ -6,6 +6,7 @@ import ElementCode, { type CodeElementProps } from "../components/docs/Element_C
 import ElementGmlFilename, { type GmlFilenameElementProps } from "../components/docs/Element_GmlFilename.svelte";
 import ElementTable, { type TableElementProps } from "$components/docs/Element_Table.svelte";
 import ParagraphCallout, { type CalloutStyle } from "$components/docs/Paragraph_Callout.svelte";
+import ParagraphBlockquote from "$components/docs/Paragraph_Blockquote.svelte";
 
 // I added types for literally everything for easier parsing
 export interface JsonDoc {
@@ -17,7 +18,7 @@ export interface Section {
     paragraphs: Paragraph[]
 };
 
-type ParagraphType = "plaintext" | "codebox" | "callout";
+type ParagraphType = "plaintext" | "codebox" | "callout" | "blockquote";
 export interface Paragraph {
     type: ParagraphType,
     elements: Element[],
@@ -40,6 +41,7 @@ export function getParagraphComponent(paragraph: Paragraph): Component<any> {
         case "plaintext":   return ParagraphPlaintext
         case "codebox":     return ParagraphCodeblock
         case "callout":     return ParagraphCallout
+        case "blockquote":  return ParagraphBlockquote
     }
 }
 

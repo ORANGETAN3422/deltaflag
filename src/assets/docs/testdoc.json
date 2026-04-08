@@ -91,37 +91,41 @@
                         {
                             "type": "table",
                             "headers": [
-                                "Column 1",
-                                "Column 2",
+                                "column 1",
+                                "2 Column",
                                 {
                                     "type": "text",
                                     "style": "soul",
-                                    "value": "Column 3"
+                                    "value": "3!?"
                                 }
                             ],
                             "rows": [
                                 [
-                                    7, 
+                                    {
+                                        "type": "code",
+                                        "stretch": true,
+                                        "value": "if (global.flag[33] >= 40)"
+                                    }, 
                                     {
                                         "type": "filename",
                                         "value": "gml_Object_obj_writer_Create_0.gml"
                                     }, 
                                     {
                                         "type": "text",
-                                        "style": "soul",
+                                        "style": "green",
                                         "value": "woah"
                                     }
                                 ],
                                 [
                                     {
-                                        "type": "code",
-                                        "lang": "nginx",
-                                        "value": "neat"
-                                    }, 
-                                    {
                                         "type": "text",
                                         "style": "soul",
                                         "value": "bub"
+                                    },
+                                    {
+                                        "type": "code",
+                                        "lang": "nginx",
+                                        "value": "neat"
                                     }, 
                                     998
                                 ]
@@ -134,6 +138,22 @@
         {
             "title": "Misc",
             "paragraphs": [
+                {
+                    "type": "blockquote",
+                    "elements": [
+                        "Quote from the great ",
+                        {
+                            "type": "text",
+                            "bold": true,
+                            "value": "Toby Fox"
+                        },
+                        " himself:<br/>",
+                        {
+                            "type": "code",
+                            "value": "if (global.flag[33] >= 40)"
+                        }
+                    ]
+                },
                 {
                     "type": "callout",
                     "style": "info",
