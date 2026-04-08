@@ -19,11 +19,14 @@
 
 {#snippet paragraphBlock(paragraph: Paragraph)}
     {@const Parag = getParagraphComponent(paragraph)}
-    <Parag>
-        {#each paragraph.elements as element}
-            {@const Elem = getElementComponent(element)}
-            {@const props = getElementProps(element)}
-            <Elem {...props} />
-        {/each} 
+    {@const {type, elements, ...props} = paragraph}
+    <Parag {...props}>
+        {#snippet children()}
+            {#each paragraph.elements as element}
+                {@const Elem = getElementComponent(element)}
+                {@const props = getElementProps(element)}
+                <Elem {...props} />
+            {/each} 
+        {/snippet} 
     </Parag>
 {/snippet}

@@ -5,6 +5,7 @@ import ElementText, { type TextElementProps } from "../components/docs/Element_T
 import ElementCode, { type CodeElementProps } from "../components/docs/Element_Code.svelte";
 import ElementGmlFilename, { type GmlFilenameElementProps } from "../components/docs/Element_GmlFilename.svelte";
 import ElementTable, { type TableElementProps } from "$components/docs/Element_Table.svelte";
+import ParagraphCallout, { type CalloutStyle } from "$components/docs/Paragraph_Callout.svelte";
 
 // I added types for literally everything for easier parsing
 export interface JsonDoc {
@@ -16,10 +17,11 @@ export interface Section {
     paragraphs: Paragraph[]
 };
 
-type ParagraphType = "plaintext" | "codebox";
+type ParagraphType = "plaintext" | "codebox" | "callout";
 export interface Paragraph {
     type: ParagraphType,
-    elements: Element[]
+    elements: Element[],
+    style?: CalloutStyle // Only for callout paragraphs
 };
 
 export type Element = string | number | boolean | TextElement | CodeElement | GmlFilenameElement | TableElement;
@@ -33,10 +35,11 @@ interface TableElement extends TableElementProps { type: "table" }
 
 
 // Used for rendering paragraph containers
-export function getParagraphComponent(paragraph: Paragraph): Component {
+export function getParagraphComponent(paragraph: Paragraph): Component<any> {
     switch (paragraph.type) {
-        case "plaintext": return ParagraphPlaintext
-        case "codebox":   return ParagraphCodeblock
+        case "plaintext":   return ParagraphPlaintext
+        case "codebox":     return ParagraphCodeblock
+        case "callout":     return ParagraphCallout
     }
 }
 

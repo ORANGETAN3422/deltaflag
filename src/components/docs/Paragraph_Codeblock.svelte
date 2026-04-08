@@ -1,1 +1,7 @@
-<pre><slot/></pre>
+<script lang="ts">
+	import type { Snippet } from "svelte";
+
+    let { children }: { children: Snippet } = $props();
+</script>
+
+<pre>{@render children()}</pre><br/>

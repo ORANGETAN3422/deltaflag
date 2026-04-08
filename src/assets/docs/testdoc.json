@@ -130,6 +130,38 @@
                     ]
                 }
             ]
+        },
+        {
+            "title": "Misc",
+            "paragraphs": [
+                {
+                    "type": "callout",
+                    "style": "info",
+                    "elements": [
+                        "hey what what? ",
+                        {
+                            "type": "code",
+                            "value": "This is cool"
+                        }, 
+                        {
+                            "type": "text",
+                            "style": "italic",
+                            "value": " (bub)"
+                        }
+                    ]
+                },
+                {
+                    "type": "callout",
+                    "style": "danger",
+                    "elements": [
+                        "grr - ",
+                        {
+                            "type": "filename",
+                            "value": "gml_Object_obj_writer_Create_0.gml"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
