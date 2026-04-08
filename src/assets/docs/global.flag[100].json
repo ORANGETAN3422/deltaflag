@@ -30,6 +30,41 @@
                     ]
                 }
             ]
+        },
+        {
+            "title": "Values",
+            "paragraphs": [
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Value",
+                                "Description"
+                            ],
+                            "rows": [
+                                [
+                                    {
+                                        "type": "code",
+                                        "lang": "nginx",
+                                        "value": "0"
+                                    }, 
+                                    "Hasn't collected glowshard"
+                                ],
+                                [
+                                    {
+                                        "type": "code",
+                                        "lang": "nginx",
+                                        "value": "1"
+                                    }, 
+                                    "Has collected glowshard"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -30,6 +30,41 @@
                     ]
                 }
             ]
+        },
+        {
+            "title": "Values",
+            "paragraphs": [
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Value",
+                                "Description"
+                            ],
+                            "rows": [
+                                [
+                                    {
+                                        "type": "code",
+                                        "lang": "nginx",
+                                        "value": "0"
+                                    }, 
+                                    "Didn't sprint"
+                                ],
+                                [
+                                    {
+                                        "type": "code",
+                                        "lang": "nginx",
+                                        "value": "1"
+                                    }, 
+                                    "Sprinted"
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

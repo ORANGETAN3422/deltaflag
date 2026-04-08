@@ -81,6 +81,55 @@
                     ]
                 }
             ]
+        },
+        {
+            "title": "Table Test",
+            "paragraphs": [
+                {
+                    "type": "plaintext",
+                    "elements": [
+                        {
+                            "type": "table",
+                            "headers": [
+                                "Column 1",
+                                "Column 2",
+                                {
+                                    "type": "text",
+                                    "style": "soul",
+                                    "value": "Column 3"
+                                }
+                            ],
+                            "rows": [
+                                [
+                                    7, 
+                                    {
+                                        "type": "filename",
+                                        "value": "gml_Object_obj_writer_Create_0.gml"
+                                    }, 
+                                    {
+                                        "type": "text",
+                                        "style": "soul",
+                                        "value": "woah"
+                                    }
+                                ],
+                                [
+                                    {
+                                        "type": "code",
+                                        "lang": "nginx",
+                                        "value": "neat"
+                                    }, 
+                                    {
+                                        "type": "text",
+                                        "style": "soul",
+                                        "value": "bub"
+                                    }, 
+                                    998
+                                ]
+                            ]
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }

@@ -4,6 +4,7 @@ import ParagraphCodeblock from "../components/docs/Paragraph_Codeblock.svelte";
 import ElementText, { type TextElementProps } from "../components/docs/Element_Text.svelte";
 import ElementCode, { type CodeElementProps } from "../components/docs/Element_Code.svelte";
 import ElementGmlFilename, { type GmlFilenameElementProps } from "../components/docs/Element_GmlFilename.svelte";
+import ElementTable, { type TableElementProps } from "$components/docs/Element_Table.svelte";
 
 // I added types for literally everything for easier parsing
 export interface JsonDoc {
@@ -21,13 +22,14 @@ export interface Paragraph {
     elements: Element[]
 };
 
-export type Element = string | TextElement | CodeElement | GmlFilenameElement;
-export type ElementProps = TextElementProps | CodeElementProps | GmlFilenameElementProps;
+export type Element = string | number | boolean | TextElement | CodeElement | GmlFilenameElement | TableElement;
+export type ElementProps = TextElementProps | CodeElementProps | GmlFilenameElementProps | TableElementProps;
 
 // Specific element types contain props and the explicitly set type to be picked up by the loader
 interface TextElement extends TextElementProps { type: "text" }
 interface CodeElement extends CodeElementProps { type: "code" }
 interface GmlFilenameElement extends GmlFilenameElementProps { type: "filename" }
+interface TableElement extends TableElementProps { type: "table" }
 
 
 // Used for rendering paragraph containers
@@ -39,21 +41,27 @@ export function getParagraphComponent(paragraph: Paragraph): Component {
 }
 
 // Used for rendering individual components
-export function getElementComponent(element: Element): Component<ElementProps> {
-    // the string will be inserted into the value prop using getElementProps
-    if(typeof element === "string") return ElementText;
+export function getElementComponent(element: Element): Component<any> {
+    // primitive types are inserted as text when resolved by getElementProps
+    if( typeof element === "string" || 
+        typeof element === "number" || 
+        typeof element === "boolean") 
+        return ElementText;
     
     switch (element.type) {
         case "text": return ElementText
         case "code": return ElementCode
         case "filename": return ElementGmlFilename
+        case "table": return ElementTable
     }
 }
 
 // Return the props for an element as an object.
 // This is mainly necessary to convert strings to a text element with a value prop
 export function getElementProps(element: Element): ElementProps {
-    return typeof element === "string" ? { value: element } : element;
+    return  typeof element === "string" || 
+            typeof element === "number" || 
+            typeof element === "boolean" ? { value: element.toString() } : element;
 }
 
 // Loads all json doc files and provides a function that loads one given the name
