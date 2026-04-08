@@ -1,12 +1,12 @@
 <script lang="ts">
 	import { getElementComponent, getElementProps, type Element } from "$lib/docs_loader";
 
-    export interface TableElementProps {
+    export interface TableProps {
         headers: Element[],
         rows: Element[][]
     }
 
-    let { headers, rows }: TableElementProps = $props();
+    let { headers, rows }: TableProps = $props();
     let isValid: boolean = $derived.by(() => {
         if (!headers || !rows) return false;
         return rows.every(row => row.length === headers.length);

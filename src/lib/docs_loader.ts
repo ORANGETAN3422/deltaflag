@@ -1,14 +1,14 @@
 import type { Component } from "svelte";
-import ParagraphPlaintext from "../components/docs/Paragraph_Plaintext.svelte";
-import ParagraphCodeblock from "../components/docs/Paragraph_Codeblock.svelte";
-import ElementText, { type TextElementProps } from "../components/docs/Element_Text.svelte";
-import ElementCode, { type CodeElementProps } from "../components/docs/Element_Code.svelte";
-import ElementGmlFilename, { type GmlFilenameElementProps } from "../components/docs/Element_GmlFilename.svelte";
-import ElementTable, { type TableElementProps } from "$components/docs/Element_Table.svelte";
-import ParagraphCallout, { type CalloutStyle } from "$components/docs/Paragraph_Callout.svelte";
-import ParagraphBlockquote from "$components/docs/Paragraph_Blockquote.svelte";
+import ParagraphPlaintext   from "$components/docs/paragraphs/Plaintext.svelte";
+import ParagraphCodeblock   from "$components/docs/paragraphs/Codeblock.svelte";
+import ParagraphCallout,    { type CalloutStyle } from "$components/docs/paragraphs/Callout.svelte";
+import ParagraphBlockquote  from "$components/docs/paragraphs/Blockquote.svelte";
+import Table,       { type TableProps } from "$components/docs/elements/Table.svelte";
+import Code,        { type CodeProps } from "$components/docs/elements/Code.svelte";
+import Filename,    { type FilenameProps } from "$components/docs/elements/Filename.svelte";
+import Text,        { type TextProps } from "$components/docs/elements/Text.svelte";
 
-// I added types for literally everything for easier parsing
+// types for everything allow easier parsing and constructing your own doc
 export interface JsonDoc {
     sections: Section[]
 };
@@ -25,14 +25,14 @@ export interface Paragraph {
     style?: CalloutStyle // Only for callout paragraphs
 };
 
-export type Element = string | number | boolean | TextElement | CodeElement | GmlFilenameElement | TableElement;
-export type ElementProps = TextElementProps | CodeElementProps | GmlFilenameElementProps | TableElementProps;
+export type Element = string | number | boolean | TextElement | CodeElement | FilenameElement | TableElement;
+export type ElementProps = TextProps | CodeProps | FilenameProps | TableProps;
 
 // Specific element types contain props and the explicitly set type to be picked up by the loader
-interface TextElement extends TextElementProps { type: "text" }
-interface CodeElement extends CodeElementProps { type: "code" }
-interface GmlFilenameElement extends GmlFilenameElementProps { type: "filename" }
-interface TableElement extends TableElementProps { type: "table" }
+interface TextElement       extends TextProps { type: "text" }
+interface CodeElement       extends CodeProps { type: "code" }
+interface FilenameElement   extends FilenameProps { type: "filename" }
+interface TableElement      extends TableProps { type: "table" }
 
 
 // Used for rendering paragraph containers
@@ -51,13 +51,13 @@ export function getElementComponent(element: Element): Component<any> {
     if( typeof element === "string" || 
         typeof element === "number" || 
         typeof element === "boolean") 
-        return ElementText;
+        return Text;
     
     switch (element.type) {
-        case "text": return ElementText
-        case "code": return ElementCode
-        case "filename": return ElementGmlFilename
-        case "table": return ElementTable
+        case "text":     return Text
+        case "code":     return Code
+        case "filename": return Filename
+        case "table":    return Table
     }
 }
 

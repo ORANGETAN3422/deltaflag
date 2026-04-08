@@ -1,14 +1,14 @@
 <script lang="ts">
-    export type TextElementStyle = null | "italic" | "muted" | "faint" | "soul" | "yellow" | "green";
-    export interface TextElementProps {
+    export type TextStyle = null | "italic" | "muted" | "faint" | "soul" | "yellow" | "green";
+    export interface TextProps {
         value: string,
-        style?: TextElementStyle,
+        style?: TextStyle,
         bold?: boolean
     }
     
-    let { value, style = null, bold = false}: TextElementProps = $props();
+    let { value, style = null, bold = false}: TextProps = $props();
 
-    const getClassName = (key: TextElementStyle): string => {
+    const getClassName = (key: TextStyle): string => {
         switch (key) {
             case null: return ""
             case "italic": return ""
