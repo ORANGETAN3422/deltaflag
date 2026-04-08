@@ -3,14 +3,14 @@
     export type CalloutStyle = "note" | "info" | "warning" | "danger";
 
     let { children, style }: { children: Snippet, style: CalloutStyle } = $props();
-    const iconChar: string = $derived.by(() => {
+    const iconChar: string = $derived((() => {
         switch(style) {
             case "note":    return "✦"
             case "info":    return "ℹ"
             case "warning": return "⚠"
             case "danger":  return "✖"
         }
-    });
+    })());
 </script>
 
 <div class={`callout ${style}`}>
